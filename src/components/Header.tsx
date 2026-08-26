@@ -9,7 +9,14 @@ import LanguageSwitcher from './LanguageSwitcher';
 const LINKS = [
   { href: '/', key: 'home' },
   { href: '/institutions', key: 'institutions' },
+  { href: '/countries', key: 'countries' },
   { href: '/news', key: 'news' },
+] as const;
+
+/** Shown in full on the mobile sheet, where there is room for the whole map. */
+const SECONDARY = [
+  { href: '/supervisors', key: 'supervisors' },
+  { href: '/glossary', key: 'glossary' },
   { href: '/about', key: 'about' },
 ] as const;
 
@@ -86,7 +93,7 @@ export default function Header() {
       {open && (
         <nav id="mobile-nav" aria-label="Main" className="border-t border-white/10 md:hidden">
           <ul className="mx-auto max-w-6xl px-4 py-2">
-            {[...LINKS, { href: '/search', key: 'search' } as const].map((l) => (
+            {[...LINKS, ...SECONDARY, { href: '/search', key: 'search' } as const].map((l) => (
               <li key={l.href}>
                 <Link
                   href={l.href}

@@ -16,7 +16,11 @@ export default function NewsCard({ item }: { item: NewsItem }) {
           {formatDate(item.date, locale)}
         </time>
       </div>
-      <h3 className="mt-2 text-base font-semibold leading-snug text-navy-900">{tr(item.title, locale)}</h3>
+      <h3 className="mt-2 text-base font-semibold leading-snug text-navy-900">
+        <Link href={`/news/${item.id}`} className="hover:underline hover:underline-offset-2">
+          {tr(item.title, locale)}
+        </Link>
+      </h3>
       <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-navy-600">{tr(item.snippet, locale)}</p>
       <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 pt-4 text-sm">
         {inst && (

@@ -7,17 +7,29 @@ import Badge from '@/components/Badge';
 import InstitutionCard from '@/components/InstitutionCard';
 import NewsCard from '@/components/NewsCard';
 import ShareButtons from '@/components/ShareButtons';
+import LinkTile from '@/components/LinkTile';
 import {
   authorities,
   countryName,
   flag,
   getInstitution,
   institutions,
+  licenceSlugFor,
   newsFor,
   similarTo,
+  slugify,
   solidityBand,
   t as tr,
 } from '@/lib/data';
+
+/** Renders a fact value as a link when it has a page of its own. */
+function FactLink({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <Link href={href} className="underline decoration-navy-300 underline-offset-4 hover:text-navy-950">
+      {children}
+    </Link>
+  );
+}
 
 const BAND = { high: 'bg-emerald-500', medium: 'bg-gold-500', low: 'bg-orange-500' } as const;
 
@@ -77,12 +89,47 @@ export default async function InstitutionPage({
 
   const facts: Array<[string, React.ReactNode]> = [
     [t('detail.legalName'), inst.legalName],
-    [t('detail.hq'), `${inst.city}, ${countryName(inst.country, locale)}`],
-    [t('detail.bic'), <span key="bic" className="font-mono">{inst.bic}</span>],
-    [t('detail.iban'), <span key="iban" className="font-mono">{inst.ibanPrefix}</span>],
+    [
+      t('detail.hq'),
+      <span key="hq">
+        {inst.city},{' '}
+        <FactLink href={`/countries/${inst.country.toLowerCase()}`}>
+          {countryName(inst.country, locale)}
+        </FactLink>
+      </span>,
+    ],
+    [
+      t('detail.bic'),
+      <span key="bic">
+        <span className="font-mono">{inst.bic}</span>{' '}
+        <FactLink href="/glossary/bic">?</FactLink>
+      </span>,
+    ],
+    [
+      t('detail.iban'),
+      <span key="iban">
+        <span className="font-mono">{inst.ibanPrefix}</span>{' '}
+        <FactLink href="/glossary/iban">?</FactLink>
+      </span>,
+    ],
     [t('detail.founded'), inst.founded],
-    [t('detail.regulators'), inst.regulators.join(' · ')],
-    [t('detail.status'), t(`licence.${inst.licenceType}`)],
+    [
+      t('detail.regulators'),
+      <span key="regs">
+        {inst.regulators.map((r, i) => (
+          <span key={r}>
+            {i > 0 && ' · '}
+            <FactLink href={`/supervisors/${slugify(r)}`}>{r}</FactLink>
+          </span>
+        ))}
+      </span>,
+    ],
+    [
+      t('detail.status'),
+      <FactLink key="lic" href={`/licences/${licenceSlugFor(inst.licenceType)}`}>
+        {t(`licence.${inst.licenceType}`)}
+      </FactLink>,
+    ],
   ];
 
   return (
@@ -103,7 +150,9 @@ export default async function InstitutionPage({
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
                 <Badge tone="success"><span aria-hidden="true">✓</span> {t(`status.${inst.status}`)}</Badge>
-                <Badge tone="gold">{t(`licence.${inst.licenceType}`)}</Badge>
+                <Link href={`/licences/${licenceSlugFor(inst.licenceType)}`}>
+                  <Badge tone="gold">{t(`licence.${inst.licenceType}`)}</Badge>
+                </Link>
                 <Badge>{t(`kinds.${inst.kind}`)}</Badge>
               </div>
             </div>
@@ -130,24 +179,27 @@ export default async function InstitutionPage({
             <h2 className="mt-10 text-xl font-bold text-navy-900">{t('detail.compliance')}</h2>
             <ul className="mt-3 grid gap-2 sm:grid-cols-2">
               {([
-                [t('detail.psd2'), inst.psd2Compliant],
-                [t('detail.mifid'), inst.mifid2Compliant],
-                [t('detail.passport'), inst.passporting],
-                [t('detail.deposit'), inst.depositGuarantee],
-              ] as Array<[string, boolean]>).map(([label, ok]) => (
-                <li
-                  key={label}
-                  className="flex items-center gap-2 rounded-xl border border-navy-100 bg-white px-4 py-3 text-sm"
-                >
-                  <span
-                    aria-hidden="true"
-                    className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white ${
-                      ok ? 'bg-emerald-500' : 'bg-navy-300'
-                    }`}
+                [t('detail.psd2'), inst.psd2Compliant, 'psd2'],
+                [t('detail.mifid'), inst.mifid2Compliant, 'mifid2'],
+                [t('detail.passport'), inst.passporting, 'passporting'],
+                [t('detail.deposit'), inst.depositGuarantee, 'deposit-guarantee'],
+              ] as Array<[string, boolean, string]>).map(([label, ok, term]) => (
+                <li key={label}>
+                  <Link
+                    href={`/glossary/${term}`}
+                    className="flex min-h-14 items-center gap-2 rounded-xl border border-navy-100 bg-white px-4 py-3 text-sm transition hover:border-navy-300"
                   >
-                    {ok ? '✓' : '—'}
-                  </span>
-                  <span className="text-navy-800">{label}</span>
+                    <span
+                      aria-hidden="true"
+                      className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white ${
+                        ok ? 'bg-emerald-500' : 'bg-navy-300'
+                      }`}
+                    >
+                      {ok ? '✓' : '—'}
+                    </span>
+                    <span className="flex-1 text-navy-800">{label}</span>
+                    <span aria-hidden="true" className="flip-x text-navy-300">›</span>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -218,6 +270,15 @@ export default async function InstitutionPage({
             </section>
           </aside>
         </div>
+
+        <section className="mt-12">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('activities.title')}</h2>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {inst.tags.map((tag) => (
+              <LinkTile key={tag} href={`/activities/${tag}`} title={t(`tags.${tag}`)} />
+            ))}
+          </div>
+        </section>
 
         {similar.length > 0 && (
           <section className="mt-14">

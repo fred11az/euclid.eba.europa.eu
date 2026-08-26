@@ -12,7 +12,11 @@
     "menu": "Menu",
     "close": "Fermer",
     "language": "Langue",
-    "skip": "Aller au contenu principal"
+    "skip": "Aller au contenu principal",
+    "countries": "Pays",
+    "supervisors": "Superviseurs",
+    "understand": "Comprendre",
+    "glossary": "Glossaire"
   },
   "home": {
     "kicker": "Explorateur du registre public",
@@ -169,6 +173,50 @@
     "TECHNOLOGY": "Technologie",
     "RATING_CHANGE": "Solidité",
     "MERGER": "Structure de groupe"
+  },
+  "countries": {
+    "title": "Pays",
+    "lead": "Une page par pays : l’autorité compétente, son registre officiel et les établissements que nous y recensons.",
+    "intro": "{count} établissements agréés en {country} sont recensés sur Euclide.",
+    "institutionsHere": "Établissements dans ce pays",
+    "newsHere": "Actualités de ce pays",
+    "others": "Autres pays",
+    "breakdown": "Agréments détenus"
+  },
+  "supervisors": {
+    "title": "Superviseurs",
+    "lead": "Les autorités qui délivrent, contrôlent et retirent les agréments dans l’Espace économique européen.",
+    "intro": "{name} supervise {count} des établissements recensés sur Euclide.",
+    "supervises": "Établissements supervisés",
+    "countries": "Pays couverts"
+  },
+  "activities": {
+    "title": "Activités",
+    "lead": "Parcourez les établissements selon le type d’activité qu’ils sont autorisés à exercer.",
+    "intro": "{count} établissements recensés sur Euclide exercent dans ce segment."
+  },
+  "licences": {
+    "title": "Types d’agrément",
+    "lead": "Tous les agréments ne protègent pas votre argent de la même façon. C’est la distinction la plus importante.",
+    "whatItProtects": "Ce qu’il protège",
+    "holders": "Établissements titulaires"
+  },
+  "glossary": {
+    "title": "Glossaire",
+    "lead": "Les termes que vous rencontrerez sur une fiche d’agrément, en langage clair.",
+    "allTerms": "Tous les termes"
+  },
+  "newsItem": {
+    "back": "Retour aux actualités",
+    "concerns": "Cette actualité concerne",
+    "moreFrom": "En savoir plus sur cet établissement",
+    "disclaimer": "Résumé éditorial. Confirmez toujours l’établissement dans le registre officiel lié sur sa fiche.",
+    "related": "Actualités liées"
+  },
+  "common": {
+    "viewAll": "Voir tout",
+    "learnMore": "En savoir plus",
+    "explore": "Explorer"
   },
   "pagination": {
     "prev": "Précédent",

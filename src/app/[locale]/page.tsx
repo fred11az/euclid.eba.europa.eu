@@ -6,6 +6,7 @@ import SearchBox from '@/components/SearchBox';
 import CountryPicker from '@/components/CountryPicker';
 import InstitutionCard from '@/components/InstitutionCard';
 import NewsCard from '@/components/NewsCard';
+import LinkTile from '@/components/LinkTile';
 import { countryCodes, institutions, news } from '@/lib/data';
 
 export function generateStaticParams() {
@@ -16,9 +17,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('home');
+  const th = await getTranslations();
 
-  const featured = [...institutions].sort((a, b) => b.solidityScore - a.solidityScore).slice(0, 6);
-  const latest = news.slice(0, 6);
+  const featured = [...institutions].sort((a, b) => b.solidityScore - a.solidityScore).slice(0, 3);
+  const latest = news.slice(0, 3);
 
   return (
     <>
@@ -37,7 +39,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           aria-hidden="true"
           className="absolute inset-0 -z-0 bg-gradient-to-b from-navy-900/80 via-navy-900/85 to-navy-900"
         />
-        <div className="relative mx-auto max-w-6xl px-4 py-14 sm:py-20">
+        <div className="relative mx-auto max-w-6xl px-4 py-10 sm:py-16">
           <p className="text-sm font-semibold uppercase tracking-widest text-gold-400">{t('kicker')}</p>
           <h1 className="mt-3 max-w-3xl text-3xl font-bold leading-tight sm:text-5xl">{t('title')}</h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-navy-100 sm:text-lg">{t('lead')}</p>
@@ -55,7 +57,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </Link>
           </div>
 
-          <dl className="mt-10 grid grid-cols-3 gap-4 border-t border-white/15 pt-6 text-center sm:max-w-lg sm:text-start">
+          <dl className="mt-8 grid grid-cols-3 gap-4 border-t border-white/15 pt-6 text-center sm:max-w-lg sm:text-start">
             {[
               [institutions.length, t('statsInstitutions')],
               [countryCodes.length, t('statsCountries')],
@@ -74,7 +76,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* Country entry point */}
-      <section className="mx-auto max-w-6xl px-4 py-12">
+      <section className="mx-auto max-w-6xl px-4 py-10">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-start">
           <div>
             <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">{t('checkTitle')}</h2>
@@ -84,31 +86,23 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* Three steps */}
-      <section className="bg-navy-50/70 py-12">
+      {/* Hub: the sub-page entry points */}
+      <section className="bg-navy-50/70 py-10">
         <div className="mx-auto max-w-6xl px-4">
-          <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">{t('howTitle')}</h2>
-          <ol className="mt-6 grid gap-4 md:grid-cols-3">
-            {[1, 2, 3].map((n) => (
-              <li key={n} className="rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
-                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gold-500 font-bold text-navy-900">
-                  {n}
-                </span>
-                <h3 className="mt-3 text-lg font-semibold text-navy-900">{t(`how${n}Title` as 'how1Title')}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-navy-600">{t(`how${n}Text` as 'how1Text')}</p>
-              </li>
-            ))}
-          </ol>
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('exploreCta')}</h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <LinkTile href="/countries" title={th('countries.title')} meta={th('countries.lead')} />
+            <LinkTile href="/supervisors" title={th('supervisors.title')} meta={th('supervisors.lead')} />
+            <LinkTile href="/licences" title={th('licences.title')} meta={th('licences.lead')} />
+            <LinkTile href="/glossary" title={th('glossary.title')} meta={th('glossary.lead')} />
+          </div>
         </div>
       </section>
 
       {/* Featured institutions */}
-      <section className="mx-auto max-w-6xl px-4 py-12">
+      <section className="mx-auto max-w-6xl px-4 py-10">
         <div className="flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">{t('featured')}</h2>
-            <p className="mt-2 text-navy-600">{t('featuredLead')}</p>
-          </div>
+          <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">{t('featured')}</h2>
           <Link href="/institutions" className="text-sm font-semibold text-navy-700 underline underline-offset-4 hover:text-navy-900">
             {t('exploreCta')} <span aria-hidden="true" className="flip-x inline-block">→</span>
           </Link>
@@ -121,7 +115,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* News */}
-      <section className="bg-navy-50/70 py-12">
+      <section className="bg-navy-50/70 py-10">
         <div className="mx-auto max-w-6xl px-4">
           <div className="flex flex-wrap items-end justify-between gap-3">
             <h2 className="text-2xl font-bold text-navy-900 sm:text-3xl">{t('latestNews')}</h2>

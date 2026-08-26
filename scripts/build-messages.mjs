@@ -159,6 +159,48 @@ const T = {
 'categories.RATING_CHANGE': ['Solidity','Solidité','Solidität','Solidità','Solidez','Solidez','المتانة'],
 'categories.MERGER': ['Group structure','Structure de groupe','Gruppenstruktur','Struttura di gruppo','Estrutura de grupo','Estructura de grupo','هيكل المجموعة'],
 
+'nav.countries': ['Countries','Pays','Länder','Paesi','Países','Países','البلدان'],
+'nav.supervisors': ['Supervisors','Superviseurs','Aufsichtsbehörden','Autorità','Supervisores','Supervisores','الجهات المشرفة'],
+'nav.understand': ['Understand','Comprendre','Verstehen','Capire','Compreender','Entender','فهم'],
+'nav.glossary': ['Glossary','Glossaire','Glossar','Glossario','Glossário','Glosario','المعجم'],
+
+'countries.title': ['Countries','Pays','Länder','Paesi','Países','Países','البلدان'],
+'countries.lead': ['One page per country: the competent authority, its official register, and the institutions we list there.','Une page par pays : l’autorité compétente, son registre officiel et les établissements que nous y recensons.','Eine Seite je Land: die zuständige Behörde, ihr amtliches Register und die dort erfassten Institute.','Una pagina per Paese: l’autorità competente, il registro ufficiale e gli enti censiti.','Uma página por país: a autoridade competente, o registo oficial e as instituições listadas.','Una página por país: la autoridad competente, su registro oficial y las entidades listadas.','صفحة لكل بلد: السلطة المختصة وسجلها الرسمي والمؤسسات المدرجة فيه.'],
+'countries.intro': ['{count} institutions authorised in {country} are listed on Euclide.','{count} établissements agréés en {country} sont recensés sur Euclide.','{count} in {country} zugelassene Institute sind auf Euclide erfasst.','{count} enti autorizzati in {country} sono censiti su Euclide.','{count} instituições autorizadas em {country} estão listadas na Euclide.','{count} entidades autorizadas en {country} figuran en Euclide.','{count} مؤسسة مرخّصة في {country} مدرجة على «إقليدس».'],
+'countries.institutionsHere': ['Institutions in this country','Établissements dans ce pays','Institute in diesem Land','Enti in questo Paese','Instituições neste país','Entidades en este país','المؤسسات في هذا البلد'],
+'countries.newsHere': ['Updates from this country','Actualités de ce pays','Meldungen aus diesem Land','Aggiornamenti da questo Paese','Atualizações deste país','Novedades de este país','مستجدات هذا البلد'],
+'countries.others': ['Other countries','Autres pays','Andere Länder','Altri Paesi','Outros países','Otros países','بلدان أخرى'],
+'countries.breakdown': ['Licences held','Agréments détenus','Erteilte Zulassungen','Autorizzazioni detenute','Autorizações detidas','Autorizaciones concedidas','التراخيص الممنوحة'],
+
+'supervisors.title': ['Supervisors','Superviseurs','Aufsichtsbehörden','Autorità di vigilanza','Supervisores','Supervisores','الجهات المشرفة'],
+'supervisors.lead': ['The authorities that grant, monitor and withdraw authorisations across the European Economic Area.','Les autorités qui délivrent, contrôlent et retirent les agréments dans l’Espace économique européen.','Die Behörden, die Zulassungen im Europäischen Wirtschaftsraum erteilen, überwachen und entziehen.','Le autorità che concedono, controllano e revocano le autorizzazioni nello Spazio economico europeo.','As autoridades que concedem, fiscalizam e retiram autorizações no Espaço Económico Europeu.','Las autoridades que conceden, controlan y retiran las autorizaciones en el Espacio Económico Europeo.','السلطات التي تمنح التراخيص وتراقبها وتسحبها في المنطقة الاقتصادية الأوروبية.'],
+'supervisors.intro': ['{name} supervises {count} of the institutions listed on Euclide.','{name} supervise {count} des établissements recensés sur Euclide.','{name} beaufsichtigt {count} der auf Euclide erfassten Institute.','{name} vigila {count} degli enti censiti su Euclide.','{name} supervisiona {count} das instituições listadas na Euclide.','{name} supervisa {count} de las entidades listadas en Euclide.','تشرف {name} على {count} من المؤسسات المدرجة على «إقليدس».'],
+'supervisors.supervises': ['Institutions supervised','Établissements supervisés','Beaufsichtigte Institute','Enti vigilati','Instituições supervisionadas','Entidades supervisadas','المؤسسات الخاضعة للإشراف'],
+'supervisors.countries': ['Countries covered','Pays couverts','Abgedeckte Länder','Paesi coperti','Países abrangidos','Países cubiertos','البلدان المشمولة'],
+
+'activities.title': ['Activities','Activités','Tätigkeiten','Attività','Atividades','Actividades','الأنشطة'],
+'activities.lead': ['Browse institutions by the kind of business they are authorised to carry out.','Parcourez les établissements selon le type d’activité qu’ils sont autorisés à exercer.','Institute nach der Art des zugelassenen Geschäfts durchsuchen.','Sfogliate gli enti in base al tipo di attività autorizzata.','Percorra as instituições pelo tipo de atividade autorizada.','Explore las entidades según el tipo de actividad autorizada.','تصفّح المؤسسات بحسب نوع النشاط المرخّص لها بمزاولته.'],
+'activities.intro': ['{count} institutions on Euclide are active in this segment.','{count} établissements recensés sur Euclide exercent dans ce segment.','{count} auf Euclide erfasste Institute sind in diesem Segment tätig.','{count} enti censiti su Euclide operano in questo segmento.','{count} instituições listadas na Euclide atuam neste segmento.','{count} entidades listadas en Euclide operan en este segmento.','{count} مؤسسة مدرجة على «إقليدس» تعمل في هذا القطاع.'],
+
+'licences.title': ['Licence types','Types d’agrément','Zulassungsarten','Tipi di autorizzazione','Tipos de autorização','Tipos de autorización','أنواع التراخيص'],
+'licences.lead': ['Not every licence protects your money the same way. This is the distinction that matters most.','Tous les agréments ne protègent pas votre argent de la même façon. C’est la distinction la plus importante.','Nicht jede Zulassung schützt Ihr Geld gleich. Das ist der wichtigste Unterschied.','Non tutte le autorizzazioni tutelano il denaro allo stesso modo. È la distinzione più importante.','Nem todas as autorizações protegem o seu dinheiro da mesma forma. Esta é a distinção mais importante.','No todas las autorizaciones protegen su dinero igual. Esta es la distinción más importante.','ليست كل التراخيص تحمي أموالك بالطريقة نفسها. وهذا هو الفارق الأهم.'],
+'licences.whatItProtects': ['What it protects','Ce qu’il protège','Was sie schützt','Che cosa tutela','O que protege','Qué protege','ما الذي يحميه'],
+'licences.holders': ['Institutions with this licence','Établissements titulaires','Institute mit dieser Zulassung','Enti con questa autorizzazione','Instituições com esta autorização','Entidades con esta autorización','المؤسسات الحاملة لهذا الترخيص'],
+
+'glossary.title': ['Glossary','Glossaire','Glossar','Glossario','Glossário','Glosario','المعجم'],
+'glossary.lead': ['The terms you will meet on an authorisation record, in plain language.','Les termes que vous rencontrerez sur une fiche d’agrément, en langage clair.','Die Begriffe eines Zulassungseintrags, in klarer Sprache.','I termini che incontrerete in una scheda di autorizzazione, in linguaggio chiaro.','Os termos que encontrará num registo de autorização, em linguagem simples.','Los términos que encontrará en una ficha de autorización, en lenguaje claro.','المصطلحات التي ستصادفها في سجل الترخيص، بلغة واضحة.'],
+'glossary.allTerms': ['All terms','Tous les termes','Alle Begriffe','Tutti i termini','Todos os termos','Todos los términos','كل المصطلحات'],
+
+'newsItem.back': ['Back to updates','Retour aux actualités','Zurück zu den Meldungen','Torna agli aggiornamenti','Voltar às atualizações','Volver a las novedades','العودة إلى المستجدات'],
+'newsItem.concerns': ['This update concerns','Cette actualité concerne','Diese Meldung betrifft','Questo aggiornamento riguarda','Esta atualização diz respeito a','Esta novedad afecta a','يخص هذا المستجد'],
+'newsItem.moreFrom': ['More about this institution','En savoir plus sur cet établissement','Mehr zu diesem Institut','Altro su questo ente','Mais sobre esta instituição','Más sobre esta entidad','المزيد عن هذه المؤسسة'],
+'newsItem.disclaimer': ['Editorial summary. Always confirm the institution in the official register linked on its page.','Résumé éditorial. Confirmez toujours l’établissement dans le registre officiel lié sur sa fiche.','Redaktionelle Zusammenfassung. Bestätigen Sie das Institut stets im verlinkten amtlichen Register.','Sintesi editoriale. Confermate sempre l’ente nel registro ufficiale collegato alla sua scheda.','Resumo editorial. Confirme sempre a instituição no registo oficial ligado à sua ficha.','Resumen editorial. Confirme siempre la entidad en el registro oficial enlazado en su ficha.','ملخّص تحريري. تحقّق دائماً من المؤسسة في السجل الرسمي المرتبط بصفحتها.'],
+'newsItem.related': ['Related updates','Actualités liées','Verwandte Meldungen','Aggiornamenti correlati','Atualizações relacionadas','Novedades relacionadas','مستجدات ذات صلة'],
+
+'common.viewAll': ['View all','Voir tout','Alle ansehen','Vedi tutto','Ver tudo','Ver todo','عرض الكل'],
+'common.learnMore': ['Learn more','En savoir plus','Mehr erfahren','Scopri di più','Saber mais','Saber más','اعرف المزيد'],
+'common.explore': ['Explore','Explorer','Entdecken','Esplora','Explorar','Explorar','استكشف'],
+
 'pagination.prev': ['Previous','Précédent','Zurück','Precedente','Anterior','Anterior','السابق'],
 'pagination.next': ['Next','Suivant','Weiter','Successivo','Seguinte','Siguiente','التالي'],
 'pagination.page': ['Page {page} of {total}','Page {page} sur {total}','Seite {page} von {total}','Pagina {page} di {total}','Página {page} de {total}','Página {page} de {total}','الصفحة {page} من {total}'],

@@ -24,8 +24,14 @@ export default function InstitutionCard({ inst, dense = false }: { inst: Institu
               {tr(inst.name, locale)}
             </Link>
           </h3>
-          <p className="mt-0.5 text-sm text-navy-500">
-            {inst.city} · {countryName(inst.country, locale)}
+          <p className="relative z-10 mt-0.5 text-sm text-navy-500">
+            {inst.city} ·{' '}
+            <Link
+              href={`/countries/${inst.country.toLowerCase()}`}
+              className="underline decoration-navy-300 underline-offset-2 hover:text-navy-800"
+            >
+              {countryName(inst.country, locale)}
+            </Link>
           </p>
         </div>
       </div>

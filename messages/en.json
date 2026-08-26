@@ -12,7 +12,11 @@
     "menu": "Menu",
     "close": "Close",
     "language": "Language",
-    "skip": "Skip to main content"
+    "skip": "Skip to main content",
+    "countries": "Countries",
+    "supervisors": "Supervisors",
+    "understand": "Understand",
+    "glossary": "Glossary"
   },
   "home": {
     "kicker": "Public register explorer",
@@ -169,6 +173,50 @@
     "TECHNOLOGY": "Technology",
     "RATING_CHANGE": "Solidity",
     "MERGER": "Group structure"
+  },
+  "countries": {
+    "title": "Countries",
+    "lead": "One page per country: the competent authority, its official register, and the institutions we list there.",
+    "intro": "{count} institutions authorised in {country} are listed on Euclide.",
+    "institutionsHere": "Institutions in this country",
+    "newsHere": "Updates from this country",
+    "others": "Other countries",
+    "breakdown": "Licences held"
+  },
+  "supervisors": {
+    "title": "Supervisors",
+    "lead": "The authorities that grant, monitor and withdraw authorisations across the European Economic Area.",
+    "intro": "{name} supervises {count} of the institutions listed on Euclide.",
+    "supervises": "Institutions supervised",
+    "countries": "Countries covered"
+  },
+  "activities": {
+    "title": "Activities",
+    "lead": "Browse institutions by the kind of business they are authorised to carry out.",
+    "intro": "{count} institutions on Euclide are active in this segment."
+  },
+  "licences": {
+    "title": "Licence types",
+    "lead": "Not every licence protects your money the same way. This is the distinction that matters most.",
+    "whatItProtects": "What it protects",
+    "holders": "Institutions with this licence"
+  },
+  "glossary": {
+    "title": "Glossary",
+    "lead": "The terms you will meet on an authorisation record, in plain language.",
+    "allTerms": "All terms"
+  },
+  "newsItem": {
+    "back": "Back to updates",
+    "concerns": "This update concerns",
+    "moreFrom": "More about this institution",
+    "disclaimer": "Editorial summary. Always confirm the institution in the official register linked on its page.",
+    "related": "Related updates"
+  },
+  "common": {
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "explore": "Explore"
   },
   "pagination": {
     "prev": "Previous",

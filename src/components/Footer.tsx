@@ -17,10 +17,25 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-gold-400">{t('footer.sections')}</p>
             <ul className="mt-3 grid grid-cols-2 gap-y-2 text-sm">
-              <li><Link className="inline-flex min-h-9 items-center hover:text-white" href="/institutions">{t('nav.institutions')}</Link></li>
-              <li><Link className="inline-flex min-h-9 items-center hover:text-white" href="/search">{t('nav.search')}</Link></li>
-              <li><Link className="inline-flex min-h-9 items-center hover:text-white" href="/news">{t('nav.news')}</Link></li>
-              <li><Link className="inline-flex min-h-9 items-center hover:text-white" href="/about">{t('nav.about')}</Link></li>
+              {(
+                [
+                  ['/institutions', 'nav.institutions'],
+                  ['/countries', 'nav.countries'],
+                  ['/supervisors', 'nav.supervisors'],
+                  ['/activities', 'activities.title'],
+                  ['/licences', 'licences.title'],
+                  ['/glossary', 'nav.glossary'],
+                  ['/news', 'nav.news'],
+                  ['/search', 'nav.search'],
+                  ['/about', 'nav.about'],
+                ] as const
+              ).map(([href, key]) => (
+                <li key={href}>
+                  <Link className="inline-flex min-h-9 items-center hover:text-white" href={href}>
+                    {t(key)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

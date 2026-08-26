@@ -12,7 +12,11 @@
     "menu": "Menu",
     "close": "Fechar",
     "language": "Idioma",
-    "skip": "Ir para o conteúdo principal"
+    "skip": "Ir para o conteúdo principal",
+    "countries": "Países",
+    "supervisors": "Supervisores",
+    "understand": "Compreender",
+    "glossary": "Glossário"
   },
   "home": {
     "kicker": "Explorador do registo público",
@@ -169,6 +173,50 @@
     "TECHNOLOGY": "Tecnologia",
     "RATING_CHANGE": "Solidez",
     "MERGER": "Estrutura de grupo"
+  },
+  "countries": {
+    "title": "Países",
+    "lead": "Uma página por país: a autoridade competente, o registo oficial e as instituições listadas.",
+    "intro": "{count} instituições autorizadas em {country} estão listadas na Euclide.",
+    "institutionsHere": "Instituições neste país",
+    "newsHere": "Atualizações deste país",
+    "others": "Outros países",
+    "breakdown": "Autorizações detidas"
+  },
+  "supervisors": {
+    "title": "Supervisores",
+    "lead": "As autoridades que concedem, fiscalizam e retiram autorizações no Espaço Económico Europeu.",
+    "intro": "{name} supervisiona {count} das instituições listadas na Euclide.",
+    "supervises": "Instituições supervisionadas",
+    "countries": "Países abrangidos"
+  },
+  "activities": {
+    "title": "Atividades",
+    "lead": "Percorra as instituições pelo tipo de atividade autorizada.",
+    "intro": "{count} instituições listadas na Euclide atuam neste segmento."
+  },
+  "licences": {
+    "title": "Tipos de autorização",
+    "lead": "Nem todas as autorizações protegem o seu dinheiro da mesma forma. Esta é a distinção mais importante.",
+    "whatItProtects": "O que protege",
+    "holders": "Instituições com esta autorização"
+  },
+  "glossary": {
+    "title": "Glossário",
+    "lead": "Os termos que encontrará num registo de autorização, em linguagem simples.",
+    "allTerms": "Todos os termos"
+  },
+  "newsItem": {
+    "back": "Voltar às atualizações",
+    "concerns": "Esta atualização diz respeito a",
+    "moreFrom": "Mais sobre esta instituição",
+    "disclaimer": "Resumo editorial. Confirme sempre a instituição no registo oficial ligado à sua ficha.",
+    "related": "Atualizações relacionadas"
+  },
+  "common": {
+    "viewAll": "Ver tudo",
+    "learnMore": "Saber mais",
+    "explore": "Explorar"
   },
   "pagination": {
     "prev": "Anterior",

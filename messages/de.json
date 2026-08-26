@@ -12,7 +12,11 @@
     "menu": "Menü",
     "close": "Schließen",
     "language": "Sprache",
-    "skip": "Zum Hauptinhalt springen"
+    "skip": "Zum Hauptinhalt springen",
+    "countries": "Länder",
+    "supervisors": "Aufsichtsbehörden",
+    "understand": "Verstehen",
+    "glossary": "Glossar"
   },
   "home": {
     "kicker": "Öffentliches Registerverzeichnis",
@@ -169,6 +173,50 @@
     "TECHNOLOGY": "Technologie",
     "RATING_CHANGE": "Solidität",
     "MERGER": "Gruppenstruktur"
+  },
+  "countries": {
+    "title": "Länder",
+    "lead": "Eine Seite je Land: die zuständige Behörde, ihr amtliches Register und die dort erfassten Institute.",
+    "intro": "{count} in {country} zugelassene Institute sind auf Euclide erfasst.",
+    "institutionsHere": "Institute in diesem Land",
+    "newsHere": "Meldungen aus diesem Land",
+    "others": "Andere Länder",
+    "breakdown": "Erteilte Zulassungen"
+  },
+  "supervisors": {
+    "title": "Aufsichtsbehörden",
+    "lead": "Die Behörden, die Zulassungen im Europäischen Wirtschaftsraum erteilen, überwachen und entziehen.",
+    "intro": "{name} beaufsichtigt {count} der auf Euclide erfassten Institute.",
+    "supervises": "Beaufsichtigte Institute",
+    "countries": "Abgedeckte Länder"
+  },
+  "activities": {
+    "title": "Tätigkeiten",
+    "lead": "Institute nach der Art des zugelassenen Geschäfts durchsuchen.",
+    "intro": "{count} auf Euclide erfasste Institute sind in diesem Segment tätig."
+  },
+  "licences": {
+    "title": "Zulassungsarten",
+    "lead": "Nicht jede Zulassung schützt Ihr Geld gleich. Das ist der wichtigste Unterschied.",
+    "whatItProtects": "Was sie schützt",
+    "holders": "Institute mit dieser Zulassung"
+  },
+  "glossary": {
+    "title": "Glossar",
+    "lead": "Die Begriffe eines Zulassungseintrags, in klarer Sprache.",
+    "allTerms": "Alle Begriffe"
+  },
+  "newsItem": {
+    "back": "Zurück zu den Meldungen",
+    "concerns": "Diese Meldung betrifft",
+    "moreFrom": "Mehr zu diesem Institut",
+    "disclaimer": "Redaktionelle Zusammenfassung. Bestätigen Sie das Institut stets im verlinkten amtlichen Register.",
+    "related": "Verwandte Meldungen"
+  },
+  "common": {
+    "viewAll": "Alle ansehen",
+    "learnMore": "Mehr erfahren",
+    "explore": "Entdecken"
   },
   "pagination": {
     "prev": "Zurück",

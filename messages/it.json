@@ -12,7 +12,11 @@
     "menu": "Menu",
     "close": "Chiudi",
     "language": "Lingua",
-    "skip": "Vai al contenuto principale"
+    "skip": "Vai al contenuto principale",
+    "countries": "Paesi",
+    "supervisors": "Autorità",
+    "understand": "Capire",
+    "glossary": "Glossario"
   },
   "home": {
     "kicker": "Esploratore del registro pubblico",
@@ -169,6 +173,50 @@
     "TECHNOLOGY": "Tecnologia",
     "RATING_CHANGE": "Solidità",
     "MERGER": "Struttura di gruppo"
+  },
+  "countries": {
+    "title": "Paesi",
+    "lead": "Una pagina per Paese: l’autorità competente, il registro ufficiale e gli enti censiti.",
+    "intro": "{count} enti autorizzati in {country} sono censiti su Euclide.",
+    "institutionsHere": "Enti in questo Paese",
+    "newsHere": "Aggiornamenti da questo Paese",
+    "others": "Altri Paesi",
+    "breakdown": "Autorizzazioni detenute"
+  },
+  "supervisors": {
+    "title": "Autorità di vigilanza",
+    "lead": "Le autorità che concedono, controllano e revocano le autorizzazioni nello Spazio economico europeo.",
+    "intro": "{name} vigila {count} degli enti censiti su Euclide.",
+    "supervises": "Enti vigilati",
+    "countries": "Paesi coperti"
+  },
+  "activities": {
+    "title": "Attività",
+    "lead": "Sfogliate gli enti in base al tipo di attività autorizzata.",
+    "intro": "{count} enti censiti su Euclide operano in questo segmento."
+  },
+  "licences": {
+    "title": "Tipi di autorizzazione",
+    "lead": "Non tutte le autorizzazioni tutelano il denaro allo stesso modo. È la distinzione più importante.",
+    "whatItProtects": "Che cosa tutela",
+    "holders": "Enti con questa autorizzazione"
+  },
+  "glossary": {
+    "title": "Glossario",
+    "lead": "I termini che incontrerete in una scheda di autorizzazione, in linguaggio chiaro.",
+    "allTerms": "Tutti i termini"
+  },
+  "newsItem": {
+    "back": "Torna agli aggiornamenti",
+    "concerns": "Questo aggiornamento riguarda",
+    "moreFrom": "Altro su questo ente",
+    "disclaimer": "Sintesi editoriale. Confermate sempre l’ente nel registro ufficiale collegato alla sua scheda.",
+    "related": "Aggiornamenti correlati"
+  },
+  "common": {
+    "viewAll": "Vedi tutto",
+    "learnMore": "Scopri di più",
+    "explore": "Esplora"
   },
   "pagination": {
     "prev": "Precedente",

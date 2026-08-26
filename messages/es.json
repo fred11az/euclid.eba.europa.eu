@@ -12,7 +12,11 @@
     "menu": "Menú",
     "close": "Cerrar",
     "language": "Idioma",
-    "skip": "Ir al contenido principal"
+    "skip": "Ir al contenido principal",
+    "countries": "Países",
+    "supervisors": "Supervisores",
+    "understand": "Entender",
+    "glossary": "Glosario"
   },
   "home": {
     "kicker": "Explorador del registro público",
@@ -169,6 +173,50 @@
     "TECHNOLOGY": "Tecnología",
     "RATING_CHANGE": "Solidez",
     "MERGER": "Estructura de grupo"
+  },
+  "countries": {
+    "title": "Países",
+    "lead": "Una página por país: la autoridad competente, su registro oficial y las entidades listadas.",
+    "intro": "{count} entidades autorizadas en {country} figuran en Euclide.",
+    "institutionsHere": "Entidades en este país",
+    "newsHere": "Novedades de este país",
+    "others": "Otros países",
+    "breakdown": "Autorizaciones concedidas"
+  },
+  "supervisors": {
+    "title": "Supervisores",
+    "lead": "Las autoridades que conceden, controlan y retiran las autorizaciones en el Espacio Económico Europeo.",
+    "intro": "{name} supervisa {count} de las entidades listadas en Euclide.",
+    "supervises": "Entidades supervisadas",
+    "countries": "Países cubiertos"
+  },
+  "activities": {
+    "title": "Actividades",
+    "lead": "Explore las entidades según el tipo de actividad autorizada.",
+    "intro": "{count} entidades listadas en Euclide operan en este segmento."
+  },
+  "licences": {
+    "title": "Tipos de autorización",
+    "lead": "No todas las autorizaciones protegen su dinero igual. Esta es la distinción más importante.",
+    "whatItProtects": "Qué protege",
+    "holders": "Entidades con esta autorización"
+  },
+  "glossary": {
+    "title": "Glosario",
+    "lead": "Los términos que encontrará en una ficha de autorización, en lenguaje claro.",
+    "allTerms": "Todos los términos"
+  },
+  "newsItem": {
+    "back": "Volver a las novedades",
+    "concerns": "Esta novedad afecta a",
+    "moreFrom": "Más sobre esta entidad",
+    "disclaimer": "Resumen editorial. Confirme siempre la entidad en el registro oficial enlazado en su ficha.",
+    "related": "Novedades relacionadas"
+  },
+  "common": {
+    "viewAll": "Ver todo",
+    "learnMore": "Saber más",
+    "explore": "Explorar"
   },
   "pagination": {
     "prev": "Anterior",
