@@ -88,7 +88,7 @@
     "psd2": "Servicios de pago PSD2",
     "passport": "Pasaporte EEE",
     "solidity": "Indicador de solidez",
-    "solidityNote": "Indicador editorial elaborado por Euclide a partir de datos prudenciales publicados. No es una calificación crediticia ni asesoramiento de inversión.",
+    "solidityNote": "Indicador editorial calculado a partir de los campos de esta ficha. No es una calificación crediticia ni asesoramiento de inversión.",
     "verify": "Compruébelo usted mismo",
     "verifyLead": "La fuente vinculante es el registro del supervisor. Ábralo y busque la denominación legal indicada abajo.",
     "officialRegister": "Abrir el registro oficial",
@@ -247,7 +247,13 @@
     "vat": "NIF/IVA",
     "address": "Dirección de la sede",
     "email": "Correo electrónico",
-    "phone": "Teléfono"
+    "phone": "Teléfono",
+    "certifications": "Certificaciones",
+    "issuedBy": "Emitida por",
+    "validUntil": "Válida hasta",
+    "social": "Canales oficiales",
+    "ownership": "Participación",
+    "branches": "Sucursales"
   },
   "scope": {
     "deposit_taking": "Captación de depósitos del público",
@@ -285,7 +291,8 @@
     "sources": "Fuentes",
     "nextRefresh": "Próxima revisión",
     "unverified": "Aún no verificada frente al registro oficial",
-    "pendingNote": "Los campos marcados «fuente pendiente» se dejan deliberadamente vacíos en lugar de rellenarse con un valor no verificado."
+    "pendingNote": "Los campos marcados «fuente pendiente» se dejan deliberadamente vacíos en lugar de rellenarse con un valor no verificado.",
+    "verified": "Verificada frente al registro oficial"
   },
   "passport": {
     "lead": "Esta autorización puede ejercerse, previa notificación, en los siguientes Estados.",
@@ -296,6 +303,14 @@
   },
   "financials": {
     "pending": "Los datos de capital, liquidez y balance no se publican hasta que puedan tomarse de una divulgación prudencial."
+  },
+  "solidity": {
+    "factors": "Cómo se compone esta puntuación",
+    "guarantee": "Protección de los fondos de clientes",
+    "supervision": "Nivel de supervisión",
+    "longevity": "Antigüedad",
+    "breadth": "Amplitud de la autorización",
+    "passport": "Pasaporte europeo"
   },
   "pagination": {
     "prev": "Anterior",

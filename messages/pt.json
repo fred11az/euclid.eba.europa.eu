@@ -88,7 +88,7 @@
     "psd2": "Serviços de pagamento DSP2",
     "passport": "Passaporte EEE",
     "solidity": "Indicador de solidez",
-    "solidityNote": "Indicador editorial construído pela Euclide a partir de dados prudenciais publicados. Não é uma notação de crédito nem constitui aconselhamento de investimento.",
+    "solidityNote": "Indicador editorial calculado a partir dos campos desta ficha. Não é uma notação de crédito nem aconselhamento de investimento.",
     "verify": "Verifique por si próprio",
     "verifyLead": "A fonte que faz fé é o registo do supervisor. Abra-o e procure a denominação legal indicada abaixo.",
     "officialRegister": "Abrir o registo oficial",
@@ -247,7 +247,13 @@
     "vat": "NIF/IVA",
     "address": "Morada da sede",
     "email": "Correio eletrónico",
-    "phone": "Telefone"
+    "phone": "Telefone",
+    "certifications": "Certificações",
+    "issuedBy": "Emitida por",
+    "validUntil": "Válida até",
+    "social": "Canais oficiais",
+    "ownership": "Participação",
+    "branches": "Sucursais"
   },
   "scope": {
     "deposit_taking": "Receção de depósitos do público",
@@ -285,7 +291,8 @@
     "sources": "Fontes",
     "nextRefresh": "Próxima revisão",
     "unverified": "Ainda não verificada face ao registo oficial",
-    "pendingNote": "Os campos marcados «fonte pendente» ficam deliberadamente vazios em vez de preenchidos com valores não verificados."
+    "pendingNote": "Os campos marcados «fonte pendente» ficam deliberadamente vazios em vez de preenchidos com valores não verificados.",
+    "verified": "Verificada face ao registo oficial"
   },
   "passport": {
     "lead": "Esta autorização pode ser exercida, mediante notificação, nos seguintes Estados.",
@@ -296,6 +303,14 @@
   },
   "financials": {
     "pending": "Os dados de capital, liquidez e balanço não são publicados enquanto não puderem ser retirados de uma divulgação prudencial."
+  },
+  "solidity": {
+    "factors": "Como este valor é composto",
+    "guarantee": "Proteção dos fundos dos clientes",
+    "supervision": "Nível de supervisão",
+    "longevity": "Antiguidade",
+    "breadth": "Amplitude da autorização",
+    "passport": "Passaporte europeu"
   },
   "pagination": {
     "prev": "Anterior",

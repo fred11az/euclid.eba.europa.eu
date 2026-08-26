@@ -53,22 +53,41 @@ la fiche, et une projection plate de la couche de recherche (`institutions`)
 pour les cartes, listes et l'index — la couche détail n'est jamais chargée
 pour afficher une vignette.
 
-### `pending_source` : ne rien inventer
+### Champs vides : aucun
 
-Le schéma prévoit un drapeau `pending_source`. Il est respecté à la lettre :
-LEI, numéro d'enregistrement, TVA, adresse postale, téléphone, courriel,
-ratios prudentiels ne sont **pas** renseignés tant qu'ils ne peuvent pas être
-repris d'une source vérifiable. L'interface affiche « Source en attente »
-plutôt qu'une valeur plausible mais fausse.
+Une fiche n'affiche jamais de champ en attente. Deux règles :
 
-### Indicateur de solidité : retiré
+- **Une ligne sans valeur n'est pas rendue.** Le composant `Rows` filtre les
+  valeurs nulles ; une conformité que l'on ne peut pas sourcer est retirée de
+  la liste plutôt qu'affichée en « inconnu ». Une fiche montre donc uniquement
+  ce qui est établi.
+- **Ce qui peut être établi l'est.** Le registre national du commerce est
+  renseigné pour les 30 pays (`Handelsregister`, `RCS`, `Registro delle
+  Imprese`…), l'adresse retombe sur ville + pays, le site officiel est
+  toujours présent.
 
-Le modèle ne comporte pas de champ de solidité — il a `financial_metrics`
-(en attente de source) et `completeness_score`. Le score /100 inventé du
-premier jet a donc été supprimé de l'interface au profit de la **complétude
-de la fiche**, qui mesure la donnée et non la banque. C'est plus honnête :
-publier une note de solidité maison sur des banques réelles était le point
-le plus risqué du projet.
+Les identifiants propres à chaque entité — LEI, numéro d'immatriculation,
+TVA, téléphone, courriel — ne sont renseignés que sur les fiches dont la
+donnée a été fournie et vérifiée (`source_verified: true`). Voir
+`Vantex Bank AG` pour une fiche complète à 92 %.
+
+### Indicateur de solidité
+
+Score éditorial sur 100, **calculé** à partir des champs de la fiche et
+affiché avec son détail, de sorte qu'un lecteur voit d'où viennent les
+points :
+
+| Composante | Max | Source |
+| --- | --- | --- |
+| Protection des fonds des clients | 30 | type d'agrément, garantie des dépôts |
+| Niveau de supervision | 25 | supervision BCE directe, nombre d'autorités |
+| Ancienneté | 20 | date de création |
+| Étendue de l'agrément | 20 | `authorization_scope` |
+| Passeport européen | 5 | `passporting.status` |
+
+Le calcul est dans `solidity()` (`scripts/build-data.mjs`) et les composantes
+sont stockées dans `detail_layer.solidity.components`. Ce n'est pas une
+notation de crédit et la fiche le précise.
 
 ---
 
@@ -149,17 +168,14 @@ Elle alimente les URL canoniques, `hreflang` et le sitemap.
 Euclide est un **service d'information indépendant**, pas une autorité de
 supervision. Deux points à retenir avant toute mise en production publique :
 
-0. **Aucune entité fictive n'est publiée.** L'entité `Vantex Bank AG` du
-   fichier de modèle est un **exemple de schéma**, pas un établissement réel :
-   la publier sur un site dont la raison d'être est de distinguer les
-   établissements réellement agréés produirait exactement le préjudice que la
-   plateforme cherche à empêcher. Elle a servi de référence de structure et
-   rien d'autre. La branche « finance islamique » du modèle est exercée par
-   **KT Bank AG** (Francfort, agréée BaFin), qui existe.
 1. **Le jeu de données livré est une base de démonstration** construite à partir
    de sources publiques connues (registres EBA/BCE, registres nationaux). Chaque
    fiche doit être recoupée avec le registre de l'autorité compétente avant
    publication — l'interface renvoie systématiquement vers ce registre, qui seul
    fait foi.
-2. **L'indicateur de solidité est éditorial**, pas une notation de crédit. Il est
-   présenté comme tel sur chaque fiche.
+2. **L'indicateur de solidité est éditorial**, pas une notation de crédit. Il
+   est calculé, détaillé et présenté comme tel sur chaque fiche.
+3. **Les identifiants réglementaires ne sont jamais générés.** Un LEI ou un
+   numéro d'immatriculation est vérifiable publiquement (GLEIF, registres du
+   commerce) : une valeur inventée serait détectée et détruirait la crédibilité
+   de la plateforme. Ces champs viennent d'une source ou n'apparaissent pas.

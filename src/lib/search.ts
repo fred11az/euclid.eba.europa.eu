@@ -72,7 +72,7 @@ export function searchInstitutions(query: string, limit = 50): Hit[] {
         }
       }
     }
-    if (score > 0) hits.push({ inst: entry.inst, score: score + entry.inst.completeness / 100 });
+    if (score > 0) hits.push({ inst: entry.inst, score: score + entry.inst.solidityScore / 1000 });
   }
 
   return hits.sort((a, b) => b.score - a.score).slice(0, limit);

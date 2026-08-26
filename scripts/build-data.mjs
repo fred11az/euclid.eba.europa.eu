@@ -175,6 +175,19 @@ const EEA = [
   'IT','LI','LT','LU','LV','MT','NL','NO','PL','PT','RO','SE','SI','SK',
 ];
 
+const REGISTRIES = {
+  AT: 'Firmenbuch', BE: 'Banque-Carrefour des Entreprises / Kruispuntbank van Ondernemingen',
+  BG: 'Търговски регистър', CY: 'Department of Registrar of Companies', CZ: 'Obchodní rejstřík',
+  DE: 'Handelsregister', DK: 'Det Centrale Virksomhedsregister (CVR)', EE: 'Äriregister',
+  ES: 'Registro Mercantil', FI: 'Kaupparekisteri', FR: 'Registre du commerce et des sociétés (RCS)',
+  GR: 'Γενικό Εμπορικό Μητρώο (ΓΕΜΗ)', HR: 'Sudski registar', HU: 'Cégjegyzék',
+  IE: 'Companies Registration Office', IS: 'Fyrirtækjaskrá', IT: 'Registro delle Imprese',
+  LI: 'Handelsregister', LT: 'Juridinių asmenų registras', LU: 'Registre de commerce et des sociétés',
+  LV: 'Uzņēmumu reģistrs', MT: 'Malta Business Registry', NL: 'Handelsregister (KVK)',
+  NO: 'Foretaksregisteret', PL: 'Krajowy Rejestr Sądowy (KRS)', PT: 'Registo Comercial',
+  RO: 'Registrul Comerțului', SE: 'Bolagsregistret', SI: 'Poslovni register', SK: 'Obchodný register',
+};
+
 const LEGAL_FORMS = {
   DE: ['AG', ['Stock corporation','Société anonyme','Aktiengesellschaft','Società per azioni','Sociedade anónima','Sociedad anónima','شركة مساهمة']],
   FR: ['SA', ['Public limited company','Société anonyme','Aktiengesellschaft','Società per azioni','Sociedade anónima','Sociedad anónima','شركة مساهمة']],
@@ -221,6 +234,21 @@ const SUBTYPE = {
 
 const STATUS_LABEL = ['Authorised','Agréée','Zugelassen','Autorizzata','Autorizada','Autorizada','مرخّصة'];
 
+/**
+ * Editorial solidity composite. Every point is derived from a field on the
+ * record, so the figure is reproducible and can be shown broken down rather
+ * than asserted. It is not a credit rating and is labelled as such in the UI.
+ */
+function solidity({ isBank, regulators, founded, scope, passporting }) {
+  const guarantee = isBank ? 30 : regulators.length > 1 ? 18 : 15;
+  const supervision = regulators.includes('ECB') ? 25 : regulators.length > 1 ? 21 : 18;
+  const longevity = Math.max(2, Math.min(20, Math.round((2026 - founded) / 8)));
+  const breadth = Object.values(scope).filter(Boolean).length * 4;
+  const passport = passporting ? 5 : 0;
+  const components = { guarantee, supervision, longevity, breadth, passport };
+  return { score: guarantee + supervision + longevity + breadth + passport, components };
+}
+
 function servicesFor(kind, tags) {
   const bank = !['payment', 'emoney'].includes(kind);
   const banking = bank
@@ -251,6 +279,21 @@ const institutions = R.map(([name, country, city, bic, founded, kind, tags, regu
     : kind === 'payment'
       ? 'PAYMENT_INSTITUTION'
       : 'EMONEY_INSTITUTION';
+
+  const scope = {
+    deposit_taking: isBank,
+    credit_granting: isBank,
+    investment_services: mifid,
+    insurance_distribution: false,
+    payment_services: true,
+  };
+  const { score: solidityScore, components: solidityComponents } = solidity({
+    isBank,
+    regulators,
+    founded,
+    scope,
+    passporting: true,
+  });
 
   const summary = {};
   LOCALES.forEach((l, i) => {
@@ -287,7 +330,7 @@ const institutions = R.map(([name, country, city, bic, founded, kind, tags, regu
       },
       registration: {
         registration_number: null,
-        registration_authority: null,
+        registration_authority: REGISTRIES[country] ?? null,
         registration_date: null,
         establishment_date: String(founded),
         lei_code: null,
@@ -304,13 +347,7 @@ const institutions = R.map(([name, country, city, bic, founded, kind, tags, regu
         primary_supervisor: { code: slug(regulators[0]).toUpperCase(), name: regulators[0], country_code: country },
         secondary_supervisors: regulators.slice(1).map((r) => ({ code: slug(r).toUpperCase(), name: r, country_code: country })),
         regulatory_status: { code: 'AUTHORIZED', labels: pack(STATUS_LABEL), approval_date: null },
-        authorization_scope: {
-          deposit_taking: isBank,
-          credit_granting: isBank,
-          investment_services: mifid,
-          insurance_distribution: false,
-          payment_services: true,
-        },
+        authorization_scope: scope,
       },
       passporting: {
         status: 'ACTIVE',
@@ -352,6 +389,7 @@ const institutions = R.map(([name, country, city, bic, founded, kind, tags, regu
         description: summary,
         certifications: [],
       },
+      solidity: { score: solidityScore, components: solidityComponents },
     },
 
     metadata_internal: {
@@ -362,8 +400,6 @@ const institutions = R.map(([name, country, city, bic, founded, kind, tags, regu
       next_refresh: '2026-09-26',
       last_verified_by: null,
       flags: bic ? [] : ['BIC_PENDING'],
-      // Kept out of the public UI: an editorial figure, not a rating.
-      internal_solidity_score: score,
       licence_type: licenceType,
       kind,
       tags,
@@ -371,6 +407,195 @@ const institutions = R.map(([name, country, city, bic, founded, kind, tags, regu
     },
   };
 });
+
+
+/* ------------------------------------------------------------------ */
+/* Fully-sourced records                                               */
+/* ------------------------------------------------------------------ */
+/**
+ * Entities whose full detail layer has been supplied and verified by the data
+ * team, rather than derived. They carry real identifiers and are flagged
+ * source_verified.
+ */
+const VANTEX_SUMMARY = [
+  'European universal bank specialising in Sharia-compliant finance, a wholly owned subsidiary of First Abu Dhabi Bank.',
+  'Banque universelle européenne spécialisée en finance islamique, filiale à 100 % de First Abu Dhabi Bank.',
+  'Europäische Universalbank mit Schwerpunkt auf Scharia-konformer Finanzierung, hundertprozentige Tochter der First Abu Dhabi Bank.',
+  'Banca universale europea specializzata nella finanza islamica, controllata al 100 % da First Abu Dhabi Bank.',
+  'Banco universal europeu especializado em finança islâmica, subsidiária a 100 % do First Abu Dhabi Bank.',
+  'Banco universal europeo especializado en finanzas islámicas, filial al 100 % de First Abu Dhabi Bank.',
+  'مصرف شامل أوروبي متخصص في التمويل المتوافق مع الشريعة، مملوك بالكامل لبنك أبوظبي الأول.',
+];
+
+const VANTEX_DESC = [
+  'Vantex Bank AG is a European universal bank headquartered in Frankfurt am Main and a wholly owned subsidiary of First Abu Dhabi Bank. It specialises in Sharia-compliant financing for individuals, businesses and real estate. Authorised by BaFin and passported across the EEA, it operates through branches in France and Luxembourg.',
+  'Vantex Bank AG est une banque universelle européenne dont le siège se situe à Francfort-sur-le-Main, filiale à 100 % de First Abu Dhabi Bank. Elle est spécialisée dans le financement conforme à la charia pour les particuliers, les entreprises et l’immobilier. Agréée par la BaFin et bénéficiant du passeport européen, elle opère par des succursales en France et au Luxembourg.',
+  'Die Vantex Bank AG ist eine europäische Universalbank mit Sitz in Frankfurt am Main und hundertprozentige Tochter der First Abu Dhabi Bank. Sie ist auf Scharia-konforme Finanzierungen für Privatpersonen, Unternehmen und Immobilien spezialisiert. Von der BaFin zugelassen und mit EWR-Pass tätig, unterhält sie Niederlassungen in Frankreich und Luxemburg.',
+  'Vantex Bank AG è una banca universale europea con sede a Francoforte sul Meno, controllata al 100 % da First Abu Dhabi Bank. È specializzata in finanziamenti conformi alla sharia per privati, imprese e immobili. Autorizzata dalla BaFin e con passaporto SEE, opera tramite succursali in Francia e Lussemburgo.',
+  'O Vantex Bank AG é um banco universal europeu com sede em Frankfurt am Main, subsidiária a 100 % do First Abu Dhabi Bank. Está especializado em financiamento conforme à charia para particulares, empresas e imobiliário. Autorizado pela BaFin e com passaporte EEE, opera através de sucursais em França e no Luxemburgo.',
+  'Vantex Bank AG es un banco universal europeo con sede en Fráncfort del Meno, filial al 100 % de First Abu Dhabi Bank. Está especializado en financiación conforme a la sharia para particulares, empresas e inmuebles. Autorizado por BaFin y con pasaporte EEE, opera mediante sucursales en Francia y Luxemburgo.',
+  'مصرف Vantex Bank AG مصرف شامل أوروبي يقع مقره في فرانكفورت، وهو مملوك بالكامل لبنك أبوظبي الأول. ويتخصص في التمويل المتوافق مع الشريعة للأفراد والشركات والعقارات. وهو مرخّص من BaFin ويتمتع بجواز التمرير الأوروبي، ويعمل عبر فرعين في فرنسا ولوكسمبورغ.',
+];
+
+const VANTEX_SCOPE = {
+  deposit_taking: true,
+  credit_granting: true,
+  investment_services: true,
+  insurance_distribution: true,
+  payment_services: true,
+};
+
+const VANTEX_SOLIDITY = solidity({
+  isBank: true,
+  regulators: ['BaFin', 'ACPR', 'FCA'],
+  founded: 2012,
+  scope: VANTEX_SCOPE,
+  passporting: true,
+});
+
+const VANTEX_SERVICES = {
+  banking: [['CURRENT_ACCOUNT', true], ['SAVINGS', true], ['PAYMENT_CARDS', false], ['WIRE_TRANSFERS', true]],
+  credit: [['PERSONAL_LOANS', true], ['BUSINESS_LOANS', true], ['REAL_ESTATE_FINANCING', true]],
+};
+
+const VANTEX = {
+  id: 'vantex-bank-de',
+  entity_type: 'credit_institution',
+  entity_subtype: 'universal_bank',
+  source_verified: true,
+
+  search_layer: {
+    display_name: 'Vantex Bank',
+    legal_name: 'Vantex Bank AG',
+    country_code: 'DE',
+    city: 'Frankfurt am Main',
+    logo_url: null,
+    regulator_primary: 'BaFin',
+    status: { code: 'ACTIVE', labels: pack(STATUS_LABEL), color_badge: 'green' },
+    specialization_tags: ['retail', 'corporate', 'islamic', 'eu_passporting'],
+    quick_summary: pack(VANTEX_SUMMARY),
+  },
+
+  detail_layer: {
+    identity: {
+      legal_name: 'Vantex Bank AG',
+      legal_names_translations: {
+        ...pack(LOCALES.map(() => 'Vantex Bank AG')),
+        fr: 'Vantex Bank S.A.',
+      },
+      commercial_names: ['Vantex Bank', 'Vantex Islamic Banking'],
+      legal_form_code: 'AG',
+      legal_form_label: pack(LEGAL_FORMS.DE[1]),
+      parent_company: {
+        id: 'fadb-ae',
+        name: 'First Abu Dhabi Bank P.J.S.C.',
+        country_code: 'AE',
+        ownership_percentage: 100,
+      },
+    },
+    registration: {
+      registration_number: 'HRB 112847',
+      registration_authority: 'Handelsregister Frankfurt am Main',
+      registration_date: '2018-06-14',
+      establishment_date: '2012-03-15',
+      lei_code: '529900T8TG9H7X0QXZ42',
+      bic_swift: 'VANTDEFF',
+      vat_id: 'DE 824 365 719',
+      pending_source: false,
+    },
+    contact: {
+      headquarters: {
+        street: 'Taunusanlage 12',
+        postal_code: '60325',
+        city: 'Frankfurt am Main',
+        country_code: 'DE',
+        pending_source: false,
+      },
+      communication: {
+        email: 'frankfurt@vantex-bank.com',
+        phone: '+49 69 1234 5678',
+        website: 'https://vantex-bank.com',
+      },
+      social_media: {
+        linkedin: 'https://www.linkedin.com/company/vantex-bank',
+        twitter: 'https://twitter.com/VantexBank',
+        facebook: 'https://www.facebook.com/VantexBank',
+      },
+    },
+    regulation: {
+      primary_supervisor: { code: 'BAFIN', name: 'BaFin', country_code: 'DE' },
+      secondary_supervisors: [
+        { code: 'ACPR', name: 'ACPR', country_code: 'FR' },
+        { code: 'FCA', name: 'FCA', country_code: 'GB' },
+      ],
+      regulatory_status: { code: 'AUTHORIZED', labels: pack(STATUS_LABEL), approval_date: '2018-06-14' },
+      authorization_scope: VANTEX_SCOPE,
+    },
+    passporting: {
+      status: 'ACTIVE',
+      eligible_eea: true,
+      eligible_eu: true,
+      // The supplied list intersected with the EEA: passporting is an EEA right.
+      eligible_countries: ['DE','FR','BE','NL','AT','LU','IT','ES','PT','PL','CZ','HU','SE','NO','DK','FI','IE'],
+    },
+    services: {
+      banking_services: VANTEX_SERVICES.banking.map(([code, halal]) => ({
+        code, label: pack(SERVICES[code]), islamic_compliant: halal,
+      })),
+      credit_services: VANTEX_SERVICES.credit.map(([code, halal]) => ({
+        code, label: pack(SERVICES[code]), islamic_compliant: halal,
+      })),
+      islamic_finance_products: Object.entries(ISLAMIC).map(([code, [label, description]]) => ({
+        code, label: pack(label), description: pack(description), compliant: true,
+      })),
+    },
+    compliance: {
+      sanctions_screening: { status: 'CLEAR', last_checked: '2026-08-20' },
+      aml_kyc: { status: 'COMPLIANT', last_audit: '2024-01-15' },
+      mifid2: { status: 'COMPLIANT' },
+      psd2: { status: 'COMPLIANT', strong_authentication: true, open_banking: true },
+      psd3: { status: 'COMPLIANT_PENDING', pending_source: true },
+      gdpr: { status: 'COMPLIANT', privacy_policy_url: 'https://vantex-bank.com/privacy' },
+      deposit_guarantee: true,
+    },
+    corporate_structure: {
+      parent_entity: { name: 'First Abu Dhabi Bank P.J.S.C.', country: 'AE' },
+      subsidiaries: [],
+      branches: [
+        { name: 'Vantex Bank SA (France Branch)', country: 'FR', city: 'Paris', regulator: 'ACPR' },
+        { name: 'Vantex Bank (Luxembourg) S.à r.l.', country: 'LU', city: 'Luxembourg', regulator: 'CSSF' },
+      ],
+      pending_source: false,
+    },
+    financial_metrics: { pending_source: true },
+    editorial: {
+      description: pack(VANTEX_DESC),
+      certifications: [
+        {
+          name: 'Sharia Board Certification',
+          issuer: 'International Islamic Financial Board',
+          certification_date: '2020-06-01',
+          validity_until: '2025-12-31',
+        },
+      ],
+    },
+    solidity: VANTEX_SOLIDITY,
+  },
+
+  metadata_internal: {
+    data_quality_score: 0.85,
+    completeness_score: 0.92,
+    sources: ['BaFin Register', 'ACPR Directory', 'GLEIF LEI Database', 'Official website'],
+    next_refresh: '2026-09-26',
+    flags: [],
+    licence_type: 'CREDIT_INSTITUTION',
+    kind: 'islamic',
+    tags: ['retail', 'corporate', 'islamic'],
+    founded: 2012,
+  },
+};
+
+institutions.unshift(VANTEX);
 
 /* ------------------------------------------------------------------ */
 /* News                                                                */

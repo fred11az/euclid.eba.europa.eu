@@ -1,18 +1,18 @@
 [
   {
     "id": "news-029",
-    "institutionId": "erste-group-bank-ag",
-    "country": "AT",
+    "institutionId": "wise-europe-sa",
+    "country": "BE",
     "date": "2026-08-18",
     "category": "RATING_CHANGE",
     "title": {
-      "en": "Solidity indicator for Erste Group Bank AG reviewed after latest supervisory disclosures",
-      "fr": "Indicateur de solidité de Erste Group Bank AG révisé après les dernières publications prudentielles",
-      "de": "Soliditätsindikator für Erste Group Bank AG nach jüngsten Aufsichtsangaben überprüft",
-      "it": "Indicatore di solidità di Erste Group Bank AG rivisto dopo le ultime informative di vigilanza",
-      "pt": "Indicador de solidez do Erste Group Bank AG revisto após as últimas divulgações prudenciais",
-      "es": "Indicador de solidez de Erste Group Bank AG revisado tras las últimas divulgaciones prudenciales",
-      "ar": "مراجعة مؤشر المتانة لـ Erste Group Bank AG بعد آخر الإفصاحات الرقابية"
+      "en": "Solidity indicator for Wise Europe SA reviewed after latest supervisory disclosures",
+      "fr": "Indicateur de solidité de Wise Europe SA révisé après les dernières publications prudentielles",
+      "de": "Soliditätsindikator für Wise Europe SA nach jüngsten Aufsichtsangaben überprüft",
+      "it": "Indicatore di solidità di Wise Europe SA rivisto dopo le ultime informative di vigilanza",
+      "pt": "Indicador de solidez do Wise Europe SA revisto após as últimas divulgações prudenciais",
+      "es": "Indicador de solidez de Wise Europe SA revisado tras las últimas divulgaciones prudenciales",
+      "ar": "مراجعة مؤشر المتانة لـ Wise Europe SA بعد آخر الإفصاحات الرقابية"
     },
     "snippet": {
       "en": "Euclide's solidity indicator is editorial and is not a credit rating. It summarises published capital, liquidity and supervisory data.",
@@ -23,8 +23,8 @@
       "es": "El indicador de solidez de Euclide es editorial y no es una calificación crediticia. Resume datos publicados de capital, liquidez y supervisión.",
       "ar": "مؤشر المتانة لدى «إقليدس» تحريري وليس تصنيفاً ائتمانياً. وهو يلخّص بيانات منشورة عن رأس المال والسيولة والإشراف."
     },
-    "source": "ECB",
-    "sourceUrl": "https://www.erstegroup.com"
+    "source": "NBB",
+    "sourceUrl": "https://wise.com"
   },
   {
     "id": "news-051",
@@ -55,18 +55,18 @@
   },
   {
     "id": "news-053",
-    "institutionId": "banco-de-sabadell-s-a",
+    "institutionId": "caixabank-s-a",
     "country": "ES",
     "date": "2026-08-09",
     "category": "RATING_CHANGE",
     "title": {
-      "en": "Solidity indicator for Banco de Sabadell S.A. reviewed after latest supervisory disclosures",
-      "fr": "Indicateur de solidité de Banco de Sabadell S.A. révisé après les dernières publications prudentielles",
-      "de": "Soliditätsindikator für Banco de Sabadell S.A. nach jüngsten Aufsichtsangaben überprüft",
-      "it": "Indicatore di solidità di Banco de Sabadell S.A. rivisto dopo le ultime informative di vigilanza",
-      "pt": "Indicador de solidez do Banco de Sabadell S.A. revisto após as últimas divulgações prudenciais",
-      "es": "Indicador de solidez de Banco de Sabadell S.A. revisado tras las últimas divulgaciones prudenciales",
-      "ar": "مراجعة مؤشر المتانة لـ Banco de Sabadell S.A. بعد آخر الإفصاحات الرقابية"
+      "en": "Solidity indicator for CaixaBank S.A. reviewed after latest supervisory disclosures",
+      "fr": "Indicateur de solidité de CaixaBank S.A. révisé après les dernières publications prudentielles",
+      "de": "Soliditätsindikator für CaixaBank S.A. nach jüngsten Aufsichtsangaben überprüft",
+      "it": "Indicatore di solidità di CaixaBank S.A. rivisto dopo le ultime informative di vigilanza",
+      "pt": "Indicador de solidez do CaixaBank S.A. revisto após as últimas divulgações prudenciais",
+      "es": "Indicador de solidez de CaixaBank S.A. revisado tras las últimas divulgaciones prudenciales",
+      "ar": "مراجعة مؤشر المتانة لـ CaixaBank S.A. بعد آخر الإفصاحات الرقابية"
     },
     "snippet": {
       "en": "Euclide's solidity indicator is editorial and is not a credit rating. It summarises published capital, liquidity and supervisory data.",
@@ -78,22 +78,22 @@
       "ar": "مؤشر المتانة لدى «إقليدس» تحريري وليس تصنيفاً ائتمانياً. وهو يلخّص بيانات منشورة عن رأس المال والسيولة والإشراف."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.grupbancsabadell.com"
+    "sourceUrl": "https://www.caixabank.com"
   },
   {
     "id": "news-038",
-    "institutionId": "mbank-s-a",
+    "institutionId": "bank-polska-kasa-opieki-s-a",
     "country": "PL",
     "date": "2026-08-07",
     "category": "AUTHORISATION",
     "title": {
-      "en": "mBank S.A. confirmed on the KNF register of authorised institutions",
-      "fr": "mBank S.A. confirmée au registre des établissements agréés de KNF",
-      "de": "mBank S.A. im Register zugelassener Institute von KNF bestätigt",
-      "it": "mBank S.A. confermata nel registro degli enti autorizzati di KNF",
-      "pt": "mBank S.A. confirmado no registo de instituições autorizadas de KNF",
-      "es": "mBank S.A. confirmado en el registro de entidades autorizadas de KNF",
-      "ar": "تأكيد إدراج mBank S.A. في سجل المؤسسات المرخّصة لدى KNF"
+      "en": "Bank Polska Kasa Opieki S.A. confirmed on the KNF register of authorised institutions",
+      "fr": "Bank Polska Kasa Opieki S.A. confirmée au registre des établissements agréés de KNF",
+      "de": "Bank Polska Kasa Opieki S.A. im Register zugelassener Institute von KNF bestätigt",
+      "it": "Bank Polska Kasa Opieki S.A. confermata nel registro degli enti autorizzati di KNF",
+      "pt": "Bank Polska Kasa Opieki S.A. confirmado no registo de instituições autorizadas de KNF",
+      "es": "Bank Polska Kasa Opieki S.A. confirmado en el registro de entidades autorizadas de KNF",
+      "ar": "تأكيد إدراج Bank Polska Kasa Opieki S.A. في سجل المؤسسات المرخّصة لدى KNF"
     },
     "snippet": {
       "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
@@ -105,7 +105,7 @@
       "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
     },
     "source": "KNF",
-    "sourceUrl": "https://www.mbank.pl"
+    "sourceUrl": "https://www.pekao.com.pl"
   },
   {
     "id": "news-028",
@@ -163,18 +163,18 @@
   },
   {
     "id": "news-057",
-    "institutionId": "bnp-paribas-fortis-sa",
+    "institutionId": "belfius-bank-nv",
     "country": "BE",
     "date": "2026-07-29",
     "category": "CONSUMER",
     "title": {
-      "en": "How to check that BNP Paribas Fortis SA is authorised before you open an account",
-      "fr": "Comment vérifier que BNP Paribas Fortis SA est agréée avant d'ouvrir un compte",
-      "de": "So prüfen Sie vor der Kontoeröffnung, ob BNP Paribas Fortis SA zugelassen ist",
-      "it": "Come verificare che BNP Paribas Fortis SA sia autorizzata prima di aprire un conto",
-      "pt": "Como verificar se o BNP Paribas Fortis SA está autorizado antes de abrir conta",
-      "es": "Cómo comprobar que BNP Paribas Fortis SA está autorizado antes de abrir una cuenta",
-      "ar": "كيف تتحقق من أن BNP Paribas Fortis SA مرخّص قبل فتح حساب"
+      "en": "How to check that Belfius Bank NV is authorised before you open an account",
+      "fr": "Comment vérifier que Belfius Bank NV est agréée avant d'ouvrir un compte",
+      "de": "So prüfen Sie vor der Kontoeröffnung, ob Belfius Bank NV zugelassen ist",
+      "it": "Come verificare che Belfius Bank NV sia autorizzata prima di aprire un conto",
+      "pt": "Como verificar se o Belfius Bank NV está autorizado antes de abrir conta",
+      "es": "Cómo comprobar que Belfius Bank NV está autorizado antes de abrir una cuenta",
+      "ar": "كيف تتحقق من أن Belfius Bank NV مرخّص قبل فتح حساب"
     },
     "snippet": {
       "en": "Look up the legal name in the official ECB register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
@@ -186,7 +186,7 @@
       "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى ECB، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.bnpparibasfortis.be"
+    "sourceUrl": "https://www.belfius.be"
   },
   {
     "id": "news-033",
@@ -271,30 +271,30 @@
   },
   {
     "id": "news-039",
-    "institutionId": "zagrebacka-banka-d-d",
-    "country": "HR",
+    "institutionId": "brd-groupe-societe-generale-s-a",
+    "country": "RO",
     "date": "2026-06-03",
     "category": "CONSUMER",
     "title": {
-      "en": "How to check that Zagrebačka banka d.d. is authorised before you open an account",
-      "fr": "Comment vérifier que Zagrebačka banka d.d. est agréée avant d'ouvrir un compte",
-      "de": "So prüfen Sie vor der Kontoeröffnung, ob Zagrebačka banka d.d. zugelassen ist",
-      "it": "Come verificare che Zagrebačka banka d.d. sia autorizzata prima di aprire un conto",
-      "pt": "Como verificar se o Zagrebačka banka d.d. está autorizado antes de abrir conta",
-      "es": "Cómo comprobar que Zagrebačka banka d.d. está autorizado antes de abrir una cuenta",
-      "ar": "كيف تتحقق من أن Zagrebačka banka d.d. مرخّص قبل فتح حساب"
+      "en": "How to check that BRD – Groupe Société Générale S.A. is authorised before you open an account",
+      "fr": "Comment vérifier que BRD – Groupe Société Générale S.A. est agréée avant d'ouvrir un compte",
+      "de": "So prüfen Sie vor der Kontoeröffnung, ob BRD – Groupe Société Générale S.A. zugelassen ist",
+      "it": "Come verificare che BRD – Groupe Société Générale S.A. sia autorizzata prima di aprire un conto",
+      "pt": "Como verificar se o BRD – Groupe Société Générale S.A. está autorizado antes de abrir conta",
+      "es": "Cómo comprobar que BRD – Groupe Société Générale S.A. está autorizado antes de abrir una cuenta",
+      "ar": "كيف تتحقق من أن BRD – Groupe Société Générale S.A. مرخّص قبل فتح حساب"
     },
     "snippet": {
-      "en": "Look up the legal name in the official ECB register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
-      "fr": "Recherchez la dénomination sociale dans le registre officiel de ECB, vérifiez le type d'agrément et confirmez que les dépôts sont couverts par un système de garantie.",
-      "de": "Suchen Sie den Firmennamen im offiziellen Register von ECB, prüfen Sie die Art der Zulassung und ob die Einlagen durch ein Sicherungssystem gedeckt sind.",
-      "it": "Cercate la denominazione legale nel registro ufficiale di ECB, verificate il tipo di autorizzazione e la copertura del sistema di garanzia dei depositi.",
-      "pt": "Procure a denominação legal no registo oficial de ECB, verifique o tipo de autorização e confirme a cobertura do fundo de garantia de depósitos.",
-      "es": "Busque la denominación legal en el registro oficial de ECB, compruebe el tipo de autorización y confirme la cobertura del fondo de garantía de depósitos.",
-      "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى ECB، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
+      "en": "Look up the legal name in the official BNR register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
+      "fr": "Recherchez la dénomination sociale dans le registre officiel de BNR, vérifiez le type d'agrément et confirmez que les dépôts sont couverts par un système de garantie.",
+      "de": "Suchen Sie den Firmennamen im offiziellen Register von BNR, prüfen Sie die Art der Zulassung und ob die Einlagen durch ein Sicherungssystem gedeckt sind.",
+      "it": "Cercate la denominazione legale nel registro ufficiale di BNR, verificate il tipo di autorizzazione e la copertura del sistema di garanzia dei depositi.",
+      "pt": "Procure a denominação legal no registo oficial de BNR, verifique o tipo de autorização e confirme a cobertura do fundo de garantia de depósitos.",
+      "es": "Busque la denominación legal en el registro oficial de BNR, compruebe el tipo de autorización y confirme la cobertura del fondo de garantía de depósitos.",
+      "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى BNR، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
     },
-    "source": "ECB",
-    "sourceUrl": "https://www.zaba.hr"
+    "source": "BNR",
+    "sourceUrl": "https://www.brd.ro"
   },
   {
     "id": "news-050",
@@ -325,18 +325,18 @@
   },
   {
     "id": "news-010",
-    "institutionId": "deutsche-bank-ag",
+    "institutionId": "vantex-bank-de",
     "country": "DE",
     "date": "2026-05-21",
     "category": "TECHNOLOGY",
     "title": {
-      "en": "Deutsche Bank AG extends instant payments and strong customer authentication",
-      "fr": "Deutsche Bank AG étend les virements instantanés et l'authentification forte du client",
-      "de": "Deutsche Bank AG baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
-      "it": "Deutsche Bank AG estende i pagamenti istantanei e l'autenticazione forte del cliente",
-      "pt": "Deutsche Bank AG alarga os pagamentos imediatos e a autenticação forte do cliente",
-      "es": "Deutsche Bank AG amplía los pagos inmediatos y la autenticación reforzada del cliente",
-      "ar": "Deutsche Bank AG يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
+      "en": "Vantex Bank AG extends instant payments and strong customer authentication",
+      "fr": "Vantex Bank AG étend les virements instantanés et l'authentification forte du client",
+      "de": "Vantex Bank AG baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
+      "it": "Vantex Bank AG estende i pagamenti istantanei e l'autenticazione forte del cliente",
+      "pt": "Vantex Bank AG alarga os pagamentos imediatos e a autenticação forte do cliente",
+      "es": "Vantex Bank AG amplía los pagos inmediatos y la autenticación reforzada del cliente",
+      "ar": "Vantex Bank AG يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
     },
     "snippet": {
       "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
@@ -347,8 +347,8 @@
       "es": "El despliegue sigue el marco PSD2 y las normas de la UE sobre pagos inmediatos, sin cambios en el estado de autorización.",
       "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
     },
-    "source": "ECB",
-    "sourceUrl": "https://www.db.com"
+    "source": "BaFin",
+    "sourceUrl": "https://vantex-bank.com"
   },
   {
     "id": "news-055",
@@ -406,9 +406,90 @@
   },
   {
     "id": "news-044",
-    "institutionId": "banco-bpm-s-p-a",
+    "institutionId": "unicredit-s-p-a",
     "country": "IT",
     "date": "2026-05-07",
+    "category": "AUTHORISATION",
+    "title": {
+      "en": "UniCredit S.p.A. confirmed on the ECB register of authorised institutions",
+      "fr": "UniCredit S.p.A. confirmée au registre des établissements agréés de ECB",
+      "de": "UniCredit S.p.A. im Register zugelassener Institute von ECB bestätigt",
+      "it": "UniCredit S.p.A. confermata nel registro degli enti autorizzati di ECB",
+      "pt": "UniCredit S.p.A. confirmado no registo de instituições autorizadas de ECB",
+      "es": "UniCredit S.p.A. confirmado en el registro de entidades autorizadas de ECB",
+      "ar": "تأكيد إدراج UniCredit S.p.A. في سجل المؤسسات المرخّصة لدى ECB"
+    },
+    "snippet": {
+      "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
+      "fr": "L'inscription confirme le périmètre des services que l'établissement peut proposer et les États membres couverts par son passeport.",
+      "de": "Der Eintrag bestätigt den Umfang der zulässigen Dienstleistungen sowie die Mitgliedstaaten, in die das Institut passportieren darf.",
+      "it": "L'iscrizione conferma l'ambito dei servizi che l'ente può offrire e gli Stati membri coperti dal passaporto.",
+      "pt": "O registo confirma o âmbito dos serviços que a instituição pode oferecer e os Estados-Membros abrangidos pelo passaporte.",
+      "es": "La inscripción confirma el alcance de los servicios que la entidad puede prestar y los Estados miembros cubiertos por el pasaporte.",
+      "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
+    },
+    "source": "ECB",
+    "sourceUrl": "https://www.unicreditgroup.eu"
+  },
+  {
+    "id": "news-040",
+    "institutionId": "caixa-geral-de-depositos-s-a",
+    "country": "PT",
+    "date": "2026-05-04",
+    "category": "TECHNOLOGY",
+    "title": {
+      "en": "Caixa Geral de Depósitos S.A. extends instant payments and strong customer authentication",
+      "fr": "Caixa Geral de Depósitos S.A. étend les virements instantanés et l'authentification forte du client",
+      "de": "Caixa Geral de Depósitos S.A. baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
+      "it": "Caixa Geral de Depósitos S.A. estende i pagamenti istantanei e l'autenticazione forte del cliente",
+      "pt": "Caixa Geral de Depósitos S.A. alarga os pagamentos imediatos e a autenticação forte do cliente",
+      "es": "Caixa Geral de Depósitos S.A. amplía los pagos inmediatos y la autenticación reforzada del cliente",
+      "ar": "Caixa Geral de Depósitos S.A. يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
+    },
+    "snippet": {
+      "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
+      "fr": "Le déploiement suit le cadre DSP2 et les règles européennes sur les virements instantanés, sans changement du statut d'agrément.",
+      "de": "Die Einführung folgt dem PSD2-Rahmen und den EU-Regeln zu Echtzeitzahlungen; am Zulassungsstatus ändert sich nichts.",
+      "it": "L'introduzione segue il quadro PSD2 e le regole UE sui pagamenti istantanei, senza modifiche allo stato di autorizzazione.",
+      "pt": "A implementação segue o quadro DSP2 e as regras da UE sobre pagamentos imediatos, sem alteração do estatuto de autorização.",
+      "es": "El despliegue sigue el marco PSD2 y las normas de la UE sobre pagos inmediatos, sin cambios en el estado de autorización.",
+      "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
+    },
+    "source": "ECB",
+    "sourceUrl": "https://www.cgd.pt"
+  },
+  {
+    "id": "news-017",
+    "institutionId": "mediobanca-s-p-a",
+    "country": "IT",
+    "date": "2026-05-03",
+    "category": "RATING_CHANGE",
+    "title": {
+      "en": "Solidity indicator for Mediobanca S.p.A. reviewed after latest supervisory disclosures",
+      "fr": "Indicateur de solidité de Mediobanca S.p.A. révisé après les dernières publications prudentielles",
+      "de": "Soliditätsindikator für Mediobanca S.p.A. nach jüngsten Aufsichtsangaben überprüft",
+      "it": "Indicatore di solidità di Mediobanca S.p.A. rivisto dopo le ultime informative di vigilanza",
+      "pt": "Indicador de solidez do Mediobanca S.p.A. revisto após as últimas divulgações prudenciais",
+      "es": "Indicador de solidez de Mediobanca S.p.A. revisado tras las últimas divulgaciones prudenciales",
+      "ar": "مراجعة مؤشر المتانة لـ Mediobanca S.p.A. بعد آخر الإفصاحات الرقابية"
+    },
+    "snippet": {
+      "en": "Euclide's solidity indicator is editorial and is not a credit rating. It summarises published capital, liquidity and supervisory data.",
+      "fr": "L'indicateur de solidité d'Euclide est éditorial et ne constitue pas une notation de crédit. Il résume des données publiées de capital, de liquidité et de supervision.",
+      "de": "Der Soliditätsindikator von Euclide ist redaktionell und kein Kreditrating. Er fasst veröffentlichte Kapital-, Liquiditäts- und Aufsichtsdaten zusammen.",
+      "it": "L'indicatore di solidità di Euclide è editoriale e non è un rating di credito. Sintetizza dati pubblicati su capitale, liquidità e vigilanza.",
+      "pt": "O indicador de solidez da Euclide é editorial e não é uma notação de crédito. Resume dados publicados de capital, liquidez e supervisão.",
+      "es": "El indicador de solidez de Euclide es editorial y no es una calificación crediticia. Resume datos publicados de capital, liquidez y supervisión.",
+      "ar": "مؤشر المتانة لدى «إقليدس» تحريري وليس تصنيفاً ائتمانياً. وهو يلخّص بيانات منشورة عن رأس المال والسيولة والإشراف."
+    },
+    "source": "ECB",
+    "sourceUrl": "https://www.mediobanca.com"
+  },
+  {
+    "id": "news-008",
+    "institutionId": "banco-bpm-s-p-a",
+    "country": "IT",
+    "date": "2026-04-15",
     "category": "AUTHORISATION",
     "title": {
       "en": "Banco BPM S.p.A. confirmed on the ECB register of authorised institutions",
@@ -430,87 +511,6 @@
     },
     "source": "ECB",
     "sourceUrl": "https://gruppo.bancobpm.it"
-  },
-  {
-    "id": "news-040",
-    "institutionId": "banco-comercial-portugues-s-a",
-    "country": "PT",
-    "date": "2026-05-04",
-    "category": "TECHNOLOGY",
-    "title": {
-      "en": "Banco Comercial Português S.A. extends instant payments and strong customer authentication",
-      "fr": "Banco Comercial Português S.A. étend les virements instantanés et l'authentification forte du client",
-      "de": "Banco Comercial Português S.A. baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
-      "it": "Banco Comercial Português S.A. estende i pagamenti istantanei e l'autenticazione forte del cliente",
-      "pt": "Banco Comercial Português S.A. alarga os pagamentos imediatos e a autenticação forte do cliente",
-      "es": "Banco Comercial Português S.A. amplía los pagos inmediatos y la autenticación reforzada del cliente",
-      "ar": "Banco Comercial Português S.A. يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
-    },
-    "snippet": {
-      "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
-      "fr": "Le déploiement suit le cadre DSP2 et les règles européennes sur les virements instantanés, sans changement du statut d'agrément.",
-      "de": "Die Einführung folgt dem PSD2-Rahmen und den EU-Regeln zu Echtzeitzahlungen; am Zulassungsstatus ändert sich nichts.",
-      "it": "L'introduzione segue il quadro PSD2 e le regole UE sui pagamenti istantanei, senza modifiche allo stato di autorizzazione.",
-      "pt": "A implementação segue o quadro DSP2 e as regras da UE sobre pagamentos imediatos, sem alteração do estatuto de autorização.",
-      "es": "El despliegue sigue el marco PSD2 y las normas de la UE sobre pagos inmediatos, sin cambios en el estado de autorización.",
-      "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
-    },
-    "source": "ECB",
-    "sourceUrl": "https://ind.millenniumbcp.pt"
-  },
-  {
-    "id": "news-017",
-    "institutionId": "banco-santander-s-a",
-    "country": "ES",
-    "date": "2026-05-03",
-    "category": "RATING_CHANGE",
-    "title": {
-      "en": "Solidity indicator for Banco Santander S.A. reviewed after latest supervisory disclosures",
-      "fr": "Indicateur de solidité de Banco Santander S.A. révisé après les dernières publications prudentielles",
-      "de": "Soliditätsindikator für Banco Santander S.A. nach jüngsten Aufsichtsangaben überprüft",
-      "it": "Indicatore di solidità di Banco Santander S.A. rivisto dopo le ultime informative di vigilanza",
-      "pt": "Indicador de solidez do Banco Santander S.A. revisto após as últimas divulgações prudenciais",
-      "es": "Indicador de solidez de Banco Santander S.A. revisado tras las últimas divulgaciones prudenciales",
-      "ar": "مراجعة مؤشر المتانة لـ Banco Santander S.A. بعد آخر الإفصاحات الرقابية"
-    },
-    "snippet": {
-      "en": "Euclide's solidity indicator is editorial and is not a credit rating. It summarises published capital, liquidity and supervisory data.",
-      "fr": "L'indicateur de solidité d'Euclide est éditorial et ne constitue pas une notation de crédit. Il résume des données publiées de capital, de liquidité et de supervision.",
-      "de": "Der Soliditätsindikator von Euclide ist redaktionell und kein Kreditrating. Er fasst veröffentlichte Kapital-, Liquiditäts- und Aufsichtsdaten zusammen.",
-      "it": "L'indicatore di solidità di Euclide è editoriale e non è un rating di credito. Sintetizza dati pubblicati su capitale, liquidità e vigilanza.",
-      "pt": "O indicador de solidez da Euclide é editorial e não é uma notação de crédito. Resume dados publicados de capital, liquidez e supervisão.",
-      "es": "El indicador de solidez de Euclide es editorial y no es una calificación crediticia. Resume datos publicados de capital, liquidez y supervisión.",
-      "ar": "مؤشر المتانة لدى «إقليدس» تحريري وليس تصنيفاً ائتمانياً. وهو يلخّص بيانات منشورة عن رأس المال والسيولة والإشراف."
-    },
-    "source": "ECB",
-    "sourceUrl": "https://www.santander.com"
-  },
-  {
-    "id": "news-008",
-    "institutionId": "mediobanca-s-p-a",
-    "country": "IT",
-    "date": "2026-04-15",
-    "category": "AUTHORISATION",
-    "title": {
-      "en": "Mediobanca S.p.A. confirmed on the ECB register of authorised institutions",
-      "fr": "Mediobanca S.p.A. confirmée au registre des établissements agréés de ECB",
-      "de": "Mediobanca S.p.A. im Register zugelassener Institute von ECB bestätigt",
-      "it": "Mediobanca S.p.A. confermata nel registro degli enti autorizzati di ECB",
-      "pt": "Mediobanca S.p.A. confirmado no registo de instituições autorizadas de ECB",
-      "es": "Mediobanca S.p.A. confirmado en el registro de entidades autorizadas de ECB",
-      "ar": "تأكيد إدراج Mediobanca S.p.A. في سجل المؤسسات المرخّصة لدى ECB"
-    },
-    "snippet": {
-      "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
-      "fr": "L'inscription confirme le périmètre des services que l'établissement peut proposer et les États membres couverts par son passeport.",
-      "de": "Der Eintrag bestätigt den Umfang der zulässigen Dienstleistungen sowie die Mitgliedstaaten, in die das Institut passportieren darf.",
-      "it": "L'iscrizione conferma l'ambito dei servizi che l'ente può offrire e gli Stati membri coperti dal passaporto.",
-      "pt": "O registo confirma o âmbito dos serviços que a instituição pode oferecer e os Estados-Membros abrangidos pelo passaporte.",
-      "es": "La inscripción confirma el alcance de los servicios que la entidad puede prestar y los Estados miembros cubiertos por el pasaporte.",
-      "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
-    },
-    "source": "ECB",
-    "sourceUrl": "https://www.mediobanca.com"
   },
   {
     "id": "news-003",
@@ -541,18 +541,18 @@
   },
   {
     "id": "news-034",
-    "institutionId": "caixabank-s-a",
+    "institutionId": "banco-bilbao-vizcaya-argentaria-s-a",
     "country": "ES",
     "date": "2026-04-10",
     "category": "TECHNOLOGY",
     "title": {
-      "en": "CaixaBank S.A. extends instant payments and strong customer authentication",
-      "fr": "CaixaBank S.A. étend les virements instantanés et l'authentification forte du client",
-      "de": "CaixaBank S.A. baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
-      "it": "CaixaBank S.A. estende i pagamenti istantanei e l'autenticazione forte del cliente",
-      "pt": "CaixaBank S.A. alarga os pagamentos imediatos e a autenticação forte do cliente",
-      "es": "CaixaBank S.A. amplía los pagos inmediatos y la autenticación reforzada del cliente",
-      "ar": "CaixaBank S.A. يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
+      "en": "Banco Bilbao Vizcaya Argentaria S.A. extends instant payments and strong customer authentication",
+      "fr": "Banco Bilbao Vizcaya Argentaria S.A. étend les virements instantanés et l'authentification forte du client",
+      "de": "Banco Bilbao Vizcaya Argentaria S.A. baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
+      "it": "Banco Bilbao Vizcaya Argentaria S.A. estende i pagamenti istantanei e l'autenticazione forte del cliente",
+      "pt": "Banco Bilbao Vizcaya Argentaria S.A. alarga os pagamentos imediatos e a autenticação forte do cliente",
+      "es": "Banco Bilbao Vizcaya Argentaria S.A. amplía los pagos inmediatos y la autenticación reforzada del cliente",
+      "ar": "Banco Bilbao Vizcaya Argentaria S.A. يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
     },
     "snippet": {
       "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
@@ -564,34 +564,34 @@
       "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.caixabank.com"
+    "sourceUrl": "https://www.bbva.com"
   },
   {
     "id": "news-001",
-    "institutionId": "op-corporate-bank-plc",
+    "institutionId": "nordea-bank-abp",
     "country": "FI",
     "date": "2026-04-07",
     "category": "REGULATION",
     "title": {
-      "en": "ECB publishes updated prudential requirements applying to OP Corporate Bank plc",
-      "fr": "ECB publie des exigences prudentielles actualisées applicables à OP Corporate Bank plc",
-      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für OP Corporate Bank plc",
-      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a OP Corporate Bank plc",
-      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a OP Corporate Bank plc",
-      "es": "ECB publica requisitos prudenciales actualizados aplicables a OP Corporate Bank plc",
-      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على OP Corporate Bank plc"
+      "en": "ECB publishes updated prudential requirements applying to Nordea Bank Abp",
+      "fr": "ECB publie des exigences prudentielles actualisées applicables à Nordea Bank Abp",
+      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für Nordea Bank Abp",
+      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a Nordea Bank Abp",
+      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a Nordea Bank Abp",
+      "es": "ECB publica requisitos prudenciales actualizados aplicables a Nordea Bank Abp",
+      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على Nordea Bank Abp"
     },
     "snippet": {
-      "en": "The supervisor set out revised capital and liquidity expectations. OP Corporate Bank plc keeps its authorisation and remains fully operational for its customers.",
-      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. OP Corporate Bank plc conserve son agrément et reste pleinement opérationnelle pour ses clients.",
-      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. OP Corporate Bank plc behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
-      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. OP Corporate Bank plc mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
-      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O OP Corporate Bank plc mantém a sua autorização e continua plenamente operacional para os clientes.",
-      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. OP Corporate Bank plc mantiene su autorización y sigue plenamente operativo para sus clientes.",
-      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ OP Corporate Bank plc بترخيصه ويواصل عمله بالكامل تجاه عملائه."
+      "en": "The supervisor set out revised capital and liquidity expectations. Nordea Bank Abp keeps its authorisation and remains fully operational for its customers.",
+      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Nordea Bank Abp conserve son agrément et reste pleinement opérationnelle pour ses clients.",
+      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Nordea Bank Abp behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
+      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Nordea Bank Abp mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
+      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Nordea Bank Abp mantém a sua autorização e continua plenamente operacional para os clientes.",
+      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Nordea Bank Abp mantiene su autorización y sigue plenamente operativo para sus clientes.",
+      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Nordea Bank Abp بترخيصه ويواصل عمله بالكامل تجاه عملائه."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.op.fi"
+    "sourceUrl": "https://www.nordea.com"
   },
   {
     "id": "news-015",
@@ -703,18 +703,18 @@
   },
   {
     "id": "news-021",
-    "institutionId": "svenska-handelsbanken-ab",
+    "institutionId": "skandinaviska-enskilda-banken-ab",
     "country": "SE",
     "date": "2026-03-24",
     "category": "CONSUMER",
     "title": {
-      "en": "How to check that Svenska Handelsbanken AB is authorised before you open an account",
-      "fr": "Comment vérifier que Svenska Handelsbanken AB est agréée avant d'ouvrir un compte",
-      "de": "So prüfen Sie vor der Kontoeröffnung, ob Svenska Handelsbanken AB zugelassen ist",
-      "it": "Come verificare che Svenska Handelsbanken AB sia autorizzata prima di aprire un conto",
-      "pt": "Como verificar se o Svenska Handelsbanken AB está autorizado antes de abrir conta",
-      "es": "Cómo comprobar que Svenska Handelsbanken AB está autorizado antes de abrir una cuenta",
-      "ar": "كيف تتحقق من أن Svenska Handelsbanken AB مرخّص قبل فتح حساب"
+      "en": "How to check that Skandinaviska Enskilda Banken AB is authorised before you open an account",
+      "fr": "Comment vérifier que Skandinaviska Enskilda Banken AB est agréée avant d'ouvrir un compte",
+      "de": "So prüfen Sie vor der Kontoeröffnung, ob Skandinaviska Enskilda Banken AB zugelassen ist",
+      "it": "Come verificare che Skandinaviska Enskilda Banken AB sia autorizzata prima di aprire un conto",
+      "pt": "Como verificar se o Skandinaviska Enskilda Banken AB está autorizado antes de abrir conta",
+      "es": "Cómo comprobar que Skandinaviska Enskilda Banken AB está autorizado antes de abrir una cuenta",
+      "ar": "كيف تتحقق من أن Skandinaviska Enskilda Banken AB مرخّص قبل فتح حساب"
     },
     "snippet": {
       "en": "Look up the legal name in the official Finansinspektionen register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
@@ -726,22 +726,22 @@
       "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى Finansinspektionen، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
     },
     "source": "Finansinspektionen",
-    "sourceUrl": "https://www.handelsbanken.com"
+    "sourceUrl": "https://sebgroup.com"
   },
   {
     "id": "news-014",
-    "institutionId": "piraeus-bank-s-a",
+    "institutionId": "alpha-bank-s-a",
     "country": "GR",
     "date": "2026-03-23",
     "category": "AUTHORISATION",
     "title": {
-      "en": "Piraeus Bank S.A. confirmed on the ECB register of authorised institutions",
-      "fr": "Piraeus Bank S.A. confirmée au registre des établissements agréés de ECB",
-      "de": "Piraeus Bank S.A. im Register zugelassener Institute von ECB bestätigt",
-      "it": "Piraeus Bank S.A. confermata nel registro degli enti autorizzati di ECB",
-      "pt": "Piraeus Bank S.A. confirmado no registo de instituições autorizadas de ECB",
-      "es": "Piraeus Bank S.A. confirmado en el registro de entidades autorizadas de ECB",
-      "ar": "تأكيد إدراج Piraeus Bank S.A. في سجل المؤسسات المرخّصة لدى ECB"
+      "en": "Alpha Bank S.A. confirmed on the ECB register of authorised institutions",
+      "fr": "Alpha Bank S.A. confirmée au registre des établissements agréés de ECB",
+      "de": "Alpha Bank S.A. im Register zugelassener Institute von ECB bestätigt",
+      "it": "Alpha Bank S.A. confermata nel registro degli enti autorizzati di ECB",
+      "pt": "Alpha Bank S.A. confirmado no registo de instituições autorizadas de ECB",
+      "es": "Alpha Bank S.A. confirmado en el registro de entidades autorizadas de ECB",
+      "ar": "تأكيد إدراج Alpha Bank S.A. في سجل المؤسسات المرخّصة لدى ECB"
     },
     "snippet": {
       "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
@@ -753,7 +753,7 @@
       "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.piraeusbank.gr"
+    "sourceUrl": "https://www.alpha.gr"
   },
   {
     "id": "news-052",
@@ -784,18 +784,18 @@
   },
   {
     "id": "news-042",
-    "institutionId": "op-corporate-bank-plc",
+    "institutionId": "nordea-bank-abp",
     "country": "FI",
     "date": "2026-03-14",
     "category": "MERGER",
     "title": {
-      "en": "OP Corporate Bank plc notifies a change in its group structure to ECB",
-      "fr": "OP Corporate Bank plc notifie à ECB une modification de sa structure de groupe",
-      "de": "OP Corporate Bank plc zeigt ECB eine Änderung der Gruppenstruktur an",
-      "it": "OP Corporate Bank plc notifica a ECB una modifica della struttura di gruppo",
-      "pt": "OP Corporate Bank plc notifica ECB de uma alteração na estrutura do grupo",
-      "es": "OP Corporate Bank plc notifica a ECB un cambio en su estructura de grupo",
-      "ar": "OP Corporate Bank plc يُخطر ECB بتغيير في هيكل المجموعة"
+      "en": "Nordea Bank Abp notifies a change in its group structure to ECB",
+      "fr": "Nordea Bank Abp notifie à ECB une modification de sa structure de groupe",
+      "de": "Nordea Bank Abp zeigt ECB eine Änderung der Gruppenstruktur an",
+      "it": "Nordea Bank Abp notifica a ECB una modifica della struttura di gruppo",
+      "pt": "Nordea Bank Abp notifica ECB de uma alteração na estrutura do grupo",
+      "es": "Nordea Bank Abp notifica a ECB un cambio en su estructura de grupo",
+      "ar": "Nordea Bank Abp يُخطر ECB بتغيير في هيكل المجموعة"
     },
     "snippet": {
       "en": "Customer contracts, account numbers and deposit protection are unaffected while the supervisor assesses the notification.",
@@ -807,22 +807,22 @@
       "ar": "لا تتأثر عقود العملاء وأرقام الحسابات وحماية الودائع أثناء تقييم الجهة الرقابية للإخطار."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.op.fi"
+    "sourceUrl": "https://www.nordea.com"
   },
   {
     "id": "news-020",
-    "institutionId": "jyske-bank-a-s",
+    "institutionId": "danske-bank-a-s",
     "country": "DK",
     "date": "2026-03-14",
     "category": "AUTHORISATION",
     "title": {
-      "en": "Jyske Bank A/S confirmed on the Finanstilsynet register of authorised institutions",
-      "fr": "Jyske Bank A/S confirmée au registre des établissements agréés de Finanstilsynet",
-      "de": "Jyske Bank A/S im Register zugelassener Institute von Finanstilsynet bestätigt",
-      "it": "Jyske Bank A/S confermata nel registro degli enti autorizzati di Finanstilsynet",
-      "pt": "Jyske Bank A/S confirmado no registo de instituições autorizadas de Finanstilsynet",
-      "es": "Jyske Bank A/S confirmado en el registro de entidades autorizadas de Finanstilsynet",
-      "ar": "تأكيد إدراج Jyske Bank A/S في سجل المؤسسات المرخّصة لدى Finanstilsynet"
+      "en": "Danske Bank A/S confirmed on the Finanstilsynet register of authorised institutions",
+      "fr": "Danske Bank A/S confirmée au registre des établissements agréés de Finanstilsynet",
+      "de": "Danske Bank A/S im Register zugelassener Institute von Finanstilsynet bestätigt",
+      "it": "Danske Bank A/S confermata nel registro degli enti autorizzati di Finanstilsynet",
+      "pt": "Danske Bank A/S confirmado no registo de instituições autorizadas de Finanstilsynet",
+      "es": "Danske Bank A/S confirmado en el registro de entidades autorizadas de Finanstilsynet",
+      "ar": "تأكيد إدراج Danske Bank A/S في سجل المؤسسات المرخّصة لدى Finanstilsynet"
     },
     "snippet": {
       "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
@@ -834,22 +834,22 @@
       "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
     },
     "source": "Finanstilsynet",
-    "sourceUrl": "https://www.jyskebank.dk"
+    "sourceUrl": "https://danskebank.com"
   },
   {
     "id": "news-006",
-    "institutionId": "swedbank-ab",
+    "institutionId": "svenska-handelsbanken-ab",
     "country": "SE",
     "date": "2026-03-04",
     "category": "MERGER",
     "title": {
-      "en": "Swedbank AB notifies a change in its group structure to Finansinspektionen",
-      "fr": "Swedbank AB notifie à Finansinspektionen une modification de sa structure de groupe",
-      "de": "Swedbank AB zeigt Finansinspektionen eine Änderung der Gruppenstruktur an",
-      "it": "Swedbank AB notifica a Finansinspektionen una modifica della struttura di gruppo",
-      "pt": "Swedbank AB notifica Finansinspektionen de uma alteração na estrutura do grupo",
-      "es": "Swedbank AB notifica a Finansinspektionen un cambio en su estructura de grupo",
-      "ar": "Swedbank AB يُخطر Finansinspektionen بتغيير في هيكل المجموعة"
+      "en": "Svenska Handelsbanken AB notifies a change in its group structure to Finansinspektionen",
+      "fr": "Svenska Handelsbanken AB notifie à Finansinspektionen une modification de sa structure de groupe",
+      "de": "Svenska Handelsbanken AB zeigt Finansinspektionen eine Änderung der Gruppenstruktur an",
+      "it": "Svenska Handelsbanken AB notifica a Finansinspektionen una modifica della struttura di gruppo",
+      "pt": "Svenska Handelsbanken AB notifica Finansinspektionen de uma alteração na estrutura do grupo",
+      "es": "Svenska Handelsbanken AB notifica a Finansinspektionen un cambio en su estructura de grupo",
+      "ar": "Svenska Handelsbanken AB يُخطر Finansinspektionen بتغيير في هيكل المجموعة"
     },
     "snippet": {
       "en": "Customer contracts, account numbers and deposit protection are unaffected while the supervisor assesses the notification.",
@@ -861,7 +861,7 @@
       "ar": "لا تتأثر عقود العملاء وأرقام الحسابات وحماية الودائع أثناء تقييم الجهة الرقابية للإخطار."
     },
     "source": "Finansinspektionen",
-    "sourceUrl": "https://www.swedbank.com"
+    "sourceUrl": "https://www.handelsbanken.com"
   },
   {
     "id": "news-023",
@@ -973,30 +973,30 @@
   },
   {
     "id": "news-037",
-    "institutionId": "credit-agricole-sa",
+    "institutionId": "bnp-paribas-sa",
     "country": "FR",
     "date": "2026-01-30",
     "category": "REGULATION",
     "title": {
-      "en": "ECB publishes updated prudential requirements applying to Crédit Agricole SA",
-      "fr": "ECB publie des exigences prudentielles actualisées applicables à Crédit Agricole SA",
-      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für Crédit Agricole SA",
-      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a Crédit Agricole SA",
-      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a Crédit Agricole SA",
-      "es": "ECB publica requisitos prudenciales actualizados aplicables a Crédit Agricole SA",
-      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على Crédit Agricole SA"
+      "en": "ECB publishes updated prudential requirements applying to BNP Paribas SA",
+      "fr": "ECB publie des exigences prudentielles actualisées applicables à BNP Paribas SA",
+      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für BNP Paribas SA",
+      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a BNP Paribas SA",
+      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a BNP Paribas SA",
+      "es": "ECB publica requisitos prudenciales actualizados aplicables a BNP Paribas SA",
+      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على BNP Paribas SA"
     },
     "snippet": {
-      "en": "The supervisor set out revised capital and liquidity expectations. Crédit Agricole SA keeps its authorisation and remains fully operational for its customers.",
-      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Crédit Agricole SA conserve son agrément et reste pleinement opérationnelle pour ses clients.",
-      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Crédit Agricole SA behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
-      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Crédit Agricole SA mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
-      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Crédit Agricole SA mantém a sua autorização e continua plenamente operacional para os clientes.",
-      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Crédit Agricole SA mantiene su autorización y sigue plenamente operativo para sus clientes.",
-      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Crédit Agricole SA بترخيصه ويواصل عمله بالكامل تجاه عملائه."
+      "en": "The supervisor set out revised capital and liquidity expectations. BNP Paribas SA keeps its authorisation and remains fully operational for its customers.",
+      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. BNP Paribas SA conserve son agrément et reste pleinement opérationnelle pour ses clients.",
+      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. BNP Paribas SA behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
+      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. BNP Paribas SA mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
+      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O BNP Paribas SA mantém a sua autorização e continua plenamente operacional para os clientes.",
+      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. BNP Paribas SA mantiene su autorización y sigue plenamente operativo para sus clientes.",
+      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ BNP Paribas SA بترخيصه ويواصل عمله بالكامل تجاه عملائه."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.credit-agricole.com"
+    "sourceUrl": "https://group.bnpparibas"
   },
   {
     "id": "news-005",
@@ -1027,18 +1027,18 @@
   },
   {
     "id": "news-046",
-    "institutionId": "wise-europe-sa",
+    "institutionId": "bnp-paribas-fortis-sa",
     "country": "BE",
     "date": "2026-01-22",
     "category": "TECHNOLOGY",
     "title": {
-      "en": "Wise Europe SA extends instant payments and strong customer authentication",
-      "fr": "Wise Europe SA étend les virements instantanés et l'authentification forte du client",
-      "de": "Wise Europe SA baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
-      "it": "Wise Europe SA estende i pagamenti istantanei e l'autenticazione forte del cliente",
-      "pt": "Wise Europe SA alarga os pagamentos imediatos e a autenticação forte do cliente",
-      "es": "Wise Europe SA amplía los pagos inmediatos y la autenticación reforzada del cliente",
-      "ar": "Wise Europe SA يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
+      "en": "BNP Paribas Fortis SA extends instant payments and strong customer authentication",
+      "fr": "BNP Paribas Fortis SA étend les virements instantanés et l'authentification forte du client",
+      "de": "BNP Paribas Fortis SA baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
+      "it": "BNP Paribas Fortis SA estende i pagamenti istantanei e l'autenticazione forte del cliente",
+      "pt": "BNP Paribas Fortis SA alarga os pagamentos imediatos e a autenticação forte do cliente",
+      "es": "BNP Paribas Fortis SA amplía los pagos inmediatos y la autenticación reforzada del cliente",
+      "ar": "BNP Paribas Fortis SA يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
     },
     "snippet": {
       "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
@@ -1049,8 +1049,8 @@
       "es": "El despliegue sigue el marco PSD2 y las normas de la UE sobre pagos inmediatos, sin cambios en el estado de autorización.",
       "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
     },
-    "source": "NBB",
-    "sourceUrl": "https://wise.com"
+    "source": "ECB",
+    "sourceUrl": "https://www.bnpparibasfortis.be"
   },
   {
     "id": "news-004",
@@ -1081,18 +1081,18 @@
   },
   {
     "id": "news-022",
-    "institutionId": "op-corporate-bank-plc",
+    "institutionId": "nordea-bank-abp",
     "country": "FI",
     "date": "2026-01-18",
     "category": "TECHNOLOGY",
     "title": {
-      "en": "OP Corporate Bank plc extends instant payments and strong customer authentication",
-      "fr": "OP Corporate Bank plc étend les virements instantanés et l'authentification forte du client",
-      "de": "OP Corporate Bank plc baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
-      "it": "OP Corporate Bank plc estende i pagamenti istantanei e l'autenticazione forte del cliente",
-      "pt": "OP Corporate Bank plc alarga os pagamentos imediatos e a autenticação forte do cliente",
-      "es": "OP Corporate Bank plc amplía los pagos inmediatos y la autenticación reforzada del cliente",
-      "ar": "OP Corporate Bank plc يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
+      "en": "Nordea Bank Abp extends instant payments and strong customer authentication",
+      "fr": "Nordea Bank Abp étend les virements instantanés et l'authentification forte du client",
+      "de": "Nordea Bank Abp baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
+      "it": "Nordea Bank Abp estende i pagamenti istantanei e l'autenticazione forte del cliente",
+      "pt": "Nordea Bank Abp alarga os pagamentos imediatos e a autenticação forte do cliente",
+      "es": "Nordea Bank Abp amplía los pagos inmediatos y la autenticación reforzada del cliente",
+      "ar": "Nordea Bank Abp يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
     },
     "snippet": {
       "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
@@ -1104,7 +1104,7 @@
       "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.op.fi"
+    "sourceUrl": "https://www.nordea.com"
   },
   {
     "id": "news-041",
@@ -1189,18 +1189,18 @@
   },
   {
     "id": "news-058",
-    "institutionId": "intesa-sanpaolo-s-p-a",
-    "country": "IT",
+    "institutionId": "la-banque-postale",
+    "country": "FR",
     "date": "2025-12-31",
     "category": "TECHNOLOGY",
     "title": {
-      "en": "Intesa Sanpaolo S.p.A. extends instant payments and strong customer authentication",
-      "fr": "Intesa Sanpaolo S.p.A. étend les virements instantanés et l'authentification forte du client",
-      "de": "Intesa Sanpaolo S.p.A. baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
-      "it": "Intesa Sanpaolo S.p.A. estende i pagamenti istantanei e l'autenticazione forte del cliente",
-      "pt": "Intesa Sanpaolo S.p.A. alarga os pagamentos imediatos e a autenticação forte do cliente",
-      "es": "Intesa Sanpaolo S.p.A. amplía los pagos inmediatos y la autenticación reforzada del cliente",
-      "ar": "Intesa Sanpaolo S.p.A. يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
+      "en": "La Banque Postale extends instant payments and strong customer authentication",
+      "fr": "La Banque Postale étend les virements instantanés et l'authentification forte du client",
+      "de": "La Banque Postale baut Echtzeitzahlungen und starke Kundenauthentifizierung aus",
+      "it": "La Banque Postale estende i pagamenti istantanei e l'autenticazione forte del cliente",
+      "pt": "La Banque Postale alarga os pagamentos imediatos e a autenticação forte do cliente",
+      "es": "La Banque Postale amplía los pagos inmediatos y la autenticación reforzada del cliente",
+      "ar": "La Banque Postale يوسّع المدفوعات الفورية والمصادقة القوية للعملاء"
     },
     "snippet": {
       "en": "The rollout follows the PSD2 framework and the EU instant payments rules, with no change to the institution's authorisation status.",
@@ -1212,130 +1212,103 @@
       "ar": "يأتي التنفيذ وفق إطار PSD2 وقواعد الاتحاد الأوروبي للمدفوعات الفورية، دون تغيير في حالة الترخيص."
     },
     "source": "ECB",
-    "sourceUrl": "https://group.intesasanpaolo.com"
+    "sourceUrl": "https://www.labanquepostale.fr"
   },
   {
     "id": "news-019",
-    "institutionId": "societe-generale",
+    "institutionId": "credit-agricole-sa",
     "country": "FR",
     "date": "2025-12-18",
     "category": "REGULATION",
     "title": {
-      "en": "ECB publishes updated prudential requirements applying to Société Générale",
-      "fr": "ECB publie des exigences prudentielles actualisées applicables à Société Générale",
-      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für Société Générale",
-      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a Société Générale",
-      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a Société Générale",
-      "es": "ECB publica requisitos prudenciales actualizados aplicables a Société Générale",
-      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على Société Générale"
+      "en": "ECB publishes updated prudential requirements applying to Crédit Agricole SA",
+      "fr": "ECB publie des exigences prudentielles actualisées applicables à Crédit Agricole SA",
+      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für Crédit Agricole SA",
+      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a Crédit Agricole SA",
+      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a Crédit Agricole SA",
+      "es": "ECB publica requisitos prudenciales actualizados aplicables a Crédit Agricole SA",
+      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على Crédit Agricole SA"
     },
     "snippet": {
-      "en": "The supervisor set out revised capital and liquidity expectations. Société Générale keeps its authorisation and remains fully operational for its customers.",
-      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Société Générale conserve son agrément et reste pleinement opérationnelle pour ses clients.",
-      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Société Générale behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
-      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Société Générale mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
-      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Société Générale mantém a sua autorização e continua plenamente operacional para os clientes.",
-      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Société Générale mantiene su autorización y sigue plenamente operativo para sus clientes.",
-      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Société Générale بترخيصه ويواصل عمله بالكامل تجاه عملائه."
-    },
-    "source": "ECB",
-    "sourceUrl": "https://www.societegenerale.com"
-  },
-  {
-    "id": "news-027",
-    "institutionId": "deutsche-bank-ag",
-    "country": "DE",
-    "date": "2025-12-17",
-    "category": "CONSUMER",
-    "title": {
-      "en": "How to check that Deutsche Bank AG is authorised before you open an account",
-      "fr": "Comment vérifier que Deutsche Bank AG est agréée avant d'ouvrir un compte",
-      "de": "So prüfen Sie vor der Kontoeröffnung, ob Deutsche Bank AG zugelassen ist",
-      "it": "Come verificare che Deutsche Bank AG sia autorizzata prima di aprire un conto",
-      "pt": "Como verificar se o Deutsche Bank AG está autorizado antes de abrir conta",
-      "es": "Cómo comprobar que Deutsche Bank AG está autorizado antes de abrir una cuenta",
-      "ar": "كيف تتحقق من أن Deutsche Bank AG مرخّص قبل فتح حساب"
-    },
-    "snippet": {
-      "en": "Look up the legal name in the official ECB register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
-      "fr": "Recherchez la dénomination sociale dans le registre officiel de ECB, vérifiez le type d'agrément et confirmez que les dépôts sont couverts par un système de garantie.",
-      "de": "Suchen Sie den Firmennamen im offiziellen Register von ECB, prüfen Sie die Art der Zulassung und ob die Einlagen durch ein Sicherungssystem gedeckt sind.",
-      "it": "Cercate la denominazione legale nel registro ufficiale di ECB, verificate il tipo di autorizzazione e la copertura del sistema di garanzia dei depositi.",
-      "pt": "Procure a denominação legal no registo oficial de ECB, verifique o tipo de autorização e confirme a cobertura do fundo de garantia de depósitos.",
-      "es": "Busque la denominación legal en el registro oficial de ECB, compruebe el tipo de autorización y confirme la cobertura del fondo de garantía de depósitos.",
-      "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى ECB، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
-    },
-    "source": "ECB",
-    "sourceUrl": "https://www.db.com"
-  },
-  {
-    "id": "news-002",
-    "institutionId": "nordea-bank-abp",
-    "country": "FI",
-    "date": "2025-12-12",
-    "category": "AUTHORISATION",
-    "title": {
-      "en": "Nordea Bank Abp confirmed on the ECB register of authorised institutions",
-      "fr": "Nordea Bank Abp confirmée au registre des établissements agréés de ECB",
-      "de": "Nordea Bank Abp im Register zugelassener Institute von ECB bestätigt",
-      "it": "Nordea Bank Abp confermata nel registro degli enti autorizzati di ECB",
-      "pt": "Nordea Bank Abp confirmado no registo de instituições autorizadas de ECB",
-      "es": "Nordea Bank Abp confirmado en el registro de entidades autorizadas de ECB",
-      "ar": "تأكيد إدراج Nordea Bank Abp في سجل المؤسسات المرخّصة لدى ECB"
-    },
-    "snippet": {
-      "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
-      "fr": "L'inscription confirme le périmètre des services que l'établissement peut proposer et les États membres couverts par son passeport.",
-      "de": "Der Eintrag bestätigt den Umfang der zulässigen Dienstleistungen sowie die Mitgliedstaaten, in die das Institut passportieren darf.",
-      "it": "L'iscrizione conferma l'ambito dei servizi che l'ente può offrire e gli Stati membri coperti dal passaporto.",
-      "pt": "O registo confirma o âmbito dos serviços que a instituição pode oferecer e os Estados-Membros abrangidos pelo passaporte.",
-      "es": "La inscripción confirma el alcance de los servicios que la entidad puede prestar y los Estados miembros cubiertos por el pasaporte.",
-      "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
-    },
-    "source": "ECB",
-    "sourceUrl": "https://www.nordea.com"
-  },
-  {
-    "id": "news-032",
-    "institutionId": "credit-agricole-sa",
-    "country": "FR",
-    "date": "2025-12-02",
-    "category": "AUTHORISATION",
-    "title": {
-      "en": "Crédit Agricole SA confirmed on the ECB register of authorised institutions",
-      "fr": "Crédit Agricole SA confirmée au registre des établissements agréés de ECB",
-      "de": "Crédit Agricole SA im Register zugelassener Institute von ECB bestätigt",
-      "it": "Crédit Agricole SA confermata nel registro degli enti autorizzati di ECB",
-      "pt": "Crédit Agricole SA confirmado no registo de instituições autorizadas de ECB",
-      "es": "Crédit Agricole SA confirmado en el registro de entidades autorizadas de ECB",
-      "ar": "تأكيد إدراج Crédit Agricole SA في سجل المؤسسات المرخّصة لدى ECB"
-    },
-    "snippet": {
-      "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
-      "fr": "L'inscription confirme le périmètre des services que l'établissement peut proposer et les États membres couverts par son passeport.",
-      "de": "Der Eintrag bestätigt den Umfang der zulässigen Dienstleistungen sowie die Mitgliedstaaten, in die das Institut passportieren darf.",
-      "it": "L'iscrizione conferma l'ambito dei servizi che l'ente può offrire e gli Stati membri coperti dal passaporto.",
-      "pt": "O registo confirma o âmbito dos serviços que a instituição pode oferecer e os Estados-Membros abrangidos pelo passaporte.",
-      "es": "La inscripción confirma el alcance de los servicios que la entidad puede prestar y los Estados miembros cubiertos por el pasaporte.",
-      "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
+      "en": "The supervisor set out revised capital and liquidity expectations. Crédit Agricole SA keeps its authorisation and remains fully operational for its customers.",
+      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Crédit Agricole SA conserve son agrément et reste pleinement opérationnelle pour ses clients.",
+      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Crédit Agricole SA behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
+      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Crédit Agricole SA mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
+      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Crédit Agricole SA mantém a sua autorização e continua plenamente operacional para os clientes.",
+      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Crédit Agricole SA mantiene su autorización y sigue plenamente operativo para sus clientes.",
+      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Crédit Agricole SA بترخيصه ويواصل عمله بالكامل تجاه عملائه."
     },
     "source": "ECB",
     "sourceUrl": "https://www.credit-agricole.com"
   },
   {
-    "id": "news-026",
-    "institutionId": "bunq-b-v",
-    "country": "NL",
-    "date": "2025-11-26",
+    "id": "news-027",
+    "institutionId": "vantex-bank-de",
+    "country": "DE",
+    "date": "2025-12-17",
+    "category": "CONSUMER",
+    "title": {
+      "en": "How to check that Vantex Bank AG is authorised before you open an account",
+      "fr": "Comment vérifier que Vantex Bank AG est agréée avant d'ouvrir un compte",
+      "de": "So prüfen Sie vor der Kontoeröffnung, ob Vantex Bank AG zugelassen ist",
+      "it": "Come verificare che Vantex Bank AG sia autorizzata prima di aprire un conto",
+      "pt": "Como verificar se o Vantex Bank AG está autorizado antes de abrir conta",
+      "es": "Cómo comprobar que Vantex Bank AG está autorizado antes de abrir una cuenta",
+      "ar": "كيف تتحقق من أن Vantex Bank AG مرخّص قبل فتح حساب"
+    },
+    "snippet": {
+      "en": "Look up the legal name in the official BaFin register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
+      "fr": "Recherchez la dénomination sociale dans le registre officiel de BaFin, vérifiez le type d'agrément et confirmez que les dépôts sont couverts par un système de garantie.",
+      "de": "Suchen Sie den Firmennamen im offiziellen Register von BaFin, prüfen Sie die Art der Zulassung und ob die Einlagen durch ein Sicherungssystem gedeckt sind.",
+      "it": "Cercate la denominazione legale nel registro ufficiale di BaFin, verificate il tipo di autorizzazione e la copertura del sistema di garanzia dei depositi.",
+      "pt": "Procure a denominação legal no registo oficial de BaFin, verifique o tipo de autorização e confirme a cobertura do fundo de garantia de depósitos.",
+      "es": "Busque la denominación legal en el registro oficial de BaFin, compruebe el tipo de autorización y confirme la cobertura del fondo de garantía de depósitos.",
+      "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى BaFin، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
+    },
+    "source": "BaFin",
+    "sourceUrl": "https://vantex-bank.com"
+  },
+  {
+    "id": "news-002",
+    "institutionId": "paypal-europe-s-a-r-l-et-cie-sca",
+    "country": "LU",
+    "date": "2025-12-12",
     "category": "AUTHORISATION",
     "title": {
-      "en": "bunq B.V. confirmed on the ECB register of authorised institutions",
-      "fr": "bunq B.V. confirmée au registre des établissements agréés de ECB",
-      "de": "bunq B.V. im Register zugelassener Institute von ECB bestätigt",
-      "it": "bunq B.V. confermata nel registro degli enti autorizzati di ECB",
-      "pt": "bunq B.V. confirmado no registo de instituições autorizadas de ECB",
-      "es": "bunq B.V. confirmado en el registro de entidades autorizadas de ECB",
-      "ar": "تأكيد إدراج bunq B.V. في سجل المؤسسات المرخّصة لدى ECB"
+      "en": "PayPal (Europe) S.à r.l. et Cie SCA confirmed on the CSSF register of authorised institutions",
+      "fr": "PayPal (Europe) S.à r.l. et Cie SCA confirmée au registre des établissements agréés de CSSF",
+      "de": "PayPal (Europe) S.à r.l. et Cie SCA im Register zugelassener Institute von CSSF bestätigt",
+      "it": "PayPal (Europe) S.à r.l. et Cie SCA confermata nel registro degli enti autorizzati di CSSF",
+      "pt": "PayPal (Europe) S.à r.l. et Cie SCA confirmado no registo de instituições autorizadas de CSSF",
+      "es": "PayPal (Europe) S.à r.l. et Cie SCA confirmado en el registro de entidades autorizadas de CSSF",
+      "ar": "تأكيد إدراج PayPal (Europe) S.à r.l. et Cie SCA في سجل المؤسسات المرخّصة لدى CSSF"
+    },
+    "snippet": {
+      "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
+      "fr": "L'inscription confirme le périmètre des services que l'établissement peut proposer et les États membres couverts par son passeport.",
+      "de": "Der Eintrag bestätigt den Umfang der zulässigen Dienstleistungen sowie die Mitgliedstaaten, in die das Institut passportieren darf.",
+      "it": "L'iscrizione conferma l'ambito dei servizi che l'ente può offrire e gli Stati membri coperti dal passaporto.",
+      "pt": "O registo confirma o âmbito dos serviços que a instituição pode oferecer e os Estados-Membros abrangidos pelo passaporte.",
+      "es": "La inscripción confirma el alcance de los servicios que la entidad puede prestar y los Estados miembros cubiertos por el pasaporte.",
+      "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
+    },
+    "source": "CSSF",
+    "sourceUrl": "https://www.paypal.com"
+  },
+  {
+    "id": "news-032",
+    "institutionId": "bnp-paribas-sa",
+    "country": "FR",
+    "date": "2025-12-02",
+    "category": "AUTHORISATION",
+    "title": {
+      "en": "BNP Paribas SA confirmed on the ECB register of authorised institutions",
+      "fr": "BNP Paribas SA confirmée au registre des établissements agréés de ECB",
+      "de": "BNP Paribas SA im Register zugelassener Institute von ECB bestätigt",
+      "it": "BNP Paribas SA confermata nel registro degli enti autorizzati di ECB",
+      "pt": "BNP Paribas SA confirmado no registo de instituições autorizadas de ECB",
+      "es": "BNP Paribas SA confirmado en el registro de entidades autorizadas de ECB",
+      "ar": "تأكيد إدراج BNP Paribas SA في سجل المؤسسات المرخّصة لدى ECB"
     },
     "snippet": {
       "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
@@ -1347,7 +1320,34 @@
       "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.bunq.com"
+    "sourceUrl": "https://group.bnpparibas"
+  },
+  {
+    "id": "news-026",
+    "institutionId": "abn-amro-bank-n-v",
+    "country": "NL",
+    "date": "2025-11-26",
+    "category": "AUTHORISATION",
+    "title": {
+      "en": "ABN AMRO Bank N.V. confirmed on the ECB register of authorised institutions",
+      "fr": "ABN AMRO Bank N.V. confirmée au registre des établissements agréés de ECB",
+      "de": "ABN AMRO Bank N.V. im Register zugelassener Institute von ECB bestätigt",
+      "it": "ABN AMRO Bank N.V. confermata nel registro degli enti autorizzati di ECB",
+      "pt": "ABN AMRO Bank N.V. confirmado no registo de instituições autorizadas de ECB",
+      "es": "ABN AMRO Bank N.V. confirmado en el registro de entidades autorizadas de ECB",
+      "ar": "تأكيد إدراج ABN AMRO Bank N.V. في سجل المؤسسات المرخّصة لدى ECB"
+    },
+    "snippet": {
+      "en": "The entry confirms the scope of services the institution may offer and the Member States it may passport into.",
+      "fr": "L'inscription confirme le périmètre des services que l'établissement peut proposer et les États membres couverts par son passeport.",
+      "de": "Der Eintrag bestätigt den Umfang der zulässigen Dienstleistungen sowie die Mitgliedstaaten, in die das Institut passportieren darf.",
+      "it": "L'iscrizione conferma l'ambito dei servizi che l'ente può offrire e gli Stati membri coperti dal passaporto.",
+      "pt": "O registo confirma o âmbito dos serviços que a instituição pode oferecer e os Estados-Membros abrangidos pelo passaporte.",
+      "es": "La inscripción confirma el alcance de los servicios que la entidad puede prestar y los Estados miembros cubiertos por el pasaporte.",
+      "ar": "يؤكد القيد نطاق الخدمات التي يجوز للمؤسسة تقديمها والدول الأعضاء المشمولة بجواز التمرير."
+    },
+    "source": "ECB",
+    "sourceUrl": "https://www.abnamro.com"
   },
   {
     "id": "news-030",
@@ -1378,18 +1378,18 @@
   },
   {
     "id": "news-048",
-    "institutionId": "banque-internationale-a-luxembourg-s-a",
+    "institutionId": "banque-et-caisse-d-epargne-de-l-etat",
     "country": "LU",
     "date": "2025-11-20",
     "category": "MERGER",
     "title": {
-      "en": "Banque Internationale à Luxembourg S.A. notifies a change in its group structure to ECB",
-      "fr": "Banque Internationale à Luxembourg S.A. notifie à ECB une modification de sa structure de groupe",
-      "de": "Banque Internationale à Luxembourg S.A. zeigt ECB eine Änderung der Gruppenstruktur an",
-      "it": "Banque Internationale à Luxembourg S.A. notifica a ECB una modifica della struttura di gruppo",
-      "pt": "Banque Internationale à Luxembourg S.A. notifica ECB de uma alteração na estrutura do grupo",
-      "es": "Banque Internationale à Luxembourg S.A. notifica a ECB un cambio en su estructura de grupo",
-      "ar": "Banque Internationale à Luxembourg S.A. يُخطر ECB بتغيير في هيكل المجموعة"
+      "en": "Banque et Caisse d'Épargne de l'État notifies a change in its group structure to ECB",
+      "fr": "Banque et Caisse d'Épargne de l'État notifie à ECB une modification de sa structure de groupe",
+      "de": "Banque et Caisse d'Épargne de l'État zeigt ECB eine Änderung der Gruppenstruktur an",
+      "it": "Banque et Caisse d'Épargne de l'État notifica a ECB una modifica della struttura di gruppo",
+      "pt": "Banque et Caisse d'Épargne de l'État notifica ECB de uma alteração na estrutura do grupo",
+      "es": "Banque et Caisse d'Épargne de l'État notifica a ECB un cambio en su estructura de grupo",
+      "ar": "Banque et Caisse d'Épargne de l'État يُخطر ECB بتغيير في هيكل المجموعة"
     },
     "snippet": {
       "en": "Customer contracts, account numbers and deposit protection are unaffected while the supervisor assesses the notification.",
@@ -1401,22 +1401,22 @@
       "ar": "لا تتأثر عقود العملاء وأرقام الحسابات وحماية الودائع أثناء تقييم الجهة الرقابية للإخطار."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.bil.com"
+    "sourceUrl": "https://www.spuerkeess.lu"
   },
   {
     "id": "news-060",
-    "institutionId": "banco-de-sabadell-s-a",
+    "institutionId": "caixabank-s-a",
     "country": "ES",
     "date": "2025-11-14",
     "category": "MERGER",
     "title": {
-      "en": "Banco de Sabadell S.A. notifies a change in its group structure to ECB",
-      "fr": "Banco de Sabadell S.A. notifie à ECB une modification de sa structure de groupe",
-      "de": "Banco de Sabadell S.A. zeigt ECB eine Änderung der Gruppenstruktur an",
-      "it": "Banco de Sabadell S.A. notifica a ECB una modifica della struttura di gruppo",
-      "pt": "Banco de Sabadell S.A. notifica ECB de uma alteração na estrutura do grupo",
-      "es": "Banco de Sabadell S.A. notifica a ECB un cambio en su estructura de grupo",
-      "ar": "Banco de Sabadell S.A. يُخطر ECB بتغيير في هيكل المجموعة"
+      "en": "CaixaBank S.A. notifies a change in its group structure to ECB",
+      "fr": "CaixaBank S.A. notifie à ECB une modification de sa structure de groupe",
+      "de": "CaixaBank S.A. zeigt ECB eine Änderung der Gruppenstruktur an",
+      "it": "CaixaBank S.A. notifica a ECB una modifica della struttura di gruppo",
+      "pt": "CaixaBank S.A. notifica ECB de uma alteração na estrutura do grupo",
+      "es": "CaixaBank S.A. notifica a ECB un cambio en su estructura de grupo",
+      "ar": "CaixaBank S.A. يُخطر ECB بتغيير في هيكل المجموعة"
     },
     "snippet": {
       "en": "Customer contracts, account numbers and deposit protection are unaffected while the supervisor assesses the notification.",
@@ -1428,7 +1428,7 @@
       "ar": "لا تتأثر عقود العملاء وأرقام الحسابات وحماية الودائع أثناء تقييم الجهة الرقابية للإخطار."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.grupbancsabadell.com"
+    "sourceUrl": "https://www.caixabank.com"
   },
   {
     "id": "news-011",
@@ -1459,30 +1459,30 @@
   },
   {
     "id": "news-049",
-    "institutionId": "la-banque-postale",
+    "institutionId": "groupe-bpce",
     "country": "FR",
     "date": "2025-11-08",
     "category": "REGULATION",
     "title": {
-      "en": "ECB publishes updated prudential requirements applying to La Banque Postale",
-      "fr": "ECB publie des exigences prudentielles actualisées applicables à La Banque Postale",
-      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für La Banque Postale",
-      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a La Banque Postale",
-      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a La Banque Postale",
-      "es": "ECB publica requisitos prudenciales actualizados aplicables a La Banque Postale",
-      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على La Banque Postale"
+      "en": "ECB publishes updated prudential requirements applying to Groupe BPCE",
+      "fr": "ECB publie des exigences prudentielles actualisées applicables à Groupe BPCE",
+      "de": "ECB veröffentlicht aktualisierte Aufsichtsanforderungen für Groupe BPCE",
+      "it": "ECB pubblica requisiti prudenziali aggiornati applicabili a Groupe BPCE",
+      "pt": "ECB publica requisitos prudenciais atualizados aplicáveis a Groupe BPCE",
+      "es": "ECB publica requisitos prudenciales actualizados aplicables a Groupe BPCE",
+      "ar": "ECB تنشر متطلبات رقابية محدَّثة تنطبق على Groupe BPCE"
     },
     "snippet": {
-      "en": "The supervisor set out revised capital and liquidity expectations. La Banque Postale keeps its authorisation and remains fully operational for its customers.",
-      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. La Banque Postale conserve son agrément et reste pleinement opérationnelle pour ses clients.",
-      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. La Banque Postale behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
-      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. La Banque Postale mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
-      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O La Banque Postale mantém a sua autorização e continua plenamente operacional para os clientes.",
-      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. La Banque Postale mantiene su autorización y sigue plenamente operativo para sus clientes.",
-      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ La Banque Postale بترخيصه ويواصل عمله بالكامل تجاه عملائه."
+      "en": "The supervisor set out revised capital and liquidity expectations. Groupe BPCE keeps its authorisation and remains fully operational for its customers.",
+      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Groupe BPCE conserve son agrément et reste pleinement opérationnelle pour ses clients.",
+      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Groupe BPCE behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
+      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Groupe BPCE mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
+      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Groupe BPCE mantém a sua autorização e continua plenamente operacional para os clientes.",
+      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Groupe BPCE mantiene su autorización y sigue plenamente operativo para sus clientes.",
+      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Groupe BPCE بترخيصه ويواصل عمله بالكامل تجاه عملائه."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.labanquepostale.fr"
+    "sourceUrl": "https://groupebpce.com"
   },
   {
     "id": "news-012",
@@ -1513,18 +1513,18 @@
   },
   {
     "id": "news-045",
-    "institutionId": "bawag-p-s-k-ag",
+    "institutionId": "raiffeisen-bank-international-ag",
     "country": "AT",
     "date": "2025-10-15",
     "category": "CONSUMER",
     "title": {
-      "en": "How to check that BAWAG P.S.K. AG is authorised before you open an account",
-      "fr": "Comment vérifier que BAWAG P.S.K. AG est agréée avant d'ouvrir un compte",
-      "de": "So prüfen Sie vor der Kontoeröffnung, ob BAWAG P.S.K. AG zugelassen ist",
-      "it": "Come verificare che BAWAG P.S.K. AG sia autorizzata prima di aprire un conto",
-      "pt": "Como verificar se o BAWAG P.S.K. AG está autorizado antes de abrir conta",
-      "es": "Cómo comprobar que BAWAG P.S.K. AG está autorizado antes de abrir una cuenta",
-      "ar": "كيف تتحقق من أن BAWAG P.S.K. AG مرخّص قبل فتح حساب"
+      "en": "How to check that Raiffeisen Bank International AG is authorised before you open an account",
+      "fr": "Comment vérifier que Raiffeisen Bank International AG est agréée avant d'ouvrir un compte",
+      "de": "So prüfen Sie vor der Kontoeröffnung, ob Raiffeisen Bank International AG zugelassen ist",
+      "it": "Come verificare che Raiffeisen Bank International AG sia autorizzata prima di aprire un conto",
+      "pt": "Como verificar se o Raiffeisen Bank International AG está autorizado antes de abrir conta",
+      "es": "Cómo comprobar que Raiffeisen Bank International AG está autorizado antes de abrir una cuenta",
+      "ar": "كيف تتحقق من أن Raiffeisen Bank International AG مرخّص قبل فتح حساب"
     },
     "snippet": {
       "en": "Look up the legal name in the official ECB register, check the licence type, and confirm that deposits are covered by a guarantee scheme.",
@@ -1536,22 +1536,22 @@
       "ar": "ابحث عن الاسم القانوني في السجل الرسمي لدى ECB، وتحقق من نوع الترخيص ومن تغطية نظام ضمان الودائع."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.bawaggroup.com"
+    "sourceUrl": "https://www.rbinternational.com"
   },
   {
     "id": "news-054",
-    "institutionId": "bank-of-valletta-plc",
-    "country": "MT",
+    "institutionId": "bank-of-cyprus-public-company-ltd",
+    "country": "CY",
     "date": "2025-10-02",
     "category": "MERGER",
     "title": {
-      "en": "Bank of Valletta plc notifies a change in its group structure to ECB",
-      "fr": "Bank of Valletta plc notifie à ECB une modification de sa structure de groupe",
-      "de": "Bank of Valletta plc zeigt ECB eine Änderung der Gruppenstruktur an",
-      "it": "Bank of Valletta plc notifica a ECB una modifica della struttura di gruppo",
-      "pt": "Bank of Valletta plc notifica ECB de uma alteração na estrutura do grupo",
-      "es": "Bank of Valletta plc notifica a ECB un cambio en su estructura de grupo",
-      "ar": "Bank of Valletta plc يُخطر ECB بتغيير في هيكل المجموعة"
+      "en": "Bank of Cyprus Public Company Ltd notifies a change in its group structure to ECB",
+      "fr": "Bank of Cyprus Public Company Ltd notifie à ECB une modification de sa structure de groupe",
+      "de": "Bank of Cyprus Public Company Ltd zeigt ECB eine Änderung der Gruppenstruktur an",
+      "it": "Bank of Cyprus Public Company Ltd notifica a ECB una modifica della struttura di gruppo",
+      "pt": "Bank of Cyprus Public Company Ltd notifica ECB de uma alteração na estrutura do grupo",
+      "es": "Bank of Cyprus Public Company Ltd notifica a ECB un cambio en su estructura de grupo",
+      "ar": "Bank of Cyprus Public Company Ltd يُخطر ECB بتغيير في هيكل المجموعة"
     },
     "snippet": {
       "en": "Customer contracts, account numbers and deposit protection are unaffected while the supervisor assesses the notification.",
@@ -1563,34 +1563,34 @@
       "ar": "لا تتأثر عقود العملاء وأرقام الحسابات وحماية الودائع أثناء تقييم الجهة الرقابية للإخطار."
     },
     "source": "ECB",
-    "sourceUrl": "https://www.bov.com"
+    "sourceUrl": "https://www.bankofcyprus.com"
   },
   {
     "id": "news-025",
-    "institutionId": "nykredit-bank-a-s",
+    "institutionId": "jyske-bank-a-s",
     "country": "DK",
     "date": "2025-09-30",
     "category": "REGULATION",
     "title": {
-      "en": "Finanstilsynet publishes updated prudential requirements applying to Nykredit Bank A/S",
-      "fr": "Finanstilsynet publie des exigences prudentielles actualisées applicables à Nykredit Bank A/S",
-      "de": "Finanstilsynet veröffentlicht aktualisierte Aufsichtsanforderungen für Nykredit Bank A/S",
-      "it": "Finanstilsynet pubblica requisiti prudenziali aggiornati applicabili a Nykredit Bank A/S",
-      "pt": "Finanstilsynet publica requisitos prudenciais atualizados aplicáveis a Nykredit Bank A/S",
-      "es": "Finanstilsynet publica requisitos prudenciales actualizados aplicables a Nykredit Bank A/S",
-      "ar": "Finanstilsynet تنشر متطلبات رقابية محدَّثة تنطبق على Nykredit Bank A/S"
+      "en": "Finanstilsynet publishes updated prudential requirements applying to Jyske Bank A/S",
+      "fr": "Finanstilsynet publie des exigences prudentielles actualisées applicables à Jyske Bank A/S",
+      "de": "Finanstilsynet veröffentlicht aktualisierte Aufsichtsanforderungen für Jyske Bank A/S",
+      "it": "Finanstilsynet pubblica requisiti prudenziali aggiornati applicabili a Jyske Bank A/S",
+      "pt": "Finanstilsynet publica requisitos prudenciais atualizados aplicáveis a Jyske Bank A/S",
+      "es": "Finanstilsynet publica requisitos prudenciales actualizados aplicables a Jyske Bank A/S",
+      "ar": "Finanstilsynet تنشر متطلبات رقابية محدَّثة تنطبق على Jyske Bank A/S"
     },
     "snippet": {
-      "en": "The supervisor set out revised capital and liquidity expectations. Nykredit Bank A/S keeps its authorisation and remains fully operational for its customers.",
-      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Nykredit Bank A/S conserve son agrément et reste pleinement opérationnelle pour ses clients.",
-      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Nykredit Bank A/S behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
-      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Nykredit Bank A/S mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
-      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Nykredit Bank A/S mantém a sua autorização e continua plenamente operacional para os clientes.",
-      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Nykredit Bank A/S mantiene su autorización y sigue plenamente operativo para sus clientes.",
-      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Nykredit Bank A/S بترخيصه ويواصل عمله بالكامل تجاه عملائه."
+      "en": "The supervisor set out revised capital and liquidity expectations. Jyske Bank A/S keeps its authorisation and remains fully operational for its customers.",
+      "fr": "Le superviseur a précisé des attentes révisées en matière de capital et de liquidité. Jyske Bank A/S conserve son agrément et reste pleinement opérationnelle pour ses clients.",
+      "de": "Die Aufsicht hat überarbeitete Kapital- und Liquiditätserwartungen dargelegt. Jyske Bank A/S behält die Zulassung und bleibt für Kundinnen und Kunden voll handlungsfähig.",
+      "it": "L'autorità di vigilanza ha definito aspettative riviste su capitale e liquidità. Jyske Bank A/S mantiene l'autorizzazione e resta pienamente operativa per la clientela.",
+      "pt": "O supervisor definiu expectativas revistas de capital e liquidez. O Jyske Bank A/S mantém a sua autorização e continua plenamente operacional para os clientes.",
+      "es": "El supervisor fijó expectativas revisadas de capital y liquidez. Jyske Bank A/S mantiene su autorización y sigue plenamente operativo para sus clientes.",
+      "ar": "حددت الجهة الرقابية توقعات معدَّلة لرأس المال والسيولة. ويحتفظ Jyske Bank A/S بترخيصه ويواصل عمله بالكامل تجاه عملائه."
     },
     "source": "Finanstilsynet",
-    "sourceUrl": "https://www.nykredit.dk"
+    "sourceUrl": "https://www.jyskebank.dk"
   },
   {
     "id": "news-018",

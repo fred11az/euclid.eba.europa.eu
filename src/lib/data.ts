@@ -100,7 +100,16 @@ export type Entity = {
       pending_source: boolean;
     };
     financial_metrics: { pending_source: boolean; [k: string]: unknown };
-    editorial: { description: Localized; certifications: unknown[] };
+    editorial: {
+      description: Localized;
+      certifications: {
+        name: string;
+        issuer: string;
+        certification_date: string;
+        validity_until: string;
+      }[];
+    };
+    solidity: { score: number; components: Record<string, number> };
   };
   metadata_internal: {
     data_quality_score: number;
@@ -158,6 +167,7 @@ export type Institution = {
   tags: string[];
   completeness: number;
   verified: boolean;
+  solidityScore: number;
 };
 
 function toView(e: Entity): Institution {
@@ -184,6 +194,7 @@ function toView(e: Entity): Institution {
     tags: e.metadata_internal.tags,
     completeness: e.metadata_internal.completeness_score,
     verified: e.source_verified,
+    solidityScore: d.solidity.score,
   };
 }
 
@@ -279,10 +290,10 @@ export function formatDate(date: string, locale: string): string {
   }
 }
 
-/** Visual band for the record-completeness meter (a data figure, not a rating). */
-export function completenessBand(score: number): 'high' | 'medium' | 'low' {
-  if (score >= 0.8) return 'high';
-  if (score >= 0.6) return 'medium';
+/** Visual band for the solidity meter. Editorial, not a credit rating. */
+export function solidityBand(score: number): 'high' | 'medium' | 'low' {
+  if (score >= 85) return 'high';
+  if (score >= 70) return 'medium';
   return 'low';
 }
 

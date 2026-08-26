@@ -88,7 +88,7 @@
     "psd2": "PSD2 payment services",
     "passport": "EEA passporting rights",
     "solidity": "Solidity indicator",
-    "solidityNote": "Editorial indicator built by Euclide from published prudential data. It is not a credit rating and must not be used as investment advice.",
+    "solidityNote": "Editorial indicator computed from the fields on this record. It is not a credit rating and is not investment advice.",
     "verify": "Verify this yourself",
     "verifyLead": "The legally binding source is the supervisor’s register. Open it and search for the legal name below.",
     "officialRegister": "Open the official register",
@@ -247,7 +247,13 @@
     "vat": "VAT identifier",
     "address": "Head office address",
     "email": "Email",
-    "phone": "Telephone"
+    "phone": "Telephone",
+    "certifications": "Certifications",
+    "issuedBy": "Issued by",
+    "validUntil": "Valid until",
+    "social": "Official channels",
+    "ownership": "Ownership",
+    "branches": "Branches"
   },
   "scope": {
     "deposit_taking": "Taking deposits from the public",
@@ -285,7 +291,8 @@
     "sources": "Sources",
     "nextRefresh": "Next review",
     "unverified": "Not yet verified against the official register",
-    "pendingNote": "Fields marked “source pending” are deliberately left empty rather than filled with an unverified value."
+    "pendingNote": "Fields marked “source pending” are deliberately left empty rather than filled with an unverified value.",
+    "verified": "Verified against the official register"
   },
   "passport": {
     "lead": "This authorisation may be exercised, on notification, in the following States.",
@@ -296,6 +303,14 @@
   },
   "financials": {
     "pending": "Capital, liquidity and balance-sheet figures are not published here until they can be taken from a supervisory disclosure."
+  },
+  "solidity": {
+    "factors": "How this score is built",
+    "guarantee": "Protection of client funds",
+    "supervision": "Level of supervision",
+    "longevity": "Years in operation",
+    "breadth": "Breadth of the authorisation",
+    "passport": "European passport"
   },
   "pagination": {
     "prev": "Previous",

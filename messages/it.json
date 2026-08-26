@@ -88,7 +88,7 @@
     "psd2": "Servizi di pagamento PSD2",
     "passport": "Passaporto SEE",
     "solidity": "Indicatore di solidità",
-    "solidityNote": "Indicatore editoriale elaborato da Euclide su dati prudenziali pubblicati. Non è un rating di credito né una consulenza in materia di investimenti.",
+    "solidityNote": "Indicatore editoriale calcolato dai campi di questa scheda. Non è un rating di credito né una consulenza in materia di investimenti.",
     "verify": "Verificate voi stessi",
     "verifyLead": "La fonte che fa fede è il registro dell’autorità di vigilanza. Apritelo e cercate la denominazione legale indicata sotto.",
     "officialRegister": "Apri il registro ufficiale",
@@ -247,7 +247,13 @@
     "vat": "Partita IVA",
     "address": "Indirizzo della sede",
     "email": "Email",
-    "phone": "Telefono"
+    "phone": "Telefono",
+    "certifications": "Certificazioni",
+    "issuedBy": "Rilasciata da",
+    "validUntil": "Valida fino al",
+    "social": "Canali ufficiali",
+    "ownership": "Partecipazione",
+    "branches": "Succursali"
   },
   "scope": {
     "deposit_taking": "Raccolta di depositi dal pubblico",
@@ -285,7 +291,8 @@
     "sources": "Fonti",
     "nextRefresh": "Prossima revisione",
     "unverified": "Non ancora verificata rispetto al registro ufficiale",
-    "pendingNote": "I campi contrassegnati «fonte in attesa» restano volutamente vuoti anziché essere riempiti con valori non verificati."
+    "pendingNote": "I campi contrassegnati «fonte in attesa» restano volutamente vuoti anziché essere riempiti con valori non verificati.",
+    "verified": "Verificata rispetto al registro ufficiale"
   },
   "passport": {
     "lead": "Questa autorizzazione può essere esercitata, previa notifica, nei seguenti Stati.",
@@ -296,6 +303,14 @@
   },
   "financials": {
     "pending": "I dati su capitale, liquidità e bilancio non sono pubblicati finché non possono essere tratti da un’informativa di vigilanza."
+  },
+  "solidity": {
+    "factors": "Come si compone questo punteggio",
+    "guarantee": "Tutela dei fondi della clientela",
+    "supervision": "Livello di vigilanza",
+    "longevity": "Anzianità",
+    "breadth": "Ampiezza dell’autorizzazione",
+    "passport": "Passaporto europeo"
   },
   "pagination": {
     "prev": "Precedente",

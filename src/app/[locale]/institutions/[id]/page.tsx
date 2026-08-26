@@ -10,7 +10,7 @@ import ShareButtons from '@/components/ShareButtons';
 import LinkTile from '@/components/LinkTile';
 import {
   authorities,
-  completenessBand,
+  solidityBand,
   countryName,
   entities,
   flag,
@@ -69,17 +69,8 @@ export default async function InstitutionPage({
   const authority = authorities[s.country_code];
   const related = newsFor(e.id).slice(0, 3);
   const similar = similarTo(view);
-  const band = completenessBand(e.metadata_internal.completeness_score);
+  const band = solidityBand(d.solidity.score);
 
-  /** A value we do not hold is shown as pending, never invented. */
-  const Value = ({ value }: { value: string | null }) =>
-    value ? (
-      <span className="font-semibold text-navy-900">{value}</span>
-    ) : (
-      <span className="rounded bg-navy-50 px-2 py-0.5 text-xs font-medium text-navy-500">
-        {t('cstatus.PENDING')}
-      </span>
-    );
 
   const StatusChip = ({ status }: { status: string }) => {
     const tone =
@@ -110,14 +101,17 @@ export default async function InstitutionPage({
     ['group', t('section.group')],
   ];
 
+  /** Rows without a value are omitted rather than rendered empty. */
   const Rows = ({ rows }: { rows: Array<[string, React.ReactNode]> }) => (
     <dl className="mt-3 divide-y divide-navy-100 rounded-2xl border border-navy-100 bg-white">
-      {rows.map(([label, value]) => (
-        <div key={label} className="flex flex-wrap items-baseline justify-between gap-2 px-4 py-3">
-          <dt className="text-sm font-medium text-navy-500">{label}</dt>
-          <dd className="text-sm text-navy-900">{value}</dd>
-        </div>
-      ))}
+      {rows
+        .filter(([, value]) => value !== null && value !== undefined && value !== '')
+        .map(([label, value]) => (
+          <div key={label} className="flex flex-wrap items-baseline justify-between gap-2 px-4 py-3">
+            <dt className="text-sm font-medium text-navy-500">{label}</dt>
+            <dd className="text-sm text-navy-900">{value}</dd>
+          </div>
+        ))}
     </dl>
   );
 
@@ -205,8 +199,14 @@ export default async function InstitutionPage({
                   [t('field.legalForm'), <span key="f">{tr(d.identity.legal_form_label, locale)} ({d.identity.legal_form_code})</span>],
                   [t('field.entityType'), t(`licence.${e.metadata_internal.licence_type}`)],
                   [
+                    t('field.commercialNames'),
+                    d.identity.commercial_names.length ? d.identity.commercial_names.join(' · ') : null,
+                  ],
+                  [
                     t('field.parent'),
-                    d.identity.parent_company ? d.identity.parent_company.name : <Value value={null} />,
+                    d.identity.parent_company
+                      ? `${d.identity.parent_company.name} (${d.identity.parent_company.ownership_percentage} %)`
+                      : null,
                   ],
                 ]}
               />
@@ -222,9 +222,7 @@ export default async function InstitutionPage({
                         <span className="font-mono font-semibold">{d.registration.bic_swift}</span>{' '}
                         <FactLink href="/glossary/bic">?</FactLink>
                       </span>
-                    ) : (
-                      <Value value={null} />
-                    ),
+                    ) : null,
                   ],
                   [
                     t('detail.iban'),
@@ -234,12 +232,17 @@ export default async function InstitutionPage({
                     </span>,
                   ],
                   [t('field.established'), <span key="e" className="font-semibold">{d.registration.establishment_date}</span>],
-                  [t('field.lei'), <Value key="lei" value={d.registration.lei_code} />],
-                  [t('field.regNumber'), <Value key="rn" value={d.registration.registration_number} />],
-                  [t('field.vat'), <Value key="v" value={d.registration.vat_id} />],
+                  [
+                    t('field.lei'),
+                    d.registration.lei_code ? (
+                      <span key="lei" className="font-mono font-semibold">{d.registration.lei_code}</span>
+                    ) : null,
+                  ],
+                  [t('field.regAuthority'), d.registration.registration_authority],
+                  [t('field.regNumber'), d.registration.registration_number],
+                  [t('field.vat'), d.registration.vat_id],
                 ]}
               />
-              <p className="mt-2 text-xs leading-relaxed text-navy-500">{t('quality.pendingNote')}</p>
             </Section>
 
             <Section id="contact" title={t('section.contact')}>
@@ -247,14 +250,26 @@ export default async function InstitutionPage({
                 rows={[
                   [
                     t('field.address'),
-                    d.contact.headquarters.street ? (
-                      `${d.contact.headquarters.street}, ${d.contact.headquarters.postal_code} ${s.city}`
-                    ) : (
-                      <Value key="a" value={null} />
-                    ),
+                    d.contact.headquarters.street
+                      ? `${d.contact.headquarters.street}, ${d.contact.headquarters.postal_code} ${s.city}`
+                      : `${s.city}, ${countryName(s.country_code, locale)}`,
                   ],
-                  [t('field.email'), <Value key="em" value={d.contact.communication.email} />],
-                  [t('field.phone'), <Value key="ph" value={d.contact.communication.phone} />],
+                  [
+                    t('field.email'),
+                    d.contact.communication.email ? (
+                      <a key="em" href={`mailto:${d.contact.communication.email}`} className="font-semibold underline underline-offset-4">
+                        {d.contact.communication.email}
+                      </a>
+                    ) : null,
+                  ],
+                  [
+                    t('field.phone'),
+                    d.contact.communication.phone ? (
+                      <a key="ph" href={`tel:${d.contact.communication.phone.replace(/\s/g, '')}`} className="font-semibold underline underline-offset-4">
+                        {d.contact.communication.phone}
+                      </a>
+                    ) : null,
+                  ],
                   [
                     t('detail.website'),
                     <a
@@ -299,6 +314,9 @@ export default async function InstitutionPage({
                     t('detail.status'),
                     <span key="rs" className="font-semibold text-emerald-700">
                       {tr(d.regulation.regulatory_status.labels, locale)}
+                      {d.regulation.regulatory_status.approval_date
+                        ? ` — ${formatDate(d.regulation.regulatory_status.approval_date, locale)}`
+                        : ''}
                     </span>,
                   ],
                 ]}
@@ -405,14 +423,17 @@ export default async function InstitutionPage({
                     [t('compliance.aml'), d.compliance.aml_kyc.status, null],
                     [t('compliance.gdpr'), d.compliance.gdpr.status, null],
                   ] as Array<[string, string, string | null]>
-                ).map(([label, status, term]) => (
+                )
+                  // A status we cannot source is left out rather than shown as unknown.
+                  .filter(([, status]) => status !== 'PENDING')
+                  .map(([label, status, term]) => (
                   <li key={label} className="flex flex-wrap items-center justify-between gap-2 px-4 py-3">
                     <span className="text-sm text-navy-800">
                       {term ? <FactLink href={`/glossary/${term}`}>{label}</FactLink> : label}
                     </span>
                     <StatusChip status={status} />
-                  </li>
-                ))}
+                    </li>
+                  ))}
               </ul>
               <p className="mt-3 text-sm text-navy-600">
                 {d.compliance.deposit_guarantee ? t('detail.depositYes') : t('detail.depositNo')}
@@ -429,7 +450,14 @@ export default async function InstitutionPage({
                         >)
                       : []),
                     ...d.corporate_structure.branches.map(
-                      (b) => [b.country, `${b.name} — ${b.city}`] as [string, React.ReactNode],
+                      (b) =>
+                        [
+                          `${t('field.branches')} — ${countryName(b.country, locale)}`,
+                          <span key={b.name}>
+                            {b.name} · {b.city} ·{' '}
+                            <FactLink href={`/supervisors/${slugify(b.regulator)}`}>{b.regulator}</FactLink>
+                          </span>,
+                        ] as [string, React.ReactNode],
                     ),
                   ]}
                 />
@@ -438,11 +466,21 @@ export default async function InstitutionPage({
               )}
             </Section>
 
-            <Section id="financials" title={t('section.financials')}>
-              <p className="mt-3 rounded-xl bg-navy-50 p-4 text-sm leading-relaxed text-navy-600">
-                {t('financials.pending')}
-              </p>
-            </Section>
+            {d.editorial.certifications.length > 0 && (
+              <Section id="certifications" title={t('field.certifications')}>
+                <ul className="mt-3 divide-y divide-navy-100 rounded-2xl border border-navy-100 bg-white">
+                  {d.editorial.certifications.map((cert) => (
+                    <li key={cert.name} className="px-4 py-3">
+                      <p className="text-sm font-semibold text-navy-900">{cert.name}</p>
+                      <p className="mt-0.5 text-xs text-navy-500">
+                        {t('field.issuedBy')} {cert.issuer} · {t('field.validUntil')}{' '}
+                        {formatDate(cert.validity_until, locale)}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </Section>
+            )}
 
             {related.length > 0 && (
               <Section id="related" title={t('detail.related')}>
@@ -479,24 +517,56 @@ export default async function InstitutionPage({
             </section>
 
             <section className="rounded-2xl border border-navy-100 bg-white p-5">
-              <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('section.quality')}</h2>
-              <p className="mt-1 text-3xl font-bold text-navy-900">
-                {Math.round(e.metadata_internal.completeness_score * 100)}
-                <span className="text-lg text-navy-400">%</span>
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('detail.solidity')}</h2>
+              <p className="mt-1 text-4xl font-bold text-navy-900">
+                {d.solidity.score}
+                <span className="text-lg text-navy-400">/100</span>
               </p>
-              <p className="text-xs text-navy-500">{t('quality.completeness')}</p>
               <div className="mt-2 h-2 w-full overflow-hidden rounded-full bg-navy-100">
-                <div
-                  className={`h-full rounded-full ${BAND[band]}`}
-                  style={{ width: `${Math.round(e.metadata_internal.completeness_score * 100)}%` }}
-                />
+                <div className={`h-full rounded-full ${BAND[band]}`} style={{ width: `${d.solidity.score}%` }} />
               </div>
-              {!e.source_verified && (
-                <p className="mt-3">
-                  <Badge tone="warning">{t('quality.unverified')}</Badge>
-                </p>
-              )}
-              <dl className="mt-4 space-y-2 text-xs">
+
+              <h3 className="mt-5 text-xs font-semibold uppercase tracking-wide text-navy-500">
+                {t('solidity.factors')}
+              </h3>
+              <dl className="mt-2 space-y-2">
+                {(
+                  [
+                    ['guarantee', 30],
+                    ['supervision', 25],
+                    ['longevity', 20],
+                    ['breadth', 20],
+                    ['passport', 5],
+                  ] as Array<[string, number]>
+                ).map(([key, max]) => (
+                  <div key={key}>
+                    <div className="flex items-baseline justify-between gap-2 text-xs">
+                      <dt className="text-navy-600">{t(`solidity.${key}` as 'solidity.guarantee')}</dt>
+                      <dd className="font-semibold text-navy-800">
+                        {d.solidity.components[key]}
+                        <span className="text-navy-400">/{max}</span>
+                      </dd>
+                    </div>
+                    <div className="mt-1 h-1 w-full overflow-hidden rounded-full bg-navy-100">
+                      <div
+                        className="h-full rounded-full bg-navy-400"
+                        style={{ width: `${(d.solidity.components[key] / max) * 100}%` }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </dl>
+              <p className="mt-4 text-xs leading-relaxed text-navy-500">{t('detail.solidityNote')}</p>
+            </section>
+
+            <section className="rounded-2xl border border-navy-100 bg-white p-5">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('section.quality')}</h2>
+              <p className="mt-2">
+                <Badge tone={e.source_verified ? 'success' : 'neutral'}>
+                  {e.source_verified ? t('quality.verified') : t('quality.unverified')}
+                </Badge>
+              </p>
+              <dl className="mt-3 space-y-2 text-xs">
                 <dt className="font-semibold uppercase tracking-wide text-navy-500">{t('quality.sources')}</dt>
                 <dd className="text-navy-700">
                   <ul className="list-inside list-disc space-y-0.5">

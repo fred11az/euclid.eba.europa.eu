@@ -19,7 +19,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const t = await getTranslations('home');
   const th = await getTranslations();
 
-  const featured = [...institutions].sort((a, b) => b.completeness - a.completeness).slice(0, 3);
+  const featured = [...institutions].sort((a, b) => b.solidityScore - a.solidityScore).slice(0, 3);
   const latest = news.slice(0, 3);
 
   return (

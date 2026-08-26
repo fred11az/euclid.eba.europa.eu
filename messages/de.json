@@ -88,7 +88,7 @@
     "psd2": "PSD2-Zahlungsdienste",
     "passport": "EWR-Passporting",
     "solidity": "Soliditätsindikator",
-    "solidityNote": "Redaktioneller Indikator von Euclide auf Basis veröffentlichter Aufsichtsdaten. Kein Kreditrating und keine Anlageberatung.",
+    "solidityNote": "Redaktioneller Indikator, berechnet aus den Feldern dieses Eintrags. Kein Kreditrating und keine Anlageberatung.",
     "verify": "Selbst überprüfen",
     "verifyLead": "Rechtsverbindlich ist das Register der Aufsicht. Öffnen Sie es und suchen Sie den unten genannten Firmennamen.",
     "officialRegister": "Amtliches Register öffnen",
@@ -247,7 +247,13 @@
     "vat": "USt-IdNr.",
     "address": "Anschrift des Sitzes",
     "email": "E-Mail",
-    "phone": "Telefon"
+    "phone": "Telefon",
+    "certifications": "Zertifizierungen",
+    "issuedBy": "Ausgestellt von",
+    "validUntil": "Gültig bis",
+    "social": "Offizielle Kanäle",
+    "ownership": "Beteiligung",
+    "branches": "Niederlassungen"
   },
   "scope": {
     "deposit_taking": "Entgegennahme von Publikumseinlagen",
@@ -285,7 +291,8 @@
     "sources": "Quellen",
     "nextRefresh": "Nächste Prüfung",
     "unverified": "Noch nicht gegen das amtliche Register geprüft",
-    "pendingNote": "Mit „Quelle ausstehend“ markierte Felder bleiben bewusst leer, statt mit ungeprüften Werten gefüllt zu werden."
+    "pendingNote": "Mit „Quelle ausstehend“ markierte Felder bleiben bewusst leer, statt mit ungeprüften Werten gefüllt zu werden.",
+    "verified": "Gegen das amtliche Register geprüft"
   },
   "passport": {
     "lead": "Diese Zulassung kann nach Anzeige in den folgenden Staaten ausgeübt werden.",
@@ -296,6 +303,14 @@
   },
   "financials": {
     "pending": "Kapital-, Liquiditäts- und Bilanzzahlen werden hier erst veröffentlicht, wenn sie einer aufsichtlichen Offenlegung entnommen werden können."
+  },
+  "solidity": {
+    "factors": "Wie dieser Wert entsteht",
+    "guarantee": "Schutz der Kundengelder",
+    "supervision": "Aufsichtsniveau",
+    "longevity": "Bestandsdauer",
+    "breadth": "Umfang der Zulassung",
+    "passport": "Europäischer Pass"
   },
   "pagination": {
     "prev": "Zurück",

@@ -88,7 +88,7 @@
     "psd2": "Services de paiement DSP2",
     "passport": "Passeport européen (EEE)",
     "solidity": "Indicateur de solidité",
-    "solidityNote": "Indicateur éditorial construit par Euclide à partir de données prudentielles publiées. Ce n’est pas une notation de crédit et il ne constitue pas un conseil en investissement.",
+    "solidityNote": "Indicateur éditorial calculé à partir des champs de cette fiche. Ce n’est pas une notation de crédit ni un conseil en investissement.",
     "verify": "Vérifiez par vous-même",
     "verifyLead": "La source qui fait foi est le registre du superviseur. Ouvrez-le et recherchez la dénomination sociale ci-dessous.",
     "officialRegister": "Ouvrir le registre officiel",
@@ -247,7 +247,13 @@
     "vat": "Identifiant TVA",
     "address": "Adresse du siège",
     "email": "Courriel",
-    "phone": "Téléphone"
+    "phone": "Téléphone",
+    "certifications": "Certifications",
+    "issuedBy": "Délivrée par",
+    "validUntil": "Valable jusqu’au",
+    "social": "Canaux officiels",
+    "ownership": "Détention",
+    "branches": "Succursales"
   },
   "scope": {
     "deposit_taking": "Réception de dépôts du public",
@@ -285,7 +291,8 @@
     "sources": "Sources",
     "nextRefresh": "Prochaine revue",
     "unverified": "Pas encore vérifiée face au registre officiel",
-    "pendingNote": "Les champs marqués « source en attente » sont volontairement laissés vides plutôt que remplis d’une valeur non vérifiée."
+    "pendingNote": "Les champs marqués « source en attente » sont volontairement laissés vides plutôt que remplis d’une valeur non vérifiée.",
+    "verified": "Vérifiée face au registre officiel"
   },
   "passport": {
     "lead": "Cet agrément peut être exercé, sur notification, dans les États suivants.",
@@ -296,6 +303,14 @@
   },
   "financials": {
     "pending": "Les données de capital, de liquidité et de bilan ne sont pas publiées ici tant qu’elles ne peuvent être reprises d’une publication prudentielle."
+  },
+  "solidity": {
+    "factors": "Comment ce score est construit",
+    "guarantee": "Protection des fonds des clients",
+    "supervision": "Niveau de supervision",
+    "longevity": "Ancienneté",
+    "breadth": "Étendue de l’agrément",
+    "passport": "Passeport européen"
   },
   "pagination": {
     "prev": "Précédent",
