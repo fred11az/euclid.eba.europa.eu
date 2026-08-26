@@ -254,7 +254,6 @@
     "social": "Official channels",
     "ownership": "Ownership",
     "branches": "Branches",
-    "repOffices": "Representative offices",
     "supervisorRef": "Reference with the supervisor",
     "declaredAddress": "Address declared to the supervisor",
     "regionalContact": "Regional contact"
@@ -316,13 +315,9 @@
     "breadth": "Breadth of the authorisation",
     "passport": "European passport"
   },
-  "repOffice": {
-    "note": "A representative office may promote its institution and act as a liaison. It is not itself authorised to take deposits, grant credit or conclude contracts: those operations are carried out by the authorised institution in its home country, under the supervision named above."
-  },
   "channels": {
     "title": "How services are delivered",
-    "remote": "Services are provided remotely, with documents signed electronically.",
-    "caution": "Whatever the channel, a payment instruction is worth checking: confirm the institution in the official register below, and be wary of any request to transfer funds to an account that is not in the name of the party you contracted with."
+    "remote": "Services are provided remotely, with documents signed electronically."
   },
   "pagination": {
     "prev": "Previous",

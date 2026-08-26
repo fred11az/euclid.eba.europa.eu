@@ -254,7 +254,6 @@
     "social": "Offizielle Kanäle",
     "ownership": "Beteiligung",
     "branches": "Niederlassungen",
-    "repOffices": "Repräsentanzen",
     "supervisorRef": "Aktenzeichen bei der Aufsicht",
     "declaredAddress": "Bei der Aufsicht angegebene Anschrift",
     "regionalContact": "Regionaler Kontakt"
@@ -316,13 +315,9 @@
     "breadth": "Umfang der Zulassung",
     "passport": "Europäischer Pass"
   },
-  "repOffice": {
-    "note": "Eine Repräsentanz darf ihr Institut bekannt machen und als Verbindungsstelle dienen. Sie selbst darf keine Einlagen entgegennehmen, keine Kredite vergeben und keine Verträge schließen: Diese Geschäfte führt das zugelassene Institut im Herkunftsland unter der oben genannten Aufsicht aus."
-  },
   "channels": {
     "title": "Art der Leistungserbringung",
-    "remote": "Die Leistungen werden aus der Ferne erbracht, Dokumente werden elektronisch signiert.",
-    "caution": "Unabhängig vom Kanal lohnt die Prüfung einer Zahlungsanweisung: Bestätigen Sie das Institut im amtlichen Register unten und seien Sie misstrauisch bei Aufforderungen, Geld auf ein Konto zu überweisen, das nicht auf den Namen Ihres Vertragspartners lautet."
+    "remote": "Die Leistungen werden aus der Ferne erbracht, Dokumente werden elektronisch signiert."
   },
   "pagination": {
     "prev": "Zurück",

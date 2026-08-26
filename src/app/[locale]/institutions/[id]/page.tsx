@@ -492,42 +492,6 @@ export default async function InstitutionPage({
             </Section>
 
             <Section id="group" title={t('section.group')}>
-              {d.corporate_structure.representative_offices?.length ? (
-                <div className="mt-3 rounded-2xl border border-navy-200 bg-navy-50/60 p-4">
-                  <h3 className="text-sm font-semibold uppercase tracking-wide text-navy-500">
-                    {t('field.repOffices')}
-                  </h3>
-                  {d.corporate_structure.representative_offices.map((office) => (
-                    <div key={office.name} className="mt-3 rounded-xl bg-white p-4">
-                      <p className="text-sm font-semibold text-navy-900">
-                        <span aria-hidden="true">{flag(office.country)}</span> {office.name}
-                      </p>
-                      <dl className="mt-2 space-y-1 text-sm">
-                        <div className="flex flex-wrap gap-x-2">
-                          <dt className="text-navy-500">{t('home.supervisedBy')} :</dt>
-                          <dd>
-                            <FactLink href={`/supervisors/${slugify(office.regulator)}`}>{office.regulator}</FactLink>
-                          </dd>
-                        </div>
-                        <div className="flex flex-wrap gap-x-2">
-                          <dt className="text-navy-500">{t('field.supervisorRef')} :</dt>
-                          <dd className="font-mono font-semibold text-navy-900">{office.reference}</dd>
-                        </div>
-                        <div>
-                          <dt className="text-navy-500">{t('field.declaredAddress')} :</dt>
-                          <dd className="text-navy-900">
-                            {office.declared_address.street}, {office.declared_address.postal_code}{' '}
-                            {office.declared_address.city},{' '}
-                            {countryName(office.declared_address.country_code, locale)}
-                          </dd>
-                        </div>
-                      </dl>
-                    </div>
-                  ))}
-                  <p className="mt-3 text-sm leading-relaxed text-navy-600">{t('repOffice.note')}</p>
-                </div>
-              ) : null}
-
               {d.corporate_structure.parent_entity || d.corporate_structure.branches.length > 0 ? (
                 <Rows
                   rows={[
@@ -543,12 +507,28 @@ export default async function InstitutionPage({
                           <span key={b.name}>
                             {b.name} · {b.city} ·{' '}
                             <FactLink href={`/supervisors/${slugify(b.regulator)}`}>{b.regulator}</FactLink>
+                            {b.reference && (
+                              <>
+                                <br />
+                                <span className="text-navy-500">{t('field.supervisorRef')} : </span>
+                                <span className="font-mono">{b.reference}</span>
+                              </>
+                            )}
+                            {b.declared_address && (
+                              <>
+                                <br />
+                                <span className="text-navy-500">{t('field.declaredAddress')} : </span>
+                                {b.declared_address.street}, {b.declared_address.postal_code}{' '}
+                                {b.declared_address.city},{' '}
+                                {countryName(b.declared_address.country_code, locale)}
+                              </>
+                            )}
                           </span>,
                         ] as [string, React.ReactNode],
                     ),
                   ]}
                 />
-              ) : d.corporate_structure.representative_offices?.length ? null : (
+              ) : (
                 <p className="mt-3 rounded-xl bg-navy-50 p-4 text-sm text-navy-600">{t('group.none')}</p>
               )}
 
@@ -558,9 +538,6 @@ export default async function InstitutionPage({
                     {t('channels.title')}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-navy-700">{t('channels.remote')}</p>
-                  <p className="mt-2 rounded-xl border border-gold-500/50 bg-gold-500/10 p-4 text-sm leading-relaxed text-navy-800">
-                    {t('channels.caution')}
-                  </p>
                 </div>
               )}
             </Section>

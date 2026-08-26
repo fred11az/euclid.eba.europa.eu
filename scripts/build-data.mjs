@@ -565,12 +565,10 @@ const VANTEX = {
       parent_entity: { name: 'First Abu Dhabi Bank P.J.S.C.', country: 'AE' },
       subsidiaries: [],
       branches: [
-        { name: 'Vantex Bank (Luxembourg) S.à r.l.', country: 'LU', city: 'Luxembourg', regulator: 'CSSF' },
-      ],
-      representative_offices: [
         {
-          name: 'Vantex Bank AG — Bureau de représentation France',
+          name: 'Vantex Bank SA — Succursale France',
           country: 'FR',
+          city: 'Paris',
           regulator: 'ACPR',
           reference: '18432',
           declared_address: {
@@ -580,6 +578,7 @@ const VANTEX = {
             country_code: 'DE',
           },
         },
+        { name: 'Vantex Bank (Luxembourg) S.à r.l.', country: 'LU', city: 'Luxembourg', regulator: 'CSSF' },
       ],
       pending_source: false,
     },

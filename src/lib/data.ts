@@ -99,13 +99,13 @@ export type Entity = {
     corporate_structure: {
       parent_entity: { name: string; country: string } | null;
       subsidiaries: unknown[];
-      branches: { name: string; country: string; city: string; regulator: string }[];
-      representative_offices?: {
+      branches: {
         name: string;
         country: string;
+        city: string;
         regulator: string;
-        reference: string;
-        declared_address: {
+        reference?: string;
+        declared_address?: {
           street: string;
           postal_code: string;
           city: string;

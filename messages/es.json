@@ -254,7 +254,6 @@
     "social": "Canales oficiales",
     "ownership": "Participación",
     "branches": "Sucursales",
-    "repOffices": "Oficinas de representación",
     "supervisorRef": "Referencia ante el supervisor",
     "declaredAddress": "Dirección declarada al supervisor",
     "regionalContact": "Contacto regional"
@@ -316,13 +315,9 @@
     "breadth": "Amplitud de la autorización",
     "passport": "Pasaporte europeo"
   },
-  "repOffice": {
-    "note": "Una oficina de representación puede dar a conocer a su entidad y servir de enlace. No está autorizada a captar depósitos, conceder crédito ni celebrar contratos: esas operaciones las realiza la entidad autorizada en su país de origen, bajo la supervisión indicada arriba."
-  },
   "channels": {
     "title": "Modalidades de servicio",
-    "remote": "Los servicios se prestan a distancia, con documentos firmados electrónicamente.",
-    "caution": "Sea cual sea el canal, conviene verificar una instrucción de pago: confirme la entidad en el registro oficial de abajo y desconfíe de cualquier petición de transferencia a una cuenta que no esté a nombre de su contraparte."
+    "remote": "Los servicios se prestan a distancia, con documentos firmados electrónicamente."
   },
   "pagination": {
     "prev": "Anterior",
