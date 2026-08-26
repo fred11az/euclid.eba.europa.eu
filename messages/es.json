@@ -293,7 +293,6 @@
     "completeness": "Completitud de la ficha",
     "sources": "Fuentes",
     "nextRefresh": "Próxima revisión",
-    "unverified": "Aún no verificada frente al registro oficial",
     "pendingNote": "Los campos marcados «fuente pendiente» se dejan deliberadamente vacíos en lugar de rellenarse con un valor no verificado.",
     "verified": "Verificada frente al registro oficial"
   },
@@ -313,6 +312,7 @@
     "supervision": "Nivel de supervisión",
     "longevity": "Antigüedad",
     "breadth": "Amplitud de la autorización",
+    "editorial": "Valoración editorial",
     "passport": "Pasaporte europeo"
   },
   "channels": {

@@ -492,43 +492,60 @@ export default async function InstitutionPage({
             </Section>
 
             <Section id="group" title={t('section.group')}>
-              {d.corporate_structure.parent_entity || d.corporate_structure.branches.length > 0 ? (
-                <Rows
-                  rows={[
-                    ...(d.corporate_structure.parent_entity
-                      ? ([[t('field.parent'), d.corporate_structure.parent_entity.name]] as Array<
-                          [string, React.ReactNode]
-                        >)
-                      : []),
-                    ...d.corporate_structure.branches.map(
-                      (b) =>
-                        [
-                          `${t('field.branches')} — ${countryName(b.country, locale)}`,
-                          <span key={b.name}>
-                            {b.name} · {b.city} ·{' '}
-                            <FactLink href={`/supervisors/${slugify(b.regulator)}`}>{b.regulator}</FactLink>
-                            {b.reference && (
-                              <>
-                                <br />
-                                <span className="text-navy-500">{t('field.supervisorRef')} : </span>
-                                <span className="font-mono">{b.reference}</span>
-                              </>
-                            )}
-                            {b.declared_address && (
-                              <>
-                                <br />
-                                <span className="text-navy-500">{t('field.declaredAddress')} : </span>
-                                {b.declared_address.street}, {b.declared_address.postal_code}{' '}
-                                {b.declared_address.city},{' '}
-                                {countryName(b.declared_address.country_code, locale)}
-                              </>
-                            )}
-                          </span>,
-                        ] as [string, React.ReactNode],
-                    ),
-                  ]}
-                />
-              ) : (
+              {d.corporate_structure.parent_entity && (
+                <Rows rows={[[t('field.parent'), d.corporate_structure.parent_entity.name]]} />
+              )}
+
+              {d.corporate_structure.branches.length > 0 && (
+                <div className="mt-4">
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-navy-500">
+                    {t('field.branches')}
+                  </h3>
+                  <div className="mt-2 space-y-3">
+                    {d.corporate_structure.branches.map((b) => (
+                      <div key={b.name} className="rounded-2xl border border-navy-100 bg-white p-4">
+                        <p className="text-sm font-semibold text-navy-900">
+                          <span aria-hidden="true">{flag(b.country)}</span> {b.name}
+                        </p>
+                        <dl className="mt-2 space-y-1 text-sm">
+                          {(
+                            [
+                              [t('field.legalForm'), b.legal_form],
+                              [
+                                t('field.address'),
+                                b.address
+                                  ? `${b.address.street}, ${b.address.postal_code} ${b.address.city}, ${countryName(b.address.country_code, locale)}`
+                                  : b.city,
+                              ],
+                              [t('field.regNumber'), b.registration_number],
+                              [
+                                t('home.supervisedBy'),
+                                <FactLink key={b.regulator} href={`/supervisors/${slugify(b.regulator)}`}>
+                                  {b.regulator}
+                                </FactLink>,
+                              ],
+                              [t('field.supervisorRef'), b.reference],
+                              [
+                                t('detail.iban'),
+                                b.iban_prefix ? <span key="ib" className="font-mono">{b.iban_prefix}</span> : null,
+                              ],
+                            ] as Array<[string, React.ReactNode]>
+                          )
+                            .filter(([, v]) => v !== null && v !== undefined && v !== '')
+                            .map(([label, value]) => (
+                              <div key={label} className="flex flex-wrap gap-x-2">
+                                <dt className="text-navy-500">{label} :</dt>
+                                <dd className="font-medium text-navy-900">{value}</dd>
+                              </div>
+                            ))}
+                        </dl>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {!d.corporate_structure.parent_entity && d.corporate_structure.branches.length === 0 && (
                 <p className="mt-3 rounded-xl bg-navy-50 p-4 text-sm text-navy-600">{t('group.none')}</p>
               )}
 
@@ -613,6 +630,7 @@ export default async function InstitutionPage({
                     ['longevity', 20],
                     ['breadth', 20],
                     ['passport', 5],
+                    ['editorial', 20],
                   ] as Array<[string, number]>
                 ).map(([key, max]) => (
                   <div key={key}>
@@ -637,11 +655,11 @@ export default async function InstitutionPage({
 
             <section className="rounded-2xl border border-navy-100 bg-white p-5">
               <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('section.quality')}</h2>
-              <p className="mt-2">
-                <Badge tone={e.source_verified ? 'success' : 'neutral'}>
-                  {e.source_verified ? t('quality.verified') : t('quality.unverified')}
-                </Badge>
-              </p>
+              {e.source_verified && (
+                <p className="mt-2">
+                  <Badge tone="success">{t('quality.verified')}</Badge>
+                </p>
+              )}
               <dl className="mt-3 space-y-2 text-xs">
                 <dt className="font-semibold uppercase tracking-wide text-navy-500">{t('quality.sources')}</dt>
                 <dd className="text-navy-700">

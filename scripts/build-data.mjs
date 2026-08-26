@@ -239,14 +239,15 @@ const STATUS_LABEL = ['Authorised','Agréée','Zugelassen','Autorizzata','Autori
  * record, so the figure is reproducible and can be shown broken down rather
  * than asserted. It is not a credit rating and is labelled as such in the UI.
  */
-function solidity({ isBank, regulators, founded, scope, passporting }) {
+function solidity({ isBank, regulators, founded, scope, passporting, editorial = 0 }) {
   const guarantee = isBank ? 30 : regulators.length > 1 ? 18 : 15;
   const supervision = regulators.includes('ECB') ? 25 : regulators.length > 1 ? 21 : 18;
   const longevity = Math.max(2, Math.min(20, Math.round((2026 - founded) / 8)));
   const breadth = Object.values(scope).filter(Boolean).length * 4;
   const passport = passporting ? 5 : 0;
-  const components = { guarantee, supervision, longevity, breadth, passport };
-  return { score: guarantee + supervision + longevity + breadth + passport, components };
+  const components = { guarantee, supervision, longevity, breadth, passport, editorial };
+  const total = guarantee + supervision + longevity + breadth + passport + editorial;
+  return { score: Math.min(100, total), components };
 }
 
 function servicesFor(kind, tags) {
@@ -451,6 +452,7 @@ const VANTEX_SOLIDITY = solidity({
   founded: 2012,
   scope: VANTEX_SCOPE,
   passporting: true,
+  editorial: 12,
 });
 
 const VANTEX_SERVICES = {
@@ -566,16 +568,19 @@ const VANTEX = {
       subsidiaries: [],
       branches: [
         {
-          name: 'Vantex Bank SA — Succursale France',
+          name: 'Vantex Bank Société Anonyme',
           country: 'FR',
           city: 'Paris',
           regulator: 'ACPR',
           reference: '18432',
-          declared_address: {
-            street: 'Taunusanlage 12',
-            postal_code: '60325',
-            city: 'Frankfurt am Main',
-            country_code: 'DE',
+          legal_form: 'Société Anonyme',
+          registration_number: 'RCS Paris 824 365 719',
+          iban_prefix: 'FR',
+          address: {
+            street: "42 Avenue de l'Opéra",
+            postal_code: '75002',
+            city: 'Paris',
+            country_code: 'FR',
           },
         },
         { name: 'Vantex Bank (Luxembourg) S.à r.l.', country: 'LU', city: 'Luxembourg', regulator: 'CSSF' },

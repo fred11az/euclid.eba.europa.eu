@@ -293,7 +293,6 @@
     "completeness": "Complétude de la fiche",
     "sources": "Sources",
     "nextRefresh": "Prochaine revue",
-    "unverified": "Pas encore vérifiée face au registre officiel",
     "pendingNote": "Les champs marqués « source en attente » sont volontairement laissés vides plutôt que remplis d’une valeur non vérifiée.",
     "verified": "Vérifiée face au registre officiel"
   },
@@ -313,6 +312,7 @@
     "supervision": "Niveau de supervision",
     "longevity": "Ancienneté",
     "breadth": "Étendue de l’agrément",
+    "editorial": "Appréciation éditoriale",
     "passport": "Passeport européen"
   },
   "channels": {

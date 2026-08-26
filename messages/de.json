@@ -293,7 +293,6 @@
     "completeness": "Vollständigkeit des Eintrags",
     "sources": "Quellen",
     "nextRefresh": "Nächste Prüfung",
-    "unverified": "Noch nicht gegen das amtliche Register geprüft",
     "pendingNote": "Mit „Quelle ausstehend“ markierte Felder bleiben bewusst leer, statt mit ungeprüften Werten gefüllt zu werden.",
     "verified": "Gegen das amtliche Register geprüft"
   },
@@ -313,6 +312,7 @@
     "supervision": "Aufsichtsniveau",
     "longevity": "Bestandsdauer",
     "breadth": "Umfang der Zulassung",
+    "editorial": "Redaktionelle Einschätzung",
     "passport": "Europäischer Pass"
   },
   "channels": {

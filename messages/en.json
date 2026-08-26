@@ -293,7 +293,6 @@
     "completeness": "Record completeness",
     "sources": "Sources",
     "nextRefresh": "Next review",
-    "unverified": "Not yet verified against the official register",
     "pendingNote": "Fields marked “source pending” are deliberately left empty rather than filled with an unverified value.",
     "verified": "Verified against the official register"
   },
@@ -313,6 +312,7 @@
     "supervision": "Level of supervision",
     "longevity": "Years in operation",
     "breadth": "Breadth of the authorisation",
+    "editorial": "Editorial assessment",
     "passport": "European passport"
   },
   "channels": {

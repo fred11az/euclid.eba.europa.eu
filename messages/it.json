@@ -293,7 +293,6 @@
     "completeness": "Completezza della scheda",
     "sources": "Fonti",
     "nextRefresh": "Prossima revisione",
-    "unverified": "Non ancora verificata rispetto al registro ufficiale",
     "pendingNote": "I campi contrassegnati «fonte in attesa» restano volutamente vuoti anziché essere riempiti con valori non verificati.",
     "verified": "Verificata rispetto al registro ufficiale"
   },
@@ -313,6 +312,7 @@
     "supervision": "Livello di vigilanza",
     "longevity": "Anzianità",
     "breadth": "Ampiezza dell’autorizzazione",
+    "editorial": "Valutazione editoriale",
     "passport": "Passaporto europeo"
   },
   "channels": {

@@ -105,7 +105,10 @@ export type Entity = {
         city: string;
         regulator: string;
         reference?: string;
-        declared_address?: {
+        legal_form?: string;
+        registration_number?: string;
+        iban_prefix?: string;
+        address?: {
           street: string;
           postal_code: string;
           city: string;

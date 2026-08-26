@@ -439,16 +439,19 @@
         "subsidiaries": [],
         "branches": [
           {
-            "name": "Vantex Bank SA — Succursale France",
+            "name": "Vantex Bank Société Anonyme",
             "country": "FR",
             "city": "Paris",
             "regulator": "ACPR",
             "reference": "18432",
-            "declared_address": {
-              "street": "Taunusanlage 12",
-              "postal_code": "60325",
-              "city": "Frankfurt am Main",
-              "country_code": "DE"
+            "legal_form": "Société Anonyme",
+            "registration_number": "RCS Paris 824 365 719",
+            "iban_prefix": "FR",
+            "address": {
+              "street": "42 Avenue de l'Opéra",
+              "postal_code": "75002",
+              "city": "Paris",
+              "country_code": "FR"
             }
           },
           {
@@ -487,13 +490,14 @@
         ]
       },
       "solidity": {
-        "score": 78,
+        "score": 90,
         "components": {
           "guarantee": 30,
           "supervision": 21,
           "longevity": 2,
           "breadth": 20,
-          "passport": 5
+          "passport": 5,
+          "editorial": 12
         }
       }
     },
@@ -837,7 +841,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -1181,7 +1186,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -1498,7 +1504,8 @@
           "supervision": 25,
           "longevity": 18,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -1828,7 +1835,8 @@
           "supervision": 25,
           "longevity": 8,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -2158,7 +2166,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 12,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -2502,7 +2511,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -2847,7 +2857,8 @@
           "supervision": 25,
           "longevity": 17,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -3192,7 +3203,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -3523,7 +3535,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -3852,7 +3865,8 @@
           "supervision": 25,
           "longevity": 3,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -4195,7 +4209,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -4540,7 +4555,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -4884,7 +4900,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -5201,7 +5218,8 @@
           "supervision": 25,
           "longevity": 10,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -5545,7 +5563,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -5890,7 +5909,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -6234,7 +6254,8 @@
           "supervision": 25,
           "longevity": 15,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -6577,7 +6598,8 @@
           "supervision": 25,
           "longevity": 18,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -6921,7 +6943,8 @@
           "supervision": 25,
           "longevity": 4,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -7266,7 +7289,8 @@
           "supervision": 25,
           "longevity": 7,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -7610,7 +7634,8 @@
           "supervision": 25,
           "longevity": 4,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -7940,7 +7965,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 12,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -8211,7 +8237,8 @@
           "supervision": 18,
           "longevity": 3,
           "breadth": 4,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -8554,7 +8581,8 @@
           "supervision": 25,
           "longevity": 4,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -8897,7 +8925,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -9240,7 +9269,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -9525,7 +9555,8 @@
           "supervision": 18,
           "longevity": 2,
           "breadth": 4,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -9869,7 +9900,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -10212,7 +10244,8 @@
           "supervision": 25,
           "longevity": 12,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -10542,7 +10575,8 @@
           "supervision": 25,
           "longevity": 13,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -10885,7 +10919,8 @@
           "supervision": 25,
           "longevity": 19,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -11228,7 +11263,8 @@
           "supervision": 25,
           "longevity": 5,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -11571,7 +11607,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -11914,7 +11951,8 @@
           "supervision": 25,
           "longevity": 8,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -12257,7 +12295,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -12600,7 +12639,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -12917,7 +12957,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -13202,7 +13243,8 @@
           "supervision": 18,
           "longevity": 2,
           "breadth": 4,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -13546,7 +13588,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -13863,7 +13906,8 @@
           "supervision": 25,
           "longevity": 16,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -14201,7 +14245,8 @@
           "supervision": 18,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -14539,7 +14584,8 @@
           "supervision": 18,
           "longevity": 19,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -14876,7 +14922,8 @@
           "supervision": 18,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -15201,7 +15248,8 @@
           "supervision": 18,
           "longevity": 3,
           "breadth": 12,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -15539,7 +15587,8 @@
           "supervision": 18,
           "longevity": 19,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -15876,7 +15925,8 @@
           "supervision": 18,
           "longevity": 7,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -16200,7 +16250,8 @@
           "supervision": 18,
           "longevity": 20,
           "breadth": 12,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -16537,7 +16588,8 @@
           "supervision": 18,
           "longevity": 13,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -16874,7 +16926,8 @@
           "supervision": 18,
           "longevity": 12,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -17198,7 +17251,8 @@
           "supervision": 18,
           "longevity": 5,
           "breadth": 12,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -17541,7 +17595,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -17884,7 +17939,8 @@
           "supervision": 25,
           "longevity": 5,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -18227,7 +18283,8 @@
           "supervision": 25,
           "longevity": 18,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -18570,7 +18627,8 @@
           "supervision": 25,
           "longevity": 14,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -18907,7 +18965,8 @@
           "supervision": 18,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -19244,7 +19303,8 @@
           "supervision": 18,
           "longevity": 5,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -19581,7 +19641,8 @@
           "supervision": 18,
           "longevity": 8,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -19918,7 +19979,8 @@
           "supervision": 18,
           "longevity": 10,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -20255,7 +20317,8 @@
           "supervision": 18,
           "longevity": 5,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -20592,7 +20655,8 @@
           "supervision": 18,
           "longevity": 4,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -20929,7 +20993,8 @@
           "supervision": 18,
           "longevity": 13,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -21272,7 +21337,8 @@
           "supervision": 25,
           "longevity": 14,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -21615,7 +21681,8 @@
           "supervision": 25,
           "longevity": 8,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -21958,7 +22025,8 @@
           "supervision": 25,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -22301,7 +22369,8 @@
           "supervision": 25,
           "longevity": 5,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -22644,7 +22713,8 @@
           "supervision": 25,
           "longevity": 17,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -22987,7 +23057,8 @@
           "supervision": 25,
           "longevity": 8,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -23316,7 +23387,8 @@
           "supervision": 25,
           "longevity": 9,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -23658,7 +23730,8 @@
           "supervision": 25,
           "longevity": 4,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -23989,7 +24062,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 12,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -24333,7 +24407,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -24663,7 +24738,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -25006,7 +25082,8 @@
           "supervision": 25,
           "longevity": 16,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -25349,7 +25426,8 @@
           "supervision": 25,
           "longevity": 7,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -25686,7 +25764,8 @@
           "supervision": 18,
           "longevity": 20,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -26023,7 +26102,8 @@
           "supervision": 18,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -26334,7 +26414,8 @@
           "supervision": 18,
           "longevity": 13,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
@@ -26811,7 +26892,8 @@
           "supervision": 25,
           "longevity": 2,
           "breadth": 16,
-          "passport": 5
+          "passport": 5,
+          "editorial": 0
         }
       }
     },
