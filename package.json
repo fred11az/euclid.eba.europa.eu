@@ -10,7 +10,7 @@
     "data": "node scripts/build-data.mjs && node scripts/build-messages.mjs"
   },
   "dependencies": {
-    "next": "15.5.4",
+    "next": "^15.5.24",
     "next-intl": "^4.3.4",
     "react": "19.1.1",
     "react-dom": "19.1.1"
