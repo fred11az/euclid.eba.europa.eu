@@ -16,7 +16,8 @@
     "countries": "Países",
     "supervisors": "Supervisores",
     "understand": "Entender",
-    "glossary": "Glosario"
+    "glossary": "Glosario",
+    "services": "Servicios"
   },
   "home": {
     "kicker": "Explorador del registro público",
@@ -65,7 +66,8 @@
     "noResults": "Ninguna entidad coincide con estos filtros",
     "noResultsLead": "Pruebe a quitar un filtro o busque por nombre o BIC.",
     "grid": "Cuadrícula",
-    "listView": "Lista"
+    "listView": "Lista",
+    "sortCompleteness": "Completitud"
   },
   "detail": {
     "overview": "Resumen",
@@ -154,7 +156,8 @@
     "mortgage": "Entidad hipotecaria",
     "digital": "Banco digital",
     "payment": "Entidad de pago",
-    "emoney": "Entidad de dinero electrónico"
+    "emoney": "Entidad de dinero electrónico",
+    "islamic": "Banco conforme a la sharia"
   },
   "tags": {
     "retail": "Minorista",
@@ -164,7 +167,8 @@
     "digital": "Digital",
     "payments": "Pagos",
     "private": "Banca privada",
-    "mortgage": "Hipotecario"
+    "mortgage": "Hipotecario",
+    "islamic": "Finanzas islámicas"
   },
   "categories": {
     "REGULATION": "Regulación",
@@ -217,6 +221,81 @@
     "viewAll": "Ver todo",
     "learnMore": "Saber más",
     "explore": "Explorar"
+  },
+  "section": {
+    "identity": "Identidad",
+    "registration": "Registro",
+    "contact": "Contacto",
+    "regulation": "Supervisión",
+    "scope": "Alcance de la autorización",
+    "passporting": "Pasaporte europeo",
+    "services": "Servicios",
+    "group": "Estructura del grupo",
+    "financials": "Datos financieros",
+    "quality": "Calidad del dato",
+    "contents": "En esta página"
+  },
+  "field": {
+    "entityType": "Tipo de entidad",
+    "legalForm": "Forma jurídica",
+    "commercialNames": "Nombres comerciales",
+    "parent": "Sociedad matriz",
+    "regNumber": "Número de registro",
+    "regAuthority": "Registro",
+    "established": "Constitución",
+    "lei": "Código LEI",
+    "vat": "NIF/IVA",
+    "address": "Dirección de la sede",
+    "email": "Correo electrónico",
+    "phone": "Teléfono"
+  },
+  "scope": {
+    "deposit_taking": "Captación de depósitos del público",
+    "credit_granting": "Concesión de crédito",
+    "investment_services": "Servicios de inversión",
+    "insurance_distribution": "Distribución de seguros",
+    "payment_services": "Servicios de pago"
+  },
+  "services": {
+    "banking": "Servicios bancarios",
+    "credit": "Servicios de crédito",
+    "islamic": "Productos conformes a la sharia",
+    "islamicLead": "Estos productos evitan el interés y lo sustituyen por estructuras de venta, arrendamiento o asociación. La entidad sigue autorizada y supervisada por las mismas normas europeas que cualquier otro banco.",
+    "pageTitle": "Servicios",
+    "pageLead": "Qué entidades están autorizadas a ofrecer cada servicio, y dónde.",
+    "providers": "Entidades que ofrecen este servicio"
+  },
+  "compliance": {
+    "sanctions": "Cribado de sanciones",
+    "aml": "Blanqueo / KYC",
+    "gdpr": "RGPD",
+    "psd3": "PSD3 (en preparación)",
+    "sca": "Autenticación reforzada del cliente",
+    "openBanking": "Acceso open banking"
+  },
+  "cstatus": {
+    "COMPLIANT": "Conforme",
+    "COMPLIANT_PENDING": "Por confirmar",
+    "NOT_APPLICABLE": "No aplicable",
+    "CLEAR": "Sin registro",
+    "PENDING": "Fuente pendiente"
+  },
+  "quality": {
+    "completeness": "Completitud de la ficha",
+    "sources": "Fuentes",
+    "nextRefresh": "Próxima revisión",
+    "unverified": "Aún no verificada frente al registro oficial",
+    "pendingNote": "Los campos marcados «fuente pendiente» se dejan deliberadamente vacíos en lugar de rellenarse con un valor no verificado."
+  },
+  "passport": {
+    "lead": "Esta autorización puede ejercerse, previa notificación, en los siguientes Estados.",
+    "showAll": "Ver los {count} Estados cubiertos"
+  },
+  "group": {
+    "none": "No consta vínculo de grupo para esta entidad."
+  },
+  "financials": {
+    "pending": "Los datos de capital, liquidez y balance no se publican hasta que puedan tomarse de una divulgación prudencial."
   },
   "pagination": {
     "prev": "Anterior",

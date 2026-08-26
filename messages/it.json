@@ -16,7 +16,8 @@
     "countries": "Paesi",
     "supervisors": "Autorità",
     "understand": "Capire",
-    "glossary": "Glossario"
+    "glossary": "Glossario",
+    "services": "Servizi"
   },
   "home": {
     "kicker": "Esploratore del registro pubblico",
@@ -65,7 +66,8 @@
     "noResults": "Nessun ente corrisponde a questi filtri",
     "noResultsLead": "Provate a rimuovere un filtro o cercate per nome o BIC.",
     "grid": "Griglia",
-    "listView": "Elenco"
+    "listView": "Elenco",
+    "sortCompleteness": "Completezza"
   },
   "detail": {
     "overview": "Panoramica",
@@ -154,7 +156,8 @@
     "mortgage": "Istituto ipotecario",
     "digital": "Banca digitale",
     "payment": "Istituto di pagamento",
-    "emoney": "Istituto di moneta elettronica"
+    "emoney": "Istituto di moneta elettronica",
+    "islamic": "Banca conforme alla sharia"
   },
   "tags": {
     "retail": "Al dettaglio",
@@ -164,7 +167,8 @@
     "digital": "Digitale",
     "payments": "Pagamenti",
     "private": "Private banking",
-    "mortgage": "Mutui"
+    "mortgage": "Mutui",
+    "islamic": "Finanza islamica"
   },
   "categories": {
     "REGULATION": "Regolamentazione",
@@ -217,6 +221,81 @@
     "viewAll": "Vedi tutto",
     "learnMore": "Scopri di più",
     "explore": "Esplora"
+  },
+  "section": {
+    "identity": "Identità",
+    "registration": "Registrazione",
+    "contact": "Contatti",
+    "regulation": "Vigilanza",
+    "scope": "Ambito dell’autorizzazione",
+    "passporting": "Passaporto europeo",
+    "services": "Servizi",
+    "group": "Struttura del gruppo",
+    "financials": "Dati finanziari",
+    "quality": "Qualità del dato",
+    "contents": "In questa pagina"
+  },
+  "field": {
+    "entityType": "Tipo di soggetto",
+    "legalForm": "Forma giuridica",
+    "commercialNames": "Nomi commerciali",
+    "parent": "Società madre",
+    "regNumber": "Numero di registrazione",
+    "regAuthority": "Registro",
+    "established": "Costituzione",
+    "lei": "Codice LEI",
+    "vat": "Partita IVA",
+    "address": "Indirizzo della sede",
+    "email": "Email",
+    "phone": "Telefono"
+  },
+  "scope": {
+    "deposit_taking": "Raccolta di depositi dal pubblico",
+    "credit_granting": "Concessione di credito",
+    "investment_services": "Servizi di investimento",
+    "insurance_distribution": "Distribuzione assicurativa",
+    "payment_services": "Servizi di pagamento"
+  },
+  "services": {
+    "banking": "Servizi bancari",
+    "credit": "Servizi di credito",
+    "islamic": "Prodotti conformi alla sharia",
+    "islamicLead": "Questi prodotti evitano l’interesse, sostituendolo con strutture di vendita, locazione o partenariato. L’ente resta autorizzato e vigilato secondo le stesse regole europee di qualsiasi altra banca.",
+    "pageTitle": "Servizi",
+    "pageLead": "Quali enti sono autorizzati a offrire ciascun servizio, e dove.",
+    "providers": "Enti che offrono questo servizio"
+  },
+  "compliance": {
+    "sanctions": "Screening sanzioni",
+    "aml": "Antiriciclaggio / KYC",
+    "gdpr": "GDPR",
+    "psd3": "PSD3 (in preparazione)",
+    "sca": "Autenticazione forte del cliente",
+    "openBanking": "Accesso open banking"
+  },
+  "cstatus": {
+    "COMPLIANT": "Conforme",
+    "COMPLIANT_PENDING": "Da confermare",
+    "NOT_APPLICABLE": "Non applicabile",
+    "CLEAR": "Nessuna segnalazione",
+    "PENDING": "Fonte in attesa"
+  },
+  "quality": {
+    "completeness": "Completezza della scheda",
+    "sources": "Fonti",
+    "nextRefresh": "Prossima revisione",
+    "unverified": "Non ancora verificata rispetto al registro ufficiale",
+    "pendingNote": "I campi contrassegnati «fonte in attesa» restano volutamente vuoti anziché essere riempiti con valori non verificati."
+  },
+  "passport": {
+    "lead": "Questa autorizzazione può essere esercitata, previa notifica, nei seguenti Stati.",
+    "showAll": "Vedi i {count} Stati coperti"
+  },
+  "group": {
+    "none": "Nessun legame di gruppo registrato per questo soggetto."
+  },
+  "financials": {
+    "pending": "I dati su capitale, liquidità e bilancio non sono pubblicati finché non possono essere tratti da un’informativa di vigilanza."
   },
   "pagination": {
     "prev": "Precedente",

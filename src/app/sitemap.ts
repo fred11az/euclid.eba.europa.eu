@@ -6,6 +6,7 @@ import {
   institutions,
   licences,
   news,
+  serviceCodes,
   supervisorIndex,
   tags,
 } from '@/lib/data';
@@ -19,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/countries',
     '/supervisors',
     '/activities',
+    '/services',
     '/licences',
     '/glossary',
     '/news',
@@ -43,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ...countryCodes.map((c) => `/countries/${c.toLowerCase()}`),
       ...supervisorIndex.map((s) => `/supervisors/${s.slug}`),
       ...tags.map((t) => `/activities/${t}`),
+      ...serviceCodes.map((c) => `/services/${c.toLowerCase()}`),
       ...licences.map((l) => `/licences/${l.slug}`),
       ...glossary.map((g) => `/glossary/${g.slug}`),
       ...news.map((n) => `/news/${n.id}`),

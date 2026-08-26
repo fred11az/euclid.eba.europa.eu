@@ -16,7 +16,8 @@
     "countries": "Countries",
     "supervisors": "Supervisors",
     "understand": "Understand",
-    "glossary": "Glossary"
+    "glossary": "Glossary",
+    "services": "Services"
   },
   "home": {
     "kicker": "Public register explorer",
@@ -65,7 +66,8 @@
     "noResults": "No institution matches these filters",
     "noResultsLead": "Try removing a filter, or search by name or BIC.",
     "grid": "Grid",
-    "listView": "List"
+    "listView": "List",
+    "sortCompleteness": "Record completeness"
   },
   "detail": {
     "overview": "Overview",
@@ -154,7 +156,8 @@
     "mortgage": "Mortgage institution",
     "digital": "Digital bank",
     "payment": "Payment institution",
-    "emoney": "E-money institution"
+    "emoney": "E-money institution",
+    "islamic": "Sharia-compliant bank"
   },
   "tags": {
     "retail": "Retail",
@@ -164,7 +167,8 @@
     "digital": "Digital",
     "payments": "Payments",
     "private": "Private banking",
-    "mortgage": "Mortgage"
+    "mortgage": "Mortgage",
+    "islamic": "Islamic finance"
   },
   "categories": {
     "REGULATION": "Regulation",
@@ -217,6 +221,81 @@
     "viewAll": "View all",
     "learnMore": "Learn more",
     "explore": "Explore"
+  },
+  "section": {
+    "identity": "Identity",
+    "registration": "Registration",
+    "contact": "Contact",
+    "regulation": "Supervision",
+    "scope": "Scope of the authorisation",
+    "passporting": "European passport",
+    "services": "Services",
+    "group": "Group structure",
+    "financials": "Financial data",
+    "quality": "Data quality",
+    "contents": "On this page"
+  },
+  "field": {
+    "entityType": "Entity type",
+    "legalForm": "Legal form",
+    "commercialNames": "Trading names",
+    "parent": "Parent company",
+    "regNumber": "Registration number",
+    "regAuthority": "Registry",
+    "established": "Established",
+    "lei": "LEI code",
+    "vat": "VAT identifier",
+    "address": "Head office address",
+    "email": "Email",
+    "phone": "Telephone"
+  },
+  "scope": {
+    "deposit_taking": "Taking deposits from the public",
+    "credit_granting": "Granting credit",
+    "investment_services": "Investment services",
+    "insurance_distribution": "Insurance distribution",
+    "payment_services": "Payment services"
+  },
+  "services": {
+    "banking": "Banking services",
+    "credit": "Credit services",
+    "islamic": "Sharia-compliant products",
+    "islamicLead": "These products avoid interest, replacing it with sale, lease or partnership structures. The institution remains authorised and supervised under the same European rules as any other bank.",
+    "pageTitle": "Services",
+    "pageLead": "Which institutions are authorised to offer each service, and where.",
+    "providers": "Institutions offering this service"
+  },
+  "compliance": {
+    "sanctions": "Sanctions screening",
+    "aml": "AML / KYC",
+    "gdpr": "GDPR",
+    "psd3": "PSD3 (in preparation)",
+    "sca": "Strong customer authentication",
+    "openBanking": "Open banking access"
+  },
+  "cstatus": {
+    "COMPLIANT": "Compliant",
+    "COMPLIANT_PENDING": "To be confirmed",
+    "NOT_APPLICABLE": "Not applicable",
+    "CLEAR": "No entry recorded",
+    "PENDING": "Source pending"
+  },
+  "quality": {
+    "completeness": "Record completeness",
+    "sources": "Sources",
+    "nextRefresh": "Next review",
+    "unverified": "Not yet verified against the official register",
+    "pendingNote": "Fields marked “source pending” are deliberately left empty rather than filled with an unverified value."
+  },
+  "passport": {
+    "lead": "This authorisation may be exercised, on notification, in the following States.",
+    "showAll": "See the {count} States covered"
+  },
+  "group": {
+    "none": "No group link recorded for this entity."
+  },
+  "financials": {
+    "pending": "Capital, liquidity and balance-sheet figures are not published here until they can be taken from a supervisory disclosure."
   },
   "pagination": {
     "prev": "Previous",

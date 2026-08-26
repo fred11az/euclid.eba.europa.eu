@@ -16,7 +16,8 @@
     "countries": "Pays",
     "supervisors": "Superviseurs",
     "understand": "Comprendre",
-    "glossary": "Glossaire"
+    "glossary": "Glossaire",
+    "services": "Services"
   },
   "home": {
     "kicker": "Explorateur du registre public",
@@ -65,7 +66,8 @@
     "noResults": "Aucun établissement ne correspond à ces filtres",
     "noResultsLead": "Essayez de retirer un filtre, ou recherchez par nom ou BIC.",
     "grid": "Grille",
-    "listView": "Liste"
+    "listView": "Liste",
+    "sortCompleteness": "Complétude de la fiche"
   },
   "detail": {
     "overview": "Vue d’ensemble",
@@ -154,7 +156,8 @@
     "mortgage": "Établissement hypothécaire",
     "digital": "Banque numérique",
     "payment": "Établissement de paiement",
-    "emoney": "Établissement de monnaie électronique"
+    "emoney": "Établissement de monnaie électronique",
+    "islamic": "Banque conforme à la charia"
   },
   "tags": {
     "retail": "Particuliers",
@@ -164,7 +167,8 @@
     "digital": "Numérique",
     "payments": "Paiements",
     "private": "Banque privée",
-    "mortgage": "Crédit immobilier"
+    "mortgage": "Crédit immobilier",
+    "islamic": "Finance islamique"
   },
   "categories": {
     "REGULATION": "Réglementation",
@@ -217,6 +221,81 @@
     "viewAll": "Voir tout",
     "learnMore": "En savoir plus",
     "explore": "Explorer"
+  },
+  "section": {
+    "identity": "Identité",
+    "registration": "Enregistrement",
+    "contact": "Contact",
+    "regulation": "Supervision",
+    "scope": "Périmètre de l’agrément",
+    "passporting": "Passeport européen",
+    "services": "Services",
+    "group": "Structure du groupe",
+    "financials": "Données financières",
+    "quality": "Qualité de la donnée",
+    "contents": "Sur cette page"
+  },
+  "field": {
+    "entityType": "Type d’entité",
+    "legalForm": "Forme juridique",
+    "commercialNames": "Noms commerciaux",
+    "parent": "Société mère",
+    "regNumber": "Numéro d’enregistrement",
+    "regAuthority": "Registre",
+    "established": "Création",
+    "lei": "Code LEI",
+    "vat": "Identifiant TVA",
+    "address": "Adresse du siège",
+    "email": "Courriel",
+    "phone": "Téléphone"
+  },
+  "scope": {
+    "deposit_taking": "Réception de dépôts du public",
+    "credit_granting": "Octroi de crédit",
+    "investment_services": "Services d’investissement",
+    "insurance_distribution": "Distribution d’assurance",
+    "payment_services": "Services de paiement"
+  },
+  "services": {
+    "banking": "Services bancaires",
+    "credit": "Services de crédit",
+    "islamic": "Produits conformes à la charia",
+    "islamicLead": "Ces produits écartent l’intérêt au profit de structures de vente, de location ou de partenariat. L’établissement reste agréé et supervisé selon les mêmes règles européennes que toute autre banque.",
+    "pageTitle": "Services",
+    "pageLead": "Quels établissements sont autorisés à proposer chaque service, et où.",
+    "providers": "Établissements proposant ce service"
+  },
+  "compliance": {
+    "sanctions": "Contrôle des sanctions",
+    "aml": "LCB-FT / KYC",
+    "gdpr": "RGPD",
+    "psd3": "DSP3 (en préparation)",
+    "sca": "Authentification forte du client",
+    "openBanking": "Accès open banking"
+  },
+  "cstatus": {
+    "COMPLIANT": "Conforme",
+    "COMPLIANT_PENDING": "À confirmer",
+    "NOT_APPLICABLE": "Sans objet",
+    "CLEAR": "Aucune inscription",
+    "PENDING": "Source en attente"
+  },
+  "quality": {
+    "completeness": "Complétude de la fiche",
+    "sources": "Sources",
+    "nextRefresh": "Prochaine revue",
+    "unverified": "Pas encore vérifiée face au registre officiel",
+    "pendingNote": "Les champs marqués « source en attente » sont volontairement laissés vides plutôt que remplis d’une valeur non vérifiée."
+  },
+  "passport": {
+    "lead": "Cet agrément peut être exercé, sur notification, dans les États suivants.",
+    "showAll": "Voir les {count} États couverts"
+  },
+  "group": {
+    "none": "Aucun lien de groupe enregistré pour cette entité."
+  },
+  "financials": {
+    "pending": "Les données de capital, de liquidité et de bilan ne sont pas publiées ici tant qu’elles ne peuvent être reprises d’une publication prudentielle."
   },
   "pagination": {
     "prev": "Précédent",

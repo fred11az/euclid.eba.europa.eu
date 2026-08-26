@@ -16,7 +16,8 @@
     "countries": "Länder",
     "supervisors": "Aufsichtsbehörden",
     "understand": "Verstehen",
-    "glossary": "Glossar"
+    "glossary": "Glossar",
+    "services": "Dienstleistungen"
   },
   "home": {
     "kicker": "Öffentliches Registerverzeichnis",
@@ -65,7 +66,8 @@
     "noResults": "Kein Institut entspricht diesen Filtern",
     "noResultsLead": "Entfernen Sie einen Filter oder suchen Sie nach Name oder BIC.",
     "grid": "Raster",
-    "listView": "Liste"
+    "listView": "Liste",
+    "sortCompleteness": "Vollständigkeit"
   },
   "detail": {
     "overview": "Überblick",
@@ -154,7 +156,8 @@
     "mortgage": "Hypothekarinstitut",
     "digital": "Digitalbank",
     "payment": "Zahlungsinstitut",
-    "emoney": "E-Geld-Institut"
+    "emoney": "E-Geld-Institut",
+    "islamic": "Scharia-konforme Bank"
   },
   "tags": {
     "retail": "Privatkunden",
@@ -164,7 +167,8 @@
     "digital": "Digital",
     "payments": "Zahlungsverkehr",
     "private": "Private Banking",
-    "mortgage": "Hypotheken"
+    "mortgage": "Hypotheken",
+    "islamic": "Islamische Finanzen"
   },
   "categories": {
     "REGULATION": "Regulierung",
@@ -217,6 +221,81 @@
     "viewAll": "Alle ansehen",
     "learnMore": "Mehr erfahren",
     "explore": "Entdecken"
+  },
+  "section": {
+    "identity": "Identität",
+    "registration": "Registrierung",
+    "contact": "Kontakt",
+    "regulation": "Aufsicht",
+    "scope": "Umfang der Zulassung",
+    "passporting": "Europäischer Pass",
+    "services": "Dienstleistungen",
+    "group": "Konzernstruktur",
+    "financials": "Finanzdaten",
+    "quality": "Datenqualität",
+    "contents": "Auf dieser Seite"
+  },
+  "field": {
+    "entityType": "Art der Einheit",
+    "legalForm": "Rechtsform",
+    "commercialNames": "Handelsnamen",
+    "parent": "Muttergesellschaft",
+    "regNumber": "Registernummer",
+    "regAuthority": "Registerbehörde",
+    "established": "Gründung",
+    "lei": "LEI-Code",
+    "vat": "USt-IdNr.",
+    "address": "Anschrift des Sitzes",
+    "email": "E-Mail",
+    "phone": "Telefon"
+  },
+  "scope": {
+    "deposit_taking": "Entgegennahme von Publikumseinlagen",
+    "credit_granting": "Kreditvergabe",
+    "investment_services": "Wertpapierdienstleistungen",
+    "insurance_distribution": "Versicherungsvertrieb",
+    "payment_services": "Zahlungsdienste"
+  },
+  "services": {
+    "banking": "Bankdienstleistungen",
+    "credit": "Kreditdienstleistungen",
+    "islamic": "Scharia-konforme Produkte",
+    "islamicLead": "Diese Produkte verzichten auf Zinsen und nutzen stattdessen Kauf-, Miet- oder Partnerschaftsstrukturen. Das Institut bleibt nach denselben europäischen Regeln zugelassen und beaufsichtigt wie jede andere Bank.",
+    "pageTitle": "Dienstleistungen",
+    "pageLead": "Welche Institute welche Dienstleistung anbieten dürfen — und wo.",
+    "providers": "Institute mit diesem Angebot"
+  },
+  "compliance": {
+    "sanctions": "Sanktionsprüfung",
+    "aml": "Geldwäscheprävention / KYC",
+    "gdpr": "DSGVO",
+    "psd3": "PSD3 (in Vorbereitung)",
+    "sca": "Starke Kundenauthentifizierung",
+    "openBanking": "Open-Banking-Zugang"
+  },
+  "cstatus": {
+    "COMPLIANT": "Konform",
+    "COMPLIANT_PENDING": "Zu bestätigen",
+    "NOT_APPLICABLE": "Nicht anwendbar",
+    "CLEAR": "Kein Eintrag",
+    "PENDING": "Quelle ausstehend"
+  },
+  "quality": {
+    "completeness": "Vollständigkeit des Eintrags",
+    "sources": "Quellen",
+    "nextRefresh": "Nächste Prüfung",
+    "unverified": "Noch nicht gegen das amtliche Register geprüft",
+    "pendingNote": "Mit „Quelle ausstehend“ markierte Felder bleiben bewusst leer, statt mit ungeprüften Werten gefüllt zu werden."
+  },
+  "passport": {
+    "lead": "Diese Zulassung kann nach Anzeige in den folgenden Staaten ausgeübt werden.",
+    "showAll": "Die {count} abgedeckten Staaten anzeigen"
+  },
+  "group": {
+    "none": "Für diese Einheit ist keine Konzernverbindung erfasst."
+  },
+  "financials": {
+    "pending": "Kapital-, Liquiditäts- und Bilanzzahlen werden hier erst veröffentlicht, wenn sie einer aufsichtlichen Offenlegung entnommen werden können."
   },
   "pagination": {
     "prev": "Zurück",

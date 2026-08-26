@@ -10,31 +10,24 @@ import ShareButtons from '@/components/ShareButtons';
 import LinkTile from '@/components/LinkTile';
 import {
   authorities,
+  completenessBand,
   countryName,
+  entities,
   flag,
+  formatDate,
+  getEntity,
   getInstitution,
-  institutions,
   licenceSlugFor,
   newsFor,
   similarTo,
   slugify,
-  solidityBand,
   t as tr,
 } from '@/lib/data';
-
-/** Renders a fact value as a link when it has a page of its own. */
-function FactLink({ href, children }: { href: string; children: React.ReactNode }) {
-  return (
-    <Link href={href} className="underline decoration-navy-300 underline-offset-4 hover:text-navy-950">
-      {children}
-    </Link>
-  );
-}
 
 const BAND = { high: 'bg-emerald-500', medium: 'bg-gold-500', low: 'bg-orange-500' } as const;
 
 export function generateStaticParams() {
-  return locales.flatMap((locale) => institutions.map((inst) => ({ locale, id: inst.id })));
+  return locales.flatMap((locale) => entities.map((e) => ({ locale, id: e.id })));
 }
 
 export async function generateMetadata({
@@ -43,11 +36,11 @@ export async function generateMetadata({
   params: Promise<{ locale: string; id: string }>;
 }): Promise<Metadata> {
   const { locale, id } = await params;
-  const inst = getInstitution(id);
-  if (!inst) return {};
+  const e = getEntity(id);
+  if (!e) return {};
   return {
-    title: tr(inst.name, locale),
-    description: tr(inst.description, locale),
+    title: e.search_layer.legal_name,
+    description: tr(e.search_layer.quick_summary, locale),
     alternates: {
       canonical: `/${locale}/institutions/${id}`,
       languages: {
@@ -66,156 +59,399 @@ export default async function InstitutionPage({
   const { locale, id } = await params;
   setRequestLocale(locale);
 
-  const inst = getInstitution(id);
-  if (!inst) notFound();
+  const e = getEntity(id);
+  const view = getInstitution(id);
+  if (!e || !view) notFound();
 
   const t = await getTranslations();
-  const name = tr(inst.name, locale);
-  const authority = authorities[inst.country];
-  const related = newsFor(inst.id).slice(0, 3);
-  const similar = similarTo(inst);
-  const band = solidityBand(inst.solidityScore);
+  const s = e.search_layer;
+  const d = e.detail_layer;
+  const authority = authorities[s.country_code];
+  const related = newsFor(e.id).slice(0, 3);
+  const similar = similarTo(view);
+  const band = completenessBand(e.metadata_internal.completeness_score);
+
+  /** A value we do not hold is shown as pending, never invented. */
+  const Value = ({ value }: { value: string | null }) =>
+    value ? (
+      <span className="font-semibold text-navy-900">{value}</span>
+    ) : (
+      <span className="rounded bg-navy-50 px-2 py-0.5 text-xs font-medium text-navy-500">
+        {t('cstatus.PENDING')}
+      </span>
+    );
+
+  const StatusChip = ({ status }: { status: string }) => {
+    const tone =
+      status === 'COMPLIANT' || status === 'CLEAR'
+        ? 'success'
+        : status === 'PENDING' || status === 'COMPLIANT_PENDING'
+          ? 'warning'
+          : 'neutral';
+    return <Badge tone={tone}>{t(`cstatus.${status}` as 'cstatus.PENDING')}</Badge>;
+  };
+
+  const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (
+    <section id={id} className="mt-10 scroll-mt-20">
+      <h2 className="text-xl font-bold text-navy-900">{title}</h2>
+      {children}
+    </section>
+  );
+
+  // A full record is long by nature; jumping beats scrolling on a phone.
+  const contents: Array<[string, string]> = [
+    ['identity', t('section.identity')],
+    ['registration', t('section.registration')],
+    ['contact', t('section.contact')],
+    ['regulation', t('section.regulation')],
+    ['passporting', t('section.passporting')],
+    ['services', t('section.services')],
+    ['compliance', t('detail.compliance')],
+    ['group', t('section.group')],
+  ];
+
+  const Rows = ({ rows }: { rows: Array<[string, React.ReactNode]> }) => (
+    <dl className="mt-3 divide-y divide-navy-100 rounded-2xl border border-navy-100 bg-white">
+      {rows.map(([label, value]) => (
+        <div key={label} className="flex flex-wrap items-baseline justify-between gap-2 px-4 py-3">
+          <dt className="text-sm font-medium text-navy-500">{label}</dt>
+          <dd className="text-sm text-navy-900">{value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+
+  const FactLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+    <Link href={href} className="font-semibold underline decoration-navy-300 underline-offset-4 hover:text-navy-950">
+      {children}
+    </Link>
+  );
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': inst.licenceType === 'CREDIT_INSTITUTION' ? 'BankOrCreditUnion' : 'FinancialService',
-    name: inst.legalName,
-    url: inst.website,
-    description: tr(inst.description, locale),
-    address: { '@type': 'PostalAddress', addressLocality: inst.city, addressCountry: inst.country },
-    identifier: inst.bic,
-    foundingDate: String(inst.founded),
+    '@type': e.entity_type === 'credit_institution' ? 'BankOrCreditUnion' : 'FinancialService',
+    name: s.legal_name,
+    alternateName: s.display_name,
+    url: d.contact.communication.website,
+    description: tr(s.quick_summary, locale),
+    address: { '@type': 'PostalAddress', addressLocality: s.city, addressCountry: s.country_code },
+    ...(d.registration.bic_swift ? { identifier: d.registration.bic_swift } : {}),
+    foundingDate: d.registration.establishment_date,
   };
 
-  const facts: Array<[string, React.ReactNode]> = [
-    [t('detail.legalName'), inst.legalName],
-    [
-      t('detail.hq'),
-      <span key="hq">
-        {inst.city},{' '}
-        <FactLink href={`/countries/${inst.country.toLowerCase()}`}>
-          {countryName(inst.country, locale)}
-        </FactLink>
-      </span>,
-    ],
-    [
-      t('detail.bic'),
-      <span key="bic">
-        <span className="font-mono">{inst.bic}</span>{' '}
-        <FactLink href="/glossary/bic">?</FactLink>
-      </span>,
-    ],
-    [
-      t('detail.iban'),
-      <span key="iban">
-        <span className="font-mono">{inst.ibanPrefix}</span>{' '}
-        <FactLink href="/glossary/iban">?</FactLink>
-      </span>,
-    ],
-    [t('detail.founded'), inst.founded],
-    [
-      t('detail.regulators'),
-      <span key="regs">
-        {inst.regulators.map((r, i) => (
-          <span key={r}>
-            {i > 0 && ' · '}
-            <FactLink href={`/supervisors/${slugify(r)}`}>{r}</FactLink>
-          </span>
-        ))}
-      </span>,
-    ],
-    [
-      t('detail.status'),
-      <FactLink key="lic" href={`/licences/${licenceSlugFor(inst.licenceType)}`}>
-        {t(`licence.${inst.licenceType}`)}
-      </FactLink>,
-    ],
-  ];
+  const scope = Object.entries(d.regulation.authorization_scope);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="bg-navy-900 text-white">
-        <div className="mx-auto max-w-6xl px-4 py-8 sm:py-12">
+        <div className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
           <Link href="/institutions" className="inline-flex min-h-11 items-center text-sm text-navy-200 hover:text-white">
-            <span aria-hidden="true" className="flip-x inline-block">←</span> {t('detail.back')}
+            <span aria-hidden="true" className="flip-x inline-block">←</span>&nbsp;{t('detail.back')}
           </Link>
-          <div className="mt-3 flex flex-wrap items-start gap-4">
-            <span aria-hidden="true" className="text-5xl leading-none">{flag(inst.country)}</span>
+          <div className="mt-2 flex flex-wrap items-start gap-4">
+            <span aria-hidden="true" className="text-5xl leading-none">{flag(s.country_code)}</span>
             <div className="min-w-0 flex-1">
-              <h1 className="text-2xl font-bold leading-tight sm:text-4xl">{name}</h1>
-              <p className="mt-1 text-navy-200">
-                {inst.city} · {countryName(inst.country, locale)}
+              <h1 className="text-2xl font-bold leading-tight sm:text-4xl">{s.display_name}</h1>
+              <p className="mt-1 text-navy-200">{s.legal_name}</p>
+              <p className="mt-1 text-sm text-navy-300">
+                {s.city} ·{' '}
+                <Link href={`/countries/${s.country_code.toLowerCase()}`} className="underline underline-offset-2">
+                  {countryName(s.country_code, locale)}
+                </Link>
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
-                <Badge tone="success"><span aria-hidden="true">✓</span> {t(`status.${inst.status}`)}</Badge>
-                <Link href={`/licences/${licenceSlugFor(inst.licenceType)}`}>
-                  <Badge tone="gold">{t(`licence.${inst.licenceType}`)}</Badge>
+                <Badge tone="success">
+                  <span aria-hidden="true">✓</span> {tr(s.status.labels, locale)}
+                </Badge>
+                <Link href={`/licences/${licenceSlugFor(e.metadata_internal.licence_type)}`}>
+                  <Badge tone="gold">{t(`licence.${e.metadata_internal.licence_type}`)}</Badge>
                 </Link>
-                <Badge>{t(`kinds.${inst.kind}`)}</Badge>
+                <Badge>{t(`kinds.${e.metadata_internal.kind}`)}</Badge>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="mx-auto max-w-6xl px-4 py-8 sm:py-12">
-        <div className="grid gap-8 lg:grid-cols-3">
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
+        <div className="grid gap-10 lg:grid-cols-3">
           <div className="lg:col-span-2">
-            <h2 className="text-xl font-bold text-navy-900">{t('detail.overview')}</h2>
-            <p className="mt-3 text-base leading-relaxed text-navy-700">{tr(inst.description, locale)}</p>
+            <p className="text-base leading-relaxed text-navy-700">{tr(d.editorial.description, locale)}</p>
 
-            <h2 className="mt-10 text-xl font-bold text-navy-900">{t('detail.identifiers')}</h2>
-            <dl className="mt-3 divide-y divide-navy-100 rounded-2xl border border-navy-100 bg-white">
-              {facts.map(([label, value]) => (
-                <div key={label} className="flex flex-wrap items-baseline justify-between gap-2 px-4 py-3">
-                  <dt className="text-sm font-medium text-navy-500">{label}</dt>
-                  <dd className="text-sm font-semibold text-navy-900">{value}</dd>
-                </div>
-              ))}
-            </dl>
+            <nav aria-label={t('section.contents')} className="mt-6 rounded-2xl border border-navy-100 bg-navy-50/60 p-3">
+              <p className="px-1 text-xs font-semibold uppercase tracking-wide text-navy-500">
+                {t('section.contents')}
+              </p>
+              <ul className="mt-2 flex flex-wrap gap-2">
+                {contents.map(([anchor, label]) => (
+                  <li key={anchor}>
+                    <a
+                      href={`#${anchor}`}
+                      className="inline-flex min-h-10 items-center rounded-lg bg-white px-3 text-sm text-navy-700 ring-1 ring-navy-100 hover:text-navy-950"
+                    >
+                      {label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
 
-            <h2 className="mt-10 text-xl font-bold text-navy-900">{t('detail.compliance')}</h2>
-            <ul className="mt-3 grid gap-2 sm:grid-cols-2">
-              {([
-                [t('detail.psd2'), inst.psd2Compliant, 'psd2'],
-                [t('detail.mifid'), inst.mifid2Compliant, 'mifid2'],
-                [t('detail.passport'), inst.passporting, 'passporting'],
-                [t('detail.deposit'), inst.depositGuarantee, 'deposit-guarantee'],
-              ] as Array<[string, boolean, string]>).map(([label, ok, term]) => (
-                <li key={label}>
-                  <Link
-                    href={`/glossary/${term}`}
-                    className="flex min-h-14 items-center gap-2 rounded-xl border border-navy-100 bg-white px-4 py-3 text-sm transition hover:border-navy-300"
+            <Section id="identity" title={t('section.identity')}>
+              <Rows
+                rows={[
+                  [t('detail.legalName'), <span key="l" className="font-semibold">{d.identity.legal_name}</span>],
+                  [t('field.legalForm'), <span key="f">{tr(d.identity.legal_form_label, locale)} ({d.identity.legal_form_code})</span>],
+                  [t('field.entityType'), t(`licence.${e.metadata_internal.licence_type}`)],
+                  [
+                    t('field.parent'),
+                    d.identity.parent_company ? d.identity.parent_company.name : <Value value={null} />,
+                  ],
+                ]}
+              />
+            </Section>
+
+            <Section id="registration" title={t('section.registration')}>
+              <Rows
+                rows={[
+                  [
+                    t('detail.bic'),
+                    d.registration.bic_swift ? (
+                      <span key="b">
+                        <span className="font-mono font-semibold">{d.registration.bic_swift}</span>{' '}
+                        <FactLink href="/glossary/bic">?</FactLink>
+                      </span>
+                    ) : (
+                      <Value value={null} />
+                    ),
+                  ],
+                  [
+                    t('detail.iban'),
+                    <span key="i">
+                      <span className="font-mono font-semibold">{s.country_code}</span>{' '}
+                      <FactLink href="/glossary/iban">?</FactLink>
+                    </span>,
+                  ],
+                  [t('field.established'), <span key="e" className="font-semibold">{d.registration.establishment_date}</span>],
+                  [t('field.lei'), <Value key="lei" value={d.registration.lei_code} />],
+                  [t('field.regNumber'), <Value key="rn" value={d.registration.registration_number} />],
+                  [t('field.vat'), <Value key="v" value={d.registration.vat_id} />],
+                ]}
+              />
+              <p className="mt-2 text-xs leading-relaxed text-navy-500">{t('quality.pendingNote')}</p>
+            </Section>
+
+            <Section id="contact" title={t('section.contact')}>
+              <Rows
+                rows={[
+                  [
+                    t('field.address'),
+                    d.contact.headquarters.street ? (
+                      `${d.contact.headquarters.street}, ${d.contact.headquarters.postal_code} ${s.city}`
+                    ) : (
+                      <Value key="a" value={null} />
+                    ),
+                  ],
+                  [t('field.email'), <Value key="em" value={d.contact.communication.email} />],
+                  [t('field.phone'), <Value key="ph" value={d.contact.communication.phone} />],
+                  [
+                    t('detail.website'),
+                    <a
+                      key="w"
+                      href={d.contact.communication.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold underline underline-offset-4"
+                    >
+                      {d.contact.communication.website.replace(/^https?:\/\//, '')}
+                    </a>,
+                  ],
+                ]}
+              />
+            </Section>
+
+            <Section id="regulation" title={t('section.regulation')}>
+              <Rows
+                rows={[
+                  [
+                    t('home.supervisedBy'),
+                    <FactLink key="ps" href={`/supervisors/${slugify(d.regulation.primary_supervisor.name)}`}>
+                      {d.regulation.primary_supervisor.name}
+                    </FactLink>,
+                  ],
+                  ...(d.regulation.secondary_supervisors.length
+                    ? ([
+                        [
+                          t('detail.regulators'),
+                          <span key="ss">
+                            {d.regulation.secondary_supervisors.map((sup, i) => (
+                              <span key={sup.name}>
+                                {i > 0 && ' · '}
+                                <FactLink href={`/supervisors/${slugify(sup.name)}`}>{sup.name}</FactLink>
+                              </span>
+                            ))}
+                          </span>,
+                        ],
+                      ] as Array<[string, React.ReactNode]>)
+                    : []),
+                  [
+                    t('detail.status'),
+                    <span key="rs" className="font-semibold text-emerald-700">
+                      {tr(d.regulation.regulatory_status.labels, locale)}
+                    </span>,
+                  ],
+                ]}
+              />
+
+              <h3 className="mt-6 text-sm font-semibold uppercase tracking-wide text-navy-500">{t('section.scope')}</h3>
+              <ul className="mt-2 grid gap-2 sm:grid-cols-2">
+                {scope.map(([key, allowed]) => (
+                  <li
+                    key={key}
+                    className="flex items-center gap-2 rounded-xl border border-navy-100 bg-white px-4 py-3 text-sm"
                   >
                     <span
                       aria-hidden="true"
                       className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white ${
-                        ok ? 'bg-emerald-500' : 'bg-navy-300'
+                        allowed ? 'bg-emerald-500' : 'bg-navy-300'
                       }`}
                     >
-                      {ok ? '✓' : '—'}
+                      {allowed ? '✓' : '—'}
                     </span>
-                    <span className="flex-1 text-navy-800">{label}</span>
-                    <span aria-hidden="true" className="flip-x text-navy-300">›</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <p className="mt-3 text-sm text-navy-600">
-              {inst.depositGuarantee ? t('detail.depositYes') : t('detail.depositNo')}
-            </p>
+                    <span className={allowed ? 'text-navy-800' : 'text-navy-400'}>
+                      {t(`scope.${key}` as 'scope.deposit_taking')}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </Section>
+
+            <Section id="passporting" title={t('section.passporting')}>
+              <p className="mt-2 text-sm leading-relaxed text-navy-600">{t('passport.lead')}</p>
+              <details className="mt-3 rounded-2xl border border-navy-100 bg-white p-4">
+                <summary className="min-h-11 cursor-pointer list-none text-sm font-semibold text-navy-800">
+                  {t('passport.showAll', { count: d.passporting.eligible_countries.length })}
+                </summary>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {d.passporting.eligible_countries.map((c) => (
+                  <Link
+                    key={c}
+                    href={`/countries/${c.toLowerCase()}`}
+                    className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-navy-200 bg-white px-3 text-sm text-navy-700 hover:border-navy-400"
+                  >
+                      <span aria-hidden="true">{flag(c)}</span>
+                      {countryName(c, locale)}
+                    </Link>
+                  ))}
+                </div>
+              </details>
+              <Link
+                href="/glossary/passporting"
+                className="mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-navy-700 underline underline-offset-4"
+              >
+                {t('common.learnMore')}
+              </Link>
+            </Section>
+
+            <Section id="services" title={t('section.services')}>
+              {(
+                [
+                  [t('services.banking'), d.services.banking_services],
+                  [t('services.credit'), d.services.credit_services],
+                ] as const
+              )
+                .filter(([, list]) => list.length > 0)
+                .map(([label, list]) => (
+                  <div key={label} className="mt-4">
+                    <h3 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{label}</h3>
+                    <div className="mt-2 grid gap-3 sm:grid-cols-2">
+                      {list.map((svc) => (
+                        <LinkTile key={svc.code} href={`/services/${svc.code.toLowerCase()}`} title={tr(svc.label, locale)} />
+                      ))}
+                    </div>
+                  </div>
+                ))}
+
+              {d.services.islamic_finance_products.length > 0 && (
+                <div className="mt-6 rounded-2xl border-2 border-gold-500 bg-gold-500/10 p-5">
+                  <h3 className="text-lg font-bold text-navy-900">{t('services.islamic')}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-navy-700">{t('services.islamicLead')}</p>
+                  <dl className="mt-4 space-y-3">
+                    {d.services.islamic_finance_products.map((prod) => (
+                      <div key={prod.code} className="rounded-xl bg-white p-4">
+                        <dt className="text-sm font-semibold text-navy-900">{tr(prod.label, locale)}</dt>
+                        {prod.description && (
+                          <dd className="mt-1 text-sm leading-relaxed text-navy-600">
+                            {tr(prod.description, locale)}
+                          </dd>
+                        )}
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              )}
+            </Section>
+
+            <Section id="compliance" title={t('detail.compliance')}>
+              <ul className="mt-3 divide-y divide-navy-100 rounded-2xl border border-navy-100 bg-white">
+                {(
+                  [
+                    [t('detail.deposit'), d.compliance.deposit_guarantee ? 'COMPLIANT' : 'NOT_APPLICABLE', 'deposit-guarantee'],
+                    [t('detail.psd2'), d.compliance.psd2.status, 'psd2'],
+                    [t('detail.mifid'), d.compliance.mifid2.status, 'mifid2'],
+                    [t('compliance.psd3'), d.compliance.psd3.status, null],
+                    [t('compliance.sanctions'), d.compliance.sanctions_screening.status, null],
+                    [t('compliance.aml'), d.compliance.aml_kyc.status, null],
+                    [t('compliance.gdpr'), d.compliance.gdpr.status, null],
+                  ] as Array<[string, string, string | null]>
+                ).map(([label, status, term]) => (
+                  <li key={label} className="flex flex-wrap items-center justify-between gap-2 px-4 py-3">
+                    <span className="text-sm text-navy-800">
+                      {term ? <FactLink href={`/glossary/${term}`}>{label}</FactLink> : label}
+                    </span>
+                    <StatusChip status={status} />
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-sm text-navy-600">
+                {d.compliance.deposit_guarantee ? t('detail.depositYes') : t('detail.depositNo')}
+              </p>
+            </Section>
+
+            <Section id="group" title={t('section.group')}>
+              {d.corporate_structure.parent_entity || d.corporate_structure.branches.length > 0 ? (
+                <Rows
+                  rows={[
+                    ...(d.corporate_structure.parent_entity
+                      ? ([[t('field.parent'), d.corporate_structure.parent_entity.name]] as Array<
+                          [string, React.ReactNode]
+                        >)
+                      : []),
+                    ...d.corporate_structure.branches.map(
+                      (b) => [b.country, `${b.name} — ${b.city}`] as [string, React.ReactNode],
+                    ),
+                  ]}
+                />
+              ) : (
+                <p className="mt-3 rounded-xl bg-navy-50 p-4 text-sm text-navy-600">{t('group.none')}</p>
+              )}
+            </Section>
+
+            <Section id="financials" title={t('section.financials')}>
+              <p className="mt-3 rounded-xl bg-navy-50 p-4 text-sm leading-relaxed text-navy-600">
+                {t('financials.pending')}
+              </p>
+            </Section>
 
             {related.length > 0 && (
-              <>
-                <h2 className="mt-10 text-xl font-bold text-navy-900">{t('detail.related')}</h2>
+              <Section id="related" title={t('detail.related')}>
                 <div className="mt-3 grid gap-4 sm:grid-cols-2">
                   {related.map((item) => (
                     <NewsCard key={item.id} item={item} />
                   ))}
                 </div>
-              </>
+              </Section>
             )}
           </div>
 
@@ -223,7 +459,7 @@ export default async function InstitutionPage({
             <section className="rounded-2xl border-2 border-gold-500 bg-gold-500/10 p-5">
               <h2 className="text-lg font-bold text-navy-900">{t('detail.verify')}</h2>
               <p className="mt-2 text-sm leading-relaxed text-navy-700">{t('detail.verifyLead')}</p>
-              <p className="mt-3 rounded-lg bg-white px-3 py-2 font-mono text-sm text-navy-900">{inst.legalName}</p>
+              <p className="mt-3 rounded-lg bg-white px-3 py-2 font-mono text-sm text-navy-900">{s.legal_name}</p>
               {authority && (
                 <>
                   <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-navy-500">
@@ -236,37 +472,54 @@ export default async function InstitutionPage({
                     rel="noopener noreferrer"
                     className="mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-navy-800 px-4 text-sm font-semibold text-white hover:bg-navy-700"
                   >
-                    {t('detail.officialRegister')}
-                    <svg viewBox="0 0 24 24" className="h-4 w-4" aria-hidden="true">
-                      <path fill="currentColor" d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14zM5 5h5v2H6v11h11v-4h2v6H4V5z" />
-                    </svg>
+                    {t('detail.officialRegister')} ↗
                   </a>
                 </>
               )}
             </section>
 
             <section className="rounded-2xl border border-navy-100 bg-white p-5">
-              <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('detail.solidity')}</h2>
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('section.quality')}</h2>
               <p className="mt-1 text-3xl font-bold text-navy-900">
-                {inst.solidityScore}
-                <span className="text-lg text-navy-400">/100</span>
+                {Math.round(e.metadata_internal.completeness_score * 100)}
+                <span className="text-lg text-navy-400">%</span>
               </p>
+              <p className="text-xs text-navy-500">{t('quality.completeness')}</p>
               <div className="mt-2 h-2 w-full overflow-hidden rounded-full bg-navy-100">
-                <div className={`h-full rounded-full ${BAND[band]}`} style={{ width: `${inst.solidityScore}%` }} />
+                <div
+                  className={`h-full rounded-full ${BAND[band]}`}
+                  style={{ width: `${Math.round(e.metadata_internal.completeness_score * 100)}%` }}
+                />
               </div>
-              <p className="mt-3 text-xs leading-relaxed text-navy-500">{t('detail.solidityNote')}</p>
+              {!e.source_verified && (
+                <p className="mt-3">
+                  <Badge tone="warning">{t('quality.unverified')}</Badge>
+                </p>
+              )}
+              <dl className="mt-4 space-y-2 text-xs">
+                <dt className="font-semibold uppercase tracking-wide text-navy-500">{t('quality.sources')}</dt>
+                <dd className="text-navy-700">
+                  <ul className="list-inside list-disc space-y-0.5">
+                    {e.metadata_internal.sources.map((src) => (
+                      <li key={src}>{src}</li>
+                    ))}
+                  </ul>
+                </dd>
+                <dt className="pt-2 font-semibold uppercase tracking-wide text-navy-500">{t('quality.nextRefresh')}</dt>
+                <dd className="text-navy-700">{formatDate(e.metadata_internal.next_refresh, locale)}</dd>
+              </dl>
             </section>
 
             <section className="space-y-3">
               <a
-                href={inst.website}
+                href={d.contact.communication.website}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-12 w-full items-center justify-center rounded-xl border border-navy-200 px-4 text-sm font-semibold text-navy-800 hover:bg-navy-50"
               >
                 {t('detail.visitSite')}
               </a>
-              <ShareButtons title={name} />
+              <ShareButtons title={s.legal_name} />
             </section>
           </aside>
         </div>
@@ -274,18 +527,18 @@ export default async function InstitutionPage({
         <section className="mt-12">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-navy-500">{t('activities.title')}</h2>
           <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {inst.tags.map((tag) => (
+            {e.metadata_internal.tags.map((tag) => (
               <LinkTile key={tag} href={`/activities/${tag}`} title={t(`tags.${tag}`)} />
             ))}
           </div>
         </section>
 
         {similar.length > 0 && (
-          <section className="mt-14">
+          <section className="mt-10">
             <h2 className="text-xl font-bold text-navy-900">{t('detail.similar')}</h2>
             <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {similar.map((s) => (
-                <InstitutionCard key={s.id} inst={s} dense />
+              {similar.map((x) => (
+                <InstitutionCard key={x.id} inst={x} dense />
               ))}
             </div>
           </section>

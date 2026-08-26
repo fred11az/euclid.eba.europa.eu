@@ -5,29 +5,114 @@ import type { Locale } from '@/i18n/routing';
 
 export type Localized = Record<string, string>;
 
-export type Institution = {
+/* ------------------------------------------------------------------ */
+/* Two-layer entity schema (search_layer / detail_layer)               */
+/* ------------------------------------------------------------------ */
+
+export type LicenceType = 'CREDIT_INSTITUTION' | 'PAYMENT_INSTITUTION' | 'EMONEY_INSTITUTION';
+
+export type ServiceEntry = {
+  code: string;
+  label: Localized;
+  description?: Localized;
+  islamic_compliant?: boolean;
+  compliant?: boolean;
+};
+
+export type Supervisor = { code: string; name: string; country_code: string };
+
+export type Entity = {
   id: string;
-  name: Localized;
-  legalName: string;
-  country: string;
-  city: string;
-  kind: string;
-  logo: string | null;
-  website: string;
-  bic: string;
-  ibanPrefix: string;
-  lei: string | null;
-  founded: number;
-  regulators: string[];
-  status: 'AUTHORIZED';
-  licenceType: 'CREDIT_INSTITUTION' | 'PAYMENT_INSTITUTION' | 'EMONEY_INSTITUTION';
-  depositGuarantee: boolean;
-  mifid2Compliant: boolean;
-  psd2Compliant: boolean;
-  passporting: boolean;
-  description: Localized;
-  tags: string[];
-  solidityScore: number;
+  entity_type: string;
+  entity_subtype: string;
+  source_verified: boolean;
+  search_layer: {
+    display_name: string;
+    legal_name: string;
+    country_code: string;
+    city: string;
+    logo_url: string | null;
+    regulator_primary: string;
+    status: { code: string; labels: Localized; color_badge: string };
+    specialization_tags: string[];
+    quick_summary: Localized;
+  };
+  detail_layer: {
+    identity: {
+      legal_name: string;
+      legal_names_translations: Localized;
+      commercial_names: string[];
+      legal_form_code: string;
+      legal_form_label: Localized;
+      parent_company: { id: string; name: string; country_code: string; ownership_percentage: number } | null;
+    };
+    registration: {
+      registration_number: string | null;
+      registration_authority: string | null;
+      registration_date: string | null;
+      establishment_date: string;
+      lei_code: string | null;
+      bic_swift: string | null;
+      vat_id: string | null;
+      pending_source: boolean;
+    };
+    contact: {
+      headquarters: {
+        street: string | null;
+        postal_code: string | null;
+        city: string;
+        country_code: string;
+        pending_source: boolean;
+      };
+      communication: { email: string | null; phone: string | null; website: string };
+      social_media: Record<string, string>;
+    };
+    regulation: {
+      primary_supervisor: Supervisor;
+      secondary_supervisors: Supervisor[];
+      regulatory_status: { code: string; labels: Localized; approval_date: string | null };
+      authorization_scope: Record<string, boolean>;
+    };
+    passporting: {
+      status: string;
+      eligible_eea: boolean;
+      eligible_eu: boolean;
+      eligible_countries: string[];
+    };
+    services: {
+      banking_services: ServiceEntry[];
+      credit_services: ServiceEntry[];
+      islamic_finance_products: ServiceEntry[];
+    };
+    compliance: {
+      sanctions_screening: { status: string; last_checked: string | null };
+      aml_kyc: { status: string; last_audit: string | null };
+      mifid2: { status: string };
+      psd2: { status: string; strong_authentication: boolean; open_banking: boolean };
+      psd3: { status: string; pending_source: boolean };
+      gdpr: { status: string };
+      deposit_guarantee: boolean;
+    };
+    corporate_structure: {
+      parent_entity: { name: string; country: string } | null;
+      subsidiaries: unknown[];
+      branches: { name: string; country: string; city: string; regulator: string }[];
+      pending_source: boolean;
+    };
+    financial_metrics: { pending_source: boolean; [k: string]: unknown };
+    editorial: { description: Localized; certifications: unknown[] };
+  };
+  metadata_internal: {
+    data_quality_score: number;
+    completeness_score: number;
+    sources: string[];
+    next_refresh: string;
+    flags: string[];
+    licence_type: LicenceType;
+    kind: string;
+    tags: string[];
+    founded: number;
+  };
 };
 
 export type NewsItem = {
@@ -44,21 +129,111 @@ export type NewsItem = {
 
 export type Authority = { authority: string; register: string; ssm: boolean };
 
-export const institutions = institutionsRaw as Institution[];
+export const entities = institutionsRaw as unknown as Entity[];
 export const news = newsRaw as NewsItem[];
 export const authorities = authoritiesRaw as Record<string, Authority>;
+
+/**
+ * Flat projection of the search layer. Cards, lists and the search index only
+ * ever need this; the full entity is reserved for the record page.
+ */
+export type Institution = {
+  id: string;
+  name: Localized;
+  legalName: string;
+  displayName: string;
+  country: string;
+  city: string;
+  kind: string;
+  entityType: string;
+  website: string;
+  bic: string | null;
+  ibanPrefix: string;
+  founded: number;
+  regulators: string[];
+  status: string;
+  licenceType: LicenceType;
+  depositGuarantee: boolean;
+  description: Localized;
+  tags: string[];
+  completeness: number;
+  verified: boolean;
+};
+
+function toView(e: Entity): Institution {
+  const s = e.search_layer;
+  const d = e.detail_layer;
+  return {
+    id: e.id,
+    name: d.identity.legal_names_translations,
+    legalName: s.legal_name,
+    displayName: s.display_name,
+    country: s.country_code,
+    city: s.city,
+    kind: e.metadata_internal.kind,
+    entityType: e.entity_type,
+    website: d.contact.communication.website,
+    bic: d.registration.bic_swift,
+    ibanPrefix: s.country_code,
+    founded: e.metadata_internal.founded,
+    regulators: [d.regulation.primary_supervisor.name, ...d.regulation.secondary_supervisors.map((x) => x.name)],
+    status: 'AUTHORIZED',
+    licenceType: e.metadata_internal.licence_type,
+    depositGuarantee: d.compliance.deposit_guarantee,
+    description: s.quick_summary,
+    tags: e.metadata_internal.tags,
+    completeness: e.metadata_internal.completeness_score,
+    verified: e.source_verified,
+  };
+}
+
+export const institutions: Institution[] = entities.map(toView);
 
 export const countryCodes = [...new Set(institutions.map((i) => i.country))].sort();
 export const kinds = [...new Set(institutions.map((i) => i.kind))].sort();
 export const tags = [...new Set(institutions.flatMap((i) => i.tags))].sort();
 export const regulators = [...new Set(institutions.flatMap((i) => i.regulators))].sort();
 export const categories = [...new Set(news.map((n) => n.category))];
+export const serviceCodes = [
+  ...new Set(
+    entities.flatMap((e) => [
+      ...e.detail_layer.services.banking_services.map((x) => x.code),
+      ...e.detail_layer.services.credit_services.map((x) => x.code),
+    ]),
+  ),
+].sort();
 
-export const DATA_REVIEWED = '2026-08-20';
+export const DATA_REVIEWED = '2026-08-26';
 
 export function t(field: Localized, locale: string): string {
   return field[locale] ?? field.en ?? Object.values(field)[0] ?? '';
 }
+
+export function getEntity(id: string): Entity | undefined {
+  return entities.find((e) => e.id === id);
+}
+
+export function entitiesWithService(code: string): Entity[] {
+  return entities.filter((e) =>
+    [...e.detail_layer.services.banking_services, ...e.detail_layer.services.credit_services].some(
+      (s) => s.code === code,
+    ),
+  );
+}
+
+export function serviceLabel(code: string): Localized {
+  for (const e of entities) {
+    const hit = [...e.detail_layer.services.banking_services, ...e.detail_layer.services.credit_services].find(
+      (s) => s.code === code,
+    );
+    if (hit) return hit.label;
+  }
+  return { en: code };
+}
+
+export const islamicEntities = entities.filter(
+  (e) => e.detail_layer.services.islamic_finance_products.length > 0,
+);
 
 export function getInstitution(id: string): Institution | undefined {
   return institutions.find((i) => i.id === id);
@@ -104,9 +279,10 @@ export function formatDate(date: string, locale: string): string {
   }
 }
 
-export function solidityBand(score: number): 'high' | 'medium' | 'low' {
-  if (score >= 78) return 'high';
-  if (score >= 72) return 'medium';
+/** Visual band for the record-completeness meter (a data figure, not a rating). */
+export function completenessBand(score: number): 'high' | 'medium' | 'low' {
+  if (score >= 0.8) return 'high';
+  if (score >= 0.6) return 'medium';
   return 'low';
 }
 

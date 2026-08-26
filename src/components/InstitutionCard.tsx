@@ -1,6 +1,6 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { countryName, flag, solidityBand, t as tr, type Institution } from '@/lib/data';
+import { completenessBand, countryName, flag, t as tr, type Institution } from '@/lib/data';
 import Badge from './Badge';
 
 const BAND = {
@@ -12,7 +12,7 @@ const BAND = {
 export default function InstitutionCard({ inst, dense = false }: { inst: Institution; dense?: boolean }) {
   const locale = useLocale();
   const t = useTranslations();
-  const band = solidityBand(inst.solidityScore);
+  const band = completenessBand(inst.completeness);
 
   return (
     <article className="group relative flex h-full flex-col rounded-2xl border border-navy-100 bg-white p-4 shadow-sm transition hover:border-navy-300 hover:shadow-md">
@@ -50,11 +50,11 @@ export default function InstitutionCard({ inst, dense = false }: { inst: Institu
 
       <div className="mt-auto pt-4">
         <div className="flex items-center justify-between text-xs text-navy-500">
-          <span>{t('detail.solidity')}</span>
-          <span className="font-semibold text-navy-800">{inst.solidityScore}/100</span>
+          <span>{t('quality.completeness')}</span>
+          <span className="font-semibold text-navy-800">{Math.round(inst.completeness * 100)}%</span>
         </div>
         <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-navy-100">
-          <div className={`h-full rounded-full ${BAND[band]}`} style={{ width: `${inst.solidityScore}%` }} />
+          <div className={`h-full rounded-full ${BAND[band]}`} style={{ width: `${Math.round(inst.completeness * 100)}%` }} />
         </div>
       </div>
     </article>

@@ -23,6 +23,7 @@ export default function Footer() {
                   ['/countries', 'nav.countries'],
                   ['/supervisors', 'nav.supervisors'],
                   ['/activities', 'activities.title'],
+                  ['/services', 'nav.services'],
                   ['/licences', 'licences.title'],
                   ['/glossary', 'nav.glossary'],
                   ['/news', 'nav.news'],

@@ -42,7 +42,7 @@ export default function InstitutionExplorer() {
         (regulator === 'all' || i.regulators.includes(regulator)),
     );
     return list.sort((a, b) => {
-      if (sort === 'solidity') return b.solidityScore - a.solidityScore;
+      if (sort === 'completeness') return b.completeness - a.completeness;
       if (sort === 'founded') return a.founded - b.founded;
       return a.legalName.localeCompare(b.legalName, locale);
     });
@@ -114,7 +114,7 @@ export default function InstitutionExplorer() {
             <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-navy-500">{t('sort')}</span>
             <select className={selectClass} value={sort} onChange={(e) => setParam('sort', e.target.value)}>
               <option value="name">{t('sortName')}</option>
-              <option value="solidity">{t('sortSolidity')}</option>
+              <option value="completeness">{t('sortCompleteness')}</option>
               <option value="founded">{t('sortFounded')}</option>
             </select>
           </label>

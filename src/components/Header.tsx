@@ -16,6 +16,7 @@ const LINKS = [
 /** Shown in full on the mobile sheet, where there is room for the whole map. */
 const SECONDARY = [
   { href: '/supervisors', key: 'supervisors' },
+  { href: '/services', key: 'services' },
   { href: '/glossary', key: 'glossary' },
   { href: '/about', key: 'about' },
 ] as const;
