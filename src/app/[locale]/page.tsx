@@ -33,11 +33,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center opacity-40"
+          className="object-cover object-[38%_58%]"
         />
+        {/* Single scrim: dark enough for white text, light enough that the
+            reception hall still reads behind it. */}
         <div
           aria-hidden="true"
-          className="absolute inset-0 -z-0 bg-gradient-to-b from-navy-900/80 via-navy-900/85 to-navy-900"
+          className="absolute inset-0 -z-0 bg-gradient-to-b from-navy-950/55 via-navy-950/68 to-navy-900/92"
         />
         <div className="relative mx-auto max-w-6xl px-4 py-10 sm:py-16">
           <p className="text-sm font-semibold uppercase tracking-widest text-gold-400">{t('kicker')}</p>
