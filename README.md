@@ -161,6 +161,26 @@ NEXT_PUBLIC_SITE_URL=https://votre-domaine.eu
 
 Elle alimente les URL canoniques, `hreflang` et le sitemap.
 
+### Branche de production
+
+La production suit `main`. Le dépôt n'ayant pas eu de branche par défaut à
+la création du projet Vercel, celui-ci pointe encore sur la branche de
+travail : à basculer dans **Vercel → Settings → Git → Production Branch**
+(et **GitHub → Settings → Branches → Default branch**) sur `main`.
+
+### Garder Next.js à jour — sinon Vercel refuse de publier
+
+Vercel bloque le déploiement d'une version de Next.js portant un avis de
+sécurité critique. Le build réussit, puis s'arrête à `Deploying outputs…`
+avec `Vulnerable version of Next.js detected`. Le message n'apparaît pas
+dans les erreurs de build : chercher la cause dans le code est une impasse.
+
+```bash
+npm audit                       # une ligne "next | critical" = déploiement bloqué
+npm install next@latest         # dans la même majeure
+npm run build                   # revalider avant de pousser
+```
+
 ---
 
 ## Périmètre et limites
