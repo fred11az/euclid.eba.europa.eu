@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
@@ -145,12 +146,25 @@ export default async function InstitutionPage({
             <span aria-hidden="true" className="flip-x inline-block">←</span>&nbsp;{t('detail.back')}
           </Link>
           <div className="mt-2 flex flex-wrap items-start gap-4">
-            <span aria-hidden="true" className="text-5xl leading-none">{flag(s.country_code)}</span>
+            {s.logo_url ? (
+              <span className="inline-flex items-center justify-center rounded-xl bg-white p-2 shadow-sm">
+                <Image
+                  src={s.logo_url}
+                  alt={s.legal_name}
+                  width={s.logo_width ?? 200}
+                  height={s.logo_height ?? 80}
+                  priority
+                  className="h-12 w-auto object-contain sm:h-14"
+                />
+              </span>
+            ) : (
+              <span aria-hidden="true" className="text-5xl leading-none">{flag(s.country_code)}</span>
+            )}
             <div className="min-w-0 flex-1">
               <h1 className="text-2xl font-bold leading-tight sm:text-4xl">{s.display_name}</h1>
               <p className="mt-1 text-navy-200">{s.legal_name}</p>
               <p className="mt-1 text-sm text-navy-300">
-                {s.city} ·{' '}
+                <span aria-hidden="true">{flag(s.country_code)}</span> {s.city} ·{' '}
                 <Link href={`/countries/${s.country_code.toLowerCase()}`} className="underline underline-offset-2">
                   {countryName(s.country_code, locale)}
                 </Link>
@@ -160,9 +174,9 @@ export default async function InstitutionPage({
                   <span aria-hidden="true">✓</span> {tr(s.status.labels, locale)}
                 </Badge>
                 <Link href={`/licences/${licenceSlugFor(e.metadata_internal.licence_type)}`}>
-                  <Badge tone="gold">{t(`licence.${e.metadata_internal.licence_type}`)}</Badge>
+                  <Badge tone="goldOnDark">{t(`licence.${e.metadata_internal.licence_type}`)}</Badge>
                 </Link>
-                <Badge>{t(`kinds.${e.metadata_internal.kind}`)}</Badge>
+                <Badge tone="onDark">{t(`kinds.${e.metadata_internal.kind}`)}</Badge>
               </div>
             </div>
           </div>

@@ -9,7 +9,9 @@
       "legal_name": "Vantex Bank AG",
       "country_code": "DE",
       "city": "Frankfurt am Main",
-      "logo_url": null,
+      "logo_url": "/logos/vantex-bank.jpg",
+      "logo_width": 560,
+      "logo_height": 209,
       "regulator_primary": "BaFin",
       "status": {
         "code": "ACTIVE",

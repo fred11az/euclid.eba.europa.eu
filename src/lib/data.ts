@@ -32,6 +32,8 @@ export type Entity = {
     country_code: string;
     city: string;
     logo_url: string | null;
+    logo_width?: number;
+    logo_height?: number;
     regulator_primary: string;
     status: { code: string; labels: Localized; color_badge: string };
     specialization_tags: string[];
@@ -168,6 +170,7 @@ export type Institution = {
   completeness: number;
   verified: boolean;
   solidityScore: number;
+  logo: string | null;
 };
 
 function toView(e: Entity): Institution {
@@ -195,6 +198,7 @@ function toView(e: Entity): Institution {
     completeness: e.metadata_internal.completeness_score,
     verified: e.source_verified,
     solidityScore: d.solidity.score,
+    logo: s.logo_url,
   };
 }
 

@@ -1,5 +1,6 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import { countryName, flag, solidityBand, t as tr, type Institution } from '@/lib/data';
 import Badge from './Badge';
 
@@ -17,7 +18,19 @@ export default function InstitutionCard({ inst, dense = false }: { inst: Institu
   return (
     <article className="group relative flex h-full flex-col rounded-2xl border border-navy-100 bg-white p-4 shadow-sm transition hover:border-navy-300 hover:shadow-md">
       <div className="flex items-start gap-3">
-        <span aria-hidden="true" className="text-2xl leading-none">{flag(inst.country)}</span>
+        {inst.logo ? (
+          <span className="inline-flex h-10 w-16 shrink-0 items-center justify-center rounded-lg border border-navy-100 bg-white p-1">
+            <Image
+              src={inst.logo}
+              alt=""
+              width={160}
+              height={60}
+              className="h-full w-full object-contain"
+            />
+          </span>
+        ) : (
+          <span aria-hidden="true" className="text-2xl leading-none">{flag(inst.country)}</span>
+        )}
         <div className="min-w-0 flex-1">
           <h3 className="text-base font-semibold leading-snug text-navy-900">
             <Link href={`/institutions/${inst.id}`} className="after:absolute after:inset-0">
@@ -25,6 +38,7 @@ export default function InstitutionCard({ inst, dense = false }: { inst: Institu
             </Link>
           </h3>
           <p className="relative z-10 mt-0.5 text-sm text-navy-500">
+            {inst.logo && <span aria-hidden="true">{flag(inst.country)} </span>}
             {inst.city} ·{' '}
             <Link
               href={`/countries/${inst.country.toLowerCase()}`}
