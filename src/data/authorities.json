@@ -1,32 +1,182 @@
 {
-  "AT": { "authority": "Finanzmarktaufsicht (FMA)", "register": "https://www.fma.gv.at/en/company-database/", "ssm": true },
-  "BE": { "authority": "Nationale Bank van België / Banque nationale de Belgique (NBB)", "register": "https://www.nbb.be/en/financial-oversight/prudential-supervision/areas-responsibility/lists-authorised-companies", "ssm": true },
-  "BG": { "authority": "Българска народна банка (BNB)", "register": "https://www.bnb.bg/BankSupervision/index.htm", "ssm": true },
-  "CY": { "authority": "Central Bank of Cyprus (CBC)", "register": "https://www.centralbank.cy/en/licensing-supervision", "ssm": true },
-  "CZ": { "authority": "Česká národní banka (ČNB)", "register": "https://www.cnb.cz/en/supervision-financial-market/lists-registers/", "ssm": false },
-  "DE": { "authority": "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)", "register": "https://portal.mvp.bafin.de/database/InstInfo/", "ssm": true },
-  "DK": { "authority": "Finanstilsynet", "register": "https://www.finanstilsynet.dk/en/tal-og-fakta/virksomheder-under-tilsyn", "ssm": false },
-  "EE": { "authority": "Finantsinspektsioon", "register": "https://www.fi.ee/en", "ssm": true },
-  "ES": { "authority": "Banco de España", "register": "https://www.bde.es/wbe/en/entidades-profesionales/registros/", "ssm": true },
-  "FI": { "authority": "Finanssivalvonta (FIN-FSA)", "register": "https://www.finanssivalvonta.fi/en/registers/supervised-entities/", "ssm": true },
-  "FR": { "authority": "Autorité de contrôle prudentiel et de résolution (ACPR)", "register": "https://www.regafi.fr", "ssm": true },
-  "GR": { "authority": "Τράπεζα της Ελλάδος (Bank of Greece)", "register": "https://www.bankofgreece.gr/en/main-tasks/supervision", "ssm": true },
-  "HR": { "authority": "Hrvatska narodna banka (HNB)", "register": "https://www.hnb.hr/en/core-functions/supervision", "ssm": true },
-  "HU": { "authority": "Magyar Nemzeti Bank (MNB)", "register": "https://www.mnb.hu/en/supervision", "ssm": false },
-  "IE": { "authority": "Central Bank of Ireland", "register": "https://registers.centralbank.ie", "ssm": true },
-  "IS": { "authority": "Seðlabanki Íslands (Central Bank of Iceland)", "register": "https://www.cb.is/financial-supervision/", "ssm": false },
-  "IT": { "authority": "Banca d'Italia", "register": "https://www.bancaditalia.it/compiti/vigilanza/albi-elenchi/", "ssm": true },
-  "LI": { "authority": "Finanzmarktaufsicht Liechtenstein (FMA)", "register": "https://www.fma-li.li/en/", "ssm": false },
-  "LT": { "authority": "Lietuvos bankas", "register": "https://www.lb.lt/en/sfi-financial-market-participants", "ssm": true },
-  "LU": { "authority": "Commission de Surveillance du Secteur Financier (CSSF)", "register": "https://www.cssf.lu/en/entities-supervised/", "ssm": true },
-  "LV": { "authority": "Latvijas Banka", "register": "https://www.bank.lv/en/", "ssm": true },
-  "MT": { "authority": "Malta Financial Services Authority (MFSA)", "register": "https://www.mfsa.mt/financial-services-register/", "ssm": true },
-  "NL": { "authority": "De Nederlandsche Bank (DNB)", "register": "https://www.dnb.nl/en/public-register/", "ssm": true },
-  "NO": { "authority": "Finanstilsynet (Norway)", "register": "https://www.finanstilsynet.no/en/", "ssm": false },
-  "PL": { "authority": "Komisja Nadzoru Finansowego (KNF)", "register": "https://www.knf.gov.pl/en/ENTITIES", "ssm": false },
-  "PT": { "authority": "Banco de Portugal", "register": "https://www.bportugal.pt/entidadesautorizadas", "ssm": true },
-  "RO": { "authority": "Banca Națională a României (BNR)", "register": "https://www.bnr.ro/Registers-1226.aspx", "ssm": false },
-  "SE": { "authority": "Finansinspektionen", "register": "https://www.fi.se/en/our-registers/company-register/", "ssm": false },
-  "SI": { "authority": "Banka Slovenije", "register": "https://www.bsi.si/en/financial-stability/supervision", "ssm": true },
-  "SK": { "authority": "Národná banka Slovenska (NBS)", "register": "https://nbs.sk/en/financial-market-supervision/", "ssm": true }
+  "AT": {
+    "authority": "Finanzmarktaufsicht (FMA)",
+    "register": "https://www.fma.gv.at/en/company-database/",
+    "ssm": true,
+    "code": "FMA"
+  },
+  "BE": {
+    "authority": "Nationale Bank van België / Banque nationale de Belgique (NBB)",
+    "register": "https://www.nbb.be/en/financial-oversight/prudential-supervision/areas-responsibility/lists-authorised-companies",
+    "ssm": true,
+    "code": "NBB"
+  },
+  "BG": {
+    "authority": "Българска народна банка (BNB)",
+    "register": "https://www.bnb.bg/BankSupervision/index.htm",
+    "ssm": true,
+    "code": "BNB"
+  },
+  "CY": {
+    "authority": "Central Bank of Cyprus (CBC)",
+    "register": "https://www.centralbank.cy/en/licensing-supervision",
+    "ssm": true,
+    "code": "CBC"
+  },
+  "CZ": {
+    "authority": "Česká národní banka (ČNB)",
+    "register": "https://www.cnb.cz/en/supervision-financial-market/lists-registers/",
+    "ssm": false,
+    "code": "ČNB"
+  },
+  "DE": {
+    "authority": "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)",
+    "register": "https://portal.mvp.bafin.de/database/InstInfo/",
+    "ssm": true,
+    "code": "BaFin"
+  },
+  "DK": {
+    "authority": "Finanstilsynet",
+    "register": "https://www.finanstilsynet.dk/en/tal-og-fakta/virksomheder-under-tilsyn",
+    "ssm": false,
+    "code": "Finanstilsynet"
+  },
+  "EE": {
+    "authority": "Finantsinspektsioon",
+    "register": "https://www.fi.ee/en",
+    "ssm": true,
+    "code": "Finantsinspektsioon"
+  },
+  "ES": {
+    "authority": "Banco de España",
+    "register": "https://www.bde.es/wbe/en/entidades-profesionales/registros/",
+    "ssm": true,
+    "code": "Banco de España"
+  },
+  "FI": {
+    "authority": "Finanssivalvonta (FIN-FSA)",
+    "register": "https://www.finanssivalvonta.fi/en/registers/supervised-entities/",
+    "ssm": true,
+    "code": "FIN-FSA"
+  },
+  "FR": {
+    "authority": "Autorité de contrôle prudentiel et de résolution (ACPR)",
+    "register": "https://www.regafi.fr",
+    "ssm": true,
+    "code": "ACPR"
+  },
+  "GR": {
+    "authority": "Τράπεζα της Ελλάδος (Bank of Greece)",
+    "register": "https://www.bankofgreece.gr/en/main-tasks/supervision",
+    "ssm": true,
+    "code": "Bank of Greece"
+  },
+  "HR": {
+    "authority": "Hrvatska narodna banka (HNB)",
+    "register": "https://www.hnb.hr/en/core-functions/supervision",
+    "ssm": true,
+    "code": "HNB"
+  },
+  "HU": {
+    "authority": "Magyar Nemzeti Bank (MNB)",
+    "register": "https://www.mnb.hu/en/supervision",
+    "ssm": false,
+    "code": "MNB"
+  },
+  "IE": {
+    "authority": "Central Bank of Ireland",
+    "register": "https://registers.centralbank.ie",
+    "ssm": true,
+    "code": "Central Bank of Ireland"
+  },
+  "IS": {
+    "authority": "Seðlabanki Íslands (Central Bank of Iceland)",
+    "register": "https://www.cb.is/financial-supervision/",
+    "ssm": false,
+    "code": "Seðlabanki Íslands"
+  },
+  "IT": {
+    "authority": "Banca d'Italia",
+    "register": "https://www.bancaditalia.it/compiti/vigilanza/albi-elenchi/",
+    "ssm": true,
+    "code": "Banca d'Italia"
+  },
+  "LI": {
+    "authority": "Finanzmarktaufsicht Liechtenstein (FMA)",
+    "register": "https://www.fma-li.li/en/",
+    "ssm": false,
+    "code": "FMA Liechtenstein"
+  },
+  "LT": {
+    "authority": "Lietuvos bankas",
+    "register": "https://www.lb.lt/en/sfi-financial-market-participants",
+    "ssm": true,
+    "code": "Lietuvos bankas"
+  },
+  "LU": {
+    "authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+    "register": "https://www.cssf.lu/en/entities-supervised/",
+    "ssm": true,
+    "code": "CSSF"
+  },
+  "LV": {
+    "authority": "Latvijas Banka",
+    "register": "https://www.bank.lv/en/",
+    "ssm": true,
+    "code": "Latvijas Banka"
+  },
+  "MT": {
+    "authority": "Malta Financial Services Authority (MFSA)",
+    "register": "https://www.mfsa.mt/financial-services-register/",
+    "ssm": true,
+    "code": "MFSA"
+  },
+  "NL": {
+    "authority": "De Nederlandsche Bank (DNB)",
+    "register": "https://www.dnb.nl/en/public-register/",
+    "ssm": true,
+    "code": "DNB"
+  },
+  "NO": {
+    "authority": "Finanstilsynet (Norway)",
+    "register": "https://www.finanstilsynet.no/en/",
+    "ssm": false,
+    "code": "Finanstilsynet (NO)"
+  },
+  "PL": {
+    "authority": "Komisja Nadzoru Finansowego (KNF)",
+    "register": "https://www.knf.gov.pl/en/ENTITIES",
+    "ssm": false,
+    "code": "KNF"
+  },
+  "PT": {
+    "authority": "Banco de Portugal",
+    "register": "https://www.bportugal.pt/entidadesautorizadas",
+    "ssm": true,
+    "code": "Banco de Portugal"
+  },
+  "RO": {
+    "authority": "Banca Națională a României (BNR)",
+    "register": "https://www.bnr.ro/Registers-1226.aspx",
+    "ssm": false,
+    "code": "BNR"
+  },
+  "SE": {
+    "authority": "Finansinspektionen",
+    "register": "https://www.fi.se/en/our-registers/company-register/",
+    "ssm": false,
+    "code": "Finansinspektionen"
+  },
+  "SI": {
+    "authority": "Banka Slovenije",
+    "register": "https://www.bsi.si/en/financial-stability/supervision",
+    "ssm": true,
+    "code": "Banka Slovenije"
+  },
+  "SK": {
+    "authority": "Národná banka Slovenska (NBS)",
+    "register": "https://nbs.sk/en/financial-market-supervision/",
+    "ssm": true,
+    "code": "NBS"
+  }
 }

@@ -5,7 +5,7 @@ import { Link } from '@/i18n/navigation';
 import { locales } from '@/i18n/routing';
 import InstitutionCard from '@/components/InstitutionCard';
 import LinkTile from '@/components/LinkTile';
-import { authorities, countryName, flag, getSupervisor, supervisorIndex } from '@/lib/data';
+import { authorities, countryName, flag, getSupervisor, registerForSupervisor, supervisorIndex } from '@/lib/data';
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => supervisorIndex.map((s) => ({ locale, slug: s.slug })));
@@ -42,9 +42,8 @@ export default async function SupervisorPage({
   if (!sup) notFound();
 
   const t = await getTranslations();
-  // A supervisor with a single national mandate has an official register we can link to.
-  const registerCountry = sup.countries.find((c) => authorities[c]?.authority.includes(sup.name.split(' (')[0]));
-  const register = registerCountry ? authorities[registerCountry] : undefined;
+  // A supervisor with a national mandate has an official register we can link to.
+  const register = registerForSupervisor(sup.name);
 
   return (
     <>

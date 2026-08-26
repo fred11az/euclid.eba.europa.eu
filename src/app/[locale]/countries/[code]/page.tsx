@@ -15,7 +15,7 @@ import {
   institutionsIn,
   licenceSlugFor,
   newsIn,
-  slugify,
+  supervisorSlugFor,
 } from '@/lib/data';
 
 export function generateStaticParams() {
@@ -103,12 +103,14 @@ export default async function CountryPage({
               >
                 {t('detail.officialRegister')} ↗
               </a>
-              <Link
-                href={`/supervisors/${slugify(authority.authority)}`}
-                className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-navy-300 px-4 text-sm font-semibold text-navy-800 hover:bg-white"
-              >
-                {t('common.learnMore')}
-              </Link>
+              {supervisorSlugFor(authority.code) && (
+                <Link
+                  href={`/supervisors/${supervisorSlugFor(authority.code)}`}
+                  className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-navy-300 px-4 text-sm font-semibold text-navy-800 hover:bg-white"
+                >
+                  {t('common.learnMore')}
+                </Link>
+              )}
             </div>
           </section>
         )}

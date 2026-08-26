@@ -138,7 +138,7 @@ export type NewsItem = {
   sourceUrl: string;
 };
 
-export type Authority = { authority: string; register: string; ssm: boolean };
+export type Authority = { authority: string; code: string; register: string; ssm: boolean };
 
 export const entities = institutionsRaw as unknown as Entity[];
 export const news = newsRaw as NewsItem[];
@@ -326,6 +326,21 @@ export const supervisorIndex = regulators.map((name) => {
 
 export function getSupervisor(slug: string) {
   return supervisorIndex.find((s) => s.slug === slug);
+}
+
+/**
+ * Slug of the supervisor page for an authority code, or null when no listed
+ * institution names it — the register and the records use different labels for
+ * the same body, so the code is the join key.
+ */
+export function supervisorSlugFor(code: string): string | null {
+  const slug = slugify(code);
+  return supervisorIndex.some((s) => s.slug === slug) ? slug : null;
+}
+
+/** The official register entry for a supervisor, matched on its code. */
+export function registerForSupervisor(name: string): Authority | undefined {
+  return Object.values(authorities).find((a) => a.code === name);
 }
 
 export function institutionsIn(country: string) {
