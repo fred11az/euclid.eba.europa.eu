@@ -1,0 +1,3534 @@
+[
+  {
+    "id": "deutsche-bank-ag",
+    "name": {
+      "en": "Deutsche Bank AG",
+      "fr": "Deutsche Bank AG",
+      "de": "Deutsche Bank AG",
+      "it": "Deutsche Bank AG",
+      "pt": "Deutsche Bank AG",
+      "es": "Deutsche Bank AG",
+      "ar": "Deutsche Bank AG"
+    },
+    "legalName": "Deutsche Bank AG",
+    "country": "DE",
+    "city": "Frankfurt am Main",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.db.com",
+    "bic": "DEUTDEFF",
+    "ibanPrefix": "DE",
+    "lei": null,
+    "founded": 1870,
+    "regulators": [
+      "ECB",
+      "BaFin"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Frankfurt am Main, Germany. Established in 1870, it holds a valid authorisation to operate and is supervised by ECB and BaFin.",
+      "fr": "Une banque universelle dont le siège social se situe à Frankfurt am Main (Allemagne). Créée en 1870, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BaFin.",
+      "de": "Eine Universalbank mit Sitz in Frankfurt am Main, Deutschland. Das 1870 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BaFin beaufsichtigt.",
+      "it": "Una banca universale con sede a Frankfurt am Main, Germania. Fondata nel 1870, dispone di un'autorizzazione valida ed è vigilata da ECB e BaFin.",
+      "pt": "Um banco universal com sede em Frankfurt am Main, Alemanha. Fundado em 1870, dispõe de autorização válida e é supervisionado por ECB e BaFin.",
+      "es": "Un banco universal con sede en Frankfurt am Main, Alemania. Fundado en 1870, cuenta con una autorización vigente y está supervisado por ECB y BaFin.",
+      "ar": "بنك شامل يقع مقره في Frankfurt am Main، ألمانيا. تأسس عام 1870، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BaFin."
+    },
+    "tags": [
+      "retail",
+      "investment",
+      "corporate"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "commerzbank-ag",
+    "name": {
+      "en": "Commerzbank AG",
+      "fr": "Commerzbank AG",
+      "de": "Commerzbank AG",
+      "it": "Commerzbank AG",
+      "pt": "Commerzbank AG",
+      "es": "Commerzbank AG",
+      "ar": "Commerzbank AG"
+    },
+    "legalName": "Commerzbank AG",
+    "country": "DE",
+    "city": "Frankfurt am Main",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.commerzbank.de",
+    "bic": "COBADEFF",
+    "ibanPrefix": "DE",
+    "lei": null,
+    "founded": 1870,
+    "regulators": [
+      "ECB",
+      "BaFin"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Frankfurt am Main, Germany. Established in 1870, it holds a valid authorisation to operate and is supervised by ECB and BaFin.",
+      "fr": "Une banque universelle dont le siège social se situe à Frankfurt am Main (Allemagne). Créée en 1870, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BaFin.",
+      "de": "Eine Universalbank mit Sitz in Frankfurt am Main, Deutschland. Das 1870 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BaFin beaufsichtigt.",
+      "it": "Una banca universale con sede a Frankfurt am Main, Germania. Fondata nel 1870, dispone di un'autorizzazione valida ed è vigilata da ECB e BaFin.",
+      "pt": "Um banco universal com sede em Frankfurt am Main, Alemanha. Fundado em 1870, dispõe de autorização válida e é supervisionado por ECB e BaFin.",
+      "es": "Un banco universal con sede en Frankfurt am Main, Alemania. Fundado en 1870, cuenta con una autorización vigente y está supervisado por ECB y BaFin.",
+      "ar": "بنك شامل يقع مقره في Frankfurt am Main، ألمانيا. تأسس عام 1870، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BaFin."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "dz-bank-ag",
+    "name": {
+      "en": "DZ BANK AG",
+      "fr": "DZ BANK AG",
+      "de": "DZ BANK AG",
+      "it": "DZ BANK AG",
+      "pt": "DZ BANK AG",
+      "es": "DZ BANK AG",
+      "ar": "DZ BANK AG"
+    },
+    "legalName": "DZ BANK AG",
+    "country": "DE",
+    "city": "Frankfurt am Main",
+    "kind": "cooperative",
+    "logo": null,
+    "website": "https://www.dzbank.de",
+    "bic": "GENODEFF",
+    "ibanPrefix": "DE",
+    "lei": null,
+    "founded": 1883,
+    "regulators": [
+      "ECB",
+      "BaFin"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A cooperative bank headquartered in Frankfurt am Main, Germany. Established in 1883, it holds a valid authorisation to operate and is supervised by ECB and BaFin.",
+      "fr": "Une banque coopérative dont le siège social se situe à Frankfurt am Main (Allemagne). Créée en 1883, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BaFin.",
+      "de": "Eine Genossenschaftsbank mit Sitz in Frankfurt am Main, Deutschland. Das 1883 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BaFin beaufsichtigt.",
+      "it": "Una banca cooperativa con sede a Frankfurt am Main, Germania. Fondata nel 1883, dispone di un'autorizzazione valida ed è vigilata da ECB e BaFin.",
+      "pt": "Um banco cooperativo com sede em Frankfurt am Main, Alemanha. Fundado em 1883, dispõe de autorização válida e é supervisionado por ECB e BaFin.",
+      "es": "Un banco cooperativo con sede en Frankfurt am Main, Alemania. Fundado en 1883, cuenta con una autorización vigente y está supervisado por ECB y BaFin.",
+      "ar": "بنك تعاوني يقع مقره في Frankfurt am Main، ألمانيا. تأسس عام 1883، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BaFin."
+    },
+    "tags": [
+      "corporate",
+      "cooperative"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "ing-diba-ag",
+    "name": {
+      "en": "ING-DiBa AG",
+      "fr": "ING-DiBa AG",
+      "de": "ING-DiBa AG",
+      "it": "ING-DiBa AG",
+      "pt": "ING-DiBa AG",
+      "es": "ING-DiBa AG",
+      "ar": "ING-DiBa AG"
+    },
+    "legalName": "ING-DiBa AG",
+    "country": "DE",
+    "city": "Frankfurt am Main",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.ing.de",
+    "bic": "INGDDEFF",
+    "ibanPrefix": "DE",
+    "lei": null,
+    "founded": 1965,
+    "regulators": [
+      "ECB",
+      "BaFin"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Frankfurt am Main, Germany. Established in 1965, it holds a valid authorisation to operate and is supervised by ECB and BaFin.",
+      "fr": "Une banque de détail dont le siège social se situe à Frankfurt am Main (Allemagne). Créée en 1965, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BaFin.",
+      "de": "Eine Privatkundenbank mit Sitz in Frankfurt am Main, Deutschland. Das 1965 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BaFin beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Frankfurt am Main, Germania. Fondata nel 1965, dispone di un'autorizzazione valida ed è vigilata da ECB e BaFin.",
+      "pt": "Um banco de retalho com sede em Frankfurt am Main, Alemanha. Fundado em 1965, dispõe de autorização válida e é supervisionado por ECB e BaFin.",
+      "es": "Un banco minorista con sede en Frankfurt am Main, Alemania. Fundado en 1965, cuenta con una autorización vigente y está supervisado por ECB y BaFin.",
+      "ar": "بنك تجزئة يقع مقره في Frankfurt am Main، ألمانيا. تأسس عام 1965، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BaFin."
+    },
+    "tags": [
+      "retail",
+      "digital"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "n26-bank-se",
+    "name": {
+      "en": "N26 Bank SE",
+      "fr": "N26 Bank SE",
+      "de": "N26 Bank SE",
+      "it": "N26 Bank SE",
+      "pt": "N26 Bank SE",
+      "es": "N26 Bank SE",
+      "ar": "N26 Bank SE"
+    },
+    "legalName": "N26 Bank SE",
+    "country": "DE",
+    "city": "Berlin",
+    "kind": "digital",
+    "logo": null,
+    "website": "https://n26.com",
+    "bic": "NTSBDEB1",
+    "ibanPrefix": "DE",
+    "lei": null,
+    "founded": 2013,
+    "regulators": [
+      "ECB",
+      "BaFin"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A digital-first bank headquartered in Berlin, Germany. Established in 2013, it holds a valid authorisation to operate and is supervised by ECB and BaFin.",
+      "fr": "Une banque nativement numérique dont le siège social se situe à Berlin (Allemagne). Créée en 2013, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BaFin.",
+      "de": "Eine digitale Direktbank mit Sitz in Berlin, Deutschland. Das 2013 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BaFin beaufsichtigt.",
+      "it": "Una banca digitale con sede a Berlin, Germania. Fondata nel 2013, dispone di un'autorizzazione valida ed è vigilata da ECB e BaFin.",
+      "pt": "Um banco digital com sede em Berlin, Alemanha. Fundado em 2013, dispõe de autorização válida e é supervisionado por ECB e BaFin.",
+      "es": "Un banco digital con sede en Berlin, Alemania. Fundado en 2013, cuenta con una autorización vigente y está supervisado por ECB y BaFin.",
+      "ar": "بنك رقمي يقع مقره في Berlin، ألمانيا. تأسس عام 2013، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BaFin."
+    },
+    "tags": [
+      "retail",
+      "digital"
+    ],
+    "solidityScore": 70
+  },
+  {
+    "id": "bnp-paribas-sa",
+    "name": {
+      "en": "BNP Paribas SA",
+      "fr": "BNP Paribas SA",
+      "de": "BNP Paribas SA",
+      "it": "BNP Paribas SA",
+      "pt": "BNP Paribas SA",
+      "es": "BNP Paribas SA",
+      "ar": "BNP Paribas SA"
+    },
+    "legalName": "BNP Paribas SA",
+    "country": "FR",
+    "city": "Paris",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://group.bnpparibas",
+    "bic": "BNPAFRPP",
+    "ibanPrefix": "FR",
+    "lei": null,
+    "founded": 1848,
+    "regulators": [
+      "ECB",
+      "ACPR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Paris, France. Established in 1848, it holds a valid authorisation to operate and is supervised by ECB and ACPR.",
+      "fr": "Une banque universelle dont le siège social se situe à Paris (France). Créée en 1848, elle dispose d'un agrément en cours de validité et est supervisée par ECB et ACPR.",
+      "de": "Eine Universalbank mit Sitz in Paris, Frankreich. Das 1848 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und ACPR beaufsichtigt.",
+      "it": "Una banca universale con sede a Paris, Francia. Fondata nel 1848, dispone di un'autorizzazione valida ed è vigilata da ECB e ACPR.",
+      "pt": "Um banco universal com sede em Paris, França. Fundado em 1848, dispõe de autorização válida e é supervisionado por ECB e ACPR.",
+      "es": "Un banco universal con sede en Paris, Francia. Fundado en 1848, cuenta con una autorización vigente y está supervisado por ECB y ACPR.",
+      "ar": "بنك شامل يقع مقره في Paris، فرنسا. تأسس عام 1848، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و ACPR."
+    },
+    "tags": [
+      "retail",
+      "investment",
+      "corporate"
+    ],
+    "solidityScore": 82
+  },
+  {
+    "id": "credit-agricole-sa",
+    "name": {
+      "en": "Crédit Agricole SA",
+      "fr": "Crédit Agricole SA",
+      "de": "Crédit Agricole SA",
+      "it": "Crédit Agricole SA",
+      "pt": "Crédit Agricole SA",
+      "es": "Crédit Agricole SA",
+      "ar": "Crédit Agricole SA"
+    },
+    "legalName": "Crédit Agricole SA",
+    "country": "FR",
+    "city": "Montrouge",
+    "kind": "cooperative",
+    "logo": null,
+    "website": "https://www.credit-agricole.com",
+    "bic": "AGRIFRPP",
+    "ibanPrefix": "FR",
+    "lei": null,
+    "founded": 1894,
+    "regulators": [
+      "ECB",
+      "ACPR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A cooperative bank headquartered in Montrouge, France. Established in 1894, it holds a valid authorisation to operate and is supervised by ECB and ACPR.",
+      "fr": "Une banque coopérative dont le siège social se situe à Montrouge (France). Créée en 1894, elle dispose d'un agrément en cours de validité et est supervisée par ECB et ACPR.",
+      "de": "Eine Genossenschaftsbank mit Sitz in Montrouge, Frankreich. Das 1894 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und ACPR beaufsichtigt.",
+      "it": "Una banca cooperativa con sede a Montrouge, Francia. Fondata nel 1894, dispone di un'autorizzazione valida ed è vigilata da ECB e ACPR.",
+      "pt": "Um banco cooperativo com sede em Montrouge, França. Fundado em 1894, dispõe de autorização válida e é supervisionado por ECB e ACPR.",
+      "es": "Un banco cooperativo con sede en Montrouge, Francia. Fundado en 1894, cuenta con una autorización vigente y está supervisado por ECB y ACPR.",
+      "ar": "بنك تعاوني يقع مقره في Montrouge، فرنسا. تأسس عام 1894، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و ACPR."
+    },
+    "tags": [
+      "retail",
+      "cooperative",
+      "corporate"
+    ],
+    "solidityScore": 81
+  },
+  {
+    "id": "societe-generale",
+    "name": {
+      "en": "Société Générale",
+      "fr": "Société Générale",
+      "de": "Société Générale",
+      "it": "Société Générale",
+      "pt": "Société Générale",
+      "es": "Société Générale",
+      "ar": "Société Générale"
+    },
+    "legalName": "Société Générale",
+    "country": "FR",
+    "city": "Paris",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.societegenerale.com",
+    "bic": "SOGEFRPP",
+    "ibanPrefix": "FR",
+    "lei": null,
+    "founded": 1864,
+    "regulators": [
+      "ECB",
+      "ACPR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Paris, France. Established in 1864, it holds a valid authorisation to operate and is supervised by ECB and ACPR.",
+      "fr": "Une banque universelle dont le siège social se situe à Paris (France). Créée en 1864, elle dispose d'un agrément en cours de validité et est supervisée par ECB et ACPR.",
+      "de": "Eine Universalbank mit Sitz in Paris, Frankreich. Das 1864 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und ACPR beaufsichtigt.",
+      "it": "Una banca universale con sede a Paris, Francia. Fondata nel 1864, dispone di un'autorizzazione valida ed è vigilata da ECB e ACPR.",
+      "pt": "Um banco universal com sede em Paris, França. Fundado em 1864, dispõe de autorização válida e é supervisionado por ECB e ACPR.",
+      "es": "Un banco universal con sede en Paris, Francia. Fundado en 1864, cuenta con una autorización vigente y está supervisado por ECB y ACPR.",
+      "ar": "بنك شامل يقع مقره في Paris، فرنسا. تأسس عام 1864، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و ACPR."
+    },
+    "tags": [
+      "retail",
+      "investment",
+      "corporate"
+    ],
+    "solidityScore": 77
+  },
+  {
+    "id": "groupe-bpce",
+    "name": {
+      "en": "Groupe BPCE",
+      "fr": "Groupe BPCE",
+      "de": "Groupe BPCE",
+      "it": "Groupe BPCE",
+      "pt": "Groupe BPCE",
+      "es": "Groupe BPCE",
+      "ar": "Groupe BPCE"
+    },
+    "legalName": "Groupe BPCE",
+    "country": "FR",
+    "city": "Paris",
+    "kind": "cooperative",
+    "logo": null,
+    "website": "https://groupebpce.com",
+    "bic": "CCBPFRPP",
+    "ibanPrefix": "FR",
+    "lei": null,
+    "founded": 2009,
+    "regulators": [
+      "ECB",
+      "ACPR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A cooperative bank headquartered in Paris, France. Established in 2009, it holds a valid authorisation to operate and is supervised by ECB and ACPR.",
+      "fr": "Une banque coopérative dont le siège social se situe à Paris (France). Créée en 2009, elle dispose d'un agrément en cours de validité et est supervisée par ECB et ACPR.",
+      "de": "Eine Genossenschaftsbank mit Sitz in Paris, Frankreich. Das 2009 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und ACPR beaufsichtigt.",
+      "it": "Una banca cooperativa con sede a Paris, Francia. Fondata nel 2009, dispone di un'autorizzazione valida ed è vigilata da ECB e ACPR.",
+      "pt": "Um banco cooperativo com sede em Paris, França. Fundado em 2009, dispõe de autorização válida e é supervisionado por ECB e ACPR.",
+      "es": "Un banco cooperativo con sede en Paris, Francia. Fundado en 2009, cuenta con una autorización vigente y está supervisado por ECB y ACPR.",
+      "ar": "بنك تعاوني يقع مقره في Paris، فرنسا. تأسس عام 2009، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و ACPR."
+    },
+    "tags": [
+      "retail",
+      "cooperative"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "la-banque-postale",
+    "name": {
+      "en": "La Banque Postale",
+      "fr": "La Banque Postale",
+      "de": "La Banque Postale",
+      "it": "La Banque Postale",
+      "pt": "La Banque Postale",
+      "es": "La Banque Postale",
+      "ar": "La Banque Postale"
+    },
+    "legalName": "La Banque Postale",
+    "country": "FR",
+    "city": "Paris",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.labanquepostale.fr",
+    "bic": "PSSTFRPP",
+    "ibanPrefix": "FR",
+    "lei": null,
+    "founded": 2006,
+    "regulators": [
+      "ECB",
+      "ACPR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Paris, France. Established in 2006, it holds a valid authorisation to operate and is supervised by ECB and ACPR.",
+      "fr": "Une banque de détail dont le siège social se situe à Paris (France). Créée en 2006, elle dispose d'un agrément en cours de validité et est supervisée par ECB et ACPR.",
+      "de": "Eine Privatkundenbank mit Sitz in Paris, Frankreich. Das 2006 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und ACPR beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Paris, Francia. Fondata nel 2006, dispone di un'autorizzazione valida ed è vigilata da ECB e ACPR.",
+      "pt": "Um banco de retalho com sede em Paris, França. Fundado em 2006, dispõe de autorização válida e é supervisionado por ECB e ACPR.",
+      "es": "Un banco minorista con sede en Paris, Francia. Fundado en 2006, cuenta con una autorización vigente y está supervisado por ECB y ACPR.",
+      "ar": "بنك تجزئة يقع مقره في Paris، فرنسا. تأسس عام 2006، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و ACPR."
+    },
+    "tags": [
+      "retail"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "intesa-sanpaolo-s-p-a",
+    "name": {
+      "en": "Intesa Sanpaolo S.p.A.",
+      "fr": "Intesa Sanpaolo S.p.A.",
+      "de": "Intesa Sanpaolo S.p.A.",
+      "it": "Intesa Sanpaolo S.p.A.",
+      "pt": "Intesa Sanpaolo S.p.A.",
+      "es": "Intesa Sanpaolo S.p.A.",
+      "ar": "Intesa Sanpaolo S.p.A."
+    },
+    "legalName": "Intesa Sanpaolo S.p.A.",
+    "country": "IT",
+    "city": "Torino",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://group.intesasanpaolo.com",
+    "bic": "BCITITMM",
+    "ibanPrefix": "IT",
+    "lei": null,
+    "founded": 2007,
+    "regulators": [
+      "ECB",
+      "Banca d'Italia"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Torino, Italy. Established in 2007, it holds a valid authorisation to operate and is supervised by ECB and Banca d'Italia.",
+      "fr": "Une banque universelle dont le siège social se situe à Torino (Italie). Créée en 2007, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banca d'Italia.",
+      "de": "Eine Universalbank mit Sitz in Torino, Italien. Das 2007 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banca d'Italia beaufsichtigt.",
+      "it": "Una banca universale con sede a Torino, Italia. Fondata nel 2007, dispone di un'autorizzazione valida ed è vigilata da ECB e Banca d'Italia.",
+      "pt": "Um banco universal com sede em Torino, Itália. Fundado em 2007, dispõe de autorização válida e é supervisionado por ECB e Banca d'Italia.",
+      "es": "Un banco universal con sede en Torino, Italia. Fundado en 2007, cuenta con una autorización vigente y está supervisado por ECB y Banca d'Italia.",
+      "ar": "بنك شامل يقع مقره في Torino، إيطاليا. تأسس عام 2007، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banca d'Italia."
+    },
+    "tags": [
+      "retail",
+      "corporate",
+      "investment"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "unicredit-s-p-a",
+    "name": {
+      "en": "UniCredit S.p.A.",
+      "fr": "UniCredit S.p.A.",
+      "de": "UniCredit S.p.A.",
+      "it": "UniCredit S.p.A.",
+      "pt": "UniCredit S.p.A.",
+      "es": "UniCredit S.p.A.",
+      "ar": "UniCredit S.p.A."
+    },
+    "legalName": "UniCredit S.p.A.",
+    "country": "IT",
+    "city": "Milano",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.unicreditgroup.eu",
+    "bic": "UNCRITMM",
+    "ibanPrefix": "IT",
+    "lei": null,
+    "founded": 1870,
+    "regulators": [
+      "ECB",
+      "Banca d'Italia"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Milano, Italy. Established in 1870, it holds a valid authorisation to operate and is supervised by ECB and Banca d'Italia.",
+      "fr": "Une banque universelle dont le siège social se situe à Milano (Italie). Créée en 1870, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banca d'Italia.",
+      "de": "Eine Universalbank mit Sitz in Milano, Italien. Das 1870 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banca d'Italia beaufsichtigt.",
+      "it": "Una banca universale con sede a Milano, Italia. Fondata nel 1870, dispone di un'autorizzazione valida ed è vigilata da ECB e Banca d'Italia.",
+      "pt": "Um banco universal com sede em Milano, Itália. Fundado em 1870, dispõe de autorização válida e é supervisionado por ECB e Banca d'Italia.",
+      "es": "Un banco universal con sede en Milano, Italia. Fundado en 1870, cuenta con una autorización vigente y está supervisado por ECB y Banca d'Italia.",
+      "ar": "بنك شامل يقع مقره في Milano، إيطاليا. تأسس عام 1870، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banca d'Italia."
+    },
+    "tags": [
+      "retail",
+      "corporate",
+      "investment"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "banco-bpm-s-p-a",
+    "name": {
+      "en": "Banco BPM S.p.A.",
+      "fr": "Banco BPM S.p.A.",
+      "de": "Banco BPM S.p.A.",
+      "it": "Banco BPM S.p.A.",
+      "pt": "Banco BPM S.p.A.",
+      "es": "Banco BPM S.p.A.",
+      "ar": "Banco BPM S.p.A."
+    },
+    "legalName": "Banco BPM S.p.A.",
+    "country": "IT",
+    "city": "Milano",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://gruppo.bancobpm.it",
+    "bic": "BAPPIT21",
+    "ibanPrefix": "IT",
+    "lei": null,
+    "founded": 2017,
+    "regulators": [
+      "ECB",
+      "Banca d'Italia"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Milano, Italy. Established in 2017, it holds a valid authorisation to operate and is supervised by ECB and Banca d'Italia.",
+      "fr": "Une banque de détail dont le siège social se situe à Milano (Italie). Créée en 2017, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banca d'Italia.",
+      "de": "Eine Privatkundenbank mit Sitz in Milano, Italien. Das 2017 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banca d'Italia beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Milano, Italia. Fondata nel 2017, dispone di un'autorizzazione valida ed è vigilata da ECB e Banca d'Italia.",
+      "pt": "Um banco de retalho com sede em Milano, Itália. Fundado em 2017, dispõe de autorização válida e é supervisionado por ECB e Banca d'Italia.",
+      "es": "Un banco minorista con sede en Milano, Italia. Fundado en 2017, cuenta con una autorización vigente y está supervisado por ECB y Banca d'Italia.",
+      "ar": "بنك تجزئة يقع مقره في Milano، إيطاليا. تأسس عام 2017، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banca d'Italia."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 73
+  },
+  {
+    "id": "mediobanca-s-p-a",
+    "name": {
+      "en": "Mediobanca S.p.A.",
+      "fr": "Mediobanca S.p.A.",
+      "de": "Mediobanca S.p.A.",
+      "it": "Mediobanca S.p.A.",
+      "pt": "Mediobanca S.p.A.",
+      "es": "Mediobanca S.p.A.",
+      "ar": "Mediobanca S.p.A."
+    },
+    "legalName": "Mediobanca S.p.A.",
+    "country": "IT",
+    "city": "Milano",
+    "kind": "investment",
+    "logo": null,
+    "website": "https://www.mediobanca.com",
+    "bic": "MEDBITMM",
+    "ibanPrefix": "IT",
+    "lei": null,
+    "founded": 1946,
+    "regulators": [
+      "ECB",
+      "Banca d'Italia"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "An investment bank headquartered in Milano, Italy. Established in 1946, it holds a valid authorisation to operate and is supervised by ECB and Banca d'Italia.",
+      "fr": "Une banque d'investissement dont le siège social se situe à Milano (Italie). Créée en 1946, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banca d'Italia.",
+      "de": "Eine Investmentbank mit Sitz in Milano, Italien. Das 1946 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banca d'Italia beaufsichtigt.",
+      "it": "Una banca d’investimento con sede a Milano, Italia. Fondata nel 1946, dispone di un'autorizzazione valida ed è vigilata da ECB e Banca d'Italia.",
+      "pt": "Um banco de investimento com sede em Milano, Itália. Fundado em 1946, dispõe de autorização válida e é supervisionado por ECB e Banca d'Italia.",
+      "es": "Un banco de inversión con sede en Milano, Italia. Fundado en 1946, cuenta con una autorización vigente y está supervisado por ECB y Banca d'Italia.",
+      "ar": "بنك استثماري يقع مقره في Milano، إيطاليا. تأسس عام 1946، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banca d'Italia."
+    },
+    "tags": [
+      "investment",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "banco-santander-s-a",
+    "name": {
+      "en": "Banco Santander S.A.",
+      "fr": "Banco Santander S.A.",
+      "de": "Banco Santander S.A.",
+      "it": "Banco Santander S.A.",
+      "pt": "Banco Santander S.A.",
+      "es": "Banco Santander S.A.",
+      "ar": "Banco Santander S.A."
+    },
+    "legalName": "Banco Santander S.A.",
+    "country": "ES",
+    "city": "Madrid",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.santander.com",
+    "bic": "BSCHESMM",
+    "ibanPrefix": "ES",
+    "lei": null,
+    "founded": 1857,
+    "regulators": [
+      "ECB",
+      "Banco de España"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Madrid, Spain. Established in 1857, it holds a valid authorisation to operate and is supervised by ECB and Banco de España.",
+      "fr": "Une banque universelle dont le siège social se situe à Madrid (Espagne). Créée en 1857, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de España.",
+      "de": "Eine Universalbank mit Sitz in Madrid, Spanien. Das 1857 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de España beaufsichtigt.",
+      "it": "Una banca universale con sede a Madrid, Spagna. Fondata nel 1857, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de España.",
+      "pt": "Um banco universal com sede em Madrid, Espanha. Fundado em 1857, dispõe de autorização válida e é supervisionado por ECB e Banco de España.",
+      "es": "Un banco universal con sede en Madrid, España. Fundado en 1857, cuenta con una autorización vigente y está supervisado por ECB y Banco de España.",
+      "ar": "بنك شامل يقع مقره في Madrid، إسبانيا. تأسس عام 1857، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de España."
+    },
+    "tags": [
+      "retail",
+      "corporate",
+      "investment"
+    ],
+    "solidityScore": 81
+  },
+  {
+    "id": "banco-bilbao-vizcaya-argentaria-s-a",
+    "name": {
+      "en": "Banco Bilbao Vizcaya Argentaria S.A.",
+      "fr": "Banco Bilbao Vizcaya Argentaria S.A.",
+      "de": "Banco Bilbao Vizcaya Argentaria S.A.",
+      "it": "Banco Bilbao Vizcaya Argentaria S.A.",
+      "pt": "Banco Bilbao Vizcaya Argentaria S.A.",
+      "es": "Banco Bilbao Vizcaya Argentaria S.A.",
+      "ar": "Banco Bilbao Vizcaya Argentaria S.A."
+    },
+    "legalName": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "country": "ES",
+    "city": "Bilbao",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.bbva.com",
+    "bic": "BBVAESMM",
+    "ibanPrefix": "ES",
+    "lei": null,
+    "founded": 1857,
+    "regulators": [
+      "ECB",
+      "Banco de España"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Bilbao, Spain. Established in 1857, it holds a valid authorisation to operate and is supervised by ECB and Banco de España.",
+      "fr": "Une banque universelle dont le siège social se situe à Bilbao (Espagne). Créée en 1857, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de España.",
+      "de": "Eine Universalbank mit Sitz in Bilbao, Spanien. Das 1857 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de España beaufsichtigt.",
+      "it": "Una banca universale con sede a Bilbao, Spagna. Fondata nel 1857, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de España.",
+      "pt": "Um banco universal com sede em Bilbao, Espanha. Fundado em 1857, dispõe de autorização válida e é supervisionado por ECB e Banco de España.",
+      "es": "Un banco universal con sede en Bilbao, España. Fundado en 1857, cuenta con una autorización vigente y está supervisado por ECB y Banco de España.",
+      "ar": "بنك شامل يقع مقره في Bilbao، إسبانيا. تأسس عام 1857، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de España."
+    },
+    "tags": [
+      "retail",
+      "corporate",
+      "digital"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "caixabank-s-a",
+    "name": {
+      "en": "CaixaBank S.A.",
+      "fr": "CaixaBank S.A.",
+      "de": "CaixaBank S.A.",
+      "it": "CaixaBank S.A.",
+      "pt": "CaixaBank S.A.",
+      "es": "CaixaBank S.A.",
+      "ar": "CaixaBank S.A."
+    },
+    "legalName": "CaixaBank S.A.",
+    "country": "ES",
+    "city": "València",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.caixabank.com",
+    "bic": "CAIXESBB",
+    "ibanPrefix": "ES",
+    "lei": null,
+    "founded": 1904,
+    "regulators": [
+      "ECB",
+      "Banco de España"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in València, Spain. Established in 1904, it holds a valid authorisation to operate and is supervised by ECB and Banco de España.",
+      "fr": "Une banque de détail dont le siège social se situe à València (Espagne). Créée en 1904, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de España.",
+      "de": "Eine Privatkundenbank mit Sitz in València, Spanien. Das 1904 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de España beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a València, Spagna. Fondata nel 1904, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de España.",
+      "pt": "Um banco de retalho com sede em València, Espanha. Fundado em 1904, dispõe de autorização válida e é supervisionado por ECB e Banco de España.",
+      "es": "Un banco minorista con sede en València, España. Fundado en 1904, cuenta con una autorización vigente y está supervisado por ECB y Banco de España.",
+      "ar": "بنك تجزئة يقع مقره في València، إسبانيا. تأسس عام 1904، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de España."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "banco-de-sabadell-s-a",
+    "name": {
+      "en": "Banco de Sabadell S.A.",
+      "fr": "Banco de Sabadell S.A.",
+      "de": "Banco de Sabadell S.A.",
+      "it": "Banco de Sabadell S.A.",
+      "pt": "Banco de Sabadell S.A.",
+      "es": "Banco de Sabadell S.A.",
+      "ar": "Banco de Sabadell S.A."
+    },
+    "legalName": "Banco de Sabadell S.A.",
+    "country": "ES",
+    "city": "Alacant",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.grupbancsabadell.com",
+    "bic": "BSABESBB",
+    "ibanPrefix": "ES",
+    "lei": null,
+    "founded": 1881,
+    "regulators": [
+      "ECB",
+      "Banco de España"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Alacant, Spain. Established in 1881, it holds a valid authorisation to operate and is supervised by ECB and Banco de España.",
+      "fr": "Une banque de détail dont le siège social se situe à Alacant (Espagne). Créée en 1881, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de España.",
+      "de": "Eine Privatkundenbank mit Sitz in Alacant, Spanien. Das 1881 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de España beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Alacant, Spagna. Fondata nel 1881, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de España.",
+      "pt": "Um banco de retalho com sede em Alacant, Espanha. Fundado em 1881, dispõe de autorização válida e é supervisionado por ECB e Banco de España.",
+      "es": "Un banco minorista con sede en Alacant, España. Fundado en 1881, cuenta con una autorización vigente y está supervisado por ECB y Banco de España.",
+      "ar": "بنك تجزئة يقع مقره في Alacant، إسبانيا. تأسس عام 1881، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de España."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "ing-bank-n-v",
+    "name": {
+      "en": "ING Bank N.V.",
+      "fr": "ING Bank N.V.",
+      "de": "ING Bank N.V.",
+      "it": "ING Bank N.V.",
+      "pt": "ING Bank N.V.",
+      "es": "ING Bank N.V.",
+      "ar": "ING Bank N.V."
+    },
+    "legalName": "ING Bank N.V.",
+    "country": "NL",
+    "city": "Amsterdam",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.ing.com",
+    "bic": "INGBNL2A",
+    "ibanPrefix": "NL",
+    "lei": null,
+    "founded": 1991,
+    "regulators": [
+      "ECB",
+      "DNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Amsterdam, Netherlands. Established in 1991, it holds a valid authorisation to operate and is supervised by ECB and DNB.",
+      "fr": "Une banque universelle dont le siège social se situe à Amsterdam (Pays-Bas). Créée en 1991, elle dispose d'un agrément en cours de validité et est supervisée par ECB et DNB.",
+      "de": "Eine Universalbank mit Sitz in Amsterdam, Niederlande. Das 1991 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und DNB beaufsichtigt.",
+      "it": "Una banca universale con sede a Amsterdam, Paesi Bassi. Fondata nel 1991, dispone di un'autorizzazione valida ed è vigilata da ECB e DNB.",
+      "pt": "Um banco universal com sede em Amsterdam, Países Baixos. Fundado em 1991, dispõe de autorização válida e é supervisionado por ECB e DNB.",
+      "es": "Un banco universal con sede en Amsterdam, Países Bajos. Fundado en 1991, cuenta con una autorización vigente y está supervisado por ECB y DNB.",
+      "ar": "بنك شامل يقع مقره في Amsterdam، هولندا. تأسس عام 1991، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و DNB."
+    },
+    "tags": [
+      "retail",
+      "corporate",
+      "digital"
+    ],
+    "solidityScore": 81
+  },
+  {
+    "id": "cooperatieve-rabobank-u-a",
+    "name": {
+      "en": "Coöperatieve Rabobank U.A.",
+      "fr": "Coöperatieve Rabobank U.A.",
+      "de": "Coöperatieve Rabobank U.A.",
+      "it": "Coöperatieve Rabobank U.A.",
+      "pt": "Coöperatieve Rabobank U.A.",
+      "es": "Coöperatieve Rabobank U.A.",
+      "ar": "Coöperatieve Rabobank U.A."
+    },
+    "legalName": "Coöperatieve Rabobank U.A.",
+    "country": "NL",
+    "city": "Utrecht",
+    "kind": "cooperative",
+    "logo": null,
+    "website": "https://www.rabobank.com",
+    "bic": "RABONL2U",
+    "ibanPrefix": "NL",
+    "lei": null,
+    "founded": 1972,
+    "regulators": [
+      "ECB",
+      "DNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A cooperative bank headquartered in Utrecht, Netherlands. Established in 1972, it holds a valid authorisation to operate and is supervised by ECB and DNB.",
+      "fr": "Une banque coopérative dont le siège social se situe à Utrecht (Pays-Bas). Créée en 1972, elle dispose d'un agrément en cours de validité et est supervisée par ECB et DNB.",
+      "de": "Eine Genossenschaftsbank mit Sitz in Utrecht, Niederlande. Das 1972 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und DNB beaufsichtigt.",
+      "it": "Una banca cooperativa con sede a Utrecht, Paesi Bassi. Fondata nel 1972, dispone di un'autorizzazione valida ed è vigilata da ECB e DNB.",
+      "pt": "Um banco cooperativo com sede em Utrecht, Países Baixos. Fundado em 1972, dispõe de autorização válida e é supervisionado por ECB e DNB.",
+      "es": "Un banco cooperativo con sede en Utrecht, Países Bajos. Fundado en 1972, cuenta con una autorización vigente y está supervisado por ECB y DNB.",
+      "ar": "بنك تعاوني يقع مقره في Utrecht، هولندا. تأسس عام 1972، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و DNB."
+    },
+    "tags": [
+      "retail",
+      "cooperative",
+      "corporate"
+    ],
+    "solidityScore": 82
+  },
+  {
+    "id": "abn-amro-bank-n-v",
+    "name": {
+      "en": "ABN AMRO Bank N.V.",
+      "fr": "ABN AMRO Bank N.V.",
+      "de": "ABN AMRO Bank N.V.",
+      "it": "ABN AMRO Bank N.V.",
+      "pt": "ABN AMRO Bank N.V.",
+      "es": "ABN AMRO Bank N.V.",
+      "ar": "ABN AMRO Bank N.V."
+    },
+    "legalName": "ABN AMRO Bank N.V.",
+    "country": "NL",
+    "city": "Amsterdam",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.abnamro.com",
+    "bic": "ABNANL2A",
+    "ibanPrefix": "NL",
+    "lei": null,
+    "founded": 1991,
+    "regulators": [
+      "ECB",
+      "DNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Amsterdam, Netherlands. Established in 1991, it holds a valid authorisation to operate and is supervised by ECB and DNB.",
+      "fr": "Une banque universelle dont le siège social se situe à Amsterdam (Pays-Bas). Créée en 1991, elle dispose d'un agrément en cours de validité et est supervisée par ECB et DNB.",
+      "de": "Eine Universalbank mit Sitz in Amsterdam, Niederlande. Das 1991 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und DNB beaufsichtigt.",
+      "it": "Una banca universale con sede a Amsterdam, Paesi Bassi. Fondata nel 1991, dispone di un'autorizzazione valida ed è vigilata da ECB e DNB.",
+      "pt": "Um banco universal com sede em Amsterdam, Países Baixos. Fundado em 1991, dispõe de autorização válida e é supervisionado por ECB e DNB.",
+      "es": "Un banco universal con sede en Amsterdam, Países Bajos. Fundado en 1991, cuenta con una autorización vigente y está supervisado por ECB y DNB.",
+      "ar": "بنك شامل يقع مقره في Amsterdam، هولندا. تأسس عام 1991، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و DNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "bunq-b-v",
+    "name": {
+      "en": "bunq B.V.",
+      "fr": "bunq B.V.",
+      "de": "bunq B.V.",
+      "it": "bunq B.V.",
+      "pt": "bunq B.V.",
+      "es": "bunq B.V.",
+      "ar": "bunq B.V."
+    },
+    "legalName": "bunq B.V.",
+    "country": "NL",
+    "city": "Amsterdam",
+    "kind": "digital",
+    "logo": null,
+    "website": "https://www.bunq.com",
+    "bic": "BUNQNL2A",
+    "ibanPrefix": "NL",
+    "lei": null,
+    "founded": 2012,
+    "regulators": [
+      "ECB",
+      "DNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A digital-first bank headquartered in Amsterdam, Netherlands. Established in 2012, it holds a valid authorisation to operate and is supervised by ECB and DNB.",
+      "fr": "Une banque nativement numérique dont le siège social se situe à Amsterdam (Pays-Bas). Créée en 2012, elle dispose d'un agrément en cours de validité et est supervisée par ECB et DNB.",
+      "de": "Eine digitale Direktbank mit Sitz in Amsterdam, Niederlande. Das 2012 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und DNB beaufsichtigt.",
+      "it": "Una banca digitale con sede a Amsterdam, Paesi Bassi. Fondata nel 2012, dispone di un'autorizzazione valida ed è vigilata da ECB e DNB.",
+      "pt": "Um banco digital com sede em Amsterdam, Países Baixos. Fundado em 2012, dispõe de autorização válida e é supervisionado por ECB e DNB.",
+      "es": "Un banco digital con sede en Amsterdam, Países Bajos. Fundado en 2012, cuenta con una autorización vigente y está supervisado por ECB y DNB.",
+      "ar": "بنك رقمي يقع مقره في Amsterdam، هولندا. تأسس عام 2012، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و DNB."
+    },
+    "tags": [
+      "retail",
+      "digital"
+    ],
+    "solidityScore": 68
+  },
+  {
+    "id": "adyen-n-v",
+    "name": {
+      "en": "Adyen N.V.",
+      "fr": "Adyen N.V.",
+      "de": "Adyen N.V.",
+      "it": "Adyen N.V.",
+      "pt": "Adyen N.V.",
+      "es": "Adyen N.V.",
+      "ar": "Adyen N.V."
+    },
+    "legalName": "Adyen N.V.",
+    "country": "NL",
+    "city": "Amsterdam",
+    "kind": "payment",
+    "logo": null,
+    "website": "https://www.adyen.com",
+    "bic": "ADYBNL2A",
+    "ibanPrefix": "NL",
+    "lei": null,
+    "founded": 2006,
+    "regulators": [
+      "DNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "PAYMENT_INSTITUTION",
+    "depositGuarantee": false,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A payment institution headquartered in Amsterdam, Netherlands. Established in 2006, it holds a valid authorisation to operate and is supervised by DNB.",
+      "fr": "Un établissement de paiement dont le siège social se situe à Amsterdam (Pays-Bas). Créée en 2006, elle dispose d'un agrément en cours de validité et est supervisée par DNB.",
+      "de": "Ein Zahlungsinstitut mit Sitz in Amsterdam, Niederlande. Das 2006 gegründete Institut verfügt über eine gültige Zulassung und wird von DNB beaufsichtigt.",
+      "it": "Un istituto di pagamento con sede a Amsterdam, Paesi Bassi. Fondata nel 2006, dispone di un'autorizzazione valida ed è vigilata da DNB.",
+      "pt": "Uma instituição de pagamento com sede em Amsterdam, Países Baixos. Fundado em 2006, dispõe de autorização válida e é supervisionado por DNB.",
+      "es": "Una entidad de pago con sede en Amsterdam, Países Bajos. Fundado en 2006, cuenta con una autorización vigente y está supervisado por DNB.",
+      "ar": "مؤسسة دفع يقع مقره في Amsterdam، هولندا. تأسس عام 2006، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف DNB."
+    },
+    "tags": [
+      "corporate",
+      "payments"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "kbc-bank-nv",
+    "name": {
+      "en": "KBC Bank NV",
+      "fr": "KBC Bank NV",
+      "de": "KBC Bank NV",
+      "it": "KBC Bank NV",
+      "pt": "KBC Bank NV",
+      "es": "KBC Bank NV",
+      "ar": "KBC Bank NV"
+    },
+    "legalName": "KBC Bank NV",
+    "country": "BE",
+    "city": "Brussel",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.kbc.com",
+    "bic": "KREDBEBB",
+    "ibanPrefix": "BE",
+    "lei": null,
+    "founded": 1998,
+    "regulators": [
+      "ECB",
+      "NBB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Brussel, Belgium. Established in 1998, it holds a valid authorisation to operate and is supervised by ECB and NBB.",
+      "fr": "Une banque universelle dont le siège social se situe à Brussel (Belgique). Créée en 1998, elle dispose d'un agrément en cours de validité et est supervisée par ECB et NBB.",
+      "de": "Eine Universalbank mit Sitz in Brussel, Belgien. Das 1998 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und NBB beaufsichtigt.",
+      "it": "Una banca universale con sede a Brussel, Belgio. Fondata nel 1998, dispone di un'autorizzazione valida ed è vigilata da ECB e NBB.",
+      "pt": "Um banco universal com sede em Brussel, Bélgica. Fundado em 1998, dispõe de autorização válida e é supervisionado por ECB e NBB.",
+      "es": "Un banco universal con sede en Brussel, Bélgica. Fundado en 1998, cuenta con una autorización vigente y está supervisado por ECB y NBB.",
+      "ar": "بنك شامل يقع مقره في Brussel، بلجيكا. تأسس عام 1998، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و NBB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "belfius-bank-nv",
+    "name": {
+      "en": "Belfius Bank NV",
+      "fr": "Belfius Bank NV",
+      "de": "Belfius Bank NV",
+      "it": "Belfius Bank NV",
+      "pt": "Belfius Bank NV",
+      "es": "Belfius Bank NV",
+      "ar": "Belfius Bank NV"
+    },
+    "legalName": "Belfius Bank NV",
+    "country": "BE",
+    "city": "Brussel",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.belfius.be",
+    "bic": "GKCCBEBB",
+    "ibanPrefix": "BE",
+    "lei": null,
+    "founded": 2011,
+    "regulators": [
+      "ECB",
+      "NBB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Brussel, Belgium. Established in 2011, it holds a valid authorisation to operate and is supervised by ECB and NBB.",
+      "fr": "Une banque de détail dont le siège social se situe à Brussel (Belgique). Créée en 2011, elle dispose d'un agrément en cours de validité et est supervisée par ECB et NBB.",
+      "de": "Eine Privatkundenbank mit Sitz in Brussel, Belgien. Das 2011 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und NBB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Brussel, Belgio. Fondata nel 2011, dispone di un'autorizzazione valida ed è vigilata da ECB e NBB.",
+      "pt": "Um banco de retalho com sede em Brussel, Bélgica. Fundado em 2011, dispõe de autorização válida e é supervisionado por ECB e NBB.",
+      "es": "Un banco minorista con sede en Brussel, Bélgica. Fundado en 2011, cuenta con una autorización vigente y está supervisado por ECB y NBB.",
+      "ar": "بنك تجزئة يقع مقره في Brussel، بلجيكا. تأسس عام 2011، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و NBB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "bnp-paribas-fortis-sa",
+    "name": {
+      "en": "BNP Paribas Fortis SA",
+      "fr": "BNP Paribas Fortis SA",
+      "de": "BNP Paribas Fortis SA",
+      "it": "BNP Paribas Fortis SA",
+      "pt": "BNP Paribas Fortis SA",
+      "es": "BNP Paribas Fortis SA",
+      "ar": "BNP Paribas Fortis SA"
+    },
+    "legalName": "BNP Paribas Fortis SA",
+    "country": "BE",
+    "city": "Brussel",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.bnpparibasfortis.be",
+    "bic": "GEBABEBB",
+    "ibanPrefix": "BE",
+    "lei": null,
+    "founded": 1822,
+    "regulators": [
+      "ECB",
+      "NBB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Brussel, Belgium. Established in 1822, it holds a valid authorisation to operate and is supervised by ECB and NBB.",
+      "fr": "Une banque universelle dont le siège social se situe à Brussel (Belgique). Créée en 1822, elle dispose d'un agrément en cours de validité et est supervisée par ECB et NBB.",
+      "de": "Eine Universalbank mit Sitz in Brussel, Belgien. Das 1822 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und NBB beaufsichtigt.",
+      "it": "Una banca universale con sede a Brussel, Belgio. Fondata nel 1822, dispone di un'autorizzazione valida ed è vigilata da ECB e NBB.",
+      "pt": "Um banco universal com sede em Brussel, Bélgica. Fundado em 1822, dispõe de autorização válida e é supervisionado por ECB e NBB.",
+      "es": "Un banco universal con sede en Brussel, Bélgica. Fundado en 1822, cuenta con una autorización vigente y está supervisado por ECB y NBB.",
+      "ar": "بنك شامل يقع مقره في Brussel، بلجيكا. تأسس عام 1822، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و NBB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "wise-europe-sa",
+    "name": {
+      "en": "Wise Europe SA",
+      "fr": "Wise Europe SA",
+      "de": "Wise Europe SA",
+      "it": "Wise Europe SA",
+      "pt": "Wise Europe SA",
+      "es": "Wise Europe SA",
+      "ar": "Wise Europe SA"
+    },
+    "legalName": "Wise Europe SA",
+    "country": "BE",
+    "city": "Brussel",
+    "kind": "emoney",
+    "logo": null,
+    "website": "https://wise.com",
+    "bic": "TRWIBEB1",
+    "ibanPrefix": "BE",
+    "lei": null,
+    "founded": 2020,
+    "regulators": [
+      "NBB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "EMONEY_INSTITUTION",
+    "depositGuarantee": false,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "An electronic money institution headquartered in Brussel, Belgium. Established in 2020, it holds a valid authorisation to operate and is supervised by NBB.",
+      "fr": "Un établissement de monnaie électronique dont le siège social se situe à Brussel (Belgique). Créée en 2020, elle dispose d'un agrément en cours de validité et est supervisée par NBB.",
+      "de": "Ein E-Geld-Institut mit Sitz in Brussel, Belgien. Das 2020 gegründete Institut verfügt über eine gültige Zulassung und wird von NBB beaufsichtigt.",
+      "it": "Un istituto di moneta elettronica con sede a Brussel, Belgio. Fondata nel 2020, dispone di un'autorizzazione valida ed è vigilata da NBB.",
+      "pt": "Uma instituição de moeda eletrónica com sede em Brussel, Bélgica. Fundado em 2020, dispõe de autorização válida e é supervisionado por NBB.",
+      "es": "Una entidad de dinero electrónico con sede en Brussel, Bélgica. Fundado en 2020, cuenta con una autorización vigente y está supervisado por NBB.",
+      "ar": "مؤسسة نقود إلكترونية يقع مقره في Brussel، بلجيكا. تأسس عام 2020، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف NBB."
+    },
+    "tags": [
+      "retail",
+      "payments",
+      "digital"
+    ],
+    "solidityScore": 72
+  },
+  {
+    "id": "erste-group-bank-ag",
+    "name": {
+      "en": "Erste Group Bank AG",
+      "fr": "Erste Group Bank AG",
+      "de": "Erste Group Bank AG",
+      "it": "Erste Group Bank AG",
+      "pt": "Erste Group Bank AG",
+      "es": "Erste Group Bank AG",
+      "ar": "Erste Group Bank AG"
+    },
+    "legalName": "Erste Group Bank AG",
+    "country": "AT",
+    "city": "Wien",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.erstegroup.com",
+    "bic": "GIBAATWG",
+    "ibanPrefix": "AT",
+    "lei": null,
+    "founded": 1819,
+    "regulators": [
+      "ECB",
+      "FMA"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Wien, Austria. Established in 1819, it holds a valid authorisation to operate and is supervised by ECB and FMA.",
+      "fr": "Une banque universelle dont le siège social se situe à Wien (Autriche). Créée en 1819, elle dispose d'un agrément en cours de validité et est supervisée par ECB et FMA.",
+      "de": "Eine Universalbank mit Sitz in Wien, Österreich. Das 1819 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und FMA beaufsichtigt.",
+      "it": "Una banca universale con sede a Wien, Austria. Fondata nel 1819, dispone di un'autorizzazione valida ed è vigilata da ECB e FMA.",
+      "pt": "Um banco universal com sede em Wien, Áustria. Fundado em 1819, dispõe de autorização válida e é supervisionado por ECB e FMA.",
+      "es": "Un banco universal con sede en Wien, Austria. Fundado en 1819, cuenta con una autorización vigente y está supervisado por ECB y FMA.",
+      "ar": "بنك شامل يقع مقره في Wien، النمسا. تأسس عام 1819، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و FMA."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "raiffeisen-bank-international-ag",
+    "name": {
+      "en": "Raiffeisen Bank International AG",
+      "fr": "Raiffeisen Bank International AG",
+      "de": "Raiffeisen Bank International AG",
+      "it": "Raiffeisen Bank International AG",
+      "pt": "Raiffeisen Bank International AG",
+      "es": "Raiffeisen Bank International AG",
+      "ar": "Raiffeisen Bank International AG"
+    },
+    "legalName": "Raiffeisen Bank International AG",
+    "country": "AT",
+    "city": "Wien",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.rbinternational.com",
+    "bic": "RZBAATWW",
+    "ibanPrefix": "AT",
+    "lei": null,
+    "founded": 1927,
+    "regulators": [
+      "ECB",
+      "FMA"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Wien, Austria. Established in 1927, it holds a valid authorisation to operate and is supervised by ECB and FMA.",
+      "fr": "Une banque universelle dont le siège social se situe à Wien (Autriche). Créée en 1927, elle dispose d'un agrément en cours de validité et est supervisée par ECB et FMA.",
+      "de": "Eine Universalbank mit Sitz in Wien, Österreich. Das 1927 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und FMA beaufsichtigt.",
+      "it": "Una banca universale con sede a Wien, Austria. Fondata nel 1927, dispone di un'autorizzazione valida ed è vigilata da ECB e FMA.",
+      "pt": "Um banco universal com sede em Wien, Áustria. Fundado em 1927, dispõe de autorização válida e é supervisionado por ECB e FMA.",
+      "es": "Un banco universal con sede en Wien, Austria. Fundado en 1927, cuenta con una autorización vigente y está supervisado por ECB y FMA.",
+      "ar": "بنك شامل يقع مقره في Wien، النمسا. تأسس عام 1927، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و FMA."
+    },
+    "tags": [
+      "corporate",
+      "retail"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "bawag-p-s-k-ag",
+    "name": {
+      "en": "BAWAG P.S.K. AG",
+      "fr": "BAWAG P.S.K. AG",
+      "de": "BAWAG P.S.K. AG",
+      "it": "BAWAG P.S.K. AG",
+      "pt": "BAWAG P.S.K. AG",
+      "es": "BAWAG P.S.K. AG",
+      "ar": "BAWAG P.S.K. AG"
+    },
+    "legalName": "BAWAG P.S.K. AG",
+    "country": "AT",
+    "city": "Wien",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.bawaggroup.com",
+    "bic": "BAWAATWW",
+    "ibanPrefix": "AT",
+    "lei": null,
+    "founded": 1922,
+    "regulators": [
+      "ECB",
+      "FMA"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Wien, Austria. Established in 1922, it holds a valid authorisation to operate and is supervised by ECB and FMA.",
+      "fr": "Une banque de détail dont le siège social se situe à Wien (Autriche). Créée en 1922, elle dispose d'un agrément en cours de validité et est supervisée par ECB et FMA.",
+      "de": "Eine Privatkundenbank mit Sitz in Wien, Österreich. Das 1922 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und FMA beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Wien, Austria. Fondata nel 1922, dispone di un'autorizzazione valida ed è vigilata da ECB e FMA.",
+      "pt": "Um banco de retalho com sede em Wien, Áustria. Fundado em 1922, dispõe de autorização válida e é supervisionado por ECB e FMA.",
+      "es": "Un banco minorista con sede en Wien, Austria. Fundado en 1922, cuenta con una autorización vigente y está supervisado por ECB y FMA.",
+      "ar": "بنك تجزئة يقع مقره في Wien، النمسا. تأسس عام 1922، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و FMA."
+    },
+    "tags": [
+      "retail",
+      "digital"
+    ],
+    "solidityScore": 77
+  },
+  {
+    "id": "caixa-geral-de-depositos-s-a",
+    "name": {
+      "en": "Caixa Geral de Depósitos S.A.",
+      "fr": "Caixa Geral de Depósitos S.A.",
+      "de": "Caixa Geral de Depósitos S.A.",
+      "it": "Caixa Geral de Depósitos S.A.",
+      "pt": "Caixa Geral de Depósitos S.A.",
+      "es": "Caixa Geral de Depósitos S.A.",
+      "ar": "Caixa Geral de Depósitos S.A."
+    },
+    "legalName": "Caixa Geral de Depósitos S.A.",
+    "country": "PT",
+    "city": "Lisboa",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.cgd.pt",
+    "bic": "CGDIPTPL",
+    "ibanPrefix": "PT",
+    "lei": null,
+    "founded": 1876,
+    "regulators": [
+      "ECB",
+      "Banco de Portugal"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Lisboa, Portugal. Established in 1876, it holds a valid authorisation to operate and is supervised by ECB and Banco de Portugal.",
+      "fr": "Une banque de détail dont le siège social se situe à Lisboa (Portugal). Créée en 1876, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de Portugal.",
+      "de": "Eine Privatkundenbank mit Sitz in Lisboa, Portugal. Das 1876 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de Portugal beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Lisboa, Portogallo. Fondata nel 1876, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de Portugal.",
+      "pt": "Um banco de retalho com sede em Lisboa, Portugal. Fundado em 1876, dispõe de autorização válida e é supervisionado por ECB e Banco de Portugal.",
+      "es": "Un banco minorista con sede en Lisboa, Portugal. Fundado en 1876, cuenta con una autorización vigente y está supervisado por ECB y Banco de Portugal.",
+      "ar": "بنك تجزئة يقع مقره في Lisboa، البرتغال. تأسس عام 1876، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de Portugal."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "banco-comercial-portugues-s-a",
+    "name": {
+      "en": "Banco Comercial Português S.A.",
+      "fr": "Banco Comercial Português S.A.",
+      "de": "Banco Comercial Português S.A.",
+      "it": "Banco Comercial Português S.A.",
+      "pt": "Banco Comercial Português S.A.",
+      "es": "Banco Comercial Português S.A.",
+      "ar": "Banco Comercial Português S.A."
+    },
+    "legalName": "Banco Comercial Português S.A.",
+    "country": "PT",
+    "city": "Porto",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://ind.millenniumbcp.pt",
+    "bic": "BCOMPTPL",
+    "ibanPrefix": "PT",
+    "lei": null,
+    "founded": 1985,
+    "regulators": [
+      "ECB",
+      "Banco de Portugal"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Porto, Portugal. Established in 1985, it holds a valid authorisation to operate and is supervised by ECB and Banco de Portugal.",
+      "fr": "Une banque de détail dont le siège social se situe à Porto (Portugal). Créée en 1985, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de Portugal.",
+      "de": "Eine Privatkundenbank mit Sitz in Porto, Portugal. Das 1985 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de Portugal beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Porto, Portogallo. Fondata nel 1985, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de Portugal.",
+      "pt": "Um banco de retalho com sede em Porto, Portugal. Fundado em 1985, dispõe de autorização válida e é supervisionado por ECB e Banco de Portugal.",
+      "es": "Un banco minorista con sede en Porto, Portugal. Fundado en 1985, cuenta con una autorización vigente y está supervisado por ECB y Banco de Portugal.",
+      "ar": "بنك تجزئة يقع مقره في Porto، البرتغال. تأسس عام 1985، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de Portugal."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 73
+  },
+  {
+    "id": "novo-banco-s-a",
+    "name": {
+      "en": "Novo Banco S.A.",
+      "fr": "Novo Banco S.A.",
+      "de": "Novo Banco S.A.",
+      "it": "Novo Banco S.A.",
+      "pt": "Novo Banco S.A.",
+      "es": "Novo Banco S.A.",
+      "ar": "Novo Banco S.A."
+    },
+    "legalName": "Novo Banco S.A.",
+    "country": "PT",
+    "city": "Lisboa",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.novobanco.pt",
+    "bic": "BESCPTPL",
+    "ibanPrefix": "PT",
+    "lei": null,
+    "founded": 2014,
+    "regulators": [
+      "ECB",
+      "Banco de Portugal"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Lisboa, Portugal. Established in 2014, it holds a valid authorisation to operate and is supervised by ECB and Banco de Portugal.",
+      "fr": "Une banque de détail dont le siège social se situe à Lisboa (Portugal). Créée en 2014, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banco de Portugal.",
+      "de": "Eine Privatkundenbank mit Sitz in Lisboa, Portugal. Das 2014 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banco de Portugal beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Lisboa, Portogallo. Fondata nel 2014, dispone di un'autorizzazione valida ed è vigilata da ECB e Banco de Portugal.",
+      "pt": "Um banco de retalho com sede em Lisboa, Portugal. Fundado em 2014, dispõe de autorização válida e é supervisionado por ECB e Banco de Portugal.",
+      "es": "Un banco minorista con sede en Lisboa, Portugal. Fundado en 2014, cuenta con una autorización vigente y está supervisado por ECB y Banco de Portugal.",
+      "ar": "بنك تجزئة يقع مقره في Lisboa، البرتغال. تأسس عام 2014، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banco de Portugal."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 70
+  },
+  {
+    "id": "aib-group-plc",
+    "name": {
+      "en": "AIB Group plc",
+      "fr": "AIB Group plc",
+      "de": "AIB Group plc",
+      "it": "AIB Group plc",
+      "pt": "AIB Group plc",
+      "es": "AIB Group plc",
+      "ar": "AIB Group plc"
+    },
+    "legalName": "AIB Group plc",
+    "country": "IE",
+    "city": "Dublin",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://aib.ie",
+    "bic": "AIBKIE2D",
+    "ibanPrefix": "IE",
+    "lei": null,
+    "founded": 1966,
+    "regulators": [
+      "ECB",
+      "Central Bank of Ireland"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Dublin, Ireland. Established in 1966, it holds a valid authorisation to operate and is supervised by ECB and Central Bank of Ireland.",
+      "fr": "Une banque de détail dont le siège social se situe à Dublin (Irlande). Créée en 1966, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Central Bank of Ireland.",
+      "de": "Eine Privatkundenbank mit Sitz in Dublin, Irland. Das 1966 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Central Bank of Ireland beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Dublin, Irlanda. Fondata nel 1966, dispone di un'autorizzazione valida ed è vigilata da ECB e Central Bank of Ireland.",
+      "pt": "Um banco de retalho com sede em Dublin, Irlanda. Fundado em 1966, dispõe de autorização válida e é supervisionado por ECB e Central Bank of Ireland.",
+      "es": "Un banco minorista con sede en Dublin, Irlanda. Fundado en 1966, cuenta con una autorización vigente y está supervisado por ECB y Central Bank of Ireland.",
+      "ar": "بنك تجزئة يقع مقره في Dublin، أيرلندا. تأسس عام 1966، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Central Bank of Ireland."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "bank-of-ireland-group-plc",
+    "name": {
+      "en": "Bank of Ireland Group plc",
+      "fr": "Bank of Ireland Group plc",
+      "de": "Bank of Ireland Group plc",
+      "it": "Bank of Ireland Group plc",
+      "pt": "Bank of Ireland Group plc",
+      "es": "Bank of Ireland Group plc",
+      "ar": "Bank of Ireland Group plc"
+    },
+    "legalName": "Bank of Ireland Group plc",
+    "country": "IE",
+    "city": "Dublin",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.bankofireland.com",
+    "bic": "BOFIIE2D",
+    "ibanPrefix": "IE",
+    "lei": null,
+    "founded": 1783,
+    "regulators": [
+      "ECB",
+      "Central Bank of Ireland"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Dublin, Ireland. Established in 1783, it holds a valid authorisation to operate and is supervised by ECB and Central Bank of Ireland.",
+      "fr": "Une banque de détail dont le siège social se situe à Dublin (Irlande). Créée en 1783, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Central Bank of Ireland.",
+      "de": "Eine Privatkundenbank mit Sitz in Dublin, Irland. Das 1783 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Central Bank of Ireland beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Dublin, Irlanda. Fondata nel 1783, dispone di un'autorizzazione valida ed è vigilata da ECB e Central Bank of Ireland.",
+      "pt": "Um banco de retalho com sede em Dublin, Irlanda. Fundado em 1783, dispõe de autorização válida e é supervisionado por ECB e Central Bank of Ireland.",
+      "es": "Un banco minorista con sede en Dublin, Irlanda. Fundado en 1783, cuenta con una autorización vigente y está supervisado por ECB y Central Bank of Ireland.",
+      "ar": "بنك تجزئة يقع مقره في Dublin، أيرلندا. تأسس عام 1783، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Central Bank of Ireland."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 77
+  },
+  {
+    "id": "banque-et-caisse-d-epargne-de-l-etat",
+    "name": {
+      "en": "Banque et Caisse d'Épargne de l'État",
+      "fr": "Banque et Caisse d'Épargne de l'État",
+      "de": "Banque et Caisse d'Épargne de l'État",
+      "it": "Banque et Caisse d'Épargne de l'État",
+      "pt": "Banque et Caisse d'Épargne de l'État",
+      "es": "Banque et Caisse d'Épargne de l'État",
+      "ar": "Banque et Caisse d'Épargne de l'État"
+    },
+    "legalName": "Banque et Caisse d'Épargne de l'État",
+    "country": "LU",
+    "city": "Luxembourg",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.spuerkeess.lu",
+    "bic": "BCEELULL",
+    "ibanPrefix": "LU",
+    "lei": null,
+    "founded": 1856,
+    "regulators": [
+      "ECB",
+      "CSSF"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Luxembourg, Luxembourg. Established in 1856, it holds a valid authorisation to operate and is supervised by ECB and CSSF.",
+      "fr": "Une banque de détail dont le siège social se situe à Luxembourg (Luxembourg). Créée en 1856, elle dispose d'un agrément en cours de validité et est supervisée par ECB et CSSF.",
+      "de": "Eine Privatkundenbank mit Sitz in Luxembourg, Luxemburg. Das 1856 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und CSSF beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Luxembourg, Lussemburgo. Fondata nel 1856, dispone di un'autorizzazione valida ed è vigilata da ECB e CSSF.",
+      "pt": "Um banco de retalho com sede em Luxembourg, Luxemburgo. Fundado em 1856, dispõe de autorização válida e é supervisionado por ECB e CSSF.",
+      "es": "Un banco minorista con sede en Luxembourg, Luxemburgo. Fundado en 1856, cuenta con una autorización vigente y está supervisado por ECB y CSSF.",
+      "ar": "بنك تجزئة يقع مقره في Luxembourg، لوكسمبورغ. تأسس عام 1856، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و CSSF."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 84
+  },
+  {
+    "id": "banque-internationale-a-luxembourg-s-a",
+    "name": {
+      "en": "Banque Internationale à Luxembourg S.A.",
+      "fr": "Banque Internationale à Luxembourg S.A.",
+      "de": "Banque Internationale à Luxembourg S.A.",
+      "it": "Banque Internationale à Luxembourg S.A.",
+      "pt": "Banque Internationale à Luxembourg S.A.",
+      "es": "Banque Internationale à Luxembourg S.A.",
+      "ar": "Banque Internationale à Luxembourg S.A."
+    },
+    "legalName": "Banque Internationale à Luxembourg S.A.",
+    "country": "LU",
+    "city": "Luxembourg",
+    "kind": "private",
+    "logo": null,
+    "website": "https://www.bil.com",
+    "bic": "BILLLULL",
+    "ibanPrefix": "LU",
+    "lei": null,
+    "founded": 1856,
+    "regulators": [
+      "ECB",
+      "CSSF"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A private bank headquartered in Luxembourg, Luxembourg. Established in 1856, it holds a valid authorisation to operate and is supervised by ECB and CSSF.",
+      "fr": "Une banque privée dont le siège social se situe à Luxembourg (Luxembourg). Créée en 1856, elle dispose d'un agrément en cours de validité et est supervisée par ECB et CSSF.",
+      "de": "Eine Privatbank mit Sitz in Luxembourg, Luxemburg. Das 1856 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und CSSF beaufsichtigt.",
+      "it": "Una banca privata con sede a Luxembourg, Lussemburgo. Fondata nel 1856, dispone di un'autorizzazione valida ed è vigilata da ECB e CSSF.",
+      "pt": "Um banco privado com sede em Luxembourg, Luxemburgo. Fundado em 1856, dispõe de autorização válida e é supervisionado por ECB e CSSF.",
+      "es": "Un banco privado con sede en Luxembourg, Luxemburgo. Fundado en 1856, cuenta con una autorización vigente y está supervisado por ECB y CSSF.",
+      "ar": "بنك خاص يقع مقره في Luxembourg، لوكسمبورغ. تأسس عام 1856، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و CSSF."
+    },
+    "tags": [
+      "private",
+      "corporate"
+    ],
+    "solidityScore": 75
+  },
+  {
+    "id": "paypal-europe-s-a-r-l-et-cie-sca",
+    "name": {
+      "en": "PayPal (Europe) S.à r.l. et Cie SCA",
+      "fr": "PayPal (Europe) S.à r.l. et Cie SCA",
+      "de": "PayPal (Europe) S.à r.l. et Cie SCA",
+      "it": "PayPal (Europe) S.à r.l. et Cie SCA",
+      "pt": "PayPal (Europe) S.à r.l. et Cie SCA",
+      "es": "PayPal (Europe) S.à r.l. et Cie SCA",
+      "ar": "PayPal (Europe) S.à r.l. et Cie SCA"
+    },
+    "legalName": "PayPal (Europe) S.à r.l. et Cie SCA",
+    "country": "LU",
+    "city": "Luxembourg",
+    "kind": "emoney",
+    "logo": null,
+    "website": "https://www.paypal.com",
+    "bic": "PPLXLUL2",
+    "ibanPrefix": "LU",
+    "lei": null,
+    "founded": 2007,
+    "regulators": [
+      "CSSF"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "EMONEY_INSTITUTION",
+    "depositGuarantee": false,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "An electronic money institution headquartered in Luxembourg, Luxembourg. Established in 2007, it holds a valid authorisation to operate and is supervised by CSSF.",
+      "fr": "Un établissement de monnaie électronique dont le siège social se situe à Luxembourg (Luxembourg). Créée en 2007, elle dispose d'un agrément en cours de validité et est supervisée par CSSF.",
+      "de": "Ein E-Geld-Institut mit Sitz in Luxembourg, Luxemburg. Das 2007 gegründete Institut verfügt über eine gültige Zulassung und wird von CSSF beaufsichtigt.",
+      "it": "Un istituto di moneta elettronica con sede a Luxembourg, Lussemburgo. Fondata nel 2007, dispone di un'autorizzazione valida ed è vigilata da CSSF.",
+      "pt": "Uma instituição de moeda eletrónica com sede em Luxembourg, Luxemburgo. Fundado em 2007, dispõe de autorização válida e é supervisionado por CSSF.",
+      "es": "Una entidad de dinero electrónico con sede en Luxembourg, Luxemburgo. Fundado en 2007, cuenta con una autorización vigente y está supervisado por CSSF.",
+      "ar": "مؤسسة نقود إلكترونية يقع مقره في Luxembourg، لوكسمبورغ. تأسس عام 2007، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف CSSF."
+    },
+    "tags": [
+      "retail",
+      "payments",
+      "digital"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "nordea-bank-abp",
+    "name": {
+      "en": "Nordea Bank Abp",
+      "fr": "Nordea Bank Abp",
+      "de": "Nordea Bank Abp",
+      "it": "Nordea Bank Abp",
+      "pt": "Nordea Bank Abp",
+      "es": "Nordea Bank Abp",
+      "ar": "Nordea Bank Abp"
+    },
+    "legalName": "Nordea Bank Abp",
+    "country": "FI",
+    "city": "Helsinki",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.nordea.com",
+    "bic": "NDEAFIHH",
+    "ibanPrefix": "FI",
+    "lei": null,
+    "founded": 1820,
+    "regulators": [
+      "ECB",
+      "FIN-FSA"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Helsinki, Finland. Established in 1820, it holds a valid authorisation to operate and is supervised by ECB and FIN-FSA.",
+      "fr": "Une banque universelle dont le siège social se situe à Helsinki (Finlande). Créée en 1820, elle dispose d'un agrément en cours de validité et est supervisée par ECB et FIN-FSA.",
+      "de": "Eine Universalbank mit Sitz in Helsinki, Finnland. Das 1820 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und FIN-FSA beaufsichtigt.",
+      "it": "Una banca universale con sede a Helsinki, Finlandia. Fondata nel 1820, dispone di un'autorizzazione valida ed è vigilata da ECB e FIN-FSA.",
+      "pt": "Um banco universal com sede em Helsinki, Finlândia. Fundado em 1820, dispõe de autorização válida e é supervisionado por ECB e FIN-FSA.",
+      "es": "Un banco universal con sede en Helsinki, Finlandia. Fundado en 1820, cuenta con una autorización vigente y está supervisado por ECB y FIN-FSA.",
+      "ar": "بنك شامل يقع مقره في Helsinki، فنلندا. تأسس عام 1820، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و FIN-FSA."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 81
+  },
+  {
+    "id": "op-corporate-bank-plc",
+    "name": {
+      "en": "OP Corporate Bank plc",
+      "fr": "OP Corporate Bank plc",
+      "de": "OP Corporate Bank plc",
+      "it": "OP Corporate Bank plc",
+      "pt": "OP Corporate Bank plc",
+      "es": "OP Corporate Bank plc",
+      "ar": "OP Corporate Bank plc"
+    },
+    "legalName": "OP Corporate Bank plc",
+    "country": "FI",
+    "city": "Helsinki",
+    "kind": "cooperative",
+    "logo": null,
+    "website": "https://www.op.fi",
+    "bic": "OKOYFIHH",
+    "ibanPrefix": "FI",
+    "lei": null,
+    "founded": 1902,
+    "regulators": [
+      "ECB",
+      "FIN-FSA"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A cooperative bank headquartered in Helsinki, Finland. Established in 1902, it holds a valid authorisation to operate and is supervised by ECB and FIN-FSA.",
+      "fr": "Une banque coopérative dont le siège social se situe à Helsinki (Finlande). Créée en 1902, elle dispose d'un agrément en cours de validité et est supervisée par ECB et FIN-FSA.",
+      "de": "Eine Genossenschaftsbank mit Sitz in Helsinki, Finnland. Das 1902 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und FIN-FSA beaufsichtigt.",
+      "it": "Una banca cooperativa con sede a Helsinki, Finlandia. Fondata nel 1902, dispone di un'autorizzazione valida ed è vigilata da ECB e FIN-FSA.",
+      "pt": "Um banco cooperativo com sede em Helsinki, Finlândia. Fundado em 1902, dispõe de autorização válida e é supervisionado por ECB e FIN-FSA.",
+      "es": "Un banco cooperativo con sede en Helsinki, Finlandia. Fundado en 1902, cuenta con una autorización vigente y está supervisado por ECB y FIN-FSA.",
+      "ar": "بنك تعاوني يقع مقره في Helsinki، فنلندا. تأسس عام 1902، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و FIN-FSA."
+    },
+    "tags": [
+      "corporate",
+      "cooperative"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "skandinaviska-enskilda-banken-ab",
+    "name": {
+      "en": "Skandinaviska Enskilda Banken AB",
+      "fr": "Skandinaviska Enskilda Banken AB",
+      "de": "Skandinaviska Enskilda Banken AB",
+      "it": "Skandinaviska Enskilda Banken AB",
+      "pt": "Skandinaviska Enskilda Banken AB",
+      "es": "Skandinaviska Enskilda Banken AB",
+      "ar": "Skandinaviska Enskilda Banken AB"
+    },
+    "legalName": "Skandinaviska Enskilda Banken AB",
+    "country": "SE",
+    "city": "Stockholm",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://sebgroup.com",
+    "bic": "ESSESESS",
+    "ibanPrefix": "SE",
+    "lei": null,
+    "founded": 1856,
+    "regulators": [
+      "Finansinspektionen"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Stockholm, Sweden. Established in 1856, it holds a valid authorisation to operate and is supervised by Finansinspektionen.",
+      "fr": "Une banque universelle dont le siège social se situe à Stockholm (Suède). Créée en 1856, elle dispose d'un agrément en cours de validité et est supervisée par Finansinspektionen.",
+      "de": "Eine Universalbank mit Sitz in Stockholm, Schweden. Das 1856 gegründete Institut verfügt über eine gültige Zulassung und wird von Finansinspektionen beaufsichtigt.",
+      "it": "Una banca universale con sede a Stockholm, Svezia. Fondata nel 1856, dispone di un'autorizzazione valida ed è vigilata da Finansinspektionen.",
+      "pt": "Um banco universal com sede em Stockholm, Suécia. Fundado em 1856, dispõe de autorização válida e é supervisionado por Finansinspektionen.",
+      "es": "Un banco universal con sede en Stockholm, Suecia. Fundado en 1856, cuenta con una autorización vigente y está supervisado por Finansinspektionen.",
+      "ar": "بنك شامل يقع مقره في Stockholm، السويد. تأسس عام 1856، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finansinspektionen."
+    },
+    "tags": [
+      "retail",
+      "corporate",
+      "investment"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "svenska-handelsbanken-ab",
+    "name": {
+      "en": "Svenska Handelsbanken AB",
+      "fr": "Svenska Handelsbanken AB",
+      "de": "Svenska Handelsbanken AB",
+      "it": "Svenska Handelsbanken AB",
+      "pt": "Svenska Handelsbanken AB",
+      "es": "Svenska Handelsbanken AB",
+      "ar": "Svenska Handelsbanken AB"
+    },
+    "legalName": "Svenska Handelsbanken AB",
+    "country": "SE",
+    "city": "Stockholm",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.handelsbanken.com",
+    "bic": "HANDSESS",
+    "ibanPrefix": "SE",
+    "lei": null,
+    "founded": 1871,
+    "regulators": [
+      "Finansinspektionen"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Stockholm, Sweden. Established in 1871, it holds a valid authorisation to operate and is supervised by Finansinspektionen.",
+      "fr": "Une banque de détail dont le siège social se situe à Stockholm (Suède). Créée en 1871, elle dispose d'un agrément en cours de validité et est supervisée par Finansinspektionen.",
+      "de": "Eine Privatkundenbank mit Sitz in Stockholm, Schweden. Das 1871 gegründete Institut verfügt über eine gültige Zulassung und wird von Finansinspektionen beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Stockholm, Svezia. Fondata nel 1871, dispone di un'autorizzazione valida ed è vigilata da Finansinspektionen.",
+      "pt": "Um banco de retalho com sede em Stockholm, Suécia. Fundado em 1871, dispõe de autorização válida e é supervisionado por Finansinspektionen.",
+      "es": "Un banco minorista con sede en Stockholm, Suecia. Fundado en 1871, cuenta con una autorización vigente y está supervisado por Finansinspektionen.",
+      "ar": "بنك تجزئة يقع مقره في Stockholm، السويد. تأسس عام 1871، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finansinspektionen."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 81
+  },
+  {
+    "id": "swedbank-ab",
+    "name": {
+      "en": "Swedbank AB",
+      "fr": "Swedbank AB",
+      "de": "Swedbank AB",
+      "it": "Swedbank AB",
+      "pt": "Swedbank AB",
+      "es": "Swedbank AB",
+      "ar": "Swedbank AB"
+    },
+    "legalName": "Swedbank AB",
+    "country": "SE",
+    "city": "Stockholm",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.swedbank.com",
+    "bic": "SWEDSESS",
+    "ibanPrefix": "SE",
+    "lei": null,
+    "founded": 1820,
+    "regulators": [
+      "Finansinspektionen"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Stockholm, Sweden. Established in 1820, it holds a valid authorisation to operate and is supervised by Finansinspektionen.",
+      "fr": "Une banque de détail dont le siège social se situe à Stockholm (Suède). Créée en 1820, elle dispose d'un agrément en cours de validité et est supervisée par Finansinspektionen.",
+      "de": "Eine Privatkundenbank mit Sitz in Stockholm, Schweden. Das 1820 gegründete Institut verfügt über eine gültige Zulassung und wird von Finansinspektionen beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Stockholm, Svezia. Fondata nel 1820, dispone di un'autorizzazione valida ed è vigilata da Finansinspektionen.",
+      "pt": "Um banco de retalho com sede em Stockholm, Suécia. Fundado em 1820, dispõe de autorização válida e é supervisionado por Finansinspektionen.",
+      "es": "Un banco minorista con sede en Stockholm, Suecia. Fundado en 1820, cuenta con una autorización vigente y está supervisado por Finansinspektionen.",
+      "ar": "بنك تجزئة يقع مقره في Stockholm، السويد. تأسس عام 1820، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finansinspektionen."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "klarna-bank-ab",
+    "name": {
+      "en": "Klarna Bank AB",
+      "fr": "Klarna Bank AB",
+      "de": "Klarna Bank AB",
+      "it": "Klarna Bank AB",
+      "pt": "Klarna Bank AB",
+      "es": "Klarna Bank AB",
+      "ar": "Klarna Bank AB"
+    },
+    "legalName": "Klarna Bank AB",
+    "country": "SE",
+    "city": "Stockholm",
+    "kind": "digital",
+    "logo": null,
+    "website": "https://www.klarna.com",
+    "bic": "KLRNSESS",
+    "ibanPrefix": "SE",
+    "lei": null,
+    "founded": 2005,
+    "regulators": [
+      "Finansinspektionen"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A digital-first bank headquartered in Stockholm, Sweden. Established in 2005, it holds a valid authorisation to operate and is supervised by Finansinspektionen.",
+      "fr": "Une banque nativement numérique dont le siège social se situe à Stockholm (Suède). Créée en 2005, elle dispose d'un agrément en cours de validité et est supervisée par Finansinspektionen.",
+      "de": "Eine digitale Direktbank mit Sitz in Stockholm, Schweden. Das 2005 gegründete Institut verfügt über eine gültige Zulassung und wird von Finansinspektionen beaufsichtigt.",
+      "it": "Una banca digitale con sede a Stockholm, Svezia. Fondata nel 2005, dispone di un'autorizzazione valida ed è vigilata da Finansinspektionen.",
+      "pt": "Um banco digital com sede em Stockholm, Suécia. Fundado em 2005, dispõe de autorização válida e é supervisionado por Finansinspektionen.",
+      "es": "Un banco digital con sede en Stockholm, Suecia. Fundado en 2005, cuenta con una autorización vigente y está supervisado por Finansinspektionen.",
+      "ar": "بنك رقمي يقع مقره في Stockholm، السويد. تأسس عام 2005، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finansinspektionen."
+    },
+    "tags": [
+      "retail",
+      "digital",
+      "payments"
+    ],
+    "solidityScore": 70
+  },
+  {
+    "id": "danske-bank-a-s",
+    "name": {
+      "en": "Danske Bank A/S",
+      "fr": "Danske Bank A/S",
+      "de": "Danske Bank A/S",
+      "it": "Danske Bank A/S",
+      "pt": "Danske Bank A/S",
+      "es": "Danske Bank A/S",
+      "ar": "Danske Bank A/S"
+    },
+    "legalName": "Danske Bank A/S",
+    "country": "DK",
+    "city": "København",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://danskebank.com",
+    "bic": "DABADKKK",
+    "ibanPrefix": "DK",
+    "lei": null,
+    "founded": 1871,
+    "regulators": [
+      "Finanstilsynet"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in København, Denmark. Established in 1871, it holds a valid authorisation to operate and is supervised by Finanstilsynet.",
+      "fr": "Une banque universelle dont le siège social se situe à København (Danemark). Créée en 1871, elle dispose d'un agrément en cours de validité et est supervisée par Finanstilsynet.",
+      "de": "Eine Universalbank mit Sitz in København, Dänemark. Das 1871 gegründete Institut verfügt über eine gültige Zulassung und wird von Finanstilsynet beaufsichtigt.",
+      "it": "Una banca universale con sede a København, Danimarca. Fondata nel 1871, dispone di un'autorizzazione valida ed è vigilata da Finanstilsynet.",
+      "pt": "Um banco universal com sede em København, Dinamarca. Fundado em 1871, dispõe de autorização válida e é supervisionado por Finanstilsynet.",
+      "es": "Un banco universal con sede en København, Dinamarca. Fundado en 1871, cuenta con una autorización vigente y está supervisado por Finanstilsynet.",
+      "ar": "بنك شامل يقع مقره في København، الدنمارك. تأسس عام 1871، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finanstilsynet."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "jyske-bank-a-s",
+    "name": {
+      "en": "Jyske Bank A/S",
+      "fr": "Jyske Bank A/S",
+      "de": "Jyske Bank A/S",
+      "it": "Jyske Bank A/S",
+      "pt": "Jyske Bank A/S",
+      "es": "Jyske Bank A/S",
+      "ar": "Jyske Bank A/S"
+    },
+    "legalName": "Jyske Bank A/S",
+    "country": "DK",
+    "city": "Silkeborg",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.jyskebank.dk",
+    "bic": "JYBADKKK",
+    "ibanPrefix": "DK",
+    "lei": null,
+    "founded": 1967,
+    "regulators": [
+      "Finanstilsynet"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Silkeborg, Denmark. Established in 1967, it holds a valid authorisation to operate and is supervised by Finanstilsynet.",
+      "fr": "Une banque de détail dont le siège social se situe à Silkeborg (Danemark). Créée en 1967, elle dispose d'un agrément en cours de validité et est supervisée par Finanstilsynet.",
+      "de": "Eine Privatkundenbank mit Sitz in Silkeborg, Dänemark. Das 1967 gegründete Institut verfügt über eine gültige Zulassung und wird von Finanstilsynet beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Silkeborg, Danimarca. Fondata nel 1967, dispone di un'autorizzazione valida ed è vigilata da Finanstilsynet.",
+      "pt": "Um banco de retalho com sede em Silkeborg, Dinamarca. Fundado em 1967, dispõe de autorização válida e é supervisionado por Finanstilsynet.",
+      "es": "Un banco minorista con sede en Silkeborg, Dinamarca. Fundado en 1967, cuenta con una autorización vigente y está supervisado por Finanstilsynet.",
+      "ar": "بنك تجزئة يقع مقره في Silkeborg، الدنمارك. تأسس عام 1967، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finanstilsynet."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 75
+  },
+  {
+    "id": "nykredit-bank-a-s",
+    "name": {
+      "en": "Nykredit Bank A/S",
+      "fr": "Nykredit Bank A/S",
+      "de": "Nykredit Bank A/S",
+      "it": "Nykredit Bank A/S",
+      "pt": "Nykredit Bank A/S",
+      "es": "Nykredit Bank A/S",
+      "ar": "Nykredit Bank A/S"
+    },
+    "legalName": "Nykredit Bank A/S",
+    "country": "DK",
+    "city": "København",
+    "kind": "mortgage",
+    "logo": null,
+    "website": "https://www.nykredit.dk",
+    "bic": "NYKBDKKK",
+    "ibanPrefix": "DK",
+    "lei": null,
+    "founded": 1851,
+    "regulators": [
+      "Finanstilsynet"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A mortgage credit institution headquartered in København, Denmark. Established in 1851, it holds a valid authorisation to operate and is supervised by Finanstilsynet.",
+      "fr": "Un établissement de crédit hypothécaire dont le siège social se situe à København (Danemark). Créée en 1851, elle dispose d'un agrément en cours de validité et est supervisée par Finanstilsynet.",
+      "de": "Ein Hypothekarkreditinstitut mit Sitz in København, Dänemark. Das 1851 gegründete Institut verfügt über eine gültige Zulassung und wird von Finanstilsynet beaufsichtigt.",
+      "it": "Un istituto di credito ipotecario con sede a København, Danimarca. Fondata nel 1851, dispone di un'autorizzazione valida ed è vigilata da Finanstilsynet.",
+      "pt": "Uma instituição de crédito hipotecário com sede em København, Dinamarca. Fundado em 1851, dispõe de autorização válida e é supervisionado por Finanstilsynet.",
+      "es": "Una entidad de crédito hipotecario con sede en København, Dinamarca. Fundado en 1851, cuenta con una autorización vigente y está supervisado por Finanstilsynet.",
+      "ar": "مؤسسة ائتمان عقاري يقع مقره في København، الدنمارك. تأسس عام 1851، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finanstilsynet."
+    },
+    "tags": [
+      "retail",
+      "mortgage"
+    ],
+    "solidityScore": 77
+  },
+  {
+    "id": "pko-bank-polski-s-a",
+    "name": {
+      "en": "PKO Bank Polski S.A.",
+      "fr": "PKO Bank Polski S.A.",
+      "de": "PKO Bank Polski S.A.",
+      "it": "PKO Bank Polski S.A.",
+      "pt": "PKO Bank Polski S.A.",
+      "es": "PKO Bank Polski S.A.",
+      "ar": "PKO Bank Polski S.A."
+    },
+    "legalName": "PKO Bank Polski S.A.",
+    "country": "PL",
+    "city": "Warszawa",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.pkobp.pl",
+    "bic": "BPKOPLPW",
+    "ibanPrefix": "PL",
+    "lei": null,
+    "founded": 1919,
+    "regulators": [
+      "KNF"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Warszawa, Poland. Established in 1919, it holds a valid authorisation to operate and is supervised by KNF.",
+      "fr": "Une banque de détail dont le siège social se situe à Warszawa (Pologne). Créée en 1919, elle dispose d'un agrément en cours de validité et est supervisée par KNF.",
+      "de": "Eine Privatkundenbank mit Sitz in Warszawa, Polen. Das 1919 gegründete Institut verfügt über eine gültige Zulassung und wird von KNF beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Warszawa, Polonia. Fondata nel 1919, dispone di un'autorizzazione valida ed è vigilata da KNF.",
+      "pt": "Um banco de retalho com sede em Warszawa, Polónia. Fundado em 1919, dispõe de autorização válida e é supervisionado por KNF.",
+      "es": "Un banco minorista con sede en Warszawa, Polonia. Fundado en 1919, cuenta con una autorización vigente y está supervisado por KNF.",
+      "ar": "بنك تجزئة يقع مقره في Warszawa، بولندا. تأسس عام 1919، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف KNF."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "bank-polska-kasa-opieki-s-a",
+    "name": {
+      "en": "Bank Polska Kasa Opieki S.A.",
+      "fr": "Bank Polska Kasa Opieki S.A.",
+      "de": "Bank Polska Kasa Opieki S.A.",
+      "it": "Bank Polska Kasa Opieki S.A.",
+      "pt": "Bank Polska Kasa Opieki S.A.",
+      "es": "Bank Polska Kasa Opieki S.A.",
+      "ar": "Bank Polska Kasa Opieki S.A."
+    },
+    "legalName": "Bank Polska Kasa Opieki S.A.",
+    "country": "PL",
+    "city": "Warszawa",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.pekao.com.pl",
+    "bic": "PKOPPLPW",
+    "ibanPrefix": "PL",
+    "lei": null,
+    "founded": 1929,
+    "regulators": [
+      "KNF"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Warszawa, Poland. Established in 1929, it holds a valid authorisation to operate and is supervised by KNF.",
+      "fr": "Une banque universelle dont le siège social se situe à Warszawa (Pologne). Créée en 1929, elle dispose d'un agrément en cours de validité et est supervisée par KNF.",
+      "de": "Eine Universalbank mit Sitz in Warszawa, Polen. Das 1929 gegründete Institut verfügt über eine gültige Zulassung und wird von KNF beaufsichtigt.",
+      "it": "Una banca universale con sede a Warszawa, Polonia. Fondata nel 1929, dispone di un'autorizzazione valida ed è vigilata da KNF.",
+      "pt": "Um banco universal com sede em Warszawa, Polónia. Fundado em 1929, dispõe de autorização válida e é supervisionado por KNF.",
+      "es": "Un banco universal con sede en Warszawa, Polonia. Fundado en 1929, cuenta con una autorización vigente y está supervisado por KNF.",
+      "ar": "بنك شامل يقع مقره في Warszawa، بولندا. تأسس عام 1929، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف KNF."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "mbank-s-a",
+    "name": {
+      "en": "mBank S.A.",
+      "fr": "mBank S.A.",
+      "de": "mBank S.A.",
+      "it": "mBank S.A.",
+      "pt": "mBank S.A.",
+      "es": "mBank S.A.",
+      "ar": "mBank S.A."
+    },
+    "legalName": "mBank S.A.",
+    "country": "PL",
+    "city": "Warszawa",
+    "kind": "digital",
+    "logo": null,
+    "website": "https://www.mbank.pl",
+    "bic": "BREXPLPW",
+    "ibanPrefix": "PL",
+    "lei": null,
+    "founded": 1986,
+    "regulators": [
+      "KNF"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A digital-first bank headquartered in Warszawa, Poland. Established in 1986, it holds a valid authorisation to operate and is supervised by KNF.",
+      "fr": "Une banque nativement numérique dont le siège social se situe à Warszawa (Pologne). Créée en 1986, elle dispose d'un agrément en cours de validité et est supervisée par KNF.",
+      "de": "Eine digitale Direktbank mit Sitz in Warszawa, Polen. Das 1986 gegründete Institut verfügt über eine gültige Zulassung und wird von KNF beaufsichtigt.",
+      "it": "Una banca digitale con sede a Warszawa, Polonia. Fondata nel 1986, dispone di un'autorizzazione valida ed è vigilata da KNF.",
+      "pt": "Um banco digital com sede em Warszawa, Polónia. Fundado em 1986, dispõe de autorização válida e é supervisionado por KNF.",
+      "es": "Un banco digital con sede en Warszawa, Polonia. Fundado en 1986, cuenta con una autorización vigente y está supervisado por KNF.",
+      "ar": "بنك رقمي يقع مقره في Warszawa، بولندا. تأسس عام 1986، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف KNF."
+    },
+    "tags": [
+      "retail",
+      "digital"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "national-bank-of-greece-s-a",
+    "name": {
+      "en": "National Bank of Greece S.A.",
+      "fr": "National Bank of Greece S.A.",
+      "de": "National Bank of Greece S.A.",
+      "it": "National Bank of Greece S.A.",
+      "pt": "National Bank of Greece S.A.",
+      "es": "National Bank of Greece S.A.",
+      "ar": "National Bank of Greece S.A."
+    },
+    "legalName": "National Bank of Greece S.A.",
+    "country": "GR",
+    "city": "Athína",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.nbg.gr",
+    "bic": "ETHNGRAA",
+    "ibanPrefix": "GR",
+    "lei": null,
+    "founded": 1841,
+    "regulators": [
+      "ECB",
+      "Bank of Greece"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Athína, Greece. Established in 1841, it holds a valid authorisation to operate and is supervised by ECB and Bank of Greece.",
+      "fr": "Une banque de détail dont le siège social se situe à Athína (Grèce). Créée en 1841, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Bank of Greece.",
+      "de": "Eine Privatkundenbank mit Sitz in Athína, Griechenland. Das 1841 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Bank of Greece beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Athína, Grecia. Fondata nel 1841, dispone di un'autorizzazione valida ed è vigilata da ECB e Bank of Greece.",
+      "pt": "Um banco de retalho com sede em Athína, Grécia. Fundado em 1841, dispõe de autorização válida e é supervisionado por ECB e Bank of Greece.",
+      "es": "Un banco minorista con sede en Athína, Grecia. Fundado en 1841, cuenta con una autorización vigente y está supervisado por ECB y Bank of Greece.",
+      "ar": "بنك تجزئة يقع مقره في Athína، اليونان. تأسس عام 1841، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Bank of Greece."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 71
+  },
+  {
+    "id": "eurobank-s-a",
+    "name": {
+      "en": "Eurobank S.A.",
+      "fr": "Eurobank S.A.",
+      "de": "Eurobank S.A.",
+      "it": "Eurobank S.A.",
+      "pt": "Eurobank S.A.",
+      "es": "Eurobank S.A.",
+      "ar": "Eurobank S.A."
+    },
+    "legalName": "Eurobank S.A.",
+    "country": "GR",
+    "city": "Athína",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.eurobank.gr",
+    "bic": "ERBKGRAA",
+    "ibanPrefix": "GR",
+    "lei": null,
+    "founded": 1990,
+    "regulators": [
+      "ECB",
+      "Bank of Greece"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Athína, Greece. Established in 1990, it holds a valid authorisation to operate and is supervised by ECB and Bank of Greece.",
+      "fr": "Une banque de détail dont le siège social se situe à Athína (Grèce). Créée en 1990, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Bank of Greece.",
+      "de": "Eine Privatkundenbank mit Sitz in Athína, Griechenland. Das 1990 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Bank of Greece beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Athína, Grecia. Fondata nel 1990, dispone di un'autorizzazione valida ed è vigilata da ECB e Bank of Greece.",
+      "pt": "Um banco de retalho com sede em Athína, Grécia. Fundado em 1990, dispõe de autorização válida e é supervisionado por ECB e Bank of Greece.",
+      "es": "Un banco minorista con sede en Athína, Grecia. Fundado en 1990, cuenta con una autorización vigente y está supervisado por ECB y Bank of Greece.",
+      "ar": "بنك تجزئة يقع مقره في Athína، اليونان. تأسس عام 1990، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Bank of Greece."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 72
+  },
+  {
+    "id": "alpha-bank-s-a",
+    "name": {
+      "en": "Alpha Bank S.A.",
+      "fr": "Alpha Bank S.A.",
+      "de": "Alpha Bank S.A.",
+      "it": "Alpha Bank S.A.",
+      "pt": "Alpha Bank S.A.",
+      "es": "Alpha Bank S.A.",
+      "ar": "Alpha Bank S.A."
+    },
+    "legalName": "Alpha Bank S.A.",
+    "country": "GR",
+    "city": "Athína",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.alpha.gr",
+    "bic": "CRBAGRAA",
+    "ibanPrefix": "GR",
+    "lei": null,
+    "founded": 1879,
+    "regulators": [
+      "ECB",
+      "Bank of Greece"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Athína, Greece. Established in 1879, it holds a valid authorisation to operate and is supervised by ECB and Bank of Greece.",
+      "fr": "Une banque de détail dont le siège social se situe à Athína (Grèce). Créée en 1879, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Bank of Greece.",
+      "de": "Eine Privatkundenbank mit Sitz in Athína, Griechenland. Das 1879 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Bank of Greece beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Athína, Grecia. Fondata nel 1879, dispone di un'autorizzazione valida ed è vigilata da ECB e Bank of Greece.",
+      "pt": "Um banco de retalho com sede em Athína, Grécia. Fundado em 1879, dispõe de autorização válida e é supervisionado por ECB e Bank of Greece.",
+      "es": "Un banco minorista con sede en Athína, Grecia. Fundado en 1879, cuenta con una autorización vigente y está supervisado por ECB y Bank of Greece.",
+      "ar": "بنك تجزئة يقع مقره في Athína، اليونان. تأسس عام 1879، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Bank of Greece."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 71
+  },
+  {
+    "id": "piraeus-bank-s-a",
+    "name": {
+      "en": "Piraeus Bank S.A.",
+      "fr": "Piraeus Bank S.A.",
+      "de": "Piraeus Bank S.A.",
+      "it": "Piraeus Bank S.A.",
+      "pt": "Piraeus Bank S.A.",
+      "es": "Piraeus Bank S.A.",
+      "ar": "Piraeus Bank S.A."
+    },
+    "legalName": "Piraeus Bank S.A.",
+    "country": "GR",
+    "city": "Athína",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.piraeusbank.gr",
+    "bic": "PIRBGRAA",
+    "ibanPrefix": "GR",
+    "lei": null,
+    "founded": 1916,
+    "regulators": [
+      "ECB",
+      "Bank of Greece"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Athína, Greece. Established in 1916, it holds a valid authorisation to operate and is supervised by ECB and Bank of Greece.",
+      "fr": "Une banque de détail dont le siège social se situe à Athína (Grèce). Créée en 1916, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Bank of Greece.",
+      "de": "Eine Privatkundenbank mit Sitz in Athína, Griechenland. Das 1916 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Bank of Greece beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Athína, Grecia. Fondata nel 1916, dispone di un'autorizzazione valida ed è vigilata da ECB e Bank of Greece.",
+      "pt": "Um banco de retalho com sede em Athína, Grécia. Fundado em 1916, dispõe de autorização válida e é supervisionado por ECB e Bank of Greece.",
+      "es": "Un banco minorista con sede en Athína, Grecia. Fundado en 1916, cuenta con una autorización vigente y está supervisado por ECB y Bank of Greece.",
+      "ar": "بنك تجزئة يقع مقره في Athína، اليونان. تأسس عام 1916، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Bank of Greece."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 70
+  },
+  {
+    "id": "ceska-sporitelna-a-s",
+    "name": {
+      "en": "Česká spořitelna a.s.",
+      "fr": "Česká spořitelna a.s.",
+      "de": "Česká spořitelna a.s.",
+      "it": "Česká spořitelna a.s.",
+      "pt": "Česká spořitelna a.s.",
+      "es": "Česká spořitelna a.s.",
+      "ar": "Česká spořitelna a.s."
+    },
+    "legalName": "Česká spořitelna a.s.",
+    "country": "CZ",
+    "city": "Praha",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.csas.cz",
+    "bic": "GIBACZPX",
+    "ibanPrefix": "CZ",
+    "lei": null,
+    "founded": 1825,
+    "regulators": [
+      "ČNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Praha, Czechia. Established in 1825, it holds a valid authorisation to operate and is supervised by ČNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Praha (Tchéquie). Créée en 1825, elle dispose d'un agrément en cours de validité et est supervisée par ČNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Praha, Tschechien. Das 1825 gegründete Institut verfügt über eine gültige Zulassung und wird von ČNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Praha, Cechia. Fondata nel 1825, dispone di un'autorizzazione valida ed è vigilata da ČNB.",
+      "pt": "Um banco de retalho com sede em Praha, Chéquia. Fundado em 1825, dispõe de autorização válida e é supervisionado por ČNB.",
+      "es": "Un banco minorista con sede en Praha, Chequia. Fundado en 1825, cuenta con una autorización vigente y está supervisado por ČNB.",
+      "ar": "بنك تجزئة يقع مقره في Praha، التشيك. تأسس عام 1825، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ČNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "komercni-banka-a-s",
+    "name": {
+      "en": "Komerční banka a.s.",
+      "fr": "Komerční banka a.s.",
+      "de": "Komerční banka a.s.",
+      "it": "Komerční banka a.s.",
+      "pt": "Komerční banka a.s.",
+      "es": "Komerční banka a.s.",
+      "ar": "Komerční banka a.s."
+    },
+    "legalName": "Komerční banka a.s.",
+    "country": "CZ",
+    "city": "Praha",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.kb.cz",
+    "bic": "KOMBCZPP",
+    "ibanPrefix": "CZ",
+    "lei": null,
+    "founded": 1990,
+    "regulators": [
+      "ČNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Praha, Czechia. Established in 1990, it holds a valid authorisation to operate and is supervised by ČNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Praha (Tchéquie). Créée en 1990, elle dispose d'un agrément en cours de validité et est supervisée par ČNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Praha, Tschechien. Das 1990 gegründete Institut verfügt über eine gültige Zulassung und wird von ČNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Praha, Cechia. Fondata nel 1990, dispone di un'autorizzazione valida ed è vigilata da ČNB.",
+      "pt": "Um banco de retalho com sede em Praha, Chéquia. Fundado em 1990, dispõe de autorização válida e é supervisionado por ČNB.",
+      "es": "Un banco minorista con sede en Praha, Chequia. Fundado en 1990, cuenta con una autorización vigente y está supervisado por ČNB.",
+      "ar": "بنك تجزئة يقع مقره في Praha، التشيك. تأسس عام 1990، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ČNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 78
+  },
+  {
+    "id": "ceskoslovenska-obchodni-banka-a-s",
+    "name": {
+      "en": "Československá obchodní banka a.s.",
+      "fr": "Československá obchodní banka a.s.",
+      "de": "Československá obchodní banka a.s.",
+      "it": "Československá obchodní banka a.s.",
+      "pt": "Československá obchodní banka a.s.",
+      "es": "Československá obchodní banka a.s.",
+      "ar": "Československá obchodní banka a.s."
+    },
+    "legalName": "Československá obchodní banka a.s.",
+    "country": "CZ",
+    "city": "Praha",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.csob.cz",
+    "bic": "CEKOCZPP",
+    "ibanPrefix": "CZ",
+    "lei": null,
+    "founded": 1964,
+    "regulators": [
+      "ČNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Praha, Czechia. Established in 1964, it holds a valid authorisation to operate and is supervised by ČNB.",
+      "fr": "Une banque universelle dont le siège social se situe à Praha (Tchéquie). Créée en 1964, elle dispose d'un agrément en cours de validité et est supervisée par ČNB.",
+      "de": "Eine Universalbank mit Sitz in Praha, Tschechien. Das 1964 gegründete Institut verfügt über eine gültige Zulassung und wird von ČNB beaufsichtigt.",
+      "it": "Una banca universale con sede a Praha, Cechia. Fondata nel 1964, dispone di un'autorizzazione valida ed è vigilata da ČNB.",
+      "pt": "Um banco universal com sede em Praha, Chéquia. Fundado em 1964, dispõe de autorização válida e é supervisionado por ČNB.",
+      "es": "Un banco universal con sede en Praha, Chequia. Fundado en 1964, cuenta con una autorización vigente y está supervisado por ČNB.",
+      "ar": "بنك شامل يقع مقره في Praha، التشيك. تأسس عام 1964، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ČNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 79
+  },
+  {
+    "id": "otp-bank-nyrt",
+    "name": {
+      "en": "OTP Bank Nyrt.",
+      "fr": "OTP Bank Nyrt.",
+      "de": "OTP Bank Nyrt.",
+      "it": "OTP Bank Nyrt.",
+      "pt": "OTP Bank Nyrt.",
+      "es": "OTP Bank Nyrt.",
+      "ar": "OTP Bank Nyrt."
+    },
+    "legalName": "OTP Bank Nyrt.",
+    "country": "HU",
+    "city": "Budapest",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.otpbank.hu",
+    "bic": "OTPVHUHB",
+    "ibanPrefix": "HU",
+    "lei": null,
+    "founded": 1949,
+    "regulators": [
+      "MNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Budapest, Hungary. Established in 1949, it holds a valid authorisation to operate and is supervised by MNB.",
+      "fr": "Une banque universelle dont le siège social se situe à Budapest (Hongrie). Créée en 1949, elle dispose d'un agrément en cours de validité et est supervisée par MNB.",
+      "de": "Eine Universalbank mit Sitz in Budapest, Ungarn. Das 1949 gegründete Institut verfügt über eine gültige Zulassung und wird von MNB beaufsichtigt.",
+      "it": "Una banca universale con sede a Budapest, Ungheria. Fondata nel 1949, dispone di un'autorizzazione valida ed è vigilata da MNB.",
+      "pt": "Um banco universal com sede em Budapest, Hungria. Fundado em 1949, dispõe de autorização válida e é supervisionado por MNB.",
+      "es": "Un banco universal con sede en Budapest, Hungría. Fundado en 1949, cuenta con una autorización vigente y está supervisado por MNB.",
+      "ar": "بنك شامل يقع مقره في Budapest، المجر. تأسس عام 1949، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف MNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 75
+  },
+  {
+    "id": "k-h-bank-zrt",
+    "name": {
+      "en": "K&H Bank Zrt.",
+      "fr": "K&H Bank Zrt.",
+      "de": "K&H Bank Zrt.",
+      "it": "K&H Bank Zrt.",
+      "pt": "K&H Bank Zrt.",
+      "es": "K&H Bank Zrt.",
+      "ar": "K&H Bank Zrt."
+    },
+    "legalName": "K&H Bank Zrt.",
+    "country": "HU",
+    "city": "Budapest",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.kh.hu",
+    "bic": "OKHBHUHB",
+    "ibanPrefix": "HU",
+    "lei": null,
+    "founded": 1987,
+    "regulators": [
+      "MNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Budapest, Hungary. Established in 1987, it holds a valid authorisation to operate and is supervised by MNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Budapest (Hongrie). Créée en 1987, elle dispose d'un agrément en cours de validité et est supervisée par MNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Budapest, Ungarn. Das 1987 gegründete Institut verfügt über eine gültige Zulassung und wird von MNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Budapest, Ungheria. Fondata nel 1987, dispone di un'autorizzazione valida ed è vigilata da MNB.",
+      "pt": "Um banco de retalho com sede em Budapest, Hungria. Fundado em 1987, dispõe de autorização válida e é supervisionado por MNB.",
+      "es": "Un banco minorista con sede en Budapest, Hungría. Fundado en 1987, cuenta con una autorización vigente y está supervisado por MNB.",
+      "ar": "بنك تجزئة يقع مقره في Budapest، المجر. تأسس عام 1987، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف MNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "banca-transilvania-s-a",
+    "name": {
+      "en": "Banca Transilvania S.A.",
+      "fr": "Banca Transilvania S.A.",
+      "de": "Banca Transilvania S.A.",
+      "it": "Banca Transilvania S.A.",
+      "pt": "Banca Transilvania S.A.",
+      "es": "Banca Transilvania S.A.",
+      "ar": "Banca Transilvania S.A."
+    },
+    "legalName": "Banca Transilvania S.A.",
+    "country": "RO",
+    "city": "Cluj-Napoca",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.bancatransilvania.ro",
+    "bic": "BTRLRO22",
+    "ibanPrefix": "RO",
+    "lei": null,
+    "founded": 1993,
+    "regulators": [
+      "BNR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Cluj-Napoca, Romania. Established in 1993, it holds a valid authorisation to operate and is supervised by BNR.",
+      "fr": "Une banque de détail dont le siège social se situe à Cluj-Napoca (Roumanie). Créée en 1993, elle dispose d'un agrément en cours de validité et est supervisée par BNR.",
+      "de": "Eine Privatkundenbank mit Sitz in Cluj-Napoca, Rumänien. Das 1993 gegründete Institut verfügt über eine gültige Zulassung und wird von BNR beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Cluj-Napoca, Romania. Fondata nel 1993, dispone di un'autorizzazione valida ed è vigilata da BNR.",
+      "pt": "Um banco de retalho com sede em Cluj-Napoca, Roménia. Fundado em 1993, dispõe de autorização válida e é supervisionado por BNR.",
+      "es": "Un banco minorista con sede en Cluj-Napoca, Rumanía. Fundado en 1993, cuenta con una autorización vigente y está supervisado por BNR.",
+      "ar": "بنك تجزئة يقع مقره في Cluj-Napoca، رومانيا. تأسس عام 1993، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف BNR."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "brd-groupe-societe-generale-s-a",
+    "name": {
+      "en": "BRD – Groupe Société Générale S.A.",
+      "fr": "BRD – Groupe Société Générale S.A.",
+      "de": "BRD – Groupe Société Générale S.A.",
+      "it": "BRD – Groupe Société Générale S.A.",
+      "pt": "BRD – Groupe Société Générale S.A.",
+      "es": "BRD – Groupe Société Générale S.A.",
+      "ar": "BRD – Groupe Société Générale S.A."
+    },
+    "legalName": "BRD – Groupe Société Générale S.A.",
+    "country": "RO",
+    "city": "București",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.brd.ro",
+    "bic": "BRDEROBU",
+    "ibanPrefix": "RO",
+    "lei": null,
+    "founded": 1923,
+    "regulators": [
+      "BNR"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in București, Romania. Established in 1923, it holds a valid authorisation to operate and is supervised by BNR.",
+      "fr": "Une banque de détail dont le siège social se situe à București (Roumanie). Créée en 1923, elle dispose d'un agrément en cours de validité et est supervisée par BNR.",
+      "de": "Eine Privatkundenbank mit Sitz in București, Rumänien. Das 1923 gegründete Institut verfügt über eine gültige Zulassung und wird von BNR beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a București, Romania. Fondata nel 1923, dispone di un'autorizzazione valida ed è vigilata da BNR.",
+      "pt": "Um banco de retalho com sede em București, Roménia. Fundado em 1923, dispõe de autorização válida e é supervisionado por BNR.",
+      "es": "Un banco minorista con sede en București, Rumanía. Fundado en 1923, cuenta con una autorización vigente y está supervisado por BNR.",
+      "ar": "بنك تجزئة يقع مقره في București، رومانيا. تأسس عام 1923، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف BNR."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 73
+  },
+  {
+    "id": "zagrebacka-banka-d-d",
+    "name": {
+      "en": "Zagrebačka banka d.d.",
+      "fr": "Zagrebačka banka d.d.",
+      "de": "Zagrebačka banka d.d.",
+      "it": "Zagrebačka banka d.d.",
+      "pt": "Zagrebačka banka d.d.",
+      "es": "Zagrebačka banka d.d.",
+      "ar": "Zagrebačka banka d.d."
+    },
+    "legalName": "Zagrebačka banka d.d.",
+    "country": "HR",
+    "city": "Zagreb",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.zaba.hr",
+    "bic": "ZABAHR2X",
+    "ibanPrefix": "HR",
+    "lei": null,
+    "founded": 1914,
+    "regulators": [
+      "ECB",
+      "HNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Zagreb, Croatia. Established in 1914, it holds a valid authorisation to operate and is supervised by ECB and HNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Zagreb (Croatie). Créée en 1914, elle dispose d'un agrément en cours de validité et est supervisée par ECB et HNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Zagreb, Kroatien. Das 1914 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und HNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Zagreb, Croazia. Fondata nel 1914, dispone di un'autorizzazione valida ed è vigilata da ECB e HNB.",
+      "pt": "Um banco de retalho com sede em Zagreb, Croácia. Fundado em 1914, dispõe de autorização válida e é supervisionado por ECB e HNB.",
+      "es": "Un banco minorista con sede en Zagreb, Croacia. Fundado en 1914, cuenta con una autorización vigente y está supervisado por ECB y HNB.",
+      "ar": "بنك تجزئة يقع مقره في Zagreb، كرواتيا. تأسس عام 1914، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و HNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "privredna-banka-zagreb-d-d",
+    "name": {
+      "en": "Privredna banka Zagreb d.d.",
+      "fr": "Privredna banka Zagreb d.d.",
+      "de": "Privredna banka Zagreb d.d.",
+      "it": "Privredna banka Zagreb d.d.",
+      "pt": "Privredna banka Zagreb d.d.",
+      "es": "Privredna banka Zagreb d.d.",
+      "ar": "Privredna banka Zagreb d.d."
+    },
+    "legalName": "Privredna banka Zagreb d.d.",
+    "country": "HR",
+    "city": "Zagreb",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.pbz.hr",
+    "bic": "PBZGHR2X",
+    "ibanPrefix": "HR",
+    "lei": null,
+    "founded": 1966,
+    "regulators": [
+      "ECB",
+      "HNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Zagreb, Croatia. Established in 1966, it holds a valid authorisation to operate and is supervised by ECB and HNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Zagreb (Croatie). Créée en 1966, elle dispose d'un agrément en cours de validité et est supervisée par ECB et HNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Zagreb, Kroatien. Das 1966 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und HNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Zagreb, Croazia. Fondata nel 1966, dispone di un'autorizzazione valida ed è vigilata da ECB e HNB.",
+      "pt": "Um banco de retalho com sede em Zagreb, Croácia. Fundado em 1966, dispõe de autorização válida e é supervisionado por ECB e HNB.",
+      "es": "Un banco minorista con sede en Zagreb, Croacia. Fundado en 1966, cuenta con una autorización vigente y está supervisado por ECB y HNB.",
+      "ar": "بنك تجزئة يقع مقره في Zagreb، كرواتيا. تأسس عام 1966، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و HNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "slovenska-sporitelna-a-s",
+    "name": {
+      "en": "Slovenská sporiteľňa a.s.",
+      "fr": "Slovenská sporiteľňa a.s.",
+      "de": "Slovenská sporiteľňa a.s.",
+      "it": "Slovenská sporiteľňa a.s.",
+      "pt": "Slovenská sporiteľňa a.s.",
+      "es": "Slovenská sporiteľňa a.s.",
+      "ar": "Slovenská sporiteľňa a.s."
+    },
+    "legalName": "Slovenská sporiteľňa a.s.",
+    "country": "SK",
+    "city": "Bratislava",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.slsp.sk",
+    "bic": "GIBASKBX",
+    "ibanPrefix": "SK",
+    "lei": null,
+    "founded": 1825,
+    "regulators": [
+      "ECB",
+      "NBS"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Bratislava, Slovakia. Established in 1825, it holds a valid authorisation to operate and is supervised by ECB and NBS.",
+      "fr": "Une banque de détail dont le siège social se situe à Bratislava (Slovaquie). Créée en 1825, elle dispose d'un agrément en cours de validité et est supervisée par ECB et NBS.",
+      "de": "Eine Privatkundenbank mit Sitz in Bratislava, Slowakei. Das 1825 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und NBS beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Bratislava, Slovacchia. Fondata nel 1825, dispone di un'autorizzazione valida ed è vigilata da ECB e NBS.",
+      "pt": "Um banco de retalho com sede em Bratislava, Eslováquia. Fundado em 1825, dispõe de autorização válida e é supervisionado por ECB e NBS.",
+      "es": "Un banco minorista con sede en Bratislava, Eslovaquia. Fundado en 1825, cuenta con una autorización vigente y está supervisado por ECB y NBS.",
+      "ar": "بنك تجزئة يقع مقره في Bratislava، سلوفاكيا. تأسس عام 1825، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و NBS."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 76
+  },
+  {
+    "id": "vseobecna-uverova-banka-a-s",
+    "name": {
+      "en": "Všeobecná úverová banka a.s.",
+      "fr": "Všeobecná úverová banka a.s.",
+      "de": "Všeobecná úverová banka a.s.",
+      "it": "Všeobecná úverová banka a.s.",
+      "pt": "Všeobecná úverová banka a.s.",
+      "es": "Všeobecná úverová banka a.s.",
+      "ar": "Všeobecná úverová banka a.s."
+    },
+    "legalName": "Všeobecná úverová banka a.s.",
+    "country": "SK",
+    "city": "Bratislava",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.vub.sk",
+    "bic": "SUBASKBX",
+    "ibanPrefix": "SK",
+    "lei": null,
+    "founded": 1990,
+    "regulators": [
+      "ECB",
+      "NBS"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Bratislava, Slovakia. Established in 1990, it holds a valid authorisation to operate and is supervised by ECB and NBS.",
+      "fr": "Une banque de détail dont le siège social se situe à Bratislava (Slovaquie). Créée en 1990, elle dispose d'un agrément en cours de validité et est supervisée par ECB et NBS.",
+      "de": "Eine Privatkundenbank mit Sitz in Bratislava, Slowakei. Das 1990 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und NBS beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Bratislava, Slovacchia. Fondata nel 1990, dispone di un'autorizzazione valida ed è vigilata da ECB e NBS.",
+      "pt": "Um banco de retalho com sede em Bratislava, Eslováquia. Fundado em 1990, dispõe de autorização válida e é supervisionado por ECB e NBS.",
+      "es": "Un banco minorista con sede en Bratislava, Eslovaquia. Fundado en 1990, cuenta con una autorización vigente y está supervisado por ECB y NBS.",
+      "ar": "بنك تجزئة يقع مقره في Bratislava، سلوفاكيا. تأسس عام 1990، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و NBS."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 74
+  },
+  {
+    "id": "nova-ljubljanska-banka-d-d",
+    "name": {
+      "en": "Nova Ljubljanska banka d.d.",
+      "fr": "Nova Ljubljanska banka d.d.",
+      "de": "Nova Ljubljanska banka d.d.",
+      "it": "Nova Ljubljanska banka d.d.",
+      "pt": "Nova Ljubljanska banka d.d.",
+      "es": "Nova Ljubljanska banka d.d.",
+      "ar": "Nova Ljubljanska banka d.d."
+    },
+    "legalName": "Nova Ljubljanska banka d.d.",
+    "country": "SI",
+    "city": "Ljubljana",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.nlb.si",
+    "bic": "LJBASI2X",
+    "ibanPrefix": "SI",
+    "lei": null,
+    "founded": 1889,
+    "regulators": [
+      "ECB",
+      "Banka Slovenije"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Ljubljana, Slovenia. Established in 1889, it holds a valid authorisation to operate and is supervised by ECB and Banka Slovenije.",
+      "fr": "Une banque de détail dont le siège social se situe à Ljubljana (Slovénie). Créée en 1889, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Banka Slovenije.",
+      "de": "Eine Privatkundenbank mit Sitz in Ljubljana, Slowenien. Das 1889 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Banka Slovenije beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Ljubljana, Slovenia. Fondata nel 1889, dispone di un'autorizzazione valida ed è vigilata da ECB e Banka Slovenije.",
+      "pt": "Um banco de retalho com sede em Ljubljana, Eslovénia. Fundado em 1889, dispõe de autorização válida e é supervisionado por ECB e Banka Slovenije.",
+      "es": "Un banco minorista con sede en Ljubljana, Eslovenia. Fundado en 1889, cuenta con una autorización vigente y está supervisado por ECB y Banka Slovenije.",
+      "ar": "بنك تجزئة يقع مقره في Ljubljana، سلوفينيا. تأسس عام 1889، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Banka Slovenije."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 73
+  },
+  {
+    "id": "unicredit-bulbank-ad",
+    "name": {
+      "en": "UniCredit Bulbank AD",
+      "fr": "UniCredit Bulbank AD",
+      "de": "UniCredit Bulbank AD",
+      "it": "UniCredit Bulbank AD",
+      "pt": "UniCredit Bulbank AD",
+      "es": "UniCredit Bulbank AD",
+      "ar": "UniCredit Bulbank AD"
+    },
+    "legalName": "UniCredit Bulbank AD",
+    "country": "BG",
+    "city": "Sofia",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.unicreditbulbank.bg",
+    "bic": "UNCRBGSF",
+    "ibanPrefix": "BG",
+    "lei": null,
+    "founded": 1964,
+    "regulators": [
+      "ECB",
+      "BNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Sofia, Bulgaria. Established in 1964, it holds a valid authorisation to operate and is supervised by ECB and BNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Sofia (Bulgarie). Créée en 1964, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Sofia, Bulgarien. Das 1964 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Sofia, Bulgaria. Fondata nel 1964, dispone di un'autorizzazione valida ed è vigilata da ECB e BNB.",
+      "pt": "Um banco de retalho com sede em Sofia, Bulgária. Fundado em 1964, dispõe de autorização válida e é supervisionado por ECB e BNB.",
+      "es": "Un banco minorista con sede en Sofia, Bulgaria. Fundado en 1964, cuenta con una autorización vigente y está supervisado por ECB y BNB.",
+      "ar": "بنك تجزئة يقع مقره في Sofia، بلغاريا. تأسس عام 1964، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BNB."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 73
+  },
+  {
+    "id": "dsk-bank-ad",
+    "name": {
+      "en": "DSK Bank AD",
+      "fr": "DSK Bank AD",
+      "de": "DSK Bank AD",
+      "it": "DSK Bank AD",
+      "pt": "DSK Bank AD",
+      "es": "DSK Bank AD",
+      "ar": "DSK Bank AD"
+    },
+    "legalName": "DSK Bank AD",
+    "country": "BG",
+    "city": "Sofia",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://dskbank.bg",
+    "bic": "STSABGSF",
+    "ibanPrefix": "BG",
+    "lei": null,
+    "founded": 1951,
+    "regulators": [
+      "ECB",
+      "BNB"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Sofia, Bulgaria. Established in 1951, it holds a valid authorisation to operate and is supervised by ECB and BNB.",
+      "fr": "Une banque de détail dont le siège social se situe à Sofia (Bulgarie). Créée en 1951, elle dispose d'un agrément en cours de validité et est supervisée par ECB et BNB.",
+      "de": "Eine Privatkundenbank mit Sitz in Sofia, Bulgarien. Das 1951 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und BNB beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Sofia, Bulgaria. Fondata nel 1951, dispone di un'autorizzazione valida ed è vigilata da ECB e BNB.",
+      "pt": "Um banco de retalho com sede em Sofia, Bulgária. Fundado em 1951, dispõe de autorização válida e é supervisionado por ECB e BNB.",
+      "es": "Un banco minorista con sede en Sofia, Bulgaria. Fundado en 1951, cuenta con una autorización vigente y está supervisado por ECB y BNB.",
+      "ar": "بنك تجزئة يقع مقره في Sofia، بلغاريا. تأسس عام 1951، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و BNB."
+    },
+    "tags": [
+      "retail"
+    ],
+    "solidityScore": 72
+  },
+  {
+    "id": "siauliu-bankas-ab",
+    "name": {
+      "en": "Šiaulių bankas AB",
+      "fr": "Šiaulių bankas AB",
+      "de": "Šiaulių bankas AB",
+      "it": "Šiaulių bankas AB",
+      "pt": "Šiaulių bankas AB",
+      "es": "Šiaulių bankas AB",
+      "ar": "Šiaulių bankas AB"
+    },
+    "legalName": "Šiaulių bankas AB",
+    "country": "LT",
+    "city": "Šiauliai",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.sb.lt",
+    "bic": "CBSBLT26",
+    "ibanPrefix": "LT",
+    "lei": null,
+    "founded": 1992,
+    "regulators": [
+      "ECB",
+      "Lietuvos bankas"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Šiauliai, Lithuania. Established in 1992, it holds a valid authorisation to operate and is supervised by ECB and Lietuvos bankas.",
+      "fr": "Une banque de détail dont le siège social se situe à Šiauliai (Lituanie). Créée en 1992, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Lietuvos bankas.",
+      "de": "Eine Privatkundenbank mit Sitz in Šiauliai, Litauen. Das 1992 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Lietuvos bankas beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Šiauliai, Lituania. Fondata nel 1992, dispone di un'autorizzazione valida ed è vigilata da ECB e Lietuvos bankas.",
+      "pt": "Um banco de retalho com sede em Šiauliai, Lituânia. Fundado em 1992, dispõe de autorização válida e é supervisionado por ECB e Lietuvos bankas.",
+      "es": "Un banco minorista con sede en Šiauliai, Lituania. Fundado en 1992, cuenta con una autorización vigente y está supervisado por ECB y Lietuvos bankas.",
+      "ar": "بنك تجزئة يقع مقره في Šiauliai، ليتوانيا. تأسس عام 1992، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Lietuvos bankas."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 71
+  },
+  {
+    "id": "revolut-bank-uab",
+    "name": {
+      "en": "Revolut Bank UAB",
+      "fr": "Revolut Bank UAB",
+      "de": "Revolut Bank UAB",
+      "it": "Revolut Bank UAB",
+      "pt": "Revolut Bank UAB",
+      "es": "Revolut Bank UAB",
+      "ar": "Revolut Bank UAB"
+    },
+    "legalName": "Revolut Bank UAB",
+    "country": "LT",
+    "city": "Vilnius",
+    "kind": "digital",
+    "logo": null,
+    "website": "https://www.revolut.com",
+    "bic": "REVOLT21",
+    "ibanPrefix": "LT",
+    "lei": null,
+    "founded": 2018,
+    "regulators": [
+      "ECB",
+      "Lietuvos bankas"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": false,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A digital-first bank headquartered in Vilnius, Lithuania. Established in 2018, it holds a valid authorisation to operate and is supervised by ECB and Lietuvos bankas.",
+      "fr": "Une banque nativement numérique dont le siège social se situe à Vilnius (Lituanie). Créée en 2018, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Lietuvos bankas.",
+      "de": "Eine digitale Direktbank mit Sitz in Vilnius, Litauen. Das 2018 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Lietuvos bankas beaufsichtigt.",
+      "it": "Una banca digitale con sede a Vilnius, Lituania. Fondata nel 2018, dispone di un'autorizzazione valida ed è vigilata da ECB e Lietuvos bankas.",
+      "pt": "Um banco digital com sede em Vilnius, Lituânia. Fundado em 2018, dispõe de autorização válida e é supervisionado por ECB e Lietuvos bankas.",
+      "es": "Un banco digital con sede en Vilnius, Lituania. Fundado en 2018, cuenta con una autorización vigente y está supervisado por ECB y Lietuvos bankas.",
+      "ar": "بنك رقمي يقع مقره في Vilnius، ليتوانيا. تأسس عام 2018، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Lietuvos bankas."
+    },
+    "tags": [
+      "retail",
+      "digital",
+      "payments"
+    ],
+    "solidityScore": 71
+  },
+  {
+    "id": "citadele-banka-as",
+    "name": {
+      "en": "Citadele banka AS",
+      "fr": "Citadele banka AS",
+      "de": "Citadele banka AS",
+      "it": "Citadele banka AS",
+      "pt": "Citadele banka AS",
+      "es": "Citadele banka AS",
+      "ar": "Citadele banka AS"
+    },
+    "legalName": "Citadele banka AS",
+    "country": "LV",
+    "city": "Rīga",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.citadele.lv",
+    "bic": "PARXLV22",
+    "ibanPrefix": "LV",
+    "lei": null,
+    "founded": 2010,
+    "regulators": [
+      "ECB",
+      "Latvijas Banka"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Rīga, Latvia. Established in 2010, it holds a valid authorisation to operate and is supervised by ECB and Latvijas Banka.",
+      "fr": "Une banque de détail dont le siège social se situe à Rīga (Lettonie). Créée en 2010, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Latvijas Banka.",
+      "de": "Eine Privatkundenbank mit Sitz in Rīga, Lettland. Das 2010 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Latvijas Banka beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Rīga, Lettonia. Fondata nel 2010, dispone di un'autorizzazione valida ed è vigilata da ECB e Latvijas Banka.",
+      "pt": "Um banco de retalho com sede em Rīga, Letónia. Fundado em 2010, dispõe de autorização válida e é supervisionado por ECB e Latvijas Banka.",
+      "es": "Un banco minorista con sede en Rīga, Letonia. Fundado en 2010, cuenta con una autorización vigente y está supervisado por ECB y Latvijas Banka.",
+      "ar": "بنك تجزئة يقع مقره في Rīga، لاتفيا. تأسس عام 2010، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Latvijas Banka."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 70
+  },
+  {
+    "id": "lhv-pank-as",
+    "name": {
+      "en": "LHV Pank AS",
+      "fr": "LHV Pank AS",
+      "de": "LHV Pank AS",
+      "it": "LHV Pank AS",
+      "pt": "LHV Pank AS",
+      "es": "LHV Pank AS",
+      "ar": "LHV Pank AS"
+    },
+    "legalName": "LHV Pank AS",
+    "country": "EE",
+    "city": "Tallinn",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.lhv.ee",
+    "bic": "LHVBEE22",
+    "ibanPrefix": "EE",
+    "lei": null,
+    "founded": 2009,
+    "regulators": [
+      "ECB",
+      "Finantsinspektsioon"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Tallinn, Estonia. Established in 2009, it holds a valid authorisation to operate and is supervised by ECB and Finantsinspektsioon.",
+      "fr": "Une banque de détail dont le siège social se situe à Tallinn (Estonie). Créée en 2009, elle dispose d'un agrément en cours de validité et est supervisée par ECB et Finantsinspektsioon.",
+      "de": "Eine Privatkundenbank mit Sitz in Tallinn, Estland. Das 2009 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und Finantsinspektsioon beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Tallinn, Estonia. Fondata nel 2009, dispone di un'autorizzazione valida ed è vigilata da ECB e Finantsinspektsioon.",
+      "pt": "Um banco de retalho com sede em Tallinn, Estónia. Fundado em 2009, dispõe de autorização válida e é supervisionado por ECB e Finantsinspektsioon.",
+      "es": "Un banco minorista con sede en Tallinn, Estonia. Fundado en 2009, cuenta con una autorización vigente y está supervisado por ECB y Finantsinspektsioon.",
+      "ar": "بنك تجزئة يقع مقره في Tallinn، إستونيا. تأسس عام 2009، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و Finantsinspektsioon."
+    },
+    "tags": [
+      "retail",
+      "digital"
+    ],
+    "solidityScore": 72
+  },
+  {
+    "id": "bank-of-cyprus-public-company-ltd",
+    "name": {
+      "en": "Bank of Cyprus Public Company Ltd",
+      "fr": "Bank of Cyprus Public Company Ltd",
+      "de": "Bank of Cyprus Public Company Ltd",
+      "it": "Bank of Cyprus Public Company Ltd",
+      "pt": "Bank of Cyprus Public Company Ltd",
+      "es": "Bank of Cyprus Public Company Ltd",
+      "ar": "Bank of Cyprus Public Company Ltd"
+    },
+    "legalName": "Bank of Cyprus Public Company Ltd",
+    "country": "CY",
+    "city": "Lefkosía",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.bankofcyprus.com",
+    "bic": "BCYPCY2N",
+    "ibanPrefix": "CY",
+    "lei": null,
+    "founded": 1899,
+    "regulators": [
+      "ECB",
+      "CBC"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Lefkosía, Cyprus. Established in 1899, it holds a valid authorisation to operate and is supervised by ECB and CBC.",
+      "fr": "Une banque de détail dont le siège social se situe à Lefkosía (Chypre). Créée en 1899, elle dispose d'un agrément en cours de validité et est supervisée par ECB et CBC.",
+      "de": "Eine Privatkundenbank mit Sitz in Lefkosía, Zypern. Das 1899 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und CBC beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Lefkosía, Cipro. Fondata nel 1899, dispone di un'autorizzazione valida ed è vigilata da ECB e CBC.",
+      "pt": "Um banco de retalho com sede em Lefkosía, Chipre. Fundado em 1899, dispõe de autorização válida e é supervisionado por ECB e CBC.",
+      "es": "Un banco minorista con sede en Lefkosía, Chipre. Fundado en 1899, cuenta con una autorización vigente y está supervisado por ECB y CBC.",
+      "ar": "بنك تجزئة يقع مقره في Lefkosía، قبرص. تأسس عام 1899، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و CBC."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 70
+  },
+  {
+    "id": "bank-of-valletta-plc",
+    "name": {
+      "en": "Bank of Valletta plc",
+      "fr": "Bank of Valletta plc",
+      "de": "Bank of Valletta plc",
+      "it": "Bank of Valletta plc",
+      "pt": "Bank of Valletta plc",
+      "es": "Bank of Valletta plc",
+      "ar": "Bank of Valletta plc"
+    },
+    "legalName": "Bank of Valletta plc",
+    "country": "MT",
+    "city": "Santa Venera",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.bov.com",
+    "bic": "VALLMTMT",
+    "ibanPrefix": "MT",
+    "lei": null,
+    "founded": 1974,
+    "regulators": [
+      "ECB",
+      "MFSA"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Santa Venera, Malta. Established in 1974, it holds a valid authorisation to operate and is supervised by ECB and MFSA.",
+      "fr": "Une banque de détail dont le siège social se situe à Santa Venera (Malte). Créée en 1974, elle dispose d'un agrément en cours de validité et est supervisée par ECB et MFSA.",
+      "de": "Eine Privatkundenbank mit Sitz in Santa Venera, Malta. Das 1974 gegründete Institut verfügt über eine gültige Zulassung und wird von ECB und MFSA beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Santa Venera, Malta. Fondata nel 1974, dispone di un'autorizzazione valida ed è vigilata da ECB e MFSA.",
+      "pt": "Um banco de retalho com sede em Santa Venera, Malta. Fundado em 1974, dispõe de autorização válida e é supervisionado por ECB e MFSA.",
+      "es": "Un banco minorista con sede en Santa Venera, Malta. Fundado en 1974, cuenta con una autorización vigente y está supervisado por ECB y MFSA.",
+      "ar": "بنك تجزئة يقع مقره في Santa Venera، مالطا. تأسس عام 1974، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف ECB و MFSA."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 71
+  },
+  {
+    "id": "dnb-bank-asa",
+    "name": {
+      "en": "DNB Bank ASA",
+      "fr": "DNB Bank ASA",
+      "de": "DNB Bank ASA",
+      "it": "DNB Bank ASA",
+      "pt": "DNB Bank ASA",
+      "es": "DNB Bank ASA",
+      "ar": "DNB Bank ASA"
+    },
+    "legalName": "DNB Bank ASA",
+    "country": "NO",
+    "city": "Oslo",
+    "kind": "universal",
+    "logo": null,
+    "website": "https://www.dnb.no",
+    "bic": "DNBANOKK",
+    "ibanPrefix": "NO",
+    "lei": null,
+    "founded": 1822,
+    "regulators": [
+      "Finanstilsynet (NO)"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A universal bank headquartered in Oslo, Norway. Established in 1822, it holds a valid authorisation to operate and is supervised by Finanstilsynet (NO).",
+      "fr": "Une banque universelle dont le siège social se situe à Oslo (Norvège). Créée en 1822, elle dispose d'un agrément en cours de validité et est supervisée par Finanstilsynet (NO).",
+      "de": "Eine Universalbank mit Sitz in Oslo, Norwegen. Das 1822 gegründete Institut verfügt über eine gültige Zulassung und wird von Finanstilsynet (NO) beaufsichtigt.",
+      "it": "Una banca universale con sede a Oslo, Norvegia. Fondata nel 1822, dispone di un'autorizzazione valida ed è vigilata da Finanstilsynet (NO).",
+      "pt": "Um banco universal com sede em Oslo, Noruega. Fundado em 1822, dispõe de autorização válida e é supervisionado por Finanstilsynet (NO).",
+      "es": "Un banco universal con sede en Oslo, Noruega. Fundado en 1822, cuenta con una autorización vigente y está supervisado por Finanstilsynet (NO).",
+      "ar": "بنك شامل يقع مقره في Oslo، النرويج. تأسس عام 1822، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Finanstilsynet (NO)."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 80
+  },
+  {
+    "id": "landsbankinn-hf",
+    "name": {
+      "en": "Landsbankinn hf.",
+      "fr": "Landsbankinn hf.",
+      "de": "Landsbankinn hf.",
+      "it": "Landsbankinn hf.",
+      "pt": "Landsbankinn hf.",
+      "es": "Landsbankinn hf.",
+      "ar": "Landsbankinn hf."
+    },
+    "legalName": "Landsbankinn hf.",
+    "country": "IS",
+    "city": "Reykjavík",
+    "kind": "retail",
+    "logo": null,
+    "website": "https://www.landsbankinn.is",
+    "bic": "NBIIISRE",
+    "ibanPrefix": "IS",
+    "lei": null,
+    "founded": 2008,
+    "regulators": [
+      "Seðlabanki Íslands"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A retail bank headquartered in Reykjavík, Iceland. Established in 2008, it holds a valid authorisation to operate and is supervised by Seðlabanki Íslands.",
+      "fr": "Une banque de détail dont le siège social se situe à Reykjavík (Islande). Créée en 2008, elle dispose d'un agrément en cours de validité et est supervisée par Seðlabanki Íslands.",
+      "de": "Eine Privatkundenbank mit Sitz in Reykjavík, Island. Das 2008 gegründete Institut verfügt über eine gültige Zulassung und wird von Seðlabanki Íslands beaufsichtigt.",
+      "it": "Una banca al dettaglio con sede a Reykjavík, Islanda. Fondata nel 2008, dispone di un'autorizzazione valida ed è vigilata da Seðlabanki Íslands.",
+      "pt": "Um banco de retalho com sede em Reykjavík, Islândia. Fundado em 2008, dispõe de autorização válida e é supervisionado por Seðlabanki Íslands.",
+      "es": "Un banco minorista con sede en Reykjavík, Islandia. Fundado en 2008, cuenta con una autorización vigente y está supervisado por Seðlabanki Íslands.",
+      "ar": "بنك تجزئة يقع مقره في Reykjavík، أيسلندا. تأسس عام 2008، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف Seðlabanki Íslands."
+    },
+    "tags": [
+      "retail",
+      "corporate"
+    ],
+    "solidityScore": 72
+  },
+  {
+    "id": "lgt-bank-ag",
+    "name": {
+      "en": "LGT Bank AG",
+      "fr": "LGT Bank AG",
+      "de": "LGT Bank AG",
+      "it": "LGT Bank AG",
+      "pt": "LGT Bank AG",
+      "es": "LGT Bank AG",
+      "ar": "LGT Bank AG"
+    },
+    "legalName": "LGT Bank AG",
+    "country": "LI",
+    "city": "Vaduz",
+    "kind": "private",
+    "logo": null,
+    "website": "https://www.lgt.com",
+    "bic": "BLFLLI2X",
+    "ibanPrefix": "LI",
+    "lei": null,
+    "founded": 1920,
+    "regulators": [
+      "FMA Liechtenstein"
+    ],
+    "status": "AUTHORIZED",
+    "licenceType": "CREDIT_INSTITUTION",
+    "depositGuarantee": true,
+    "mifid2Compliant": true,
+    "psd2Compliant": true,
+    "passporting": true,
+    "description": {
+      "en": "A private bank headquartered in Vaduz, Liechtenstein. Established in 1920, it holds a valid authorisation to operate and is supervised by FMA Liechtenstein.",
+      "fr": "Une banque privée dont le siège social se situe à Vaduz (Liechtenstein). Créée en 1920, elle dispose d'un agrément en cours de validité et est supervisée par FMA Liechtenstein.",
+      "de": "Eine Privatbank mit Sitz in Vaduz, Liechtenstein. Das 1920 gegründete Institut verfügt über eine gültige Zulassung und wird von FMA Liechtenstein beaufsichtigt.",
+      "it": "Una banca privata con sede a Vaduz, Liechtenstein. Fondata nel 1920, dispone di un'autorizzazione valida ed è vigilata da FMA Liechtenstein.",
+      "pt": "Um banco privado com sede em Vaduz, Listenstaine. Fundado em 1920, dispõe de autorização válida e é supervisionado por FMA Liechtenstein.",
+      "es": "Un banco privado con sede en Vaduz, Liechtenstein. Fundado en 1920, cuenta con una autorización vigente y está supervisado por FMA Liechtenstein.",
+      "ar": "بنك خاص يقع مقره في Vaduz، ليختنشتاين. تأسس عام 1920، ويحمل ترخيصاً سارياً للعمل ويخضع لإشراف FMA Liechtenstein."
+    },
+    "tags": [
+      "private",
+      "corporate"
+    ],
+    "solidityScore": 78
+  }
+]
