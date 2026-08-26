@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { locales } from '@/i18n/routing';
+import { SITE_URL } from '@/lib/site';
 import {
   countryCodes,
   glossary,
@@ -10,8 +11,6 @@ import {
   supervisorIndex,
   tags,
 } from '@/lib/data';
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://euclide-eba.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [

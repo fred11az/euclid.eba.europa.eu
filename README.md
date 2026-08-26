@@ -159,7 +159,15 @@ Vercel détecte Next.js sans configuration. Une seule variable est utile :
 NEXT_PUBLIC_SITE_URL=https://votre-domaine.eu
 ```
 
-Elle alimente les URL canoniques, `hreflang` et le sitemap.
+Elle alimente les URL canoniques, `hreflang`, l'`og:image` et le sitemap.
+
+Sans elle, `src/lib/site.ts` retombe sur `VERCEL_PROJECT_PRODUCTION_URL`
+puis `VERCEL_URL`, tous deux injectés par Vercel au build : les
+prédéploiements se référencent eux-mêmes et la production se référence
+elle-même. **Ne jamais remettre un domaine en dur comme repli** : une URL
+canonique pointant vers un domaine qui n'est pas le vôtre indique aux
+moteurs d'indexer ce domaine à votre place, et les robots des réseaux
+sociaux y cherchent l'image d'aperçu — la carte de partage revient vide.
 
 ### Branche de production
 

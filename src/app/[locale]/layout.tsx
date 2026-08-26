@@ -1,13 +1,12 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing, localeMeta, locales, type Locale } from '@/i18n/routing';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '../globals.css';
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://euclide-eba.vercel.app';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -23,7 +22,8 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(SITE_URL),
-    title: { default: t('title'), template: '%s · Euclide EBA' },
+    applicationName: SITE_NAME,
+    title: { default: t('title'), template: `%s · ${SITE_NAME}` },
     description: t('description'),
     alternates: {
       canonical: `/${locale}`,
@@ -34,16 +34,44 @@ export async function generateMetadata({
     },
     openGraph: {
       type: 'website',
-      siteName: 'Euclide EBA',
+      siteName: SITE_NAME,
       title: t('title'),
       description: t('description'),
+      url: `${SITE_URL}/${locale}`,
       locale,
+      // Other locales are declared so a crawler knows the page exists in each.
+      alternateLocale: locales.filter((l) => l !== locale),
+      images: [
+        {
+          url: '/brand/eba-reception.jpg',
+          width: 800,
+          height: 517,
+          alt: t('title'),
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
       images: ['/brand/eba-reception.jpg'],
     },
-    twitter: { card: 'summary_large_image' },
-    robots: { index: true, follow: true },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
   };
 }
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#12263f' },
+    { media: '(prefers-color-scheme: dark)', color: '#0b1a2e' },
+  ],
+  width: 'device-width',
+  initialScale: 1,
+};
 
 export default async function LocaleLayout({
   children,
