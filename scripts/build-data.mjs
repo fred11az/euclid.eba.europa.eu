@@ -596,7 +596,7 @@ const VANTEX = {
           name: 'Sharia Board Certification',
           issuer: 'International Islamic Financial Board',
           certification_date: '2020-06-01',
-          validity_until: '2025-12-31',
+          validity_until: '2036-12-31',
         },
       ],
     },
