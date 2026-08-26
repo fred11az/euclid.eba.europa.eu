@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { DATA_REVIEWED } from '@/lib/data';
+import LocaleLinks from './LocaleLinks';
 
 export default function Footer() {
   const t = useTranslations();
@@ -40,6 +41,11 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <nav aria-label={t('nav.language')} className="mt-8 border-t border-white/10 pt-6">
+          <p className="text-sm font-semibold uppercase tracking-wide text-gold-400">{t('nav.language')}</p>
+          <LocaleLinks />
+        </nav>
+
         <div className="mt-8 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-navy-300 sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} Euclide EBA. {t('footer.rights')}</p>
           <p>{t('footer.updated')} : <time dateTime={DATA_REVIEWED}>{DATA_REVIEWED}</time></p>

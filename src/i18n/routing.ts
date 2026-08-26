@@ -18,6 +18,14 @@ export const localeMeta: Record<Locale, { label: string; english: string; dir: '
 export const routing = defineRouting({
   locales,
   defaultLocale,
+  // No cookie and no match: English. A supported Accept-Language wins over that.
   localePrefix: 'always',
   localeDetection: true,
+  // An explicit choice outlives the browser session; without a maxAge the
+  // cookie is dropped on close and the visitor is sent back to their
+  // browser's language on the next visit.
+  localeCookie: {
+    maxAge: 60 * 60 * 24 * 365,
+    sameSite: 'lax',
+  },
 });
