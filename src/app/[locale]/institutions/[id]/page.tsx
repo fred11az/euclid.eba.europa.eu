@@ -298,6 +298,43 @@ export default async function InstitutionPage({
                   ],
                 ]}
               />
+
+              {d.contact.regional_contacts?.length ? (
+                <Rows
+                  rows={d.contact.regional_contacts.map(
+                    (rc) =>
+                      [
+                        `${t('field.regionalContact')} — ${countryName(rc.country_code, locale)}`,
+                        <a
+                          key={rc.email}
+                          href={`mailto:${rc.email}`}
+                          className="font-semibold underline underline-offset-4"
+                        >
+                          {rc.email}
+                        </a>,
+                      ] as [string, React.ReactNode],
+                  )}
+                />
+              ) : null}
+
+              {Object.keys(d.contact.social_media).length > 0 && (
+                <div className="mt-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-navy-500">{t('field.social')}</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {Object.entries(d.contact.social_media).map(([network, url]) => (
+                      <a
+                        key={network}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex min-h-11 items-center rounded-lg border border-navy-200 px-3 text-sm capitalize text-navy-700 hover:bg-navy-50"
+                      >
+                        {network}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
             </Section>
 
             <Section id="regulation" title={t('section.regulation')}>
@@ -455,6 +492,42 @@ export default async function InstitutionPage({
             </Section>
 
             <Section id="group" title={t('section.group')}>
+              {d.corporate_structure.representative_offices?.length ? (
+                <div className="mt-3 rounded-2xl border border-navy-200 bg-navy-50/60 p-4">
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-navy-500">
+                    {t('field.repOffices')}
+                  </h3>
+                  {d.corporate_structure.representative_offices.map((office) => (
+                    <div key={office.name} className="mt-3 rounded-xl bg-white p-4">
+                      <p className="text-sm font-semibold text-navy-900">
+                        <span aria-hidden="true">{flag(office.country)}</span> {office.name}
+                      </p>
+                      <dl className="mt-2 space-y-1 text-sm">
+                        <div className="flex flex-wrap gap-x-2">
+                          <dt className="text-navy-500">{t('home.supervisedBy')} :</dt>
+                          <dd>
+                            <FactLink href={`/supervisors/${slugify(office.regulator)}`}>{office.regulator}</FactLink>
+                          </dd>
+                        </div>
+                        <div className="flex flex-wrap gap-x-2">
+                          <dt className="text-navy-500">{t('field.supervisorRef')} :</dt>
+                          <dd className="font-mono font-semibold text-navy-900">{office.reference}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-navy-500">{t('field.declaredAddress')} :</dt>
+                          <dd className="text-navy-900">
+                            {office.declared_address.street}, {office.declared_address.postal_code}{' '}
+                            {office.declared_address.city},{' '}
+                            {countryName(office.declared_address.country_code, locale)}
+                          </dd>
+                        </div>
+                      </dl>
+                    </div>
+                  ))}
+                  <p className="mt-3 text-sm leading-relaxed text-navy-600">{t('repOffice.note')}</p>
+                </div>
+              ) : null}
+
               {d.corporate_structure.parent_entity || d.corporate_structure.branches.length > 0 ? (
                 <Rows
                   rows={[
@@ -475,8 +548,20 @@ export default async function InstitutionPage({
                     ),
                   ]}
                 />
-              ) : (
+              ) : d.corporate_structure.representative_offices?.length ? null : (
                 <p className="mt-3 rounded-xl bg-navy-50 p-4 text-sm text-navy-600">{t('group.none')}</p>
+              )}
+
+              {d.service_channels?.remote && (
+                <div className="mt-6">
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-navy-500">
+                    {t('channels.title')}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-navy-700">{t('channels.remote')}</p>
+                  <p className="mt-2 rounded-xl border border-gold-500/50 bg-gold-500/10 p-4 text-sm leading-relaxed text-navy-800">
+                    {t('channels.caution')}
+                  </p>
+                </div>
               )}
             </Section>
 

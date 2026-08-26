@@ -514,10 +514,11 @@ const VANTEX = {
         pending_source: false,
       },
       communication: {
-        email: 'frankfurt@vantex-bank.com',
+        email: 'contact@vantex-bank.com',
         phone: '+49 69 1234 5678',
         website: 'https://vantex-bank.com',
       },
+      regional_contacts: [{ country_code: 'FR', email: 'france@vantex-bank.com' }],
       social_media: {
         linkedin: 'https://www.linkedin.com/company/vantex-bank',
         twitter: 'https://twitter.com/VantexBank',
@@ -564,12 +565,26 @@ const VANTEX = {
       parent_entity: { name: 'First Abu Dhabi Bank P.J.S.C.', country: 'AE' },
       subsidiaries: [],
       branches: [
-        { name: 'Vantex Bank SA (France Branch)', country: 'FR', city: 'Paris', regulator: 'ACPR' },
         { name: 'Vantex Bank (Luxembourg) S.à r.l.', country: 'LU', city: 'Luxembourg', regulator: 'CSSF' },
+      ],
+      representative_offices: [
+        {
+          name: 'Vantex Bank AG — Bureau de représentation France',
+          country: 'FR',
+          regulator: 'ACPR',
+          reference: '18432',
+          declared_address: {
+            street: 'Taunusanlage 12',
+            postal_code: '60325',
+            city: 'Frankfurt am Main',
+            country_code: 'DE',
+          },
+        },
       ],
       pending_source: false,
     },
     financial_metrics: { pending_source: true },
+    service_channels: { remote: true, electronic_signature: true },
     editorial: {
       description: pack(VANTEX_DESC),
       certifications: [

@@ -253,7 +253,11 @@
     "validUntil": "Valable jusqu’au",
     "social": "Canaux officiels",
     "ownership": "Détention",
-    "branches": "Succursales"
+    "branches": "Succursales",
+    "repOffices": "Bureaux de représentation",
+    "supervisorRef": "Référence auprès du superviseur",
+    "declaredAddress": "Adresse déclarée au superviseur",
+    "regionalContact": "Contact régional"
   },
   "scope": {
     "deposit_taking": "Réception de dépôts du public",
@@ -311,6 +315,14 @@
     "longevity": "Ancienneté",
     "breadth": "Étendue de l’agrément",
     "passport": "Passeport européen"
+  },
+  "repOffice": {
+    "note": "Un bureau de représentation peut faire connaître son établissement et servir de relais. Il n’est pas lui-même habilité à recevoir des dépôts, octroyer des crédits ni conclure de contrats : ces opérations sont réalisées par l’établissement agréé dans son pays d’origine, sous la supervision indiquée ci-dessus."
+  },
+  "channels": {
+    "title": "Modalités de service",
+    "remote": "Les services sont fournis à distance, les documents étant signés électroniquement.",
+    "caution": "Quel que soit le canal, une instruction de paiement mérite vérification : confirmez l’établissement dans le registre officiel ci-dessous, et méfiez-vous de toute demande de virement vers un compte qui n’est pas au nom de votre cocontractant."
   },
   "pagination": {
     "prev": "Précédent",

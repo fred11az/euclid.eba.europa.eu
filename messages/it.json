@@ -253,7 +253,11 @@
     "validUntil": "Valida fino al",
     "social": "Canali ufficiali",
     "ownership": "Partecipazione",
-    "branches": "Succursali"
+    "branches": "Succursali",
+    "repOffices": "Uffici di rappresentanza",
+    "supervisorRef": "Riferimento presso l’autorità",
+    "declaredAddress": "Indirizzo dichiarato all’autorità",
+    "regionalContact": "Contatto regionale"
   },
   "scope": {
     "deposit_taking": "Raccolta di depositi dal pubblico",
@@ -311,6 +315,14 @@
     "longevity": "Anzianità",
     "breadth": "Ampiezza dell’autorizzazione",
     "passport": "Passaporto europeo"
+  },
+  "repOffice": {
+    "note": "Un ufficio di rappresentanza può promuovere il proprio ente e fungere da collegamento. Non è autorizzato a raccogliere depositi, concedere credito o concludere contratti: tali operazioni sono svolte dall’ente autorizzato nel Paese d’origine, sotto la vigilanza indicata sopra."
+  },
+  "channels": {
+    "title": "Modalità di servizio",
+    "remote": "I servizi sono forniti a distanza, con documenti firmati elettronicamente.",
+    "caution": "Qualunque sia il canale, un’istruzione di pagamento va verificata: confermate l’ente nel registro ufficiale qui sotto e diffidate di qualsiasi richiesta di bonifico verso un conto non intestato alla vostra controparte contrattuale."
   },
   "pagination": {
     "prev": "Precedente",

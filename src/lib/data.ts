@@ -67,6 +67,7 @@ export type Entity = {
         pending_source: boolean;
       };
       communication: { email: string | null; phone: string | null; website: string };
+      regional_contacts?: { country_code: string; email: string }[];
       social_media: Record<string, string>;
     };
     regulation: {
@@ -99,9 +100,22 @@ export type Entity = {
       parent_entity: { name: string; country: string } | null;
       subsidiaries: unknown[];
       branches: { name: string; country: string; city: string; regulator: string }[];
+      representative_offices?: {
+        name: string;
+        country: string;
+        regulator: string;
+        reference: string;
+        declared_address: {
+          street: string;
+          postal_code: string;
+          city: string;
+          country_code: string;
+        };
+      }[];
       pending_source: boolean;
     };
     financial_metrics: { pending_source: boolean; [k: string]: unknown };
+    service_channels?: { remote: boolean; electronic_signature: boolean };
     editorial: {
       description: Localized;
       certifications: {
