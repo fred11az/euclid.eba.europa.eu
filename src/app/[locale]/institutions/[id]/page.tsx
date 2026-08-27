@@ -241,7 +241,9 @@ export default async function InstitutionPage({
                   [
                     t('detail.iban'),
                     <span key="i">
-                      <span className="font-mono font-semibold">{s.country_code}</span>{' '}
+                      <span className="font-mono font-semibold">
+                        {d.registration.iban_prefix ?? s.country_code}
+                      </span>{' '}
                       <FactLink href="/glossary/iban">?</FactLink>
                     </span>,
                   ],

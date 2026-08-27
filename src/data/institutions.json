@@ -81,7 +81,8 @@
         "registration_date": "2018-06-14",
         "establishment_date": "2012-03-15",
         "lei_code": "529900T8TG9H7X0QXZ42",
-        "bic_swift": "VANTDEFF",
+        "bic_swift": "SCSYFRP2",
+        "iban_prefix": "FR76",
         "vat_id": "DE 824 365 719",
         "pending_source": false
       },
@@ -595,6 +596,7 @@
         "establishment_date": "1870",
         "lei_code": null,
         "bic_swift": "DEUTDEFF",
+        "iban_prefix": "DE",
         "vat_id": null,
         "pending_source": true
       },
@@ -940,6 +942,7 @@
         "establishment_date": "1870",
         "lei_code": null,
         "bic_swift": "COBADEFF",
+        "iban_prefix": "DE",
         "vat_id": null,
         "pending_source": true
       },
@@ -1284,6 +1287,7 @@
         "establishment_date": "1883",
         "lei_code": null,
         "bic_swift": "GENODEFF",
+        "iban_prefix": "DE",
         "vat_id": null,
         "pending_source": true
       },
@@ -1602,6 +1606,7 @@
         "establishment_date": "1965",
         "lei_code": null,
         "bic_swift": "INGDDEFF",
+        "iban_prefix": "DE",
         "vat_id": null,
         "pending_source": true
       },
@@ -1933,6 +1938,7 @@
         "establishment_date": "2013",
         "lei_code": null,
         "bic_swift": "NTSBDEB1",
+        "iban_prefix": "DE",
         "vat_id": null,
         "pending_source": true
       },
@@ -2265,6 +2271,7 @@
         "establishment_date": "1848",
         "lei_code": null,
         "bic_swift": "BNPAFRPP",
+        "iban_prefix": "FR",
         "vat_id": null,
         "pending_source": true
       },
@@ -2611,6 +2618,7 @@
         "establishment_date": "1894",
         "lei_code": null,
         "bic_swift": "AGRIFRPP",
+        "iban_prefix": "FR",
         "vat_id": null,
         "pending_source": true
       },
@@ -2957,6 +2965,7 @@
         "establishment_date": "1864",
         "lei_code": null,
         "bic_swift": "SOGEFRPP",
+        "iban_prefix": "FR",
         "vat_id": null,
         "pending_source": true
       },
@@ -3302,6 +3311,7 @@
         "establishment_date": "2009",
         "lei_code": null,
         "bic_swift": "CCBPFRPP",
+        "iban_prefix": "FR",
         "vat_id": null,
         "pending_source": true
       },
@@ -3632,6 +3642,7 @@
         "establishment_date": "2006",
         "lei_code": null,
         "bic_swift": "PSSTFRPP",
+        "iban_prefix": "FR",
         "vat_id": null,
         "pending_source": true
       },
@@ -3963,6 +3974,7 @@
         "establishment_date": "2007",
         "lei_code": null,
         "bic_swift": "BCITITMM",
+        "iban_prefix": "IT",
         "vat_id": null,
         "pending_source": true
       },
@@ -4309,6 +4321,7 @@
         "establishment_date": "1870",
         "lei_code": null,
         "bic_swift": "UNCRITMM",
+        "iban_prefix": "IT",
         "vat_id": null,
         "pending_source": true
       },
@@ -4654,6 +4667,7 @@
         "establishment_date": "2017",
         "lei_code": null,
         "bic_swift": "BAPPIT21",
+        "iban_prefix": "IT",
         "vat_id": null,
         "pending_source": true
       },
@@ -4998,6 +5012,7 @@
         "establishment_date": "1946",
         "lei_code": null,
         "bic_swift": "MEDBITMM",
+        "iban_prefix": "IT",
         "vat_id": null,
         "pending_source": true
       },
@@ -5317,6 +5332,7 @@
         "establishment_date": "1857",
         "lei_code": null,
         "bic_swift": "BSCHESMM",
+        "iban_prefix": "ES",
         "vat_id": null,
         "pending_source": true
       },
@@ -5663,6 +5679,7 @@
         "establishment_date": "1857",
         "lei_code": null,
         "bic_swift": "BBVAESMM",
+        "iban_prefix": "ES",
         "vat_id": null,
         "pending_source": true
       },
@@ -6008,6 +6025,7 @@
         "establishment_date": "1904",
         "lei_code": null,
         "bic_swift": "CAIXESBB",
+        "iban_prefix": "ES",
         "vat_id": null,
         "pending_source": true
       },
@@ -6352,6 +6370,7 @@
         "establishment_date": "1881",
         "lei_code": null,
         "bic_swift": "BSABESBB",
+        "iban_prefix": "ES",
         "vat_id": null,
         "pending_source": true
       },
@@ -6697,6 +6716,7 @@
         "establishment_date": "1991",
         "lei_code": null,
         "bic_swift": "INGBNL2A",
+        "iban_prefix": "NL",
         "vat_id": null,
         "pending_source": true
       },
@@ -7043,6 +7063,7 @@
         "establishment_date": "1972",
         "lei_code": null,
         "bic_swift": "RABONL2U",
+        "iban_prefix": "NL",
         "vat_id": null,
         "pending_source": true
       },
@@ -7388,6 +7409,7 @@
         "establishment_date": "1991",
         "lei_code": null,
         "bic_swift": "ABNANL2A",
+        "iban_prefix": "NL",
         "vat_id": null,
         "pending_source": true
       },
@@ -7732,6 +7754,7 @@
         "establishment_date": "2012",
         "lei_code": null,
         "bic_swift": "BUNQNL2A",
+        "iban_prefix": "NL",
         "vat_id": null,
         "pending_source": true
       },
@@ -8063,6 +8086,7 @@
         "establishment_date": "2006",
         "lei_code": null,
         "bic_swift": "ADYBNL2A",
+        "iban_prefix": "NL",
         "vat_id": null,
         "pending_source": true
       },
@@ -8335,6 +8359,7 @@
         "establishment_date": "1998",
         "lei_code": null,
         "bic_swift": "KREDBEBB",
+        "iban_prefix": "BE",
         "vat_id": null,
         "pending_source": true
       },
@@ -8679,6 +8704,7 @@
         "establishment_date": "2011",
         "lei_code": null,
         "bic_swift": "GKCCBEBB",
+        "iban_prefix": "BE",
         "vat_id": null,
         "pending_source": true
       },
@@ -9023,6 +9049,7 @@
         "establishment_date": "1822",
         "lei_code": null,
         "bic_swift": "GEBABEBB",
+        "iban_prefix": "BE",
         "vat_id": null,
         "pending_source": true
       },
@@ -9368,6 +9395,7 @@
         "establishment_date": "2020",
         "lei_code": null,
         "bic_swift": "TRWIBEB1",
+        "iban_prefix": "BE",
         "vat_id": null,
         "pending_source": true
       },
@@ -9654,6 +9682,7 @@
         "establishment_date": "1819",
         "lei_code": null,
         "bic_swift": "GIBAATWG",
+        "iban_prefix": "AT",
         "vat_id": null,
         "pending_source": true
       },
@@ -9998,6 +10027,7 @@
         "establishment_date": "1927",
         "lei_code": null,
         "bic_swift": "RZBAATWW",
+        "iban_prefix": "AT",
         "vat_id": null,
         "pending_source": true
       },
@@ -10342,6 +10372,7 @@
         "establishment_date": "1922",
         "lei_code": null,
         "bic_swift": "BAWAATWW",
+        "iban_prefix": "AT",
         "vat_id": null,
         "pending_source": true
       },
@@ -10673,6 +10704,7 @@
         "establishment_date": "1876",
         "lei_code": null,
         "bic_swift": "CGDIPTPL",
+        "iban_prefix": "PT",
         "vat_id": null,
         "pending_source": true
       },
@@ -11017,6 +11049,7 @@
         "establishment_date": "1985",
         "lei_code": null,
         "bic_swift": "BCOMPTPL",
+        "iban_prefix": "PT",
         "vat_id": null,
         "pending_source": true
       },
@@ -11361,6 +11394,7 @@
         "establishment_date": "2014",
         "lei_code": null,
         "bic_swift": "BESCPTPL",
+        "iban_prefix": "PT",
         "vat_id": null,
         "pending_source": true
       },
@@ -11705,6 +11739,7 @@
         "establishment_date": "1966",
         "lei_code": null,
         "bic_swift": "AIBKIE2D",
+        "iban_prefix": "IE",
         "vat_id": null,
         "pending_source": true
       },
@@ -12049,6 +12084,7 @@
         "establishment_date": "1783",
         "lei_code": null,
         "bic_swift": "BOFIIE2D",
+        "iban_prefix": "IE",
         "vat_id": null,
         "pending_source": true
       },
@@ -12393,6 +12429,7 @@
         "establishment_date": "1856",
         "lei_code": null,
         "bic_swift": "BCEELULL",
+        "iban_prefix": "LU",
         "vat_id": null,
         "pending_source": true
       },
@@ -12737,6 +12774,7 @@
         "establishment_date": "1856",
         "lei_code": null,
         "bic_swift": "BILLLULL",
+        "iban_prefix": "LU",
         "vat_id": null,
         "pending_source": true
       },
@@ -13056,6 +13094,7 @@
         "establishment_date": "2007",
         "lei_code": null,
         "bic_swift": "PPLXLUL2",
+        "iban_prefix": "LU",
         "vat_id": null,
         "pending_source": true
       },
@@ -13342,6 +13381,7 @@
         "establishment_date": "1820",
         "lei_code": null,
         "bic_swift": "NDEAFIHH",
+        "iban_prefix": "FI",
         "vat_id": null,
         "pending_source": true
       },
@@ -13686,6 +13726,7 @@
         "establishment_date": "1902",
         "lei_code": null,
         "bic_swift": "OKOYFIHH",
+        "iban_prefix": "FI",
         "vat_id": null,
         "pending_source": true
       },
@@ -14005,6 +14046,7 @@
         "establishment_date": "1856",
         "lei_code": null,
         "bic_swift": "ESSESESS",
+        "iban_prefix": "SE",
         "vat_id": null,
         "pending_source": true
       },
@@ -14344,6 +14386,7 @@
         "establishment_date": "1871",
         "lei_code": null,
         "bic_swift": "HANDSESS",
+        "iban_prefix": "SE",
         "vat_id": null,
         "pending_source": true
       },
@@ -14682,6 +14725,7 @@
         "establishment_date": "1820",
         "lei_code": null,
         "bic_swift": "SWEDSESS",
+        "iban_prefix": "SE",
         "vat_id": null,
         "pending_source": true
       },
@@ -15021,6 +15065,7 @@
         "establishment_date": "2005",
         "lei_code": null,
         "bic_swift": "KLRNSESS",
+        "iban_prefix": "SE",
         "vat_id": null,
         "pending_source": true
       },
@@ -15347,6 +15392,7 @@
         "establishment_date": "1871",
         "lei_code": null,
         "bic_swift": "DABADKKK",
+        "iban_prefix": "DK",
         "vat_id": null,
         "pending_source": true
       },
@@ -15685,6 +15731,7 @@
         "establishment_date": "1967",
         "lei_code": null,
         "bic_swift": "JYBADKKK",
+        "iban_prefix": "DK",
         "vat_id": null,
         "pending_source": true
       },
@@ -16023,6 +16070,7 @@
         "establishment_date": "1851",
         "lei_code": null,
         "bic_swift": "NYKBDKKK",
+        "iban_prefix": "DK",
         "vat_id": null,
         "pending_source": true
       },
@@ -16348,6 +16396,7 @@
         "establishment_date": "1919",
         "lei_code": null,
         "bic_swift": "BPKOPLPW",
+        "iban_prefix": "PL",
         "vat_id": null,
         "pending_source": true
       },
@@ -16686,6 +16735,7 @@
         "establishment_date": "1929",
         "lei_code": null,
         "bic_swift": "PKOPPLPW",
+        "iban_prefix": "PL",
         "vat_id": null,
         "pending_source": true
       },
@@ -17024,6 +17074,7 @@
         "establishment_date": "1986",
         "lei_code": null,
         "bic_swift": "BREXPLPW",
+        "iban_prefix": "PL",
         "vat_id": null,
         "pending_source": true
       },
@@ -17349,6 +17400,7 @@
         "establishment_date": "1841",
         "lei_code": null,
         "bic_swift": "ETHNGRAA",
+        "iban_prefix": "GR",
         "vat_id": null,
         "pending_source": true
       },
@@ -17693,6 +17745,7 @@
         "establishment_date": "1990",
         "lei_code": null,
         "bic_swift": "ERBKGRAA",
+        "iban_prefix": "GR",
         "vat_id": null,
         "pending_source": true
       },
@@ -18037,6 +18090,7 @@
         "establishment_date": "1879",
         "lei_code": null,
         "bic_swift": "CRBAGRAA",
+        "iban_prefix": "GR",
         "vat_id": null,
         "pending_source": true
       },
@@ -18381,6 +18435,7 @@
         "establishment_date": "1916",
         "lei_code": null,
         "bic_swift": "PIRBGRAA",
+        "iban_prefix": "GR",
         "vat_id": null,
         "pending_source": true
       },
@@ -18725,6 +18780,7 @@
         "establishment_date": "1825",
         "lei_code": null,
         "bic_swift": "GIBACZPX",
+        "iban_prefix": "CZ",
         "vat_id": null,
         "pending_source": true
       },
@@ -19063,6 +19119,7 @@
         "establishment_date": "1990",
         "lei_code": null,
         "bic_swift": "KOMBCZPP",
+        "iban_prefix": "CZ",
         "vat_id": null,
         "pending_source": true
       },
@@ -19401,6 +19458,7 @@
         "establishment_date": "1964",
         "lei_code": null,
         "bic_swift": "CEKOCZPP",
+        "iban_prefix": "CZ",
         "vat_id": null,
         "pending_source": true
       },
@@ -19739,6 +19797,7 @@
         "establishment_date": "1949",
         "lei_code": null,
         "bic_swift": "OTPVHUHB",
+        "iban_prefix": "HU",
         "vat_id": null,
         "pending_source": true
       },
@@ -20077,6 +20136,7 @@
         "establishment_date": "1987",
         "lei_code": null,
         "bic_swift": "OKHBHUHB",
+        "iban_prefix": "HU",
         "vat_id": null,
         "pending_source": true
       },
@@ -20415,6 +20475,7 @@
         "establishment_date": "1993",
         "lei_code": null,
         "bic_swift": "BTRLRO22",
+        "iban_prefix": "RO",
         "vat_id": null,
         "pending_source": true
       },
@@ -20753,6 +20814,7 @@
         "establishment_date": "1923",
         "lei_code": null,
         "bic_swift": "BRDEROBU",
+        "iban_prefix": "RO",
         "vat_id": null,
         "pending_source": true
       },
@@ -21091,6 +21153,7 @@
         "establishment_date": "1914",
         "lei_code": null,
         "bic_swift": "ZABAHR2X",
+        "iban_prefix": "HR",
         "vat_id": null,
         "pending_source": true
       },
@@ -21435,6 +21498,7 @@
         "establishment_date": "1966",
         "lei_code": null,
         "bic_swift": "PBZGHR2X",
+        "iban_prefix": "HR",
         "vat_id": null,
         "pending_source": true
       },
@@ -21779,6 +21843,7 @@
         "establishment_date": "1825",
         "lei_code": null,
         "bic_swift": "GIBASKBX",
+        "iban_prefix": "SK",
         "vat_id": null,
         "pending_source": true
       },
@@ -22123,6 +22188,7 @@
         "establishment_date": "1990",
         "lei_code": null,
         "bic_swift": "SUBASKBX",
+        "iban_prefix": "SK",
         "vat_id": null,
         "pending_source": true
       },
@@ -22467,6 +22533,7 @@
         "establishment_date": "1889",
         "lei_code": null,
         "bic_swift": "LJBASI2X",
+        "iban_prefix": "SI",
         "vat_id": null,
         "pending_source": true
       },
@@ -22811,6 +22878,7 @@
         "establishment_date": "1964",
         "lei_code": null,
         "bic_swift": "UNCRBGSF",
+        "iban_prefix": "BG",
         "vat_id": null,
         "pending_source": true
       },
@@ -23154,6 +23222,7 @@
         "establishment_date": "1951",
         "lei_code": null,
         "bic_swift": "STSABGSF",
+        "iban_prefix": "BG",
         "vat_id": null,
         "pending_source": true
       },
@@ -23484,6 +23553,7 @@
         "establishment_date": "1992",
         "lei_code": null,
         "bic_swift": "CBSBLT26",
+        "iban_prefix": "LT",
         "vat_id": null,
         "pending_source": true
       },
@@ -23829,6 +23899,7 @@
         "establishment_date": "2018",
         "lei_code": null,
         "bic_swift": "REVOLT21",
+        "iban_prefix": "LT",
         "vat_id": null,
         "pending_source": true
       },
@@ -24161,6 +24232,7 @@
         "establishment_date": "2010",
         "lei_code": null,
         "bic_swift": "PARXLV22",
+        "iban_prefix": "LV",
         "vat_id": null,
         "pending_source": true
       },
@@ -24505,6 +24577,7 @@
         "establishment_date": "2009",
         "lei_code": null,
         "bic_swift": "LHVBEE22",
+        "iban_prefix": "EE",
         "vat_id": null,
         "pending_source": true
       },
@@ -24836,6 +24909,7 @@
         "establishment_date": "1899",
         "lei_code": null,
         "bic_swift": "BCYPCY2N",
+        "iban_prefix": "CY",
         "vat_id": null,
         "pending_source": true
       },
@@ -25180,6 +25254,7 @@
         "establishment_date": "1974",
         "lei_code": null,
         "bic_swift": "VALLMTMT",
+        "iban_prefix": "MT",
         "vat_id": null,
         "pending_source": true
       },
@@ -25524,6 +25599,7 @@
         "establishment_date": "1822",
         "lei_code": null,
         "bic_swift": "DNBANOKK",
+        "iban_prefix": "NO",
         "vat_id": null,
         "pending_source": true
       },
@@ -25862,6 +25938,7 @@
         "establishment_date": "2008",
         "lei_code": null,
         "bic_swift": "NBIIISRE",
+        "iban_prefix": "IS",
         "vat_id": null,
         "pending_source": true
       },
@@ -26200,6 +26277,7 @@
         "establishment_date": "1920",
         "lei_code": null,
         "bic_swift": "BLFLLI2X",
+        "iban_prefix": "LI",
         "vat_id": null,
         "pending_source": true
       },
@@ -26513,6 +26591,7 @@
         "establishment_date": "2015",
         "lei_code": null,
         "bic_swift": null,
+        "iban_prefix": "DE",
         "vat_id": null,
         "pending_source": true
       },

@@ -55,6 +55,7 @@ export type Entity = {
       establishment_date: string;
       lei_code: string | null;
       bic_swift: string | null;
+      iban_prefix?: string;
       vat_id: string | null;
       pending_source: boolean;
     };
@@ -204,7 +205,7 @@ function toView(e: Entity): Institution {
     entityType: e.entity_type,
     website: d.contact.communication.website,
     bic: d.registration.bic_swift,
-    ibanPrefix: s.country_code,
+    ibanPrefix: d.registration.iban_prefix ?? s.country_code,
     founded: e.metadata_internal.founded,
     regulators: [d.regulation.primary_supervisor.name, ...d.regulation.secondary_supervisors.map((x) => x.name)],
     status: 'AUTHORIZED',
