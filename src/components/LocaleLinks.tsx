@@ -20,6 +20,7 @@ export default function LocaleLinks() {
       {locales.map((code) => (
         <li key={code}>
           <Link
+            prefetch={false}
             // @ts-expect-error -- dynamic route params are forwarded as-is
             href={{ pathname, params }}
             locale={code}

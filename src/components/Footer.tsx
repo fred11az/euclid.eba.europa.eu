@@ -33,7 +33,7 @@ export default function Footer() {
                 ] as const
               ).map(([href, key]) => (
                 <li key={href}>
-                  <Link className="inline-flex min-h-9 items-center hover:text-white" href={href}>
+                  <Link prefetch={false} className="inline-flex min-h-9 items-center hover:text-white" href={href}>
                     {t(key)}
                   </Link>
                 </li>

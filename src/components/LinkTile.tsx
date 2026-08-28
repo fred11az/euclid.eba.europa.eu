@@ -15,6 +15,7 @@ export default function LinkTile({
   return (
     <Link
       href={href}
+      prefetch={false}
       className="flex min-h-16 items-center gap-3 rounded-xl border border-navy-100 bg-white px-4 py-3 shadow-sm transition hover:border-navy-300 hover:shadow-md"
     >
       {icon && <span aria-hidden="true" className="text-2xl leading-none">{icon}</span>}

@@ -33,7 +33,7 @@ export default function InstitutionCard({ inst, dense = false }: { inst: Institu
         )}
         <div className="min-w-0 flex-1">
           <h3 className="text-base font-semibold leading-snug text-navy-900">
-            <Link href={`/institutions/${inst.id}`} className="after:absolute after:inset-0">
+            <Link href={`/institutions/${inst.id}`} prefetch={false} className="after:absolute after:inset-0">
               {tr(inst.name, locale)}
             </Link>
           </h3>
@@ -41,6 +41,7 @@ export default function InstitutionCard({ inst, dense = false }: { inst: Institu
             {inst.logo && <span aria-hidden="true">{flag(inst.country)} </span>}
             {inst.city} ·{' '}
             <Link
+              prefetch={false}
               href={`/countries/${inst.country.toLowerCase()}`}
               className="underline decoration-navy-300 underline-offset-2 hover:text-navy-800"
             >

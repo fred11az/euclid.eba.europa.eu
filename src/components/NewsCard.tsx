@@ -17,14 +17,14 @@ export default function NewsCard({ item }: { item: NewsItem }) {
         </time>
       </div>
       <h3 className="mt-2 text-base font-semibold leading-snug text-navy-900">
-        <Link href={`/news/${item.id}`} className="hover:underline hover:underline-offset-2">
+        <Link prefetch={false} href={`/news/${item.id}`} className="hover:underline hover:underline-offset-2">
           {tr(item.title, locale)}
         </Link>
       </h3>
       <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-navy-600">{tr(item.snippet, locale)}</p>
       <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 pt-4 text-sm">
         {inst && (
-          <Link href={`/institutions/${inst.id}`} className="font-medium text-navy-700 underline underline-offset-2 hover:text-navy-900">
+          <Link prefetch={false} href={`/institutions/${inst.id}`} className="font-medium text-navy-700 underline underline-offset-2 hover:text-navy-900">
             {tr(inst.name, locale)}
           </Link>
         )}
