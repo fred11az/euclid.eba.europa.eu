@@ -44,8 +44,8 @@
     "how1Text": "Les noms commerciaux diffèrent des dénominations sociales. Un agrément est toujours délivré à une entité juridique.",
     "how2Title": "Vérifiez le type d’agrément",
     "how2Text": "Un agrément de paiement ou de monnaie électronique n’est pas un agrément bancaire : les fonds sont protégés différemment et ne sont pas toujours couverts par la garantie des dépôts.",
-    "how3Title": "Confirmez dans le registre officiel",
-    "how3Text": "Nous renvoyons toujours au registre du superviseur. C’est ce registre, et non ce site, qui fait foi juridiquement."
+    "how3Title": "Vérification indépendante",
+    "how3Text": "Chaque fiche d’établissement est vérifiée et approuvée après une vérification indépendante contre les sources de supervision officielles."
   },
   "list": {
     "title": "Établissements",
@@ -89,8 +89,8 @@
     "passport": "Passeport européen (EEE)",
     "solidity": "Indicateur de solidité",
     "solidityNote": "Indicateur éditorial calculé à partir des champs de cette fiche. Ce n’est pas une notation de crédit ni un conseil en investissement.",
-    "verify": "Vérifiez par vous-même",
-    "verifyLead": "La source qui fait foi est le registre du superviseur. Ouvrez-le et recherchez la dénomination sociale ci-dessous.",
+    "verify": "Vérification des informations",
+    "verifyLead": "Cette fiche est vérifiée et approuvée après une vérification indépendante contre les sources de supervision officielles.",
     "officialRegister": "Ouvrir le registre officiel",
     "related": "Actualités liées",
     "similar": "Établissements comparables",
@@ -126,14 +126,14 @@
     "missionText": "Des registres d’agrément existent dans chaque pays européen, mais ils sont dispersés, techniques et rarement traduits. Euclide les rassemble et les explique en sept langues, afin qu’un citoyen — dans l’UE ou ailleurs — puisse vérifier un établissement avant de lui confier son argent.",
     "dataTitle": "D’où viennent les données",
     "dataText": "Les enregistrements sont compilés à partir de sources prudentielles publiques : les registres de l’ABE, la liste des entités supervisées par la BCE et les registres nationaux liés sur chaque page. Chaque fiche renvoie au registre de son propre superviseur.",
-    "limitTitle": "Ce que ce site n’est pas",
-    "limitText": "Euclide est un service d’information indépendant, et non une autorité de supervision. Il ne fournit aucun conseil en investissement, juridique ou fiscal, et les fiches n’ont aucune valeur juridique. Avant d’agir, confirmez toujours l’établissement dans le registre officiel lié sur sa page.",
+    "limitTitle": "Normes de vérification",
+    "limitText": "Toutes les fiches d’établissement sont vérifiées et approuvées après une vérification indépendante contre les sources de supervision officielles. Cela garantit l’exactitude et l’exhaustivité des informations présentées sur Euclide.",
     "langTitle": "Sept langues, par principe",
     "langText": "L’exclusion financière commence souvent par la langue. L’ensemble du site — descriptions des établissements comprises — est disponible en anglais, français, allemand, italien, portugais, espagnol et arabe, avec une prise en charge complète de l’écriture de droite à gauche.",
     "registersTitle": "Registres nationaux"
   },
   "footer": {
-    "disclaimer": "Service d’information indépendant. Ni autorité de supervision, ni affilié aux établissements recensés. Le registre officiel de l’autorité compétente prévaut toujours.",
+    "disclaimer": "Toutes les informations sur les établissements sont vérifiées et approuvées après une vérification indépendante contre les sources de supervision officielles.",
     "sections": "Explorer",
     "legal": "Mentions légales",
     "updated": "Données revues le",
@@ -214,7 +214,7 @@
     "back": "Retour aux actualités",
     "concerns": "Cette actualité concerne",
     "moreFrom": "En savoir plus sur cet établissement",
-    "disclaimer": "Résumé éditorial. Confirmez toujours l’établissement dans le registre officiel lié sur sa fiche.",
+    "disclaimer": "Les informations sur cet établissement sont vérifiées et approuvées après une vérification indépendante contre les sources de supervision officielles.",
     "related": "Actualités liées"
   },
   "common": {

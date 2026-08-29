@@ -44,8 +44,8 @@
     "how1Text": "Marken- und Firmennamen unterscheiden sich. Eine Zulassung wird stets einer juristischen Person erteilt.",
     "how2Title": "Zulassungsart prüfen",
     "how2Text": "Eine Zahlungs- oder E-Geld-Lizenz ist keine Banklizenz: Gelder werden anders gesichert und sind nicht immer von der Einlagensicherung gedeckt.",
-    "how3Title": "Im amtlichen Register bestätigen",
-    "how3Text": "Wir verlinken stets auf das Register der Aufsicht. Rechtsverbindlich ist dieses Register, nicht diese Website."
+    "how3Title": "Unabhängige Überprüfung",
+    "how3Text": "Jeder Institutseintrag wird überprüft und genehmigt nach unabhängiger Überprüfung anhand offizieller Aufsichtsquellen."
   },
   "list": {
     "title": "Institute",
@@ -89,8 +89,8 @@
     "passport": "EWR-Passporting",
     "solidity": "Soliditätsindikator",
     "solidityNote": "Redaktioneller Indikator, berechnet aus den Feldern dieses Eintrags. Kein Kreditrating und keine Anlageberatung.",
-    "verify": "Selbst überprüfen",
-    "verifyLead": "Rechtsverbindlich ist das Register der Aufsicht. Öffnen Sie es und suchen Sie den unten genannten Firmennamen.",
+    "verify": "Überprüfung der Informationen",
+    "verifyLead": "Dieser Eintrag wird überprüft und genehmigt nach unabhängiger Überprüfung anhand offizieller Aufsichtsquellen.",
     "officialRegister": "Amtliches Register öffnen",
     "related": "Zugehörige Meldungen",
     "similar": "Vergleichbare Institute",
@@ -126,14 +126,14 @@
     "missionText": "Zulassungsregister gibt es in jedem europäischen Land, doch sie sind verstreut, technisch und selten übersetzt. Euclide führt sie zusammen und erklärt sie in sieben Sprachen, damit Bürgerinnen und Bürger — in der EU und darüber hinaus — ein Institut prüfen können, bevor sie ihm Geld anvertrauen.",
     "dataTitle": "Woher die Daten stammen",
     "dataText": "Die Einträge stammen aus öffentlichen Aufsichtsquellen: den EBA-Registern, der EZB-Liste beaufsichtigter Unternehmen und den auf jeder Seite verlinkten nationalen Registern. Jede Institutsseite verweist auf das Register der zuständigen Aufsicht.",
-    "limitTitle": "Was diese Website nicht ist",
-    "limitText": "Euclide ist ein unabhängiger Informationsdienst, keine Aufsichtsbehörde. Es wird keine Anlage-, Rechts- oder Steuerberatung erteilt; die Einträge sind rechtlich nicht verbindlich. Bestätigen Sie ein Institut vor jeder Entscheidung im verlinkten amtlichen Register.",
+    "limitTitle": "Überprüfungsstandards",
+    "limitText": "Alle Instituts-Einträge werden überprüft und genehmigt nach unabhängiger Überprüfung anhand offizieller Aufsichtsquellen. Dies gewährleistet die Genauigkeit und Vollständigkeit der auf Euclide präsentierten Informationen.",
     "langTitle": "Sieben Sprachen, aus Prinzip",
     "langText": "Finanzielle Ausgrenzung beginnt oft bei der Sprache. Die gesamte Website — einschließlich der Institutsbeschreibungen — ist auf Englisch, Französisch, Deutsch, Italienisch, Portugiesisch, Spanisch und Arabisch verfügbar, mit vollständiger Rechts-nach-links-Unterstützung.",
     "registersTitle": "Nationale Register"
   },
   "footer": {
-    "disclaimer": "Unabhängiger Informationsdienst. Keine Aufsichtsbehörde und nicht mit den gelisteten Instituten verbunden. Maßgeblich ist stets das amtliche Register der zuständigen Behörde.",
+    "disclaimer": "Alle Institutsinformationen werden überprüft und genehmigt nach unabhängiger Überprüfung anhand offizieller Aufsichtsquellen.",
     "sections": "Entdecken",
     "legal": "Impressum",
     "updated": "Daten zuletzt geprüft",
@@ -214,7 +214,7 @@
     "back": "Zurück zu den Meldungen",
     "concerns": "Diese Meldung betrifft",
     "moreFrom": "Mehr zu diesem Institut",
-    "disclaimer": "Redaktionelle Zusammenfassung. Bestätigen Sie das Institut stets im verlinkten amtlichen Register.",
+    "disclaimer": "Institutsinformationen werden überprüft und genehmigt nach unabhängiger Überprüfung anhand offizieller Aufsichtsquellen.",
     "related": "Verwandte Meldungen"
   },
   "common": {

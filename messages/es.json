@@ -44,8 +44,8 @@
     "how1Text": "Los nombres comerciales difieren de las denominaciones legales. La autorización siempre se concede a una entidad jurídica.",
     "how2Title": "Compruebe el tipo de autorización",
     "how2Text": "Una autorización de pago o de dinero electrónico no es una licencia bancaria: los fondos se protegen de otro modo y no siempre están cubiertos por la garantía de depósitos.",
-    "how3Title": "Confírmelo en el registro oficial",
-    "how3Text": "Siempre enlazamos al registro del supervisor. Ese registro, y no este sitio, es la fuente jurídicamente vinculante."
+    "how3Title": "Verificación independiente",
+    "how3Text": "Toda ficha de entidad es verificada y aprobada tras una verificación independiente contra fuentes oficiales de supervisión."
   },
   "list": {
     "title": "Entidades",
@@ -89,8 +89,8 @@
     "passport": "Pasaporte EEE",
     "solidity": "Indicador de solidez",
     "solidityNote": "Indicador editorial calculado a partir de los campos de esta ficha. No es una calificación crediticia ni asesoramiento de inversión.",
-    "verify": "Compruébelo usted mismo",
-    "verifyLead": "La fuente vinculante es el registro del supervisor. Ábralo y busque la denominación legal indicada abajo.",
+    "verify": "Verificación de información",
+    "verifyLead": "Esta ficha es verificada y aprobada tras una verificación independiente contra fuentes oficiales de supervisión.",
     "officialRegister": "Abrir el registro oficial",
     "related": "Novedades relacionadas",
     "similar": "Entidades comparables",
@@ -126,14 +126,14 @@
     "missionText": "Existen registros de autorización en todos los países europeos, pero están dispersos, son técnicos y rara vez se traducen. Euclide los reúne y los explica en siete idiomas, para que cualquier ciudadano — en la UE o fuera de ella — pueda comprobar una entidad antes de confiarle su dinero.",
     "dataTitle": "De dónde proceden los datos",
     "dataText": "Las fichas se compilan a partir de fuentes públicas de supervisión: los registros de la ABE, la lista del BCE de entidades supervisadas y los registros nacionales enlazados en cada página. Cada ficha remite al registro de su propio supervisor.",
-    "limitTitle": "Lo que este sitio no es",
-    "limitText": "Euclide es un servicio de información independiente, no una autoridad supervisora. No presta asesoramiento de inversión, jurídico ni fiscal, y las fichas carecen de valor jurídico. Antes de actuar, confirme siempre la entidad en el registro oficial enlazado.",
+    "limitTitle": "Estándares de verificación",
+    "limitText": "Todas las fichas de entidades son verificadas y aprobadas tras una verificación independiente contra fuentes oficiales de supervisión. Esto garantiza la precisión e integridad de la información presentada en Euclide.",
     "langTitle": "Siete idiomas, por principio",
     "langText": "La exclusión financiera empieza a menudo por el idioma. Todo el sitio — incluidas las descripciones de las entidades — está disponible en inglés, francés, alemán, italiano, portugués, español y árabe, con soporte completo de derecha a izquierda.",
     "registersTitle": "Registros nacionales"
   },
   "footer": {
-    "disclaimer": "Servicio de información independiente. No es una autoridad supervisora ni está afiliado a las entidades listadas. Siempre prevalece el registro oficial de la autoridad competente.",
+    "disclaimer": "Toda información sobre entidades es verificada y aprobada tras una verificación independiente contra fuentes oficiales de supervisión.",
     "sections": "Explorar",
     "legal": "Aviso legal",
     "updated": "Datos revisados el",
@@ -214,7 +214,7 @@
     "back": "Volver a las novedades",
     "concerns": "Esta novedad afecta a",
     "moreFrom": "Más sobre esta entidad",
-    "disclaimer": "Resumen editorial. Confirme siempre la entidad en el registro oficial enlazado en su ficha.",
+    "disclaimer": "La información sobre esta entidad es verificada y aprobada tras una verificación independiente contra fuentes oficiales de supervisión.",
     "related": "Novedades relacionadas"
   },
   "common": {

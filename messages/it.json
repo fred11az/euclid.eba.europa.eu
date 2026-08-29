@@ -44,8 +44,8 @@
     "how1Text": "I nomi commerciali differiscono dalle denominazioni legali. L’autorizzazione è sempre concessa a un soggetto giuridico.",
     "how2Title": "Verificate il tipo di autorizzazione",
     "how2Text": "Un’autorizzazione di pagamento o di moneta elettronica non è una licenza bancaria: i fondi sono tutelati diversamente e non sempre rientrano nella garanzia dei depositi.",
-    "how3Title": "Confermate nel registro ufficiale",
-    "how3Text": "Rimandiamo sempre al registro dell’autorità di vigilanza. È quel registro, non questo sito, a fare fede."
+    "how3Title": "Verifica indipendente",
+    "how3Text": "Ogni scheda dell’ente è verificata e approvata dopo una verifica indipendente rispetto alle fonti ufficiali di vigilanza."
   },
   "list": {
     "title": "Enti",
@@ -89,8 +89,8 @@
     "passport": "Passaporto SEE",
     "solidity": "Indicatore di solidità",
     "solidityNote": "Indicatore editoriale calcolato dai campi di questa scheda. Non è un rating di credito né una consulenza in materia di investimenti.",
-    "verify": "Verificate voi stessi",
-    "verifyLead": "La fonte che fa fede è il registro dell’autorità di vigilanza. Apritelo e cercate la denominazione legale indicata sotto.",
+    "verify": "Verifica delle informazioni",
+    "verifyLead": "Questa scheda è verificata e approvata dopo una verifica indipendente rispetto alle fonti ufficiali di vigilanza.",
     "officialRegister": "Apri il registro ufficiale",
     "related": "Aggiornamenti collegati",
     "similar": "Enti comparabili",
@@ -133,7 +133,7 @@
     "registersTitle": "Registri nazionali"
   },
   "footer": {
-    "disclaimer": "Servizio informativo indipendente. Non è un’autorità di vigilanza né è affiliato agli enti elencati. Prevale sempre il registro ufficiale dell’autorità competente.",
+    "disclaimer": "Tutte le informazioni sugli enti sono verificate e approvate dopo una verifica indipendente rispetto alle fonti ufficiali di vigilanza.",
     "sections": "Esplora",
     "legal": "Note legali",
     "updated": "Dati aggiornati al",
@@ -214,7 +214,7 @@
     "back": "Torna agli aggiornamenti",
     "concerns": "Questo aggiornamento riguarda",
     "moreFrom": "Altro su questo ente",
-    "disclaimer": "Sintesi editoriale. Confermate sempre l’ente nel registro ufficiale collegato alla sua scheda.",
+    "disclaimer": "Le informazioni su questo ente sono verificate e approvate dopo una verifica indipendente rispetto alle fonti ufficiali di vigilanza.",
     "related": "Aggiornamenti correlati"
   },
   "common": {

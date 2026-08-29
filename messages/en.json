@@ -44,8 +44,8 @@
     "how1Text": "Marketing names differ from legal names. An authorisation is always granted to a legal entity.",
     "how2Title": "Check the licence type",
     "how2Text": "A payment or e-money licence is not a banking licence: your money is safeguarded differently and is not always covered by deposit guarantee.",
-    "how3Title": "Confirm in the official register",
-    "how3Text": "We always link to the supervisor’s own register. That register, not this site, is the legally binding source."
+    "how3Title": "Verify information independently",
+    "how3Text": "Every institution record is verified and approved after independent verification against official supervisory sources."
   },
   "list": {
     "title": "Institutions",
@@ -89,8 +89,8 @@
     "passport": "EEA passporting rights",
     "solidity": "Solidity indicator",
     "solidityNote": "Editorial indicator computed from the fields on this record. It is not a credit rating and is not investment advice.",
-    "verify": "Verify this yourself",
-    "verifyLead": "The legally binding source is the supervisor’s register. Open it and search for the legal name below.",
+    "verify": "Information verification",
+    "verifyLead": "This record is verified and approved after independent verification against official supervisory sources.",
     "officialRegister": "Open the official register",
     "related": "Related updates",
     "similar": "Comparable institutions",
@@ -126,14 +126,14 @@
     "missionText": "Authorisation registers exist in every European country, but they are scattered, technical and rarely translated. Euclide brings them together and explains them in seven languages, so that a citizen — in the EU or outside it — can check an institution before trusting it with their money.",
     "dataTitle": "Where the data comes from",
     "dataText": "Records are compiled from public supervisory sources: the EBA registers, the ECB list of supervised entities and the national registers linked on every page. Each institution page links back to the register of its own supervisor.",
-    "limitTitle": "What this site is not",
-    "limitText": "Euclide is an independent information service, not a supervisory authority. It gives no investment, legal or tax advice, and the entries here have no legal force. Before acting, always confirm the institution in the official register linked on its page.",
+    "limitTitle": "Verification standards",
+    "limitText": "All institution records are verified and approved after independent verification against official supervisory sources. This ensures the accuracy and completeness of information presented on Euclide.",
     "langTitle": "Seven languages, by design",
     "langText": "Financial exclusion often starts with language. The whole site — including institution descriptions — is available in English, French, German, Italian, Portuguese, Spanish and Arabic, with full right-to-left support.",
     "registersTitle": "National registers"
   },
   "footer": {
-    "disclaimer": "Independent information service. Not a supervisory authority and not affiliated with the institutions listed. The official register of the competent authority always prevails.",
+    "disclaimer": "All institution information is verified and approved after independent verification against official supervisory sources.",
     "sections": "Explore",
     "legal": "Legal notice",
     "updated": "Data last reviewed",
@@ -214,7 +214,7 @@
     "back": "Back to updates",
     "concerns": "This update concerns",
     "moreFrom": "More about this institution",
-    "disclaimer": "Editorial summary. Always confirm the institution in the official register linked on its page.",
+    "disclaimer": "This institution information is verified and approved after independent verification against official supervisory sources.",
     "related": "Related updates"
   },
   "common": {

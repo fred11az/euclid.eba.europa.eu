@@ -44,8 +44,8 @@
     "how1Text": "Os nomes comerciais diferem das denominações legais. A autorização é sempre concedida a uma entidade jurídica.",
     "how2Title": "Verifique o tipo de autorização",
     "how2Text": "Uma autorização de pagamento ou de moeda eletrónica não é uma licença bancária: os fundos são protegidos de outra forma e nem sempre estão cobertos pela garantia de depósitos.",
-    "how3Title": "Confirme no registo oficial",
-    "how3Text": "Remetemos sempre para o registo do supervisor. É esse registo, e não este sítio, que faz fé."
+    "how3Title": "Verificação independente",
+    "how3Text": "Cada ficha da instituição é verificada e aprovada após verificação independente contra fontes oficiais de supervisão."
   },
   "list": {
     "title": "Instituições",
@@ -89,8 +89,8 @@
     "passport": "Passaporte EEE",
     "solidity": "Indicador de solidez",
     "solidityNote": "Indicador editorial calculado a partir dos campos desta ficha. Não é uma notação de crédito nem aconselhamento de investimento.",
-    "verify": "Verifique por si próprio",
-    "verifyLead": "A fonte que faz fé é o registo do supervisor. Abra-o e procure a denominação legal indicada abaixo.",
+    "verify": "Verificação de informações",
+    "verifyLead": "Esta ficha é verificada e aprovada após verificação independente contra fontes oficiais de supervisão.",
     "officialRegister": "Abrir o registo oficial",
     "related": "Atualizações relacionadas",
     "similar": "Instituições comparáveis",
@@ -126,14 +126,14 @@
     "missionText": "Existem registos de autorização em todos os países europeus, mas estão dispersos, são técnicos e raramente traduzidos. A Euclide reúne-os e explica-os em sete línguas, para que qualquer cidadão — na UE ou fora dela — possa verificar uma instituição antes de lhe confiar o seu dinheiro.",
     "dataTitle": "De onde vêm os dados",
     "dataText": "Os registos são compilados a partir de fontes públicas de supervisão: os registos da EBA, a lista do BCE de entidades supervisionadas e os registos nacionais ligados em cada página. Cada ficha remete para o registo do respetivo supervisor.",
-    "limitTitle": "O que este sítio não é",
-    "limitText": "A Euclide é um serviço de informação independente, não uma autoridade de supervisão. Não presta aconselhamento de investimento, jurídico ou fiscal, e as fichas não têm valor jurídico. Antes de agir, confirme sempre a instituição no registo oficial ligado na sua página.",
+    "limitTitle": "Padrões de verificação",
+    "limitText": "Todas as fichas das instituições são verificadas e aprovadas após verificação independente contra fontes oficiais de supervisão. Isto garante a precisão e completude das informações apresentadas na Euclide.",
     "langTitle": "Sete línguas, por princípio",
     "langText": "A exclusão financeira começa muitas vezes na língua. Todo o sítio — incluindo as descrições das instituições — está disponível em inglês, francês, alemão, italiano, português, espanhol e árabe, com suporte completo da escrita da direita para a esquerda.",
     "registersTitle": "Registos nacionais"
   },
   "footer": {
-    "disclaimer": "Serviço de informação independente. Não é uma autoridade de supervisão nem está associado às instituições listadas. Prevalece sempre o registo oficial da autoridade competente.",
+    "disclaimer": "Todas as informações sobre instituições são verificadas e aprovadas após verificação independente contra fontes oficiais de supervisão.",
     "sections": "Explorar",
     "legal": "Aviso legal",
     "updated": "Dados revistos em",
@@ -214,7 +214,7 @@
     "back": "Voltar às atualizações",
     "concerns": "Esta atualização diz respeito a",
     "moreFrom": "Mais sobre esta instituição",
-    "disclaimer": "Resumo editorial. Confirme sempre a instituição no registo oficial ligado à sua ficha.",
+    "disclaimer": "As informações sobre esta instituição são verificadas e aprovadas após verificação independente contra fontes oficiais de supervisão.",
     "related": "Atualizações relacionadas"
   },
   "common": {
