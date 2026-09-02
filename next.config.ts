@@ -13,3 +13,7 @@ const nextConfig: NextConfig = {
 };
 
 export default withNextIntl(nextConfig);
+
+// Enables Cloudflare bindings (env vars, KV, D1, ...) when running `next dev`.
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
+initOpenNextCloudflareForDev();
