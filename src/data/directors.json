@@ -21,7 +21,7 @@
         "es": "Jean-Paul Julia es el Director General y Presidente de Vantex Bank. Con más de 25 años de experiencia en banca internacional y servicios financieros, ha liderado exitosamente a Vantex a través de una expansión significativa y transformación digital. Antes de unirse a Vantex, el Sr. Julia ocupó posiciones senior en instituciones financieras europeas líderes, especializándose en finanzas islámicas y operaciones bancarias transfronterizas. Es titular de un MBA de INSEAD y un grado en Economía Internacional de Sciences Po Paris.",
         "ar": "جان بول جوليا هو الرئيس التنفيذي والرئيس لبنك فانتكس. مع أكثر من 25 عاماً من الخبرة في الخدمات المصرفية الدولية والخدمات المالية، قاد بنجاح بنك فانتكس من خلال توسع كبير وتحول رقمي. قبل انضمامه إلى فانتكس، شغل السيد جوليا مناصب عليا في المؤسسات المالية الأوروبية الرائدة، متخصصاً في التمويل الإسلامي والعمليات المصرفية عبر الحدود. يحمل درجة MBA من INSEAD وشهادة في الاقتصاد الدولي من Sciences Po Paris."
       },
-      "image": "/images/directors/jean-paul-julia.jpg"
+      "image": "/images/directors/Jean-Paul Julia.png"
     },
     {
       "id": "helena-muller",
@@ -35,7 +35,7 @@
         "es": "Directora General Adjunta",
         "ar": "نائبة الرئيس التنفيذي"
       },
-      "image": "/images/directors/helena-muller.jpg",
+      "image": "/images/directors/Helena Muller.png",
       "bio": {
         "en": "Helena Müller serves as Deputy Chief Executive Officer of Vantex Bank, overseeing strategic initiatives and business development. With 22 years in financial services, she brings deep expertise in market expansion and product innovation. Ms. Müller previously led regional operations across Central Europe and holds a Master's degree in Finance from the University of Frankfurt.",
         "fr": "Helena Müller est Directrice Générale Adjointe de Vantex Bank, supervisant les initiatives stratégiques et le développement commercial. Avec 22 ans d'expérience dans les services financiers, elle apporte une expertise approfondie en expansion de marché et innovation de produits. Mme Müller a précédemment dirigé les opérations régionales en Europe centrale et est titulaire d'une maîtrise en Finance de l'Université de Francfort.",
@@ -58,7 +58,7 @@
         "es": "Director Financiero",
         "ar": "مدير المالية الأول"
       },
-      "image": "/images/directors/david-chen.jpg",
+      "image": "/images/directors/David Chen.png",
       "bio": {
         "en": "David Chen is the Chief Financial Officer of Vantex Bank, responsible for financial strategy, planning, and risk management. He brings 20 years of experience in financial management and capital markets. Before joining Vantex, Mr. Chen served as CFO for major European banking groups and worked with the Basel Committee on Banking Supervision. He holds a PhD in Quantitative Finance from ETH Zurich.",
         "fr": "David Chen est le Directeur Financier de Vantex Bank, responsable de la stratégie financière, de la planification et de la gestion des risques. Il apporte 20 ans d'expérience en gestion financière et marchés de capitaux. Avant de rejoindre Vantex, M. Chen a été Directeur Financier de grands groupes bancaires européens et a travaillé avec le Comité de Bâle sur la Supervision Bancaire. Il est titulaire d'un doctorat en Finance Quantitative de l'ETH Zurich.",
@@ -71,7 +71,7 @@
     },
     {
       "id": "isabella-rossi",
-      "name": "Isabella Rossi",
+      "name": "Isabelle Rossi",
       "title": {
         "en": "Chief Operating Officer",
         "fr": "Directrice Opérationnelle",
@@ -81,15 +81,15 @@
         "es": "Directora Operacional",
         "ar": "مديرة العمليات الرئيسية"
       },
-      "image": "/images/directors/isabella-rossi.jpg",
+      "image": "/images/directors/Isabelle Rossi.png",
       "bio": {
-        "en": "Isabella Rossi is the Chief Operating Officer of Vantex Bank, overseeing operational efficiency, technology infrastructure, and process optimization. With 19 years of banking experience, she has implemented major digital transformation initiatives across multiple European institutions. Ms. Rossi holds a degree in Computer Science and an MBA in Operations Management from Bocconi University.",
-        "fr": "Isabella Rossi est Directrice Opérationnelle de Vantex Bank, supervisant l'efficacité opérationnelle, l'infrastructure technologique et l'optimisation des processus. Avec 19 ans d'expérience bancaire, elle a mis en œuvre des initiatives majeures de transformation numérique dans plusieurs institutions européennes. Mme Rossi est titulaire d'une licence en Informatique et d'un MBA en Gestion Opérationnelle de l'Université Bocconi.",
-        "de": "Isabella Rossi ist Operativ Direktorin der Vantex Bank, verantwortlich für Betriebseffizienz, Technologie-Infrastruktur und Prozessoptimierung. Mit 19 Jahren Banking-Erfahrung hat sie große digitale Transformationsinitiativen in mehreren europäischen Institutionen umgesetzt. Frau Rossi verfügt über einen Abschluss in Informatik und einen MBA in Operativ-Management von der Universität Bocconi.",
-        "it": "Isabella Rossi è la Direttrice Operativa della Vantex Bank, supervisionando l'efficienza operativa, l'infrastruttura tecnologica e l'ottimizzazione dei processi. Con 19 anni di esperienza bancaria, ha implementato importanti iniziative di trasformazione digitale in molteplici istituzioni europee. La Sig.ra Rossi possiede una laurea in Informatica e un MBA in Gestione Operativa dall'Università Bocconi.",
-        "pt": "Isabella Rossi é a Diretora Operacional da Vantex Bank, supervisionando eficiência operacional, infraestrutura de tecnologia e otimização de processos. Com 19 anos de experiência bancária, implementou principais iniciativas de transformação digital em múltiplas instituições europeias. A Sra. Rossi possui bacharelado em Ciência da Computação e MBA em Gestão de Operações pela Universidade Bocconi.",
-        "es": "Isabella Rossi es la Directora Operacional de Vantex Bank, supervisando la eficiencia operativa, infraestructura tecnológica y optimización de procesos. Con 19 años de experiencia bancaria, ha implementado importantes iniciativas de transformación digital en múltiples instituciones europeas. La Sra. Rossi posee grado en Ciencias de la Computación y MBA en Gestión de Operaciones de la Universidad Bocconi.",
-        "ar": "إيزابيلا روسي هي مديرة العمليات الرئيسية لبنك فانتكس، تشرف على الكفاءة التشغيلية والبنية التحتية للتكنولوجيا وتحسين العمليات. مع 19 سنة من خبرة البنوك، نفذت مبادرات تحول رقمية رئيسية في مؤسسات أوروبية متعددة. تمتلك روسي شهادة في علوم الحاسوب وماجستير إدارة أعمال في إدارة العمليات من جامعة بوكوني."
+        "en": "Isabelle Rossi is the Chief Operating Officer of Vantex Bank, overseeing operational efficiency, technology infrastructure, and process optimization. With 19 years of banking experience, she has implemented major digital transformation initiatives across multiple European institutions. Ms. Rossi holds a degree in Computer Science and an MBA in Operations Management from Bocconi University.",
+        "fr": "Isabelle Rossi est Directrice Opérationnelle de Vantex Bank, supervisant l'efficacité opérationnelle, l'infrastructure technologique et l'optimisation des processus. Avec 19 ans d'expérience bancaire, elle a mis en œuvre des initiatives majeures de transformation numérique dans plusieurs institutions européennes. Mme Rossi est titulaire d'une licence en Informatique et d'un MBA en Gestion Opérationnelle de l'Université Bocconi.",
+        "de": "Isabelle Rossi ist Operativ Direktorin der Vantex Bank, verantwortlich für Betriebseffizienz, Technologie-Infrastruktur und Prozessoptimierung. Mit 19 Jahren Banking-Erfahrung hat sie große digitale Transformationsinitiativen in mehreren europäischen Institutionen umgesetzt. Frau Rossi verfügt über einen Abschluss in Informatik und einen MBA in Operativ-Management von der Universität Bocconi.",
+        "it": "Isabelle Rossi è la Direttrice Operativa della Vantex Bank, supervisionando l'efficienza operativa, l'infrastruttura tecnologica e l'ottimizzazione dei processi. Con 19 anni di esperienza bancaria, ha implementato importanti iniziative di trasformazione digitale in molteplici istituzioni europee. La Sig.ra Rossi possiede una laurea in Informatica e un MBA in Gestione Operativa dall'Università Bocconi.",
+        "pt": "Isabelle Rossi é a Diretora Operacional da Vantex Bank, supervisionando eficiência operacional, infraestrutura de tecnologia e otimização de processos. Com 19 anos de experiência bancária, implementou principais iniciativas de transformação digital em múltiplas instituições europeias. A Sra. Rossi possui bacharelado em Ciência da Computação e MBA em Gestão de Operações pela Universidade Bocconi.",
+        "es": "Isabelle Rossi es la Directora Operacional de Vantex Bank, supervisando la eficiencia operativa, infraestructura tecnológica y optimización de procesos. Con 19 años de experiencia bancaria, ha implementado importantes iniciativas de transformación digital en múltiples instituciones europeas. La Sra. Rossi posee grado en Ciencias de la Computación y MBA en Gestión de Operaciones de la Universidad Bocconi.",
+        "ar": "إيزابيل روسي هي مديرة العمليات الرئيسية لبنك فانتكس، تشرف على الكفاءة التشغيلية والبنية التحتية للتكنولوجيا وتحسين العمليات. مع 19 سنة من خبرة البنوك، نفذت مبادرات تحول رقمية رئيسية في مؤسسات أوروبية متعددة. تمتلك روسي شهادة في علوم الحاسوب وماجستير إدارة أعمال في إدارة العمليات من جامعة بوكوني."
       }
     },
     {
@@ -104,7 +104,7 @@
         "es": "Director de Riesgos",
         "ar": "مدير المخاطر الرئيسي"
       },
-      "image": "/images/directors/marcus-weber.jpg",
+      "image": "/images/directors/Marcus Weber.png",
       "bio": {
         "en": "Marcus Weber is the Chief Risk Officer of Vantex Bank, responsible for comprehensive risk governance, credit risk, and regulatory compliance. He brings 23 years of experience in risk management and regulatory affairs across international banking. Mr. Weber previously worked for the European Central Bank and major banking institutions. He holds a degree in Economics and a postgraduate qualification in Risk Management from the University of Vienna.",
         "fr": "Marcus Weber est Directeur des Risques de Vantex Bank, responsable de la gouvernance globale des risques, des risques de crédit et de la conformité réglementaire. Il apporte 23 ans d'expérience en gestion des risques et affaires réglementaires dans le secteur bancaire international. M. Weber a précédemment travaillé pour la Banque Centrale Européenne et de grandes institutions bancaires. Il est titulaire d'une licence en Économie et d'une qualification postuniversitaire en Gestion des Risques de l'Université de Vienne.",
@@ -127,7 +127,7 @@
         "es": "Directora de Cumplimiento",
         "ar": "مديرة الامتثال الرئيسية"
       },
-      "image": "/images/directors/sophie-fontaine.jpg",
+      "image": "/images/directors/Sophie Fontaine.png",
       "bio": {
         "en": "Sophie Fontaine is the Chief Compliance Officer of Vantex Bank, overseeing anti-money laundering, sanctions compliance, and regulatory requirements. With 21 years of compliance and legal expertise, she has guided organizations through complex regulatory landscapes. Ms. Fontaine previously held roles at the Financial Action Task Force and leading global banks. She is a qualified lawyer and holds an MSc in Financial Regulation from the London School of Economics.",
         "fr": "Sophie Fontaine est Directrice de la Conformité de Vantex Bank, supervisant la lutte contre le blanchiment de capitaux, la conformité des sanctions et les obligations réglementaires. Avec 21 ans d'expertise en conformité et juridique, elle a guidé les organisations dans des paysages réglementaires complexes. Mme Fontaine a précédemment occupé des postes au Groupe d'Action Financière et dans de grandes banques mondiales. Elle est avocate qualifiée et détient un MSc en Régulation Financière de la London School of Economics.",
@@ -150,7 +150,7 @@
         "es": "Director de Finanzas Islámicas",
         "ar": "رئيس التمويل الإسلامي"
       },
-      "image": "/images/directors/antonio-garcia.jpg",
+      "image": "/images/directors/Antonio García.png",
       "bio": {
         "en": "Antonio García is the Head of Islamic Finance at Vantex Bank, driving the expansion of Sharia-compliant products and services. With 18 years of expertise in Islamic banking and finance, he is a recognized authority on Sukuk markets and Islamic asset management. Mr. García holds Sharia board certifications and an MBA in Islamic Finance from the International Islamic University.",
         "fr": "Antonio García est Directeur de la Finance Islamique de Vantex Bank, pilotant l'expansion des produits et services conformes à la Charia. Avec 18 ans d'expertise en finance islamique et bancaire, il est une autorité reconnue sur les marchés Sukuk et la gestion d'actifs islamiques. M. García détient des certifications du conseil Charia et un MBA en Finance Islamique de l'Université Islamique Internationale.",
@@ -173,7 +173,7 @@
         "es": "Directora de Recursos Humanos",
         "ar": "مديرة الموارد البشرية الرئيسية"
       },
-      "image": "/images/directors/francesca-moretti.jpg",
+      "image": "/images/directors/Francesca Moretti.png",
       "bio": {
         "en": "Francesca Moretti is the Chief Human Resources Officer of Vantex Bank, overseeing talent acquisition, development, and organizational culture. With 17 years in human resources and organizational development, she has built high-performing teams across multiple countries. Ms. Moretti previously led HR transformation initiatives at international financial institutions. She holds an MSc in Organizational Psychology from the University of Milan.",
         "fr": "Francesca Moretti est Directrice des Ressources Humaines de Vantex Bank, supervisisant l'acquisition de talents, le développement et la culture organisationnelle. Avec 17 ans en ressources humaines et développement organisationnel, elle a construit des équipes performantes dans plusieurs pays. Mme Moretti a précédemment dirigé des initiatives de transformation RH dans des institutions financières internationales. Elle est titulaire d'un MSc en Psychologie Organisationnelle de l'Université de Milan.",
