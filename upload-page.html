@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Director Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .upload-area {
+            border: 3px dashed #007bff;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .upload-area:hover {
+            background-color: #f0f0f0;
+            border-color: #0056b3;
+        }
+        .upload-area.dragover {
+            background-color: #e7f3ff;
+            border-color: #0056b3;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .file-list {
+            margin-top: 20px;
+        }
+        .file-item {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .file-item.success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Director Photos</h1>
+
+    <div class="upload-area" id="uploadArea">
+        <p>Drag & drop your 8 director images here</p>
+        <p>or click to select files</p>
+        <input type="file" id="fileInput" multiple accept="image/*">
+    </div>
+
+    <div class="file-list" id="fileList"></div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileList = document.getElementById('fileList');
+
+        // Expected filenames
+        const expectedFiles = [
+            'jean-paul-julia.jpg',
+            'helena-muller.jpg',
+            'david-chen.jpg',
+            'isabella-rossi.jpg',
+            'marcus-weber.jpg',
+            'sophie-fontaine.jpg',
+            'antonio-garcia.jpg',
+            'francesca-moretti.jpg'
+        ];
+
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            handleFiles(e.dataTransfer.files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+
+        function handleFiles(files) {
+            const formData = new FormData();
+
+            for (let file of files) {
+                formData.append('files', file);
+
+                const item = document.createElement('div');
+                item.className = 'file-item';
+                item.innerHTML = `
+                    <span>${file.name}</span>
+                    <span id="status-${file.name}">Uploading...</span>
+                `;
+                fileList.appendChild(item);
+            }
+
+            // Upload files
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                for (let file of files) {
+                    const status = document.getElementById(`status-${file.name}`);
+                    const item = status.parentElement;
+                    if (data.success) {
+                        status.textContent = '✓ Done';
+                        item.classList.add('success');
+                    } else {
+                        status.textContent = '✗ Failed';
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

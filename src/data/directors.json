@@ -12,7 +12,6 @@
         "es": "Director General & Presidente",
         "ar": "الرئيس التنفيذي والرئيس"
       },
-      "image": "/images/directors/jean-paul-julia.jpg",
       "bio": {
         "en": "Jean-Paul Julia is the Chief Executive Officer and Chairman of Vantex Bank. With over 25 years of experience in international banking and financial services, he has successfully led Vantex through significant expansion and digital transformation. Prior to joining Vantex, Mr. Julia held senior positions at leading European financial institutions, specializing in Islamic finance and cross-border banking operations. He holds an MBA from INSEAD and a degree in International Economics from Sciences Po Paris.",
         "fr": "Jean-Paul Julia est le Directeur Général et Président de Vantex Bank. Avec plus de 25 ans d'expérience dans le secteur bancaire international et les services financiers, il a dirigé avec succès Vantex à travers une expansion significative et une transformation numérique. Avant de rejoindre Vantex, M. Julia a occupé des postes de direction dans des institutions financières européennes de premier plan, se spécialisant dans la finance islamique et les opérations bancaires transfrontalières. Il est titulaire d'un MBA d'INSEAD et d'une licence en Économie Internationale de Sciences Po Paris.",
@@ -21,7 +20,8 @@
         "pt": "Jean-Paul Julia é o Diretor Executivo e Presidente da Vantex Bank. Com mais de 25 anos de experiência em bancos internacionais e serviços financeiros, ele liderou com sucesso a Vantex através de significativa expansão e transformação digital. Antes de ingressar na Vantex, Sr. Julia ocupou posições sênior em instituições financeiras europeias líderes, especializando-se em finanças islâmicas e operações bancárias transfronteiriças. Ele possui MBA do INSEAD e bacharelado em Economia Internacional pela Sciences Po Paris.",
         "es": "Jean-Paul Julia es el Director General y Presidente de Vantex Bank. Con más de 25 años de experiencia en banca internacional y servicios financieros, ha liderado exitosamente a Vantex a través de una expansión significativa y transformación digital. Antes de unirse a Vantex, el Sr. Julia ocupó posiciones senior en instituciones financieras europeas líderes, especializándose en finanzas islámicas y operaciones bancarias transfronterizas. Es titular de un MBA de INSEAD y un grado en Economía Internacional de Sciences Po Paris.",
         "ar": "جان بول جوليا هو الرئيس التنفيذي والرئيس لبنك فانتكس. مع أكثر من 25 عاماً من الخبرة في الخدمات المصرفية الدولية والخدمات المالية، قاد بنجاح بنك فانتكس من خلال توسع كبير وتحول رقمي. قبل انضمامه إلى فانتكس، شغل السيد جوليا مناصب عليا في المؤسسات المالية الأوروبية الرائدة، متخصصاً في التمويل الإسلامي والعمليات المصرفية عبر الحدود. يحمل درجة MBA من INSEAD وشهادة في الاقتصاد الدولي من Sciences Po Paris."
-      }
+      },
+      "image": "/images/directors/jean-paul-julia.jpg"
     },
     {
       "id": "helena-muller",
