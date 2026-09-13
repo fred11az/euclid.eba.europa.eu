@@ -76,7 +76,7 @@ export default function DirectorsGrid({ directors, locale }: DirectorsGridProps)
                   key={director.id}
                   className="overflow-hidden rounded-xl border border-navy-100 bg-white transition-shadow hover:shadow-lg"
                 >
-                  <div className="relative w-full aspect-video">
+                  <div className="relative w-full aspect-[4/5]">
                     <Image
                       src={director.image}
                       alt={director.name}
