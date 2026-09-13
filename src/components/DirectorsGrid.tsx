@@ -84,14 +84,6 @@ export default function DirectorsGrid({ directors, locale }: DirectorsGridProps)
               <p className="mt-1 text-lg font-semibold text-navy-700">{ceoDirector.title[lang]}</p>
             </div>
             <p className="text-navy-700 leading-relaxed">{ceoDirector.bio[lang]}</p>
-            <div className="flex flex-col gap-2 pt-2">
-              <a
-                href={`mailto:${ceoDirector.email}`}
-                className="inline-flex items-center text-sm text-navy-600 hover:text-navy-900 font-medium"
-              >
-                <span className="mr-2">✉</span> {ceoDirector.email}
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -116,15 +108,6 @@ export default function DirectorsGrid({ directors, locale }: DirectorsGridProps)
                     <h4 className="font-bold text-navy-900">{director.name}</h4>
                     <p className="mt-1 text-sm font-medium text-navy-700">{director.title[lang]}</p>
                     <p className="mt-3 line-clamp-3 text-sm text-navy-600 leading-relaxed">{director.bio[lang]}</p>
-                    <div className="mt-4 space-y-2 border-t border-navy-100 pt-3">
-                      <a
-                        href={`mailto:${director.email}`}
-                        className="block text-xs text-navy-600 hover:text-navy-900 font-medium truncate"
-                        title={director.email}
-                      >
-                        {director.email}
-                      </a>
-                    </div>
                   </div>
                 </div>
               );
