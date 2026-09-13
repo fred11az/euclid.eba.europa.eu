@@ -98,7 +98,10 @@
     "copy": "Copia il link",
     "copied": "Link copiato",
     "back": "Torna agli enti",
-    "legalName": "Denominazione legale"
+    "legalName": "Denominazione legale",
+    "managementTeam": "Team Dirigenziale",
+    "ceo": "Amministratore Delegato",
+    "executiveTeam": "Comitato Esecutivo"
   },
   "search": {
     "title": "Ricerca",

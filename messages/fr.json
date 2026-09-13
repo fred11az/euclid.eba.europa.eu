@@ -98,7 +98,10 @@
     "copy": "Copier le lien",
     "copied": "Lien copié",
     "back": "Retour aux établissements",
-    "legalName": "Dénomination sociale"
+    "legalName": "Dénomination sociale",
+    "managementTeam": "Équipe de Direction",
+    "ceo": "Directeur Général",
+    "executiveTeam": "Direction Générale"
   },
   "search": {
     "title": "Recherche",

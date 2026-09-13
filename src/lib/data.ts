@@ -1,6 +1,7 @@
 import institutionsRaw from '@/data/institutions.json';
 import newsRaw from '@/data/news.json';
 import authoritiesRaw from '@/data/authorities.json';
+import directorsRaw from '@/data/directors.json';
 import type { Locale } from '@/i18n/routing';
 
 export type Localized = Record<string, string>;
@@ -408,3 +409,9 @@ export const getTerm = (slug: string) => glossary.find((g) => g.slug === slug);
 export const getLicence = (slug: string) => licences.find((l) => l.slug === slug);
 export const licenceSlugFor = (type: Institution['licenceType']) =>
   licences.find((l) => l.type === type)?.slug ?? '';
+
+// Directors
+export const directorsFor = (institutionId: string) => {
+  const directors = directorsRaw as Record<string, any[]>;
+  return directors[institutionId] || [];
+};

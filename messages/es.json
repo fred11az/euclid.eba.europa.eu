@@ -98,7 +98,10 @@
     "copy": "Copiar enlace",
     "copied": "Enlace copiado",
     "back": "Volver a las entidades",
-    "legalName": "Denominación legal"
+    "legalName": "Denominación legal",
+    "managementTeam": "Equipo Directivo",
+    "ceo": "Director General",
+    "executiveTeam": "Dirección Ejecutiva"
   },
   "search": {
     "title": "Búsqueda",

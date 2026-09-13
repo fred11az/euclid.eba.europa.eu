@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { locales } from '@/i18n/routing';
 import Badge from '@/components/Badge';
+import DirectorsGrid from '@/components/DirectorsGrid';
 import InstitutionCard from '@/components/InstitutionCard';
 import NewsCard from '@/components/NewsCard';
 import ShareButtons from '@/components/ShareButtons';
@@ -13,6 +14,7 @@ import {
   authorities,
   solidityBand,
   countryName,
+  directorsFor,
   entities,
   flag,
   formatDate,
@@ -560,6 +562,12 @@ export default async function InstitutionPage({
                 </div>
               )}
             </Section>
+
+            {directorsFor(id).length > 0 && (
+              <Section id="management" title={t('detail.managementTeam')}>
+                <DirectorsGrid directors={directorsFor(id)} locale={locale} />
+              </Section>
+            )}
 
             {d.editorial.certifications.length > 0 && (
               <Section id="certifications" title={t('field.certifications')}>

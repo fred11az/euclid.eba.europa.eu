@@ -98,7 +98,10 @@
     "copy": "Link kopieren",
     "copied": "Link kopiert",
     "back": "Zurück zu den Instituten",
-    "legalName": "Firmenname"
+    "legalName": "Firmenname",
+    "managementTeam": "Managementteam",
+    "ceo": "Geschäftsführer",
+    "executiveTeam": "Geschäftsleitung"
   },
   "search": {
     "title": "Suche",

@@ -98,7 +98,10 @@
     "copy": "Copy link",
     "copied": "Link copied",
     "back": "Back to institutions",
-    "legalName": "Legal name"
+    "legalName": "Legal name",
+    "managementTeam": "Management Team",
+    "ceo": "Chief Executive Officer",
+    "executiveTeam": "Executive Management"
   },
   "search": {
     "title": "Search",
