@@ -91,9 +91,6 @@ export default function DirectorsGrid({ directors, locale }: DirectorsGridProps)
               >
                 <span className="mr-2">✉</span> {ceoDirector.email}
               </a>
-              <p className="text-sm text-navy-600">
-                <span className="mr-2">📱</span> {ceoDirector.phone}
-              </p>
             </div>
           </div>
         </div>
