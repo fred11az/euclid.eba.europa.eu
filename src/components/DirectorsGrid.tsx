@@ -24,8 +24,6 @@ interface Director {
     es: string;
     ar: string;
   };
-  email: string;
-  phone: string;
 }
 
 interface DirectorsGridProps {

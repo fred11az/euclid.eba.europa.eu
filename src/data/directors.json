@@ -21,9 +21,7 @@
         "pt": "Jean-Paul Julia é o Diretor Executivo e Presidente da Vantex Bank. Com mais de 25 anos de experiência em bancos internacionais e serviços financeiros, ele liderou com sucesso a Vantex através de significativa expansão e transformação digital. Antes de ingressar na Vantex, Sr. Julia ocupou posições sênior em instituições financeiras europeias líderes, especializando-se em finanças islâmicas e operações bancárias transfronteiriças. Ele possui MBA do INSEAD e bacharelado em Economia Internacional pela Sciences Po Paris.",
         "es": "Jean-Paul Julia es el Director General y Presidente de Vantex Bank. Con más de 25 años de experiencia en banca internacional y servicios financieros, ha liderado exitosamente a Vantex a través de una expansión significativa y transformación digital. Antes de unirse a Vantex, el Sr. Julia ocupó posiciones senior en instituciones financieras europeas líderes, especializándose en finanzas islámicas y operaciones bancarias transfronterizas. Es titular de un MBA de INSEAD y un grado en Economía Internacional de Sciences Po Paris.",
         "ar": "جان بول جوليا هو الرئيس التنفيذي والرئيس لبنك فانتكس. مع أكثر من 25 عاماً من الخبرة في الخدمات المصرفية الدولية والخدمات المالية، قاد بنجاح بنك فانتكس من خلال توسع كبير وتحول رقمي. قبل انضمامه إلى فانتكس، شغل السيد جوليا مناصب عليا في المؤسسات المالية الأوروبية الرائدة، متخصصاً في التمويل الإسلامي والعمليات المصرفية عبر الحدود. يحمل درجة MBA من INSEAD وشهادة في الاقتصاد الدولي من Sciences Po Paris."
-      },
-      "email": "jean-paul.julia@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "helena-muller",
@@ -46,9 +44,7 @@
         "pt": "Helena Müller é Diretora Executiva Adjunta da Vantex Bank, supervisionando iniciativas estratégicas e desenvolvimento comercial. Com 22 anos em serviços financeiros, traz expertise profunda em expansão de mercado e inovação de produtos. A Sra. Müller liderou previamente operações regionais na Europa Central e possui um Mestrado em Finanças pela Universidade de Frankfurt.",
         "es": "Helena Müller es Directora General Adjunta de Vantex Bank, supervisando iniciativas estratégicas y desarrollo comercial. Con 22 años en servicios financieros, aporta profunda experiencia en expansión de mercado e innovación de productos. La Sra. Müller lideró previamente operaciones regionales en Europa Central y posee un Máster en Finanzas de la Universidad de Frankfurt.",
         "ar": "هيلينا مولر هي نائبة الرئيس التنفيذي لبنك فانتكس، تشرف على المبادرات الاستراتيجية وتطوير الأعمال. مع 22 سنة في الخدمات المالية، تجلب خبرة عميقة في التوسع في السوق والابتكار في المنتجات. قادت سابقاً مولر العمليات الإقليمية في وسط أوروبا وتحمل درجة الماجستير في المالية من جامعة فرانكفورت."
-      },
-      "email": "helena.muller@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "david-chen",
@@ -71,9 +67,7 @@
         "pt": "David Chen é o Diretor Financeiro da Vantex Bank, responsável pela estratégia financeira, planejamento e gestão de riscos. Traz 20 anos de experiência em gestão financeira e mercados de capital. Antes de ingressar na Vantex, Sr. Chen foi CFO para grandes grupos bancários europeus e trabalhou com o Comitê de Basileia sobre Supervisão Bancária. Ele possui um PhD em Finanças Quantitativas da ETH Zurique.",
         "es": "David Chen es el Director Financiero de Vantex Bank, responsable de estrategia financiera, planificación y gestión de riesgos. Aporta 20 años de experiencia en gestión financiera y mercados de capital. Antes de unirse a Vantex, el Sr. Chen fue CFO para grandes grupos bancarios europeos y trabajó con el Comité de Basilea sobre Supervisión Bancaria. Es titular de un PhD en Finanzas Cuantitativas de ETH Zurich.",
         "ar": "ديفيد تشن هو مدير المالية الأول لبنك فانتكس، مسؤول عن الاستراتيجية المالية والتخطيط وإدارة المخاطر. يجلب 20 سنة من الخبرة في إدارة المالية وأسواق رأس المال. قبل انضمامه إلى فانتكس، كان السيد تشن رئيس قسم المالية لمجموعات بنكية أوروبية كبرى وعمل مع لجنة بازل للإشراف المصرفي. يحمل درجة الدكتوراه في التمويل الكمي من جامعة ETH زيوريخ."
-      },
-      "email": "david.chen@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "isabella-rossi",
@@ -96,9 +90,7 @@
         "pt": "Isabella Rossi é a Diretora Operacional da Vantex Bank, supervisionando eficiência operacional, infraestrutura de tecnologia e otimização de processos. Com 19 anos de experiência bancária, implementou principais iniciativas de transformação digital em múltiplas instituições europeias. A Sra. Rossi possui bacharelado em Ciência da Computação e MBA em Gestão de Operações pela Universidade Bocconi.",
         "es": "Isabella Rossi es la Directora Operacional de Vantex Bank, supervisando la eficiencia operativa, infraestructura tecnológica y optimización de procesos. Con 19 años de experiencia bancaria, ha implementado importantes iniciativas de transformación digital en múltiples instituciones europeas. La Sra. Rossi posee grado en Ciencias de la Computación y MBA en Gestión de Operaciones de la Universidad Bocconi.",
         "ar": "إيزابيلا روسي هي مديرة العمليات الرئيسية لبنك فانتكس، تشرف على الكفاءة التشغيلية والبنية التحتية للتكنولوجيا وتحسين العمليات. مع 19 سنة من خبرة البنوك، نفذت مبادرات تحول رقمية رئيسية في مؤسسات أوروبية متعددة. تمتلك روسي شهادة في علوم الحاسوب وماجستير إدارة أعمال في إدارة العمليات من جامعة بوكوني."
-      },
-      "email": "isabella.rossi@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "marcus-weber",
@@ -121,9 +113,7 @@
         "pt": "Marcus Weber é o Diretor de Riscos da Vantex Bank, responsável por governança abrangente de riscos, risco de crédito e conformidade regulatória. Traz 23 anos de experiência em gestão de riscos e assuntos regulatórios em bancos internacionais. Sr. Weber trabalhou previamente para o Banco Central Europeu e grandes instituições bancárias. Possui bacharelado em Economia e qualificação pós-graduada em Gestão de Riscos pela Universidade de Viena.",
         "es": "Marcus Weber es el Director de Riesgos de Vantex Bank, responsable de la gobernanza integral de riesgos, riesgo de crédito y cumplimiento normativo. Aporta 23 años de experiencia en gestión de riesgos y asuntos regulatórios en banca internacional. Sr. Weber trabajó previamente para el Banco Central Europeo e instituciones bancarias importantes. Posee grado en Economía y calificación de postgrado en Gestión de Riesgos de la Universidad de Viena.",
         "ar": "ماركوس ويبر هو مدير المخاطر الرئيسي لبنك فانتكس، مسؤول عن حوكمة المخاطر الشاملة والمخاطر الائتمانية والامتثال التنظيمي. يجلب 23 سنة من الخبرة في إدارة المخاطر والشؤون التنظيمية في البنوك الدولية. عمل السيد ويبر سابقاً للبنك المركزي الأوروبي والمؤسسات المصرفية الكبرى. يحمل درجة في الاقتصاد وتأهيل بعد الجامعي في إدارة المخاطر من جامعة فيينا."
-      },
-      "email": "marcus.weber@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "sophie-fontaine",
@@ -146,9 +136,7 @@
         "pt": "Sophie Fontaine é a Diretora de Conformidade da Vantex Bank, supervisionando anti-lavagem de dinheiro, conformidade de sanções e requisitos regulatórios. Com 21 anos de expertise em conformidade e legal, orientou organizações através de paisagens regulatórias complexas. A Sra. Fontaine ocupou anteriormente funções no Financial Action Task Force e bancos globais líderes. É advogada qualificada e possui MSc em Regulação Financeira da London School of Economics.",
         "es": "Sophie Fontaine es la Directora de Cumplimiento de Vantex Bank, supervisando blanqueo de dinero, cumplimiento de sanciones y requisitos regulatórios. Con 21 años de experiencia en cumplimiento y legal, ha guiado a organizaciones a través de complejos paisajes regulatórios. La Sra. Fontaine ocupó anteriormente posiciones en el Grupo de Acción Financiera y bancos globales líderes. Es abogada calificada y posee MSc en Regulación Financiera de la London School of Economics.",
         "ar": "صوفي فونتين هي مديرة الامتثال الرئيسية لبنك فانتكس، تشرف على مكافحة غسيل الأموال والامتثال للعقوبات والمتطلبات التنظيمية. مع 21 سنة من الخبرة في الامتثال والشؤون القانونية، أرشدت المنظمات عبر المناظر الطبيعية التنظيمية المعقدة. عملت السيدة فونتين سابقاً في مجموعة العمل المالي والبنوك العالمية الرائدة. هي محامية مؤهلة وتمتلك MSc في التنظيم المالي من مدرسة لندن للاقتصاد."
-      },
-      "email": "sophie.fontaine@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "antonio-garcia",
@@ -171,9 +159,7 @@
         "pt": "Antonio García é o Chefe de Finanças Islâmicas da Vantex Bank, impulsionando a expansão de produtos e serviços em conformidade com a Sharia. Com 18 anos de expertise em finanças islâmicas e bancárias, é uma autoridade reconhecida em mercados Sukuk e gestão de patrimônio islâmico. Sr. García possui certificações de conselho Sharia e MBA em Finanças Islâmicas da Universidade Islâmica Internacional.",
         "es": "Antonio García es el Director de Finanzas Islámicas de Vantex Bank, impulsando la expansión de productos y servicios conformes a la Sharia. Con 18 años de expertise en finanzas islámicas y banca, es una autoridad reconocida en mercados Sukuk y gestión de patrimonio islámico. Sr. García posee certificaciones de consejo Sharia y MBA en Finanzas Islámicas de la Universidad Islámica Internacional.",
         "ar": "أنطونيو غارسيا هو رئيس قسم التمويل الإسلامي في بنك فانتكس، يقود توسع المنتجات والخدمات المتوافقة مع الشريعة. مع 18 سنة من الخبرة في التمويل والبنوك الإسلامية، هو سلطة معترف بها في أسواق الصكوك وإدارة الأصول الإسلامية. يحمل السيد غارسيا شهادات مجلس الشريعة وماجستير إدارة أعمال في التمويل الإسلامي من جامعة الإسلام الدولية."
-      },
-      "email": "antonio.garcia@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     },
     {
       "id": "francesca-moretti",
@@ -196,9 +182,7 @@
         "pt": "Francesca Moretti é a Diretora de Recursos Humanos da Vantex Bank, supervisionando aquisição de talentos, desenvolvimento e cultura organizacional. Com 17 anos em recursos humanos e desenvolvimento organizacional, construiu equipes de alto desempenho em múltiplos países. A Sra. Moretti liderou anteriormente iniciativas de transformação de RH em instituições financeiras internacionais. Possui MSc em Psicologia Organizacional pela Universidade de Milão.",
         "es": "Francesca Moretti es la Directora de Recursos Humanos de Vantex Bank, supervisando adquisición de talentos, desarrollo y cultura organizacional. Con 17 años en recursos humanos y desarrollo organizacional, ha construido equipos de alto rendimiento en múltiples países. La Sra. Moretti lideró anteriormente iniciativas de transformación de RH en instituciones financieras internacionales. Posee MSc en Psicología Organizacional de la Universidad de Milán.",
         "ar": "فرانتشيسكا موريتي هي مديرة الموارد البشرية الرئيسية لبنك فانتكس، تشرف على اكتساب المواهب والتطوير والثقافة التنظيمية. مع 17 سنة في الموارد البشرية والتطوير التنظيمي، بنت فرق عالية الأداء عبر عدة دول. قادت السيدة موريتي سابقاً مبادرات تحول الموارد البشرية في المؤسسات المالية الدولية. تمتلك MSc في علم النفس التنظيمي من جامعة ميلان."
-      },
-      "email": "francesca.moretti@vantex-bank.de",
-      "phone": "+49 69 XXXX XXXX"
+      }
     }
   ]
 }
