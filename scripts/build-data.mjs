@@ -519,7 +519,6 @@ const VANTEX = {
       },
       communication: {
         email: 'contact@vantex-bank.com',
-        phone: '+49 69 1234 5678',
         website: 'https://vantex-bank.com',
       },
       regional_contacts: [{ country_code: 'FR', email: 'france@vantex-bank.com' }],
